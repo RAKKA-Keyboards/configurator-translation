@@ -1,0 +1,330 @@
+{
+  "action": {
+    "transparent": {
+      "description": "从更低的层寻找按键"
+    },
+    "layer": {
+      "text": "层 {{layer}}"
+    },
+    "momentary_layer": {
+      "description": "按下按键时临时开启层 {{layer}}"
+    },
+    "toggle_layer": {
+      "description": "永久开启或关闭层 {{layer}}"
+    },
+    "profile": {
+      "text": "配置 {{profile}}",
+      "description": "切换到配置 {{profile}}"
+    },
+    "bottom_layer": {
+      "description": "设置层 {{layer}} 为默认层（最底层）"
+    },
+    "layer_tap": {
+      "description": "单击时 {{key}}，长按时临时开启层 {{layer}}"
+    },
+    "mod_tap": {
+      "description": "单击时 {{key}}，长按时 {{modifiers}}"
+    },
+    "key_tap": {
+      "description": "单击时 {{tapKey}}，长按时 {{holdKey}}"
+    }
+  },
+  "appbar": {
+    "button": {
+      "dark_mode": "暗色模式",
+      "language": "语言",
+      "settings": "设置"
+    },
+    "tab": {
+      "calibration": "校准",
+      "debug": "调试",
+      "device": "设备",
+      "keymap": "按键映射",
+      "performance": "性能",
+      "key-test": "按键测试"
+    },
+    "title": {
+      "demo_mode_format": "演示模式",
+      "device_connected_format": "设备已连接",
+      "device_not_connected": "设备未连接"
+    }
+  },
+  "calibration": {
+    "button": {
+      "abort": "放弃",
+      "finish": "完成",
+      "start": "开始"
+    },
+    "do_i_need_calibration": {
+      "message": "通常情况下不需要。只有当更换了磁力强度不同的轴体时才需要进行校准。",
+      "title": "我需要进行校准吗？"
+    },
+    "hint_no_keys_selected": "请先选择您想要校准的按键。",
+    "how_to_calibrate": {
+      "message": "选择您需要校准的按键，点击开始按钮。\n按下按键到底，然后再松开。\n点击完成按钮（开始校准后显示）即可保存校准结果。",
+      "title": "如何进行校准？"
+    },
+    "tooltip": "初始：{{top}}\n触底：{{bottom}}",
+    "enable_auto_calibration": {
+      "title": "启用自动校准（实验性）",
+      "description": "在“合适”的时机自动进行重新校准。"
+    }
+  },
+  "connect": {
+    "button": {
+      "communicating": "正在与设备通信…",
+      "connect": "连接到设备",
+      "requesting": "正在请求连接到设备…"
+    },
+    "hint": {
+      "device_is_in_use": "设备正被使用。请检查您是是否已在其他网页或应用程序中连接该设备。",
+      "no_device_selected": "未选择设备。<br><br>对于 PomPomBoard 及其他固件版本小于 0.4.0 版本的设备请使用 <a href=\"/legacy\">旧版本网站</a>。",
+      "no_webhid_support": "您的浏览器不支持 WebHID。请使用最新版本的 Chrome 或 Edge 浏览器。"
+    }
+  },
+  "debug": {
+    "hint_hurt_performance": "停留在此选项卡可能会影响性能。若要观察键盘行为，建议停留在“设备”-“日志”。",
+    "re_initialize": {
+      "message": "重新进行通电时进行的步骤，包括但不限于校准、检测轴体是否安装。对于支持多配列的键盘，还会重新检查安装了何种配列。",
+      "title": "重新初始化",
+      "warning": "在开始重新初始化的数秒内，请不要触碰按键。"
+    },
+    "start": "开始",
+    "enable_log": {
+      "title": "启用日志",
+      "description": "启用日志输出。这对调试很有用。在“设备”-“日志”中查看日志。该选项默认关闭，且不会保存到设备中。"
+    }
+  },
+  "demo_mode": {
+    "device": {
+      "dummy_60": "RAKKA 60",
+      "dummy_75": "示例 75% 键盘"
+    },
+    "title": "演示模式",
+    "tooltip": "连接一个模拟的设备，您可以借此了解对应的设备的功能。"
+  },
+  "device": {
+    "information": {
+      "title": "信息",
+      "connection_speed": "连接速度",
+      "connection_speeds": {
+        "full_speed": "USB 2.0 全速（最高 1000Hz）",
+        "high_speed": "USB 2.0 高速（最高 8000Hz）",
+        "low_speed": "USB 1.1 低速（最高 125Hz）"
+      },
+      "developer": "开发者",
+      "device_name": "设备名称",
+      "firmware_update_date": "固件更新日期",
+      "firmware_version": "固件版本",
+      "hint_device_not_connected": "（设备未连接）",
+      "host_operation_system": "主机操作系统（由设备获取）",
+      "os": {
+        "unknown": "未知"
+      }
+    },
+    "log": {
+      "title": "日志"
+    }
+  },
+  "firmware": {
+    "firmware_upgrade": "固件升级",
+    "step_choose_firmware_file": {
+      "button": {
+        "reselect_file": "选择其他文件",
+        "select_file": "选择文件"
+      },
+      "description": "首先，您需要选择要升级到的固件文件。",
+      "title": "选择固件文件"
+    },
+    "step_confirm": {
+      "button": {
+        "abort": "放弃",
+        "start": "开始"
+      },
+      "description": "不同设备会以不同方式指示正在 Bootloader 模式中（例如指示灯、屏幕等）。",
+      "description_abort": "点击“放弃”按钮，设备将重新启动到正常模式。",
+      "description_start": "点击“开始”按钮，您将再次被要求连接设备。确认连接后将开始固件升级。在升级期间，请勿关闭页面或断开设备的 USB 连接。"
+    },
+    "step_preview_firmware": {
+      "title": "已选择的固件信息",
+      "update_date": "更新日期",
+      "version": "版本"
+    },
+    "step_reboot_to_bootloader": {
+      "button": {
+        "reboot": "重启设备到 Bootloader 模式"
+      },
+      "description": "接下来您需要重新启动设备到 Bootloader 模式以开始固件升级。",
+      "description_if_the_device_is_connected": "如果您已经连接到设备，点击下方按钮即可。",
+      "description_worst_situation": "对于最坏的情况（例如设备已不能正常响应请求），断开设备的 USB 连接，按住设备的 PCB 背面的 Bootloader 按钮的同时插入 USB 线缆是进入 Bootloader 模式的最终方案。该操作要求拆开设备外壳。"
+    },
+    "step_upgrading": {
+      "description": "请勿关闭页面或断开设备的 USB 连接。",
+      "title": "正在升级固件"
+    }
+  },
+  "keyboard": {
+    "keycount": {
+      "button": "取消所有选择",
+      "selected_other": "已选择 {{count}} 个键位"
+    },
+    "layer": "层"
+  },
+  "keymap": {
+    "type": "类型：{{type}}",
+    "remap_selected_keys": "重新映射已选择的按键",
+    "hint_no_keys_selected": "请先选择您想要重新映射的按键。",
+    "hint_combo_is_empty": "请至少为组合键选择一个按键或修饰键。",
+    "hint_tap_hold_hold_is_empty": "请设置长按时的按键。",
+    "hint_tap_hold_key_not_supported": "此种设置要求一个更新版本的固件。",
+    "hint_tap_hold_tap_is_not_valid": "单击按键需要是普通按键。",
+    "hint_tap_hold_key_is_same": "单击和长按的按键不能相同。",
+    "combination": {
+      "modifier": {
+        "left": "左修饰键",
+        "right": "右修饰键"
+      },
+      "name": "组合键",
+      "summary": "一键触发您想要的快捷键",
+      "text": "组合键是一个或多个修饰键（例如 Ctrl、Shift）和一个普通按键的组合。"
+    },
+    "dynamic": {
+      "limit": "此按键无法再添加更多配置",
+      "name": "动态触发键",
+      "placeholder": "从下面选择一个键加入配置…"
+    },
+    "normal": {
+      "name": "普通",
+      "summary": "平平无奇的普通按键",
+      "text": "选择您想要重新映射的键位后在下方点击按键即可。",
+      "types": {
+        "basic": "基本",
+        "extension": "扩展",
+        "layer": "层",
+        "profile": "配置文件",
+        "system": "系统"
+      }
+    },
+    "tap_hold": {
+      "hold": "长按",
+      "name": "单击/长按",
+      "tap": "单击",
+      "summary": "解锁无限可能",
+      "text": "单击和长按分别对应不同的按键。<p>长按所对应的按键也可以是切层，这可以极大地扩展键盘的可能性。<p><b>由于判断是否为单击需要时间，触发单击按键会比正常按键慢。给此按键开启快速触发，并降低重置距离会改善，但是仍不如正常按键。</b>"
+    },
+    "toggle": {
+      "name": "切换键"
+    }
+  },
+  "performance": {
+    "hint_no_keys_selected": "修改作用到所有的按键。若要单独修改某些按键，请先选定它们。",
+    "hint_the_value_is_too_aggressive": "由于轴体和人手不可能绝对稳定，过于激进的设置可能会导致按键触发异常。若要追求极限，我们建议您通过不断增加设定的数值来找到一个合适自己的极限但稳定的数值。",
+    "mode": {
+      "follow_default": {
+        "title": "跟随默认"
+      },
+      "rapid_trigger": {
+        "description": "触发和重置的位置在您按压的过程中动态调整。这可以让您更快地触发或重置按键，在特定类型的游戏中很有帮助。",
+        "dynamic_reset_travel": {
+          "description": "处于快速触发模式中时，如果按键已触发，只要回弹指定的距离按键就会释放。",
+          "title": "动态重置行程"
+        },
+        "dynamic_trigger_travel": {
+          "description": "处于快速触发模式中时，如果按键未触发，只要按下指定的距离按键就会触发。",
+          "title": "动态触发行程"
+        },
+        "initial_travel": {
+          "description": "按键已经完全回弹时，需要按下指定的距离才能触发，并进入快速触发模式。",
+          "title": "初始触发行程"
+        },
+        "title": "快速触发",
+        "when_in_rapid_trigger_mode": "处于快速触发模式中时"
+      },
+      "title": "模式",
+      "traditional": {
+        "description": "按键在按压到固定位置后触发，回弹到固定位置后释放。这与机械键盘相同。",
+        "pre_travel": {
+          "description": "触发按键所需要按下的距离。",
+          "title": "触发行程"
+        },
+        "title": "传统"
+      }
+    },
+    "switches": {
+      "rapid_trigger_in_full_travel": {
+        "title": "全行程快速触发",
+        "description": "启用时，除非完全松开按键，快速触发在首次按压至 {{travel}}mm 后始终生效；禁用时，快速触发只在 {{travel}}mm 到触底区域生效。"
+      },
+      "always_trigger_when_bottoming": {
+        "title": "触底时始终触发",
+        "description": "部分型号的轴体在触底摇晃手指可能会产生至多约 0.2mm 的距离变化。启用时，触底时将一律视为触发，以避免错误重置。"
+      }
+    }
+  },
+  "key_test": {
+    "title": "测试键值",
+    "description": "测试操作系统收到的键值。",
+    "test_matrix": {
+      "title": "测试按键是否被按下",
+      "description": "测试物理上的按键是否已经被按下，无关于按键映射。这早于设备发送键值给操作系统，故对调试很有用。该选项默认关闭，且不会保存设备中。"
+    }
+  },
+  "unsupported_browser": {
+    "continue_button": "「我不管我就要继续」",
+    "continue_description": "您也可以选择继续探索 RAKKA Keyboard Configurator，以便了解其功能。但您可能会遇到页面不能正常显示的问题，并且您也可能不能正常地连接键盘。",
+    "description": "RAKKA Keyboard Configurator 使用 WebHID 和一些现代的技术构建，但很不幸，您正使用的浏览器不支持这些技术。注意，FireFox、Safari 等浏览器不受支持，因为它们不支持 WebHID。",
+    "supported_browser": "支持的浏览器：",
+    "title": "您正在使用不支持的浏览器"
+  },
+  "contact": {
+    "title": "联系我们"
+  },
+  "help": {
+    "title": "帮助"
+  },
+  "switches": {
+    "metadata": {
+      "travel": "行程：{{distance}}mm"
+    },
+    "legacy": {
+      "title": "（旧）",
+      "description": "被早期版本固件所使用，仅为了不破坏用户习惯而保留。"
+    },
+    "gateron_ks20": {
+      "title": "佳达隆磁轴",
+      "description": "Gateron KS-20。包括但不限于双轨磁橙轴、磁白轴、磁橙轴、Wooting Lekker 轴。"
+    },
+    "gateron_ks20t": {
+      "title": "佳达隆磁玉轴【实验性】",
+      "description": "Gateron KS-20T。实验性：检测距离与物理距离对应尚未测试。"
+    }
+  },
+  "choose_switch": {
+    "title": "选择轴体",
+    "continue": "继续",
+    "confirm_dialog": {
+      "title": "更换为 {{switch_name}}？",
+      "content": "确认后，键盘将以 {{switch_name}} 为标准进行重新校准，请在数秒内不要触碰按键。<p>注意，重新安装轴体时可能会出现轴体没有装紧的情况，即轴和 PCB 之间仍有距离，从而导致距离检测有误，您可能需要拆出键盘内胆并重新按紧。<p>为了避免按键误触发，我们建议断开键盘的 USB 连接后再更换轴体。"
+    },
+    "hint_success": "轴体更换成功。",
+    "hint_failed": "更换轴体失败。",
+    "hint_same_switch": "当前的轴体已是 {{switch_name}}。",
+    "current": "{{switch_name}}（当前）"
+  },
+  "ok": "确定",
+  "cancel": "取消",
+  "wizard": {
+    "title": "允许浏览器连接到设备",
+    "description": "点击下方按钮，您的浏览器会在地址栏下方弹出一个对话框（如操作示例中所示）。在列表中点击设备名称以选择设备，然后点击“连接”。",
+    "example": {
+      "title": "操作示例",
+      "dialog": {
+        "title": "{{hostname}} 想连接到 HID 设备",
+        "connect": "连接",
+        "cancel": "取消"
+      },
+      "hint_1": "1. 点击设备名称",
+        "hint_2": "2. 点击“连接”"
+    }
+  }
+}
