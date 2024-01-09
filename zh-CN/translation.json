@@ -9,12 +9,12 @@
     "momentary_layer": {
       "description": "按下按键时临时开启层 {{layer}}"
     },
-    "toggle_layer": {
-      "description": "永久开启或关闭层 {{layer}}"
-    },
     "profile": {
       "text": "配置 {{profile}}",
       "description": "切换到配置 {{profile}}"
+    },
+    "toggle_layer": {
+      "description": "永久开启或关闭层 {{layer}}"
     },
     "bottom_layer": {
       "description": "设置层 {{layer}} 为默认层（最底层）"
@@ -119,7 +119,10 @@
       "hint_device_not_connected": "（设备未连接）",
       "host_operation_system": "主机操作系统（由设备获取）",
       "os": {
-        "unknown": "未知"
+        "linux": "Linux",
+        "macos": "macOS",
+        "unknown": "未知",
+        "windows": "Windows"
       }
     },
     "log": {
@@ -166,6 +169,7 @@
   "keyboard": {
     "keycount": {
       "button": "取消所有选择",
+      "selected_one": "{{count}} key selected",
       "selected_other": "已选择 {{count}} 个键位"
     },
     "layer": "层"
@@ -324,7 +328,7 @@
         "cancel": "取消"
       },
       "hint_1": "1. 点击设备名称",
-        "hint_2": "2. 点击“连接”"
+      "hint_2": "2. 点击“连接”"
     }
   }
 }
