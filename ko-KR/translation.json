@@ -1,0 +1,333 @@
+{
+  "action": {
+    "transparent": {
+      "description": "Find keys from lower layers"
+    },
+    "layer": {
+      "text": "Layer {{layer}}"
+    },
+    "momentary_layer": {
+      "description": "Temporary turn on layer {{layer}} if the key is being pressed"
+    },
+    "profile": {
+      "text": "Profile {{profile}}",
+      "description": "Switch to profile {{profile}}"
+    },
+    "toggle_layer": {
+      "description": "Permanently turn on or off layer {{layer}}"
+    },
+    "bottom_layer": {
+      "description": "Set layer {{layer}} as the default (bottom) layer"
+    },
+    "layer_tap": {
+      "description": "{{key}} when pressed, temporary turn on layer {{layer}} when long pressed"
+    },
+    "mod_tap": {
+      "description": "{{key}} when pressed, {{modifiers}} when long pressed"
+    },
+    "key_tap": {
+      "description": "{{tapKey}} when pressed, {{holdKey}} when long pressed"
+    }
+  },
+  "appbar": {
+    "button": {
+      "dark_mode": "Dark mode",
+      "language": "Language",
+      "settings": "Settings"
+    },
+    "tab": {
+      "calibration": "Calibration",
+      "debug": "Debug",
+      "device": "Device",
+      "keymap": "Keymap",
+      "performance": "Performance",
+      "key-test": "Key Test"
+    },
+    "title": {
+      "demo_mode_format": "Demo mode",
+      "device_connected_format": "Device connected",
+      "device_not_connected": "Device not connected"
+    }
+  },
+  "calibration": {
+    "button": {
+      "abort": "Abort",
+      "finish": "Finish",
+      "start": "Start"
+    },
+    "do_i_need_calibration": {
+      "message": "Usually not needed. Calibration is only required when changing switches with different magnetic strengths.",
+      "title": "Do I need to calibrate?"
+    },
+    "hint_no_keys_selected": "Please select the key you want to calibrate first.",
+    "how_to_calibrate": {
+      "message": "Select keys you need to calibrate and click the start button.\nPress the button all the way down, then release it.\nClick the Finish button (displayed after starting calibration) to save the calibration results.",
+      "title": "How to do the calibration?"
+    },
+    "tooltip": "Initial: {{top}}\nBottom: {{bottom}}",
+    "enable_auto_calibration": {
+      "title": "Enable auto calibration (Experimental)",
+      "description": "Perform auto calibration at the \"right\" time."
+    }
+  },
+  "connect": {
+    "button": {
+      "communicating": "Communicating with the device…",
+      "connect": "Connect to device",
+      "requesting": "Requesting connection to the device…"
+    },
+    "hint": {
+      "device_is_in_use": "The device is in use. Please check if you have connected the device on another web page or app.",
+      "no_device_selected": "No device selected.<br><br>For PomPomBoard and other devices with firmware version lower than 0.4.0, please use <a href=\"/legacy\">the old version of the website</a>。",
+      "no_webhid_support": "Your browser does not support WebHID. Please use the latest version of Chrome or Edge browser."
+    }
+  },
+  "debug": {
+    "hint_hurt_performance": "Staying on this tab may affect performance. To observe keyboard behavior, it is recommended to stay in Devices - Logs.",
+    "re_initialize": {
+      "message": "Redo the steps that to be performed when powering on, including but not limited to calibration, check if switches are installed. For keyboards that support multiple layouts, which layout is installed will also be rechecked.",
+      "title": "Reinitialize",
+      "warning": "Do not touch the keys within a few seconds of starting re-initialization."
+    },
+    "start": "Start",
+    "enable_log": {
+      "title": "Enable log",
+      "description": "Enable log output. This is useful for debugging. Check the log in Devices - Logs. This option is disabled by default and is not saved in the device."
+    }
+  },
+  "demo_mode": {
+    "device": {
+      "dummy_60": "RAKKA 60",
+      "dummy_75": "Example 75% keyboard"
+    },
+    "title": "Demo mode",
+    "tooltip": "Connect a simulated device so that you can understand the function of the corresponding device."
+  },
+  "device": {
+    "information": {
+      "title": "Information",
+      "connection_speed": "Connection speed",
+      "connection_speeds": {
+        "full_speed": "USB 2.0 Full Speed (Up to 1000Hz)",
+        "high_speed": "USB 2.0 High Speed (Up to 8000Hz)",
+        "low_speed": "USB 1.1 Low Speed (Up to 125Hz)"
+      },
+      "developer": "Developer",
+      "device_name": "Device name",
+      "firmware_update_date": "Firmware update date",
+      "firmware_version": "Firmware version",
+      "hint_device_not_connected": "(Device not connected)",
+      "host_operation_system": "Host operation system (fetched by the device)",
+      "os": {
+        "linux": "Linux",
+        "macos": "macOS",
+        "unknown": "Unknown",
+        "windows": "Windows"
+      }
+    },
+    "log": {
+      "title": "Log"
+    }
+  },
+  "firmware": {
+    "firmware_upgrade": "Firmware Upgrade",
+    "step_choose_firmware_file": {
+      "button": {
+        "reselect_file": "Choose another file",
+        "select_file": "Choose the file"
+      },
+      "description": "First, you need to select the firmware file you want to upgrade to.",
+      "title": "Choose the firmware file"
+    },
+    "step_confirm": {
+      "button": {
+        "abort": "Abort",
+        "start": "Start"
+      },
+      "description": "Different devices will indicate that they are in bootloader mode in different ways (such as lights, screens, etc.)..",
+      "description_abort": "Click the \"Abort\" button and the device will reboot into normal mode.",
+      "description_start": "Click the \"Start\" button and you will again be asked to connect the device. Once the connection is confirmed, the firmware upgrade will begin. During the upgrade, do not close the page or disconnect the USB connection of the device."
+    },
+    "step_preview_firmware": {
+      "title": "Selected firmware information",
+      "update_date": "Update date",
+      "version": "Version"
+    },
+    "step_reboot_to_bootloader": {
+      "button": {
+        "reboot": "Reboot the device into Bootloader mode"
+      },
+      "description": "Next you need to reboot the device into Bootloader mode to start the firmware upgrade.",
+      "description_if_the_device_is_connected": "If you are already connected to the device, just click the button below.",
+      "description_worst_situation": "For worst-case scenarios (such as the device not responding to requests properly), disconnecting the device from USB and plugging in the USB cable while holding down the Bootloader button on the back of the device's PCB is the last resort to enter Bootloader mode. This operation requires disassembly of the device housing."
+    },
+    "step_upgrading": {
+      "description": "Do not close the page or disconnect the USB connection of the device.",
+      "title": "Upgrading firmware"
+    }
+  },
+  "keyboard": {
+    "keycount": {
+      "button": "Deselect All",
+      "selected_other": "{{count}} keys selected"
+    },
+    "layer": "Layer"
+  },
+  "keymap": {
+    "type": "Type: {{type}}",
+    "remap_selected_keys": "Remap selected keys",
+    "hint_no_keys_selected": "Please select the key you want to remap first.",
+    "hint_combo_is_empty": "Please choose at least one key or modifier for the combo.",
+    "hint_tap_hold_hold_is_empty": "Please set hold key.",
+    "hint_tap_hold_key_not_supported": "This setup requires a newer version of firmware.",
+    "hint_tap_hold_tap_is_not_valid": "Key for tap should be a normal key.",
+    "hint_tap_hold_key_is_same": "Tap and hold keys cannot be the same.",
+    "combination": {
+      "modifier": {
+        "left": "Left Modifiers",
+        "right": "Right Modifiers"
+      },
+      "name": "Combo",
+      "summary": "Trigger the shortcut you want by a single tap",
+      "text": "A key combination is a combination of one or more modifier keys (e.g. Ctrl, Shift) and a regular key."
+    },
+    "dynamic": {
+      "limit": "Cannot add more configs for this key",
+      "name": "Dynamic Key",
+      "placeholder": "Select a key from below to add to the config..."
+    },
+    "normal": {
+      "name": "Normal",
+      "summary": "Just a normal key",
+      "text": "Select the key you want to remap and click on the key below.",
+      "types": {
+        "basic": "Basic",
+        "extension": "Extension",
+        "layer": "Layer",
+        "profile": "Profile",
+        "system": "System"
+      }
+    },
+    "tap_hold": {
+      "hold": "Hold",
+      "name": "Tap Hold",
+      "tap": "Tap",
+      "summary": "Unlock the full potential",
+      "text": "Tap and long presses correspond to different keys.<p>The keys for long presses can also be switching layer, which greatly expands the possibilities of the keyboard.<p><b>It takes time to determine if it's a press, triggering the \"tap\" key will be slower than a normal key. Enabling Rapid Trigger for this key and lowering the reset distance will improve it, but it is still not as good as a normal key.</b>"
+    },
+    "toggle": {
+      "name": "Toggle Key"
+    }
+  },
+  "performance": {
+    "hint_no_keys_selected": "The modification applies to all keys. To modify certain keys individually, select them first.",
+    "hint_the_value_is_too_aggressive": "Since the switch and human hands cannot be absolutely stable, overly aggressive settings may result in abnormal key triggering. To pursue the limit, we recommend that you find an extreme but stable value that suits you by continuously increasing the value of the setting.",
+    "mode": {
+      "follow_default": {
+        "title": "Follow default"
+      },
+      "rapid_trigger": {
+        "description": "The trigger and reset position are adjusted dynamically as you press. This allows you to trigger or reset keys more quickly, which can be helpful in certain types of games.",
+        "dynamic_reset_travel": {
+          "description": "When in Rapid Trigger mode, if the key is triggered, reset as long as the specified distance is released.",
+          "title": "Dynamic reset travel"
+        },
+        "dynamic_trigger_travel": {
+          "description": "When in Rapid Trigger mode, if the key is not triggered, trigger as long as the specified distance is pressed.",
+          "title": "Dynamic trigger travel"
+        },
+        "initial_travel": {
+          "description": "When the key was fully released, press a specified distance to trigger the key and enter Rapid Trigger mode.",
+          "title": "Initial travel"
+        },
+        "title": "Rapid Trigger",
+        "when_in_rapid_trigger_mode": "When in Rapid Trigger mode"
+      },
+      "title": "Mode",
+      "traditional": {
+        "description": "The key is triggered after being pressed to a fixed position, and released after released to a fixed position. This is the same as mechanical keyboards.",
+        "pre_travel": {
+          "description": "Distance the key must be pressed down for it to trigger.",
+          "title": "Travel"
+        },
+        "title": "Traditional"
+      }
+    },
+    "switches": {
+      "rapid_trigger_in_full_travel": {
+        "title": "Rapid Trigger in full travel",
+        "description": "The Rapid Trigger mode will remain active after the initial {{travel}}mm is pressed if enabled, except when the key is fully released. The Rapid Trigger mode is only active between {{travel}}mm to bottom if disabled."
+      },
+      "always_trigger_when_bottoming": {
+        "title": "Always trigger when bottoming",
+        "description": "For some models of switches, shaking your finger when bottoming out may produce a distance change of up to about 0.2mm. When enabled, bottoming will always be considered a trigger to avoid false resets."
+      }
+    }
+  },
+  "key_test": {
+    "title": "Test the key code",
+    "description": "Tests the key code received by the operating system.",
+    "test_matrix": {
+      "title": "Test if the key is pressed",
+      "description": "Tests if a physical key has been pressed, nothing about key mapping. This is useful for debugging as it predates the device sending the key code to the operating system. This option is disabled by default and is not saved in the device."
+    }
+  },
+  "unsupported_browser": {
+    "continue_button": "\"Let me continue\"",
+    "continue_description": "You can also choose to continue exploring RAKKA Keyboard Configurator in order to understand its features. However, you may encounter problems with pages not displaying properly, and you may not be able to connect a keyboard properly.",
+    "description": "RAKKA Keyboard Configurator is built using WebHID and some modern technologies, but unfortunately, the browser you are using does not support these technologies. Note that browsers such as FireFox, Safari, etc. are not supported as they do not support WebHID.",
+    "supported_browser": "Supported browsers:",
+    "title": "You are using an unsupported browser"
+  },
+  "contact": {
+    "title": "Contact us"
+  },
+  "help": {
+    "title": "Help"
+  },
+  "switches": {
+    "metadata": {
+      "travel": "Travel: {{distance}}mm"
+    },
+    "legacy": {
+      "title": "(Legacy)",
+      "description": "Used by early firmware version, only retained so as not to disrupt users' existing habits."
+    },
+    "gateron_ks20": {
+      "title": "Gateron Magnetic Switch",
+      "description": "Gateron KS-20. Including but not limited to magnetic white, magnetic orange, and Wooting Lekker switches."
+    },
+    "gateron_ks20t": {
+      "title": "Gateron Magnetic Jade Switch [Experimental]",
+      "description": "Gateron KS-20T. The correspondence between detection distance and physical distance has not been tested."
+    }
+  },
+  "choose_switch": {
+    "title": "Choose switch",
+    "continue": "Continue",
+    "confirm_dialog": {
+      "title": "Change to {{switch_name}}?",
+      "content": "After confirmation, the keyboard will be recalibrated according to {{switch_name}}. Please do not touch the keys for a few seconds.<p>Note that when reinstalling the switch, the switch may not be tightly fitted, i.e. there is still a distance between the switch and the PCB, resulting in incorrect distance detection and you may need to remove the keyboard inner and re-press the switches.<p>To avoid false triggering of keys, we recommend disconnecting the USB connection from the keyboard before replacing the switch."
+    },
+    "hint_success": "Switch changed successfully.",
+    "hint_failed": "Failed to change switch.",
+    "hint_same_switch": "The switch is already {{switch_name}}.",
+    "current": "{{switch_name}} (Current)"
+  },
+  "ok": "OK",
+  "cancel": "Cancel",
+  "wizard": {
+    "title": "Allow the browser to connect the device",
+    "description": "Click on the button below and your browser will show a dialog below the address bar (as shown in the example). Click on the device name in the list to select the device and then click \"Connect\".",
+    "example": {
+      "title": "Example",
+      "dialog": {
+        "title": "{{hostname}} wants to connect to a HID device",
+        "connect": "Connect",
+        "cancel": "Cancel"
+      },
+      "hint_1": "1. Click on the device name",
+      "hint_2": "2. Click \"Connect\""
+    }
+  }
+}
