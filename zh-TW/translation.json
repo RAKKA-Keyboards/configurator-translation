@@ -1,7 +1,7 @@
 {
   "action": {
     "transparent": {
-      "description": "Find keys from lower layers"
+      "description": "從更低的層尋找按鍵"
     },
     "layer": {
       "text": "Layer {{layer}}"
