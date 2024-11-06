@@ -677,7 +677,7 @@
         "microsoft_support_page_link": "https://support.microsoft.com/en-us/windows/control-your-dynamic-lighting-devices-in-windows-8e8f22e3-e820-476c-8f9d-9ffc7b6ffcd2"
       },
       "hint_not_supported": "It seems that Windows Dynamic Lighting is not supported on your system.",
-      "hint_support": "Windows Dynamic Lighting is supported on your system.",
+      "hint_supported": "Windows Dynamic Lighting is supported on your system.",
       "hint_disabled": "Windows Dynamic Lighting is disabled."
     },
     "hint_static_is_override": "This effect has its own color which will override the color you set.",
