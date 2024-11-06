@@ -27,6 +27,148 @@
     },
     "key_tap": {
       "description": "单击时 {{tapKey}}，长按时 {{holdKey}}"
+    },
+    "none": {
+      "text": "无",
+      "description": "什么都不做"
+    },
+    "consumer": {
+      "prev": {
+        "description": "上一曲"
+      },
+      "next": {
+        "description": "下一曲"
+      },
+      "play_pause": {
+        "description": "播放/暂停"
+      },
+      "stop": {
+        "description": "停止"
+      },
+      "brightness_increment": {
+        "description": "提高屏幕亮度"
+      },
+      "brightness_decrement": {
+        "description": "降低屏幕亮度"
+      },
+      "volume_increment": {
+        "description": "增加音量"
+      },
+      "volume_decrement": {
+        "description": "降低音量"
+      },
+      "mute": {
+        "description": "静音"
+      },
+      "text_editor": {
+        "description": "打开文本编辑器"
+      },
+      "email_reader": {
+        "description": "打开邮件客户端"
+      },
+      "calculator": {
+        "description": "打开计算器"
+      },
+      "local_browser": {
+        "description": "打开文件资源管理器"
+      },
+      "consumer_control_configuration": {
+        "description": "打开媒体播放器"
+      },
+      "control_panel": {
+        "description": "打开控制面板"
+      },
+      "search": {
+        "description": "搜索"
+      },
+      "home": {
+        "description": "主页"
+      },
+      "back": {
+        "description": "后退"
+      },
+      "forward": {
+        "description": "前进"
+      },
+      "refresh": {
+        "description": "刷新"
+      },
+      "bookmarks": {
+        "description": "书签"
+      },
+      "undo": {
+        "description": "撤销"
+      },
+      "copy": {
+        "description": "复制"
+      },
+      "cut": {
+        "description": "剪切"
+      },
+      "paste": {
+        "description": "粘贴"
+      },
+      "select_all": {
+        "description": "全选"
+      },
+      "desktop_show_all_windows": {
+        "description": "调度中心（macOS）"
+      },
+      "desktop_show_all_applications": {
+        "description": "启动台（macOS）"
+      }
+    },
+    "extension": {
+      "bootloader": {
+        "description": "重新启动键盘至恢复模式"
+      },
+      "reboot": {
+        "description": "重启键盘"
+      },
+      "config_reset": {
+        "description": "重置键盘配置"
+      },
+      "nkro_toggle": {
+        "description": "开启或关闭全键无冲"
+      },
+      "nkro_on": {
+        "description": "开启全键无冲"
+      },
+      "nkro_off": {
+        "description": "关闭全键无冲"
+      },
+      "recalibrate": {
+        "description": "重新校准（需要数秒时间，期间请勿触碰按键）"
+      },
+      "grave_esc": {
+        "description": "ESC，和 Shift 一起按下时 ~"
+      },
+      "toggle_profile": {
+        "text": "前一配置",
+        "description": "在当前配置文件和上一次切换到的配置文件之间切换"
+      },
+      "toggle_profile_0": {
+        "text": "配置 1",
+        "description": "在当前配置文件和配置文件 1 之间切换"
+      },
+      "cycle_profile": {
+        "text": "循环配置",
+        "description": "循环切换配置文件"
+      },
+      "cycle_profile_back": {
+        "text": "循环配置",
+        "description": "循环切换配置文件（反向）"
+      }
+    },
+    "hid": {
+      "ime_off": {
+        "title": "ImeOff",
+        "description": "ImeOff（日语输入法）"
+      },
+      "ime_on": {
+        "title": "ImeOn",
+        "description": "ImeOn（日语输入法）"
+      }
     }
   },
   "appbar": {
@@ -35,18 +177,12 @@
       "language": "语言",
       "settings": "设置"
     },
-    "tab": {
-      "calibration": "校准",
-      "debug": "调试",
-      "device": "设备",
-      "keymap": "按键映射",
-      "performance": "性能",
-      "key-test": "按键测试"
-    },
     "title": {
       "demo_mode_format": "演示模式",
       "device_connected_format": "设备已连接",
-      "device_not_connected": "设备未连接"
+      "device_not_connected": "设备未连接",
+      "bad_cable": "One possible reason could be the use of a low-quality USB cable, which may cause an unstable connection or reduced connection speed (preventing the device from operating at USB 2.0 high speed).",
+      "contact_us": "If the issue persists, please email us at {{ email }} for assistance."
     }
   },
   "calibration": {
@@ -65,10 +201,31 @@
       "title": "如何进行校准？"
     },
     "tooltip": "初始：{{top}}\n触底：{{bottom}}",
-    "enable_auto_calibration": {
-      "title": "启用自动校准（实验性）",
-      "description": "在“合适”的时机自动进行重新校准。"
-    }
+    "auto_calibration": {
+      "title": "自动校准",
+      "description": "通过在运行过程中不断进行自我校准以确保稳定性和准确性。此功能不可以关闭。"
+    },
+    "full_calibration": {
+      "title": "进行完整校准",
+      "description": "重新对整个键盘进行校准。对于支持多个配列选项的键盘，还会重新检测使用了何种配列。"
+    },
+    "bottom_calibration": {
+      "title": "手工触底校准",
+      "description": "在按键被大力按压后，后续再使用正常力量按压时就会出现异常。通过记录人工校准值来避免这个问题。",
+      "save": "保存选定按键的校准值",
+      "clear": "清除选定按键的校准值",
+      "steps": {
+        "title": "请按以下步骤进行：",
+        "step1": "若您已经大力按压过按键，先进行完整校准。",
+        "step2": "若按键已有校准值，先清除。",
+        "step3": "以正常力度按压您想要校准的按键（不需要先选中它们）。按压过程请尽量保证垂直向下。",
+        "step4": "选择这些按键，点击保存。"
+      },
+      "hint_change_switch_requires_redo": "更换轴体型号后，先前记录的校准值会失效，您需要重新进行这个步骤。<br>即使是同型号的轴体，也需要重新进行，以避免个体差异带来的影响。",
+      "hint_no_keys_selected": "请先选择您想要保存校准结果的按键。"
+    },
+    "hint_calibrating": "校准中…",
+    "hint_dont_touch_keys": "请不要触碰按键。"
   },
   "connect": {
     "button": {
@@ -78,8 +235,9 @@
     },
     "hint": {
       "device_is_in_use": "设备正被使用。请检查您是是否已在其他网页或应用程序中连接该设备。",
-      "no_device_selected": "未选择设备。<br><br>对于 PomPomBoard 及其他固件版本小于 0.4.0 版本的设备请使用 <a href=\"/legacy\">旧版本网站</a>。",
-      "no_webhid_support": "您的浏览器不支持 WebHID。请使用最新版本的 Chrome 或 Edge 浏览器。"
+      "no_device_selected": "未选择设备。<br><br>对于 PomPomBoard 及其他固件版本小于 0.4.0 版本的设备请使用 {{ legacy_site }}。",
+      "no_webhid_support": "您的浏览器不支持 WebHID。请使用最新版本的 Chrome 或 Edge 浏览器。",
+      "legacy_site": "旧版本网站"
     }
   },
   "debug": {
@@ -93,11 +251,14 @@
     "enable_log": {
       "title": "启用日志",
       "description": "启用日志输出。这对调试很有用。在“设备”-“日志”中查看日志。该选项默认关闭，且不会保存到设备中。"
+    },
+    "reset": {
+      "title": "重置",
+      "description": "将设备配置重置为默认配置。在断开连接前请等待约半分钟以确保配置被保存。"
     }
   },
   "demo_mode": {
     "device": {
-      "dummy_60": "RAKKA 60",
       "dummy_75": "示例 75% 键盘"
     },
     "title": "演示模式",
@@ -108,14 +269,16 @@
       "title": "信息",
       "connection_speed": "连接速度",
       "connection_speeds": {
-        "full_speed": "USB 2.0 全速（最高 1000Hz）",
-        "high_speed": "USB 2.0 高速（最高 8000Hz）",
-        "low_speed": "USB 1.1 低速（最高 125Hz）"
+        "full_speed": "USB 2.0 全速",
+        "high_speed": "USB 2.0 高速",
+        "low_speed": "USB 1.1 低速"
       },
       "developer": "开发者",
       "device_name": "设备名称",
-      "firmware_update_date": "固件更新日期",
+      "firmware_update_date": "固件发布日期",
       "firmware_version": "固件版本",
+      "serial_number": "序列号",
+      "last_connected": "上次连接",
       "hint_device_not_connected": "（设备未连接）",
       "host_operation_system": "主机操作系统（由设备获取）",
       "os": {
@@ -131,57 +294,84 @@
   },
   "firmware": {
     "firmware_upgrade": "固件升级",
-    "step_choose_firmware_file": {
-      "button": {
-        "reselect_file": "选择其他文件",
-        "select_file": "选择文件"
-      },
-      "description": "首先，您需要选择要升级到的固件文件。",
-      "title": "选择固件文件"
+    "firmware_file": "固件文件",
+    "hint": {
+      "not_a_valid_firmware": "不是有效的固件文件。",
+      "read_file_error": "读取文件时发生错误。",
+      "mismatched_firmware": "固件文件与设备不匹配。",
+      "upgrade_was_interrupted": "设备上次固件升级未完成。请重新插拔后再试。",
+      "firmware_interrupted": "升级过程意外中断。请重新插拔后再试。",
+      "unknown_error": "未知错误 {{ code }}。",
+      "device_not_connected": "设备未连接或设备已处于恢复模式。"
     },
-    "step_confirm": {
-      "button": {
-        "abort": "放弃",
-        "start": "开始"
-      },
-      "description": "不同设备会以不同方式指示正在 Bootloader 模式中（例如指示灯、屏幕等）。",
-      "description_abort": "点击“放弃”按钮，设备将重新启动到正常模式。",
-      "description_start": "点击“开始”按钮，您将再次被要求连接设备。确认连接后将开始固件升级。在升级期间，请勿关闭页面或断开设备的 USB 连接。"
+    "choose_firmware": "选择固件",
+    "channel": {
+      "stable": "稳定版",
+      "beta": "Beta",
+      "dev": "Dev",
+      "nightly": "Nightly",
+      "previous": "前一个稳定版"
     },
-    "step_preview_firmware": {
-      "title": "已选择的固件信息",
-      "update_date": "更新日期",
-      "version": "版本"
-    },
-    "step_reboot_to_bootloader": {
-      "button": {
-        "reboot": "重启设备到 Bootloader 模式"
-      },
-      "description": "接下来您需要重新启动设备到 Bootloader 模式以开始固件升级。",
-      "description_if_the_device_is_connected": "如果您已经连接到设备，点击下方按钮即可。",
-      "description_worst_situation": "对于最坏的情况（例如设备已不能正常响应请求），断开设备的 USB 连接，按住设备的 PCB 背面的 Bootloader 按钮的同时插入 USB 线缆是进入 Bootloader 模式的最终方案。该操作要求拆开设备外壳。"
-    },
-    "step_upgrading": {
-      "description": "请勿关闭页面或断开设备的 USB 连接。",
-      "title": "正在升级固件"
+    "dev_channel_warning": "Dev 通道的固件包含了最新的功能，但只经过了简单测试。如果您不知道如何处理问题，请不要使用。",
+    "nightly_channel_warning": "The nightly channel firmware contains the real latest changes, but only the developer tests it very roughly. NOT for normal uses.",
+    "version": "版本",
+    "release_time": "发布时间",
+    "changelog": "更新日志",
+    "choose_a_local_file": "选择一个本地文件",
+    "verify_firmware": "验证固件",
+    "reboot_to_recovery": "重启设备至恢复模式",
+    "reboot_to_recovery_hint": "重启到恢复模式后，设备会以常亮的指示灯等形式提示用户设备处于恢复模式。",
+    "connect_to_recovery_device": "连接到处于恢复模式的设备",
+    "connect_to_recovery_device_hint": "点击连接后，您需要再次选择设备，随即写入过程就会开始。若放弃升级，请不要点击连接，重新插拔设备后设备会回到正常模式。",
+    "flash_firmware": "写入固件",
+    "flash_firmware_hint": "请不要断开设备连接。若在写入期间断开设备，设备将停留在恢复模式，重新进行固件升级即可恢复。",
+    "finish": "完成",
+    "firmware_upgrade_finished": "升级成功。窗口将会自动关闭。",
+    "connect": "连接",
+    "reboot_the_device": "重启设备",
+    "device_already_in_recovery": "设备已处于恢复模式",
+    "download_error": "下载失败",
+    "choose_device": "选择设备",
+    "choose_channel": "选择通道",
+    "update_found": {
+      "title": "您的设备有固件更新",
+      "description": "您的设备正运行 {{currentVersion}}。最新版本是 {{latestVersion}}。",
+      "ignore": "忽略"
     }
   },
   "keyboard": {
+    "title": "键盘",
     "keycount": {
       "button": "取消所有选择",
       "selected_other": "已选择 {{count}} 个键位"
     },
-    "layer": "层"
+    "layer": "层",
+    "global_config": "全局配置",
+    "tab": {
+      "calibration": "校准",
+      "debug": "调试",
+      "device": "设备",
+      "keymap": "按键映射",
+      "performance": "性能",
+      "key-test": "按键测试",
+      "lighting": "灯光",
+      "switches": "轴体"
+    }
   },
   "keymap": {
     "type": "类型：{{type}}",
-    "remap_selected_keys": "重新映射已选择的按键",
+    "remap_selected_keys": "设置到已选择的按键",
+    "config_advanced_key": "配置{{key}}",
     "hint_no_keys_selected": "请先选择您想要重新映射的按键。",
     "hint_combo_is_empty": "请至少为组合键选择一个按键或修饰键。",
     "hint_tap_hold_hold_is_empty": "请设置长按时的按键。",
     "hint_tap_hold_key_not_supported": "此种设置要求一个更新版本的固件。",
     "hint_tap_hold_tap_is_not_valid": "单击按键需要是普通按键。",
     "hint_tap_hold_key_is_same": "单击和长按的按键不能相同。",
+    "hint_click_to_edit_the_key": "点击以编辑按键",
+    "hint_choose_a_key": "选择一个按键",
+    "hint_chosen_key_is_not_supported": "不支持选择的按键。",
+    "key": "按键",
     "combination": {
       "modifier": {
         "left": "左修饰键",
@@ -205,7 +395,8 @@
         "extension": "扩展",
         "layer": "层",
         "profile": "配置文件",
-        "system": "系统"
+        "system": "系统",
+        "advanced": "高级"
       }
     },
     "tap_hold": {
@@ -217,52 +408,55 @@
     },
     "toggle": {
       "name": "切换键"
+    },
+    "intermittent": {
+      "name": "间断",
+      "summary": "'ASASAS' 而不是 'ASSSSSS'",
+      "text": "将长按按键模拟为间断地按下按键。"
     }
   },
   "performance": {
-    "hint_no_keys_selected": "修改作用到所有的按键。若要单独修改某些按键，请先选定它们。",
     "hint_the_value_is_too_aggressive": "由于轴体和人手不可能绝对稳定，过于激进的设置可能会导致按键触发异常。若要追求极限，我们建议您通过不断增加设定的数值来找到一个合适自己的极限但稳定的数值。",
-    "mode": {
-      "follow_default": {
-        "title": "跟随默认"
+    "enable_rapid_trigger": "启用快速触发",
+    "rapid_trigger": {
+      "title": "快速触发",
+      "description": "开启快速触发后，按键的触发和重置不再是一个固定的距离，而是在您按压的过程中动态调整。这可以让您更快地触发或重置按键。在特定类型的游戏中很有帮助。",
+      "dynamic_reset_travel": {
+        "description": "处于快速触发模式中时，如果按键已触发，只要回弹指定的距离按键就会释放。",
+        "title": "动态重置行程"
       },
-      "rapid_trigger": {
-        "description": "触发和重置的位置在您按压的过程中动态调整。这可以让您更快地触发或重置按键，在特定类型的游戏中很有帮助。",
-        "dynamic_reset_travel": {
-          "description": "处于快速触发模式中时，如果按键已触发，只要回弹指定的距离按键就会释放。",
-          "title": "动态重置行程"
-        },
-        "dynamic_trigger_travel": {
-          "description": "处于快速触发模式中时，如果按键未触发，只要按下指定的距离按键就会触发。",
-          "title": "动态触发行程"
-        },
-        "initial_travel": {
-          "description": "按键已经完全回弹时，需要按下指定的距离才能触发，并进入快速触发模式。",
-          "title": "初始触发行程"
-        },
-        "title": "快速触发",
-        "when_in_rapid_trigger_mode": "处于快速触发模式中时"
+      "dynamic_trigger_travel": {
+        "description": "处于快速触发模式中时，如果按键未触发，只要按下指定的距离按键就会触发。",
+        "title": "动态触发行程"
       },
-      "title": "模式",
-      "traditional": {
-        "description": "按键在按压到固定位置后触发，回弹到固定位置后释放。这与机械键盘相同。",
-        "pre_travel": {
-          "description": "触发按键所需要按下的距离。",
-          "title": "触发行程"
-        },
-        "title": "传统"
+      "hint_too_low_is_unstable": "如果将数值设置得极端的低，按键时材料本身的轻微震动都可能会引发误触发，在空格键等大键上更为明显。"
+    },
+    "trigger_travel": {
+      "title": "触发行程",
+      "description": "按键触发所需的按压距离。不论其他选项如何设置，此选项决定了按键在完全重置后再次触发需要按下的距离。",
+      "hint_too_low_is_meaningless": "除非您习惯于每次都完全松开按键后再按下，否则将此值设置得很低是没有意义的。",
+      "hint_too_low_is_unstable": "如果将数值设置得极端的低，按键回弹时材料本身的轻微震动都可能会引发误触发，在空格键等大键上更为明显。"
+    },
+    "rapid_trigger_in_full_travel": {
+      "title": "全行程快速触发",
+      "description": "启用时，除非完全松开按键，快速触发始终生效；禁用时，快速触发只在触发行程（{{travel}}mm）到触底之间生效。"
+    },
+    "always_trigger_when_bottoming": {
+      "title": "触底时始终触发",
+      "description": "在按压到最底部时摇晃手指会导致键盘检测的距离发生变化。视轴体型号不同，这个变化量也不同。启用时，触底时将一律视为触发，以避免错误的重置。"
+    },
+    "restore_to_use_global_settings": "恢复至“使用全局设置”",
+    "overview": {
+      "description": {
+        "global": "显示的设置是所有“使用全局设置”的按键的设置。若要单独修改某些按键，请先选定它们。",
+        "individual": "显示的设置是已选择的按键的设置。"
       }
     },
-    "switches": {
-      "rapid_trigger_in_full_travel": {
-        "title": "全行程快速触发",
-        "description": "启用时，除非完全松开按键，快速触发在首次按压至 {{travel}}mm 后始终生效；禁用时，快速触发只在 {{travel}}mm 到触底区域生效。"
-      },
-      "always_trigger_when_bottoming": {
-        "title": "触底时始终触发",
-        "description": "部分型号的轴体在触底摇晃手指可能会产生至多约 0.2mm 的距离变化。启用时，触底时将一律视为触发，以避免错误重置。"
-      }
-    }
+    "use_global_setting": "使用全局设置",
+    "use_individual_setting": "使用独立设置"
+  },
+  "key_switch": {
+    "title": "轴体"
   },
   "key_test": {
     "title": "测试键值",
@@ -273,11 +467,12 @@
     }
   },
   "unsupported_browser": {
-    "continue_button": "「我不管我就要继续」",
+    "continue_button": "我不管，我就要继续！",
     "continue_description": "您也可以选择继续探索 RAKKA Keyboard Configurator，以便了解其功能。但您可能会遇到页面不能正常显示的问题，并且您也可能不能正常地连接键盘。",
     "description": "RAKKA Keyboard Configurator 使用 WebHID 和一些现代的技术构建，但很不幸，您正使用的浏览器不支持这些技术。注意，FireFox、Safari 等浏览器不受支持，因为它们不支持 WebHID。",
     "supported_browser": "支持的浏览器：",
-    "title": "您正在使用不支持的浏览器"
+    "title": "您正在使用不支持的浏览器",
+    "other_possibly_supported_browser": "其他基于 Chromium {{ version }}（{{ date }}）及以上版本开发的浏览器（可能支持）"
   },
   "contact": {
     "title": "联系我们"
@@ -286,36 +481,108 @@
     "title": "帮助"
   },
   "switches": {
+    "series": "系列",
+    "hint_series": "这是一个系列的轴体，包含多个型号。",
+    "button_set_selected_keys": "设置到已选择的按键",
     "metadata": {
-      "travel": "行程：{{distance}}mm"
+      "travel": "总行程",
+      "mm": "{{distance}}mm",
+      "initial_force": "初始压力",
+      "disclaimer": "数据来自厂商公开信息。",
+      "link": "访问来自厂商的信息页面"
     },
     "legacy": {
       "title": "（旧）",
       "description": "被早期版本固件所使用，仅为了不破坏用户习惯而保留。"
     },
     "gateron_ks20": {
-      "title": "佳达隆磁轴",
-      "description": "Gateron KS-20。包括但不限于双轨磁橙轴、磁白轴、磁橙轴、Wooting Lekker 轴。"
+      "title": "磁白轴",
+      "title_short": "White",
+      "series_description": "其他一些型号的轴体与它参数相同，包括但不限于磁橙轴、Wooting Lekker 轴。"
+    },
+    "gateron_ks20u": {
+      "title": "双轨磁轴",
+      "title_short": "Dual-Rail",
+      "series_description": "其他一些型号的轴体与它参数相同，包括但不限于双轨磁橙轴。"
     },
     "gateron_ks20t": {
-      "title": "佳达隆磁玉轴【实验性】",
-      "description": "Gateron KS-20T。实验性：检测距离与物理距离对应尚未测试。"
+      "title": "磁玉轴",
+      "title_short": "Jade"
+    },
+    "gateron_ks20t_pro": {
+      "title": "磁玉 PRO",
+      "title_short": "Jade Pro"
+    },
+    "gateron_ks20t_max": {
+      "title": "磁玉 MAX",
+      "title_short": "Jade MAX"
+    },
+    "gateron_ks20t_gaming": {
+      "title": "磁玉 Gaming",
+      "title_short": "Jade Gaming"
+    },
+    "geon_raptor_he": {
+      "title": "Raptor HE Gaming Switch",
+      "title_short": "Raptor HE"
+    },
+    "geon_raw_he": {
+      "title": "Raw HE Switch",
+      "title_short": "Raw HE"
+    },
+    "ttc_king": {
+      "title": "万磁王轴",
+      "title_short": "King"
+    },
+    "ttc_king_rgb": {
+      "title": "万磁王轴 RGB",
+      "title_short": "King RGB"
+    },
+    "ttc_uranus": {
+      "title": "天王磁轴",
+      "title_short": "Uranus"
+    },
+    "ttc_uranus_se": {
+      "title": "天王磁轴 SE",
+      "title_short": "Uranus SE"
+    },
+    "ttc_uranus_gaming": {
+      "title": "天王磁轴电竞版",
+      "title_short": "Uranus GAMING"
     }
+  },
+  "manufacturer": {
+    "gateron": "佳达隆",
+    "ttc": "TTC",
+    "geonworks": "GEONWORKS"
   },
   "choose_switch": {
     "title": "选择轴体",
     "continue": "继续",
     "confirm_dialog": {
       "title": "更换为 {{switch_name}}？",
-      "content": "确认后，键盘将以 {{switch_name}} 为标准进行重新校准，请在数秒内不要触碰按键。<p>注意，重新安装轴体时可能会出现轴体没有装紧的情况，即轴和 PCB 之间仍有距离，从而导致距离检测有误，您可能需要拆出键盘内胆并重新按紧。<p>为了避免按键误触发，我们建议断开键盘的 USB 连接后再更换轴体。"
+      "content": "<p>指定的按键将以 {{switch_name}} 为标准进行重新校准，<b>请在数秒内不要触碰按键</b>。</p><p><b>若出现按键触发异常，请阅读左侧的注意事项。</b></p>"
     },
     "hint_success": "轴体更换成功。",
     "hint_failed": "更换轴体失败。",
     "hint_same_switch": "当前的轴体已是 {{switch_name}}。",
-    "current": "{{switch_name}}（当前）"
+    "current": "当前",
+    "hint_choose_switch_for_key_requires_firmware_update": {
+      "title": "修改会作用到所有按键",
+      "description": "您的固件版本过低，不支持为不同按键选择不同的轴体。不论您选择了哪些按键，都会作用到全部按键。"
+    },
+    "hint_no_keys_selected": "请先选择您想要更换轴体的按键。",
+    "hint_all_keys_has_same_switch": "所有按键都使用 {{ switch }}。",
+    "hint_most_keys_switch": "大部分按键使用 {{ switch }}。",
+    "hint_other_keys_switch": "{{ keys }} 使用 {{ switch }}。",
+    "changing_switch_on_soft_plate_warning": {
+      "title": "若要自行更换轴体…",
+      "description": "<p><b>磁轴键盘要求轴体必须稳定地固定于 PCB 上</b>，否则会导致错误的触发和复位。</p><p><b>请保证轴体已牢牢地装好</b>，必要时可能需要自行拆出内胆压紧。</p><p><b>请务必避免使用软质材料的或带开槽的定位板</b>。</p><p>这是因为，较新的轴体通常小脚更细，可能无法与 PCB 上的孔牢固配合。使用此类定位板，轴体就相当于悬浮在 PCB 上，导致严重的读数异常。</p>"
+    }
   },
   "ok": "确定",
   "cancel": "取消",
+  "close": "关闭",
+  "continue": "继续",
   "wizard": {
     "title": "允许浏览器连接到设备",
     "description": "点击下方按钮，您的浏览器会在地址栏下方弹出一个对话框（如操作示例中所示）。在列表中点击设备名称以选择设备，然后点击“连接”。",
@@ -328,6 +595,200 @@
       },
       "hint_1": "1. 点击设备名称",
       "hint_2": "2. 点击“连接”"
+    },
+    "replug_hint": "如果您无法看到您的设备或设备一直处于连接状态，请重新插拔设备后再试。",
+    "cannot_connect_button": "我仍然无法连接我的设备",
+    "cannot_connect_hint_firmware_update_failed": "如果您的设备在升级固件的过程中意外断开或失败，它会停留在恢复模式。不同设备会使用不同的方式提示其处于恢复模式，例如常亮的指示灯。不要惊慌，再次进行固件升级可以恢复。"
+  },
+  "profile": {
+    "title": "配置文件",
+    "current": "{{name}}（当前）",
+    "standalone_keymap": {
+      "title": "独立的按键映射",
+      "description": "开启时，该配置文件享有独立的按键映射设置。关闭时，该配置文件使用配置文件 1 的按键映射设置。"
+    },
+    "builtin": {
+      "unnamed": "配置 {{index}}",
+      "typing_profile": "打字配置",
+      "gaming_profile": "游戏配置"
+    },
+    "rename": {
+      "title": "重命名",
+      "description": "重命名配置文件 #{{index}}",
+      "hint_empty": "配置文件名称不可为空。",
+      "hint_too_long": "配置文件名称长度最多只能是 {{ length }}。"
+    },
+    "how_to_switch": {
+      "title": "如何切换配置文件",
+      "description": "<b>切换键盘使用的配置文件</b>：在按键映射中，将配置文件类别的按键绑定到您想要的位置上，然后在键盘上按下这个按键。在部分键盘上，默认“层 1”+QWER 是切换配置文件 1234。<p><b>编辑配置文件</b>：点击您想要编辑的配置文件。"
+    },
+    "hint_keyboard_current_profile": "键盘现在正使用此配置文件",
+    "hint_keyboard_switch_profile": "在您的按键映射设置下，按下 {{ combination }} 可以切换到此配置文件",
+    "hint_profile_key_not_found": "未找到切换到此配置文件的按键，您可以将配置文件按键绑定到您想要的位置",
+    "on_board_profiles": "板载配置文件",
+    "configure_profile": "修改 #{{ index }} {{ profile }}",
+    "hint_editing_profile_changes_for_keyboard_profile": "由于更改了键盘正使用的配置文件，已切换当前编辑的配置文件。"
+  },
+  "dark_mode": {
+    "dark_mode": "暗色模式",
+    "light_mode": "亮色模式",
+    "follow_system": "跟随系统"
+  },
+  "color_theme": {
+    "title": "主题",
+    "preset": "预设",
+    "pick_a_color": "选择一个颜色"
+  },
+  "device_management": {
+    "title": "我的设备",
+    "current_device": "当前设备",
+    "paired": "已配对",
+    "connected": "已连接",
+    "disconnected": "未连接",
+    "connect_to_new_device": "连接到新设备"
+  },
+  "pwa": {
+    "app_ready_to_work_offline": "RAKKA Keyboard Configurator 已准备好离线使用。",
+    "update_available": "RAKKA Keyboard Configurator 有新版本可用",
+    "reload": "重新加载"
+  },
+  "enabled": "启用",
+  "disabled": "禁用",
+  "lighting": {
+    "base_fx": "基础灯效",
+    "indicators": "指示灯",
+    "choose_base_fx": "选择基础灯效",
+    "overlay_fx": "灯效叠加层",
+    "choose_overlay_fx": "选择灯效叠加层",
+    "brightness": "亮度",
+    "speed": "速度",
+    "time": "时间",
+    "scale": "缩放",
+    "style": "风格",
+    "min_brightness": "最小亮度",
+    "windows_dynamic_lighting": {
+      "title": "Windows Dynamic Lighting",
+      "description": {
+        "title": "什么是 Windows Dynamic Lighting？",
+        "content": "动态光效（Windows Dynamic Lighting）允许您在 Windows 设置或第三方控制程序中统一控制所有支持的键盘、鼠标等外设，以达到统一的灯效风格。此功能适用于 Windows 11 23H2 或更高版本。",
+        "for_more_info": "如需了解更多信息，请访问 {{support_page}}。",
+        "microsoft_support_page": "Microsoft 支持页面",
+        "microsoft_support_page_link": "https://support.microsoft.com/zh-cn/windows/%E5%9C%A8-windows-%E4%B8%AD%E6%8E%A7%E5%88%B6%E5%8A%A8%E6%80%81%E7%85%A7%E6%98%8E%E8%AE%BE%E5%A4%87-8e8f22e3-e820-476c-8f9d-9ffc7b6ffcd2"
+      },
+      "hint_not_supported": "您的系统似乎不支持 Windows 动态光效。",
+      "hint_support": "Windows Dynamic Lighting is supported on your system.",
+      "hint_disabled": "Windows 动态光效已禁用。"
+    },
+    "hint_static_is_override": "此效果有自己的颜色，将覆盖您设置的颜色。",
+    "fx": {
+      "none": {
+        "title": "无"
+      },
+      "static": {
+        "title": "静态"
+      },
+      "wave": {
+        "title": "波浪"
+      },
+      "cycle": {
+        "title": "循环"
+      },
+      "windows_dynamic_lighting": {
+        "title": "Windows Dynamic Lighting"
+      },
+      "enforce_indicator_on_profile_change": {
+        "title": "配置文件变化时强制打开指示灯",
+        "description": "配置文件改变后，在数秒内强制打开指示灯（例如 CapsLock 指示灯）。通过给不同的配置文件设置不同的指示灯颜色，可以区分哪个配置文件是当前的。"
+      },
+      "breath": {
+        "title": "呼吸"
+      },
+      "inherit": {
+        "title": "跟随主要区域",
+        "description": "灯效将跟随 {{ scope }} 区域。"
+      }
+    },
+    "animation": {
+      "rainbow": "彩虹",
+      "ocean": "海洋"
+    },
+    "direction": {
+      "title": "方向",
+      "forward": "正向",
+      "backward": "反向"
     }
-  }
+  },
+  "swift_flow": {
+    "title": "Swift Flow",
+    "description": "{{name}} 提供了额外的机制来决定按键是否被触发。先由 {{trigger_travel}} 或 {{rapid_trigger}} 决定按键是否是被按下，随后 {{name}} 再判断按键是否应该被触发。注意，如果按键符合 {{trigger_travel}} 或 {{rapid_trigger}} 的重置条件，则按键一定会被重置。",
+    "combination": "组合 {{index}}",
+    "enable": "启用这个组合",
+    "set_as_selected": "设置为选中的按键",
+    "hint_select_two_keys": "请在上方的键盘选择两个按键。",
+    "hint_no_keys_selected": "因为尚未选择按键，此组合不会生效。",
+    "hint_last_input_banned": "“{{priority}}”已被 {{games}} 禁止，因为其被认为是自动化操作。为避免违规，请不要使用它。",
+    "priority": {
+      "title": "优先级",
+      "depth": {
+        "title": "深度优先",
+        "description": "如果两个按键都被按下，只触发按压深度更深的按键。"
+      },
+      "last_input": {
+        "title": "最后输入优先",
+        "description": "仅处触发最后一个被按下的按键。"
+      },
+      "absolute": {
+        "title": "绝对优先（{{key}}）",
+        "description": "若 {{keyA}} 被按下，则 {{keyB}} 不论是否被按下都不会都触发。"
+      },
+      "neutral": {
+        "title": "中立",
+        "description": "若两个按键都被按下，则都不会触发。"
+      }
+    },
+    "depth_priority_sensitivity": {
+      "title": "深度优先灵敏度",
+      "description": "判断一个键的按压深度是否超过另一个时的阈值。这是为了避免按压深度非常接近时按键被重复触发。"
+    },
+    "requires_full_cycle": {
+      "title": "需要完整循环",
+      "description": "如果一个已被触发按键因为此功能变为重置，则该按键需首先抬起到不被认为是按下的，才能在之后通过再次按下而触发。"
+    }
+  },
+  "about": {
+    "title": "关于",
+    "description": "RAKKA Keyboard Configurator 是一个基于 Web 的用于配置您的 RAKKA 设备的工具。",
+    "version": "版本 {{version}}",
+    "date": "构建于 {{date}}",
+    "all_rights_reserved": "保留所有权利。"
+  },
+  "settings": "设置",
+  "expand": "展开",
+  "collapse": "折叠",
+  "layer": {
+    "base": "基础层",
+    "others": "层 {{layer}}"
+  },
+  "window_too_small": {
+    "title": "哎呀，太小了！",
+    "description1": "您的浏览器窗口尺寸过小，无法显示所有内容。",
+    "description2": "请尝试调整窗口大小及缩放比例。",
+    "button": "我不管，是你算错了！"
+  },
+  "select_all": "全选",
+  "discard_selection": "取消选择",
+  "hint_firmware_version_too_low": "您的固件版本过低，不支持此功能。",
+  "devices": {
+    "default": {
+      "name": "默认"
+    },
+    "rakka_80_edge": {
+      "lighting_scopes": {
+        "keys": "按键",
+        "sidebar": "侧边栏",
+        "logo": "Logo"
+      }
+    }
+  },
+  "something_went_wrong": "出错了"
 }
