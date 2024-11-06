@@ -1,295 +1,794 @@
 {
   "action": {
     "transparent": {
-      "description": "하위 레이어에의 키를 그대로 사용 합니다."
+      "description": "Find keys from lower layers"
     },
     "layer": {
-      "text": "{{layer}}번 레이어"
+      "text": "Layer {{layer}}"
     },
     "momentary_layer": {
-      "description": "해당 키가 입력되고 있는 동안 임시로 {layer}}번 레이어로 바뀝니다."
+      "description": "Temporary turn on layer {{layer}} if the key is being pressed"
     },
     "profile": {
-      "text": "프로파일 {{profile}}",
-      "description": "프로파일을 바꿉니다. {{profile}}"
+      "text": "Profile {{profile}}",
+      "description": "Switch to profile {{profile}}"
     },
     "toggle_layer": {
-      "description": "해당 키를 누를 때 마다 {{layer}}번 레이어를 켜고 끌 수 있습니다."
+      "description": "Permanently turn on or off layer {{layer}}"
     },
     "bottom_layer": {
-      "description": "{{layer}}번 레이어를 기본 레이어로 설정 합니다."
+      "description": "Set layer {{layer}} as the default (bottom) layer"
     },
     "layer_tap": {
-      "description": "짧게 누르면 {{key}}키가 , 길게 누르면 {{layer}}레이어가 활성화 됩니다."
+      "description": "{{key}} when pressed, temporary turn on layer {{layer}} when long pressed"
     },
     "mod_tap": {
-      "description": "짧게 누르면 {{key}}키가, 길게 누르면 {{modifiers}}모드 키가 입력 됩니다."
+      "description": "{{key}} when pressed, {{modifiers}} when long pressed"
     },
     "key_tap": {
-      "description": "짧게 누르면 {{tapKey}}키가, 길게 누르면 {{holdKey}}키가 입력 됩니다."
+      "description": "{{tapKey}} when pressed, {{holdKey}} when long pressed"
+    },
+    "none": {
+      "text": "None",
+      "description": "Do nothing"
+    },
+    "consumer": {
+      "prev": {
+        "description": "Previous track"
+      },
+      "next": {
+        "description": "Next track"
+      },
+      "play_pause": {
+        "description": "Play/Pause"
+      },
+      "stop": {
+        "description": "Stop"
+      },
+      "brightness_increment": {
+        "description": "Increase screen brightness"
+      },
+      "brightness_decrement": {
+        "description": "Decrease screen brightness"
+      },
+      "volume_increment": {
+        "description": "Increase volume"
+      },
+      "volume_decrement": {
+        "description": "Decrease volume"
+      },
+      "mute": {
+        "description": "Mute"
+      },
+      "text_editor": {
+        "description": "Open text editor"
+      },
+      "email_reader": {
+        "description": "Open email reader"
+      },
+      "calculator": {
+        "description": "Open calculator"
+      },
+      "local_browser": {
+        "description": "Open explorer"
+      },
+      "consumer_control_configuration": {
+        "description": "Open media player"
+      },
+      "control_panel": {
+        "description": "Open control panel"
+      },
+      "search": {
+        "description": "Search"
+      },
+      "home": {
+        "description": "Home"
+      },
+      "back": {
+        "description": "Back"
+      },
+      "forward": {
+        "description": "Forward"
+      },
+      "refresh": {
+        "description": "Refresh"
+      },
+      "bookmarks": {
+        "description": "Bookmarks"
+      },
+      "undo": {
+        "description": "Undo"
+      },
+      "copy": {
+        "description": "Copy"
+      },
+      "cut": {
+        "description": "Cut"
+      },
+      "paste": {
+        "description": "Paste"
+      },
+      "select_all": {
+        "description": "Select all"
+      },
+      "desktop_show_all_windows": {
+        "description": "Mission Control (macOS)"
+      },
+      "desktop_show_all_applications": {
+        "description": "Launchpad (macOS)"
+      }
+    },
+    "extension": {
+      "bootloader": {
+        "description": "Reboot the keyboard to Recovery mode"
+      },
+      "reboot": {
+        "description": "Reboot the keyboard"
+      },
+      "config_reset": {
+        "description": "Reset the keyboard configuration"
+      },
+      "nkro_toggle": {
+        "description": "Enable or disable NKRO"
+      },
+      "nkro_on": {
+        "description": "Enable NKRO"
+      },
+      "nkro_off": {
+        "description": "Disable NKRO"
+      },
+      "recalibrate": {
+        "description": "Recalibrate (takes a few seconds, do not touch the keys during this time)"
+      },
+      "grave_esc": {
+        "description": "ESC, ~ when Shift is pressed"
+      },
+      "toggle_profile": {
+        "text": "Prev-profile",
+        "description": "Switch between the current profile and the previous profile"
+      },
+      "toggle_profile_0": {
+        "text": "Profile 1",
+        "description": "Switch between the current profile and profile 1"
+      },
+      "cycle_profile": {
+        "text": "Cycle-profile",
+        "description": "Cycle through profiles"
+      },
+      "cycle_profile_back": {
+        "text": "Cycle-profile",
+        "description": "Cycle through profiles in reverse"
+      }
+    },
+    "hid": {
+      "ime_off": {
+        "title": "ImeOff",
+        "description": "ImeOff (Japanese IME)"
+      },
+      "ime_on": {
+        "title": "ImeOn",
+        "description": "ImeOn (Japanese IME)"
+      }
     }
   },
   "appbar": {
     "button": {
-      "dark_mode": "다크 모드",
-      "language": "언어",
-      "settings": "설정"
+      "dark_mode": "Dark mode",
+      "language": "Language",
+      "settings": "Settings"
     },
     "title": {
-      "demo_mode_format": "데모 모드",
-      "device_connected_format": "장치가 연결 되었습니다.",
-      "device_not_connected": "장치가 연결되지 않았습니다."
+      "demo_mode_format": "Demo mode",
+      "device_connected_format": "Device connected",
+      "device_not_connected": "Device not connected",
+      "bad_cable": "One possible reason could be the use of a low-quality USB cable, which may cause an unstable connection or reduced connection speed (preventing the device from operating at USB 2.0 high speed).",
+      "contact_us": "If the issue persists, please email us at {{ email }} for assistance."
     }
   },
   "calibration": {
     "button": {
-      "abort": "중단",
-      "finish": "완료",
-      "start": "시작"
+      "abort": "Abort",
+      "finish": "Finish",
+      "start": "Start"
     },
     "do_i_need_calibration": {
-      "message": "필수는 아닙니다. 캘리브레이션은 자력 세기가 다른 스위치를 교체할 때 필요합니다.",
-      "title": "캘리브레이션이 필요한가요?"
+      "message": "Usually not needed. Calibration is only required when changing switches with different magnetic strengths.",
+      "title": "Do I need to calibrate?"
     },
+    "hint_no_keys_selected": "Please select the key you want to calibrate first.",
     "how_to_calibrate": {
-      "message": "캘리브레이션이 필요한 키를 선택하고 시작 버튼을 클릭합니다.\n키를 끝까지 눌렀다가 놓습니다.\n보정 시작 후에 표시되는 완료 버튼을 클릭하여 보정 결과를 저장합니다.",
-      "title": "캘리브레이션은 어떻게 하나요?"
+      "message": "Select keys you need to calibrate and click the start button.\nPress the button all the way down, then release it.\nClick the Finish button (displayed after starting calibration) to save the calibration results.",
+      "title": "How to do the calibration?"
     },
-    "tooltip": "Initial: {{top}}\nBottom: {{bottom}}"
+    "tooltip": "Initial: {{top}}\nBottom: {{bottom}}",
+    "auto_calibration": {
+      "title": "Auto calibration",
+      "description": "Performs self-calibration continuously during operation to ensure stability and accuracy. This feature cannot be disabled."
+    },
+    "full_calibration": {
+      "title": "Perform full calibration",
+      "description": "Recalibrates the entire keyboard. For keyboards that support multiple layouts, it will also re-detect the layout in use."
+    },
+    "bottom_calibration": {
+      "title": "Manual bottom calibration",
+      "description": "After a key has been pressed with excessive force, it may behave abnormally when pressed with normal force. This can be avoided by recording manual calibration values.",
+      "save": "Save calibration values for selected keys",
+      "clear": "Clear saved calibration values for selected keys",
+      "steps": {
+        "title": "Please follow these steps:",
+        "step1": "If you have pressed the keys with excessive force, perform a full calibration first.",
+        "step2": "If the key already has a calibration value, clear it first.",
+        "step3": "Press the key you wish to calibrate with normal force (no need to select them first). Try to keep it vertically downward during the pressing process.",
+        "step4": "Select the keys and click save."
+      },
+      "hint_change_switch_requires_redo": "Calibration values recorded previously will become invalid after changing the switch model. You need to redo this process.<br>Even with the same switch model, re-calibration is required to account for individual differences.",
+      "hint_no_keys_selected": "Please select the key you want to save the calibration value first."
+    },
+    "hint_calibrating": "Calibrating…",
+    "hint_dont_touch_keys": "Please do not touch the keys."
   },
   "connect": {
     "button": {
-      "communicating": "키보드와 통신하기.",
-      "connect": "장치에 연결",
-      "requesting": "장치에 연결 요청하기…"
+      "communicating": "Communicating with the device…",
+      "connect": "Connect to device",
+      "requesting": "Requesting connection to the device…"
     },
     "hint": {
-      "device_is_in_use": "장치가 사용 중입니다. 다른 웹 페이지나 앱에서 디바이스를 연결했는지 확인하세요..",
-      "no_device_selected": "장치가 없습니다.<br><br>폼폼보드를 비롯한 v0.4.0 이하의 펌웨어를 사용하는 다른 장치들은 {{ legacy_site }}.",
-      "no_webhid_support": "브라우저가 WebHID를 지원하지 않습니다. 최신 버전의 Chrome 또는 Edge 브라우저를 사용하세요..",
-      "legacy_site": "구버전 웹사이트를 이용해 주세요"
+      "device_is_in_use": "The device is in use. Please check if you have connected the device on another web page or app.",
+      "no_device_selected": "No device selected.<br><br>For PomPomBoard and other devices with firmware version lower than 0.4.0, please use {{ legacy_site }}.",
+      "no_webhid_support": "Your browser does not support WebHID. Please use the latest version of Chrome or Edge browser.",
+      "legacy_site": "the old version of the website"
     }
   },
   "debug": {
-    "hint_hurt_performance": "이 탭을 계속 사용하면 성능에 영향을 줄 수 있습니다. 키보드 동작을 관찰하려면 장치 탭의 로그를 확인하는 것이 좋습니다..",
+    "hint_hurt_performance": "Staying on this tab may affect performance. To observe keyboard behavior, it is recommended to stay in Devices - Logs.",
     "re_initialize": {
-      "message": "전원을 켤 때 수행해야 하는 단계(캘리브레이션을 포함)를 다시 실행하고, 스위치가 설치되어 있는지 확인합니다. 여러 레이아웃을 지원하는 키보드의 경우 설치된 레이아웃도 다시 확인합니다.",
-      "title": "초기화",
-      "warning": "초기화를 시작한 후 몇 초 동안은 키를 입력하지 마세요.."
+      "message": "Redo the steps that to be performed when powering on, including but not limited to calibration, check if switches are installed. For keyboards that support multiple layouts, which layout is installed will also be rechecked.",
+      "title": "Reinitialize",
+      "warning": "Do not touch the keys within a few seconds of starting re-initialization."
     },
-    "start": "시작",
+    "start": "Start",
     "enable_log": {
-      "title": "로그 작동",
-      "description": "결과값을 디바이스탭의 로그로 보냅니다. 문제의 수정을 쉽게 할 수 있습니다. 디바이스 탭의 로그 메뉴를 확인하세요. 이 옵션은 사용하지 않는것이 기본값이며, 옵션 사용 유무는 저장되지 않습니다."
+      "title": "Enable log",
+      "description": "Enable log output. This is useful for debugging. Check the log in Devices - Logs. This option is disabled by default and is not saved in the device."
+    },
+    "reset": {
+      "title": "Reset",
+      "description": "Reset the configuration of the device to default. Please wait for about half a minute before unplugging the device to ensure the configuration is saved."
     }
   },
   "demo_mode": {
     "device": {
-      "dummy_75": "75% 키보드 예시"
+      "dummy_75": "Example 75% keyboard"
     },
-    "title": "데모 모드",
-    "tooltip": "해당 장치의 기능을 이해할 수 있도록 시뮬레이션 장치를 연결합니다.."
+    "title": "Demo mode",
+    "tooltip": "Connect a simulated device so that you can understand the function of the corresponding device."
   },
   "device": {
     "information": {
-      "title": "정보",
-      "connection_speed": "연결 속도",
+      "title": "Information",
+      "connection_speed": "Connection speed",
       "connection_speeds": {
         "full_speed": "USB 2.0 Full Speed",
         "high_speed": "USB 2.0 High Speed",
         "low_speed": "USB 1.1 Low Speed"
       },
-      "developer": "개발자",
-      "device_name": "장치 이름",
-      "firmware_version": "펌웨어 버전",
-      "hint_device_not_connected": "(장치가 연결되지 않았습니다.)",
-      "host_operation_system": "운영체제 (장치에서 가져옴)",
+      "developer": "Developer",
+      "device_name": "Device name",
+      "firmware_update_date": "Firmware release date",
+      "firmware_version": "Firmware version",
+      "serial_number": "Serial number",
+      "last_connected": "Last connected",
+      "hint_device_not_connected": "(Device not connected)",
+      "host_operation_system": "Host operation system (fetched by the device)",
       "os": {
         "linux": "Linux",
         "macos": "macOS",
-        "unknown": "알수 없음",
+        "unknown": "Unknown",
         "windows": "Windows"
       }
     },
     "log": {
-      "title": "로그"
+      "title": "Log"
     }
   },
   "firmware": {
-    "firmware_upgrade": "펌웨어 업그레이드",
-    "step_choose_firmware_file": {
-      "button": {
-        "reselect_file": "다른 파일을 선택하세요.",
-        "select_file": "파일을 선택하세요."
-      },
-      "description": "먼저 업그레이드하려는 펌웨어 파일을 선택해야 합니다.",
-      "title": "펌웨어 파일 선택"
+    "firmware_upgrade": "Firmware upgrade",
+    "firmware_file": "Firmware file",
+    "hint": {
+      "not_a_valid_firmware": "This is not a valid firmware file.",
+      "read_file_error": "Failed to read the file.",
+      "mismatched_firmware": "The firmware file does not match the device.",
+      "upgrade_was_interrupted": "The upgrade process was interrupted. Please replug the device and try again.",
+      "firmware_interrupted": "The firmware upgrade was interrupted. Please replug the device and try again.",
+      "unknown_error": "Unknown error ({{code}}).",
+      "device_not_connected": "Device not connected or the device is already in recovery mode."
     },
-    "step_confirm": {
-      "button": {
-        "abort": "중단",
-        "start": "시작"
-      },
-      "description": "장치마다 부트 로더 모드에 진입했음을 표시하는 방식(예: 조명, 화면 등)이 다릅니다...",
-      "description_abort": "\"중단\" 버튼을 누르면 장치가 일반 모드로 재부팅됩니다.",
-      "description_start": "\"시작\" 버튼을 클릭하면 다시 장치를 연결하라는 메시지가 표시됩니다. 연결이 확인되면 펌웨어 업그레이드가 시작됩니다. 업그레이드하는 동안 페이지를 닫거나 장치의 USB 연결을 분리하지 마세요."
+    "choose_firmware": "Choose firmware",
+    "channel": {
+      "stable": "Stable",
+      "beta": "Beta",
+      "dev": "Dev",
+      "nightly": "Nightly",
+      "previous": "Previous stable version"
     },
-    "step_preview_firmware": {
-      "title": "선택한 펌웨어 정보",
-      "update_date": "업데이트 날짜",
-      "version": "버전"
-    },
-    "step_reboot_to_bootloader": {
-      "button": {
-        "reboot": "장치를 부트 로더 모드로 재부팅합니다."
-      },
-      "description": "펌웨어 업그레이드를 시작하려면 장치를 부트 로더 모드로 재부팅해야 합니다.",
-      "description_if_the_device_is_connected": "이미 장치에 연결되어 있다면 아래 버튼을 클릭하세요.",
-      "description_worst_situation": "최악의 경우(예: 장치가 유저의 요청에 제대로 응답하지 않는 경우)에는 장치 PCB 뒷면의 부트 로더 버튼을 누른 상태에서 USB에서 장치를 분리하고 다시 USB 케이블을 연결하는 것이 부트 로더 모드로 들어가는 마지막 수단입니다. 이 작업을 수행하려면 키보드를 분해해야 합니다."
-    },
-    "step_upgrading": {
-      "description": "페이지를 닫거나 장치의 USB 연결을 분리하지 마세요.",
-      "title": "펌웨어 업그레이드"
+    "dev_channel_warning": "The dev channel firmware contains the latest features, but has only been lightly tested. If you don't know how to handle issues, please do not use it.",
+    "nightly_channel_warning": "The nightly channel firmware contains the real latest changes, but only the developer tests it very roughly. NOT for normal uses.",
+    "version": "Version",
+    "release_time": "Release date",
+    "changelog": "Changelog",
+    "choose_a_local_file": "Choose a local file",
+    "verify_firmware": "Verify firmware",
+    "reboot_to_recovery": "Reboot the device to recovery mode",
+    "reboot_to_recovery_hint": "After restarting to recovery mode, the device will prompt the user that the device is in recovery mode by means of a indicator light.",
+    "connect_to_recovery_device": "Connect to device in recovery mode",
+    "connect_to_recovery_device_hint": "After clicking Connect, you need to select the device again and the writing process will begin. If you want to give up on upgrading, please DO NOT click Connect. The device will return to normal mode after replugging the device.",
+    "flash_firmware": "Flash firmware",
+    "flash_firmware_hint": "Please do not disconnect the device. If the device is disconnected during flashing, the device will stay in recovery mode and can be restored by re-upgrading the firmware.",
+    "finish": "Finish",
+    "firmware_upgrade_finished": "Update successes. The window will automatically close.",
+    "connect": "Connect",
+    "reboot_the_device": "Reboot the device",
+    "device_already_in_recovery": "The device is already in recovery mode",
+    "download_error": "Download failed",
+    "choose_device": "Choose device",
+    "choose_channel": "Choose channel",
+    "update_found": {
+      "title": "Update found for your device",
+      "description": "Your device is running firmware version {{currentVersion}}. The latest version is {{latestVersion}}.",
+      "ignore": "Ignore"
     }
   },
   "keyboard": {
+    "title": "Keyboard",
     "keycount": {
-      "button": "전체 선택 해제",
-      "selected_one": "{{count}} 개의 키가 선택되었습니다.",
-      "selected_other": "{{count}} 개의 키들이 선택되었습니다."
+      "button": "Deselect All",
+      "selected_other": "{{count}} keys selected"
     },
-    "layer": "레이어",
+    "layer": "Layer",
+    "global_config": "Global configuration",
     "tab": {
-      "calibration": "캘리브레이션",
-      "debug": "디버그",
-      "device": "장치",
-      "keymap": "키맵",
-      "performance": "트리거 설정",
-      "key-test": "키 테스트"
+      "calibration": "Calibration",
+      "debug": "Debug",
+      "device": "Device",
+      "keymap": "Keymap",
+      "performance": "Performance",
+      "key-test": "Key Test",
+      "lighting": "Lighting",
+      "switches": "Switches"
     }
   },
   "keymap": {
-    "type": "타입: {{type}}",
-    "hint_no_keys_selected": "먼저 재설정할 키를 선택하세요.",
-    "hint_combo_is_empty": "콤보에 사용할 키 또는 모드 키를 하나 이상 선택해 주세요.",
-    "hint_tap_hold_hold_is_empty": "홀드 키를 설정하세요.",
-    "hint_tap_hold_key_not_supported": "이 설정을 사용하려면 최신 버전의 펌웨어가 필요합니다.",
-    "hint_tap_hold_tap_is_not_valid": "탭 키에는 일반 키만 설정 할 수 있습니다.",
-    "hint_tap_hold_key_is_same": "탭 키와 홀드 키에 동일한 키를 동시에 설정 할 수 없습니다.",
+    "type": "Type: {{type}}",
+    "remap_selected_keys": "Set to selected keys",
+    "config_advanced_key": "Config {{key}}",
+    "hint_no_keys_selected": "Please select the key you want to remap first.",
+    "hint_combo_is_empty": "Please choose at least one key or modifier for the combo.",
+    "hint_tap_hold_hold_is_empty": "Please set hold key.",
+    "hint_tap_hold_key_not_supported": "This setup requires a newer version of firmware.",
+    "hint_tap_hold_tap_is_not_valid": "Key for tap should be a normal key.",
+    "hint_tap_hold_key_is_same": "Tap and hold keys cannot be the same.",
+    "hint_click_to_edit_the_key": "Click to edit the key",
+    "hint_choose_a_key": "Choose a key",
+    "hint_chosen_key_is_not_supported": "This key is not supported.",
+    "key": "Key",
     "combination": {
       "modifier": {
-        "left": "좌측 모드 키",
-        "right": "우측 모드 키"
+        "left": "Left Modifiers",
+        "right": "Right Modifiers"
       },
-      "name": "콤보",
-      "summary": "원하는 키 조합을 하나의 키에 설정할 수 있습니다.",
-      "text": "키 조합은 모드 키(예: Ctrl, Shift)와 일반 키의 조합입니다."
+      "name": "Combo",
+      "summary": "Trigger the shortcut you want by a single tap",
+      "text": "A key combination is a combination of one or more modifier keys (e.g. Ctrl, Shift) and a regular key."
     },
     "dynamic": {
-      "limit": "이 키에 대한 구성을 더 추가할 수 없습니다.",
-      "name": "다이나믹 키",
-      "placeholder": "아래에서 키를 선택하여 구성에 추가합니다."
+      "limit": "Cannot add more configs for this key",
+      "name": "Dynamic Key",
+      "placeholder": "Select a key from below to add to the config..."
     },
     "normal": {
-      "name": "일반",
-      "summary": "일반적인 키 설정입니다.",
-      "text": "다시 설정하려는 키를 선택하고 아래 창에서 원하는 키를 클릭합니다.",
+      "name": "Normal",
+      "summary": "Just a normal key",
+      "text": "Select the key you want to remap and click on the key below.",
       "types": {
-        "basic": "기본",
-        "extension": "확장",
-        "layer": "레이어",
-        "profile": "프로파일",
-        "system": "시스템"
+        "basic": "Basic",
+        "extension": "Extension",
+        "layer": "Layer",
+        "profile": "Profile",
+        "system": "System",
+        "advanced": "Advanced"
       }
     },
     "tap_hold": {
-      "hold": "홀드",
-      "name": "탭-홀드",
-      "tap": "탭",
-      "summary": "설정을 통해 효율적인 키보드 사용이 가능합니다.",
-      "text": "탭키와 홀드키는 서로 다른 키로 설정해야 합니다. <p> 레이어를 전환하는 키를 홀드 키에 지정하여 키보드의 가능성을 크게 확장할 수 있습니다. <p><b> 홀드 키 입력을 확인하는 데 시간이 걸리므로 \"tap\" 키가 트리거되는 속도가 일반 키보다 느려집니다. 탭-홀드 키에 래피드 트리거를 활성화하고 리셋 거리를 낮추면 성능이 향상되지만 여전히 일반 키만큼 좋지는 않습니다.</b>"
+      "hold": "Hold",
+      "name": "Tap Hold",
+      "tap": "Tap",
+      "summary": "Unlock the full potential",
+      "text": "Tap and long presses correspond to different keys.<p>The keys for long presses can also be switching layer, which greatly expands the possibilities of the keyboard.<p><b>It takes time to determine if it's a press, triggering the \"tap\" key will be slower than a normal key. Enabling Rapid Trigger for this key and lowering the reset distance will improve it, but it is still not as good as a normal key.</b>"
     },
     "toggle": {
-      "name": "토글 키"
+      "name": "Toggle Key"
+    },
+    "intermittent": {
+      "name": "Intermittent",
+      "summary": "'ASASAS' rather than 'ASSSSSS'",
+      "text": "Simulate a long key press as intermittent key presses."
     }
   },
   "performance": {
-    "hint_no_keys_selected": "수정 사항은 모든 키에 적용됩니다. 원하는 키만을 개별적으로 수정하려면 먼저 해당 키를 선택해야 합니다.",
-    "hint_the_value_is_too_aggressive": "스위치와 사람의 손은 절대적으로 안정적일 수 없으므로 지나치게 민감하게 설정하면 비정상적인 키 입력이 발생할 수 있습니다. 가장 빠른 입력지점을 추구하려면 설정 값을 계속 조절해가면서 자신에게 맞는 빠르고 안정적인 입력지점을 찾는 것이 좋습니다.",
+    "hint_the_value_is_too_aggressive": "Since the switch and human hands cannot be absolutely stable, overly aggressive settings may result in abnormal key triggering. To pursue the limit, we recommend that you find an extreme but stable value that suits you by continuously increasing the value of the setting.",
+    "enable_rapid_trigger": "Enable Rapid Trigger",
     "rapid_trigger": {
-      "title": "래피드 트리거",
+      "title": "Rapid Trigger",
       "description": "After enabling Rapid Trigger, the trigger and reset position are no longer fixed, but dynamically adjusted as you press. This allows you to trigger or reset keys more quickly, which can be helpful in certain types of games.",
       "dynamic_reset_travel": {
-        "description": "래피드 트리거 모드에서는 키가 입력된 후 지정된 거리만큼 손을 떼면 입력해제됩니다.",
-        "title": "입력해제지점"
+        "description": "When in Rapid Trigger mode, if the key is triggered, reset as long as the specified distance is released.",
+        "title": "Dynamic reset travel"
       },
       "dynamic_trigger_travel": {
-        "description": "래피드 트리거 모드에서 키가 입력 해제 된 경우 지정된 거리를 누르면 트리거됩니다.",
-        "title": "재입력지점"
-      }
+        "description": "When in Rapid Trigger mode, if the key is not triggered, trigger as long as the specified distance is pressed.",
+        "title": "Dynamic trigger travel"
+      },
+      "hint_too_low_is_unstable": "If the values is set extremely low, even slight vibrations of the material during key presses may cause false triggers, which is more pronounced on larger keys like the Space."
     },
     "trigger_travel": {
-      "title": "입력지점"
+      "title": "Trigger travel",
+      "description": "The distance the key must be pressed down for it to trigger. Regardless of other settings, this option determines the distance the key must be pressed down after being fully reset to trigger again.",
+      "hint_too_low_is_meaningless": "Unless you are accustomed to fully releasing the key each time before pressing it again, setting this value very low is meaningless.",
+      "hint_too_low_is_unstable": "If the value is set extremely low, even slight vibrations of the material during key release may cause false triggers, which is especially noticeable on larger keys like the Space."
     },
     "rapid_trigger_in_full_travel": {
-      "title": "총 이동거리 중 래피드 트리거 작동 모드"
+      "title": "Rapid Trigger in full travel",
+      "description": "If enabled, Rapid Trigger mode will always active unless the key is fully released. If disabled, Rapid Trigger mode is only active between trigger travel, {{travel}}mm, to bottom."
     },
     "always_trigger_when_bottoming": {
-      "title": "바닥을 칠 때 항상 입력 모드"
-    }
+      "title": "Always trigger when bottoming",
+      "description": "Shaking a finger when pressing all the way down may cause the detected distance on the keyboard to change. The amount of change varies depending on the switch model. When enabled, bottoming out will consistently be treated as triggered to prevent incorrect resets."
+    },
+    "restore_to_use_global_settings": "Restore to \"Use global settings\"",
+    "overview": {
+      "description": {
+        "global": "The displayed settings are the settings of all keys that are set to \"Use global settings\". If you want to modify certain keys individually, select them first.",
+        "individual": "The displayed settings are the settings of selected keys."
+      }
+    },
+    "use_global_setting": "Use global settings",
+    "use_individual_setting": "Use individual settings"
+  },
+  "key_switch": {
+    "title": "Switch"
   },
   "key_test": {
-    "title": "테스트 키 코드",
-    "description": "컴퓨터에 입력된 키 입력 코드를 테스트합니다. 키 설정을 수정한 경우 수정된 값이 표출됩니다.",
+    "title": "Test the key code",
+    "description": "Tests the key code received by the operating system.",
     "test_matrix": {
-      "title": "입력 여부 테스트",
-      "description": "실제 키가 눌렸는지 테스트하며 키 매핑에 대해서는 테스트하지 않습니다. 이 옵션은 장치가 컴퓨터로 키 코드를 전송하기 전이기 때문에 디버깅에 유용합니다. 이 옵션은 기본적으로 비활성화되어 있으며 키보드에 저장되지 않습니다."
+      "title": "Test if the key is pressed",
+      "description": "Tests if a physical key has been pressed, nothing about key mapping. This is useful for debugging as it predates the device sending the key code to the operating system. This option is disabled by default and is not saved in the device."
     }
   },
   "unsupported_browser": {
-    "continue_button": "\"계속하기.\"",
-    "continue_description": "RAKKA 키보드 컨피규레이터의 기능을 이해하기 위해 계속 살펴볼 수도 있습니다. 하지만 페이지가 제대로 표시되지 않거나 키보드가 제대로 연결되지 않는 문제가 발생할 수 있습니다.",
-    "description": "RAKKA 키보드 컨피규레이터는 WebHID 및 일부 최신 기술을 사용하여 제작되었지만, 안타깝게도 현재 사용 중인 브라우저는 이러한 기술을 지원하지 않습니다. FireFox, Safari 등과 같은 브라우저는 WebHID를 지원하지 않으므로 지원되지 않습니다.",
-    "supported_browser": "지원 브라우저:",
-    "title": "지원되지 않는 브라우저를 사용하고 있습니다."
+    "continue_button": "I don't care, let me continue!",
+    "continue_description": "You can also choose to continue exploring RAKKA Keyboard Configurator in order to understand its features. However, you may encounter problems with pages not displaying properly, and you may not be able to connect a keyboard properly.",
+    "description": "RAKKA Keyboard Configurator is built using WebHID and some modern technologies, but unfortunately, the browser you are using does not support these technologies. Note that browsers such as FireFox, Safari, etc. are not supported as they do not support WebHID.",
+    "supported_browser": "Supported browsers:",
+    "title": "You are using an unsupported browser",
+    "other_possibly_supported_browser": "Other browsers based on Chromium {{ version }} ({{ date }}) (possibly supported)"
   },
   "contact": {
-    "title": "문의하기"
+    "title": "Contact us"
   },
   "help": {
-    "title": "도움말"
+    "title": "Help"
   },
   "switches": {
+    "series": "Series",
+    "hint_series": "This a series of switches, including multiple models.",
+    "button_set_selected_keys": "Set to selected keys",
     "metadata": {
-      "travel": "총 이동거리"
+      "travel": "Total travel",
+      "mm": "{{distance}}mm",
+      "initial_force": "Initial force",
+      "disclaimer": "Data comes from manufacturers’ public information",
+      "link": "Visit information webpage from the manufacturer"
+    },
+    "legacy": {
+      "title": "(Legacy)",
+      "description": "Used by early firmware version, only retained so as not to disrupt users' existing habits."
+    },
+    "gateron_ks20": {
+      "title": "Magnetic White Switch",
+      "title_short": "White",
+      "series_description": "Some other models of switches have the same parameters as it, including but not limited to Magnetic Orange Switch, and Wooting Lekker switches."
+    },
+    "gateron_ks20u": {
+      "title": "Dual-Rail Magnetic Switch",
+      "title_short": "Dual-Rail",
+      "series_description": "Some other models of switches have the same parameters as it, including but not limited to Dual-Rail Magnetic Orange Switch."
+    },
+    "gateron_ks20t": {
+      "title": "Magnetic Jade Switch",
+      "title_short": "Jade"
+    },
+    "gateron_ks20t_pro": {
+      "title": "Magnetic Jade Pro Switch",
+      "title_short": "Jade Pro"
+    },
+    "gateron_ks20t_max": {
+      "title": "Magnetic Jade MAX Switch",
+      "title_short": "Jade MAX"
+    },
+    "gateron_ks20t_gaming": {
+      "title": "Magnetic Jade Gaming Switch",
+      "title_short": "Jade Gaming"
+    },
+    "geon_raptor_he": {
+      "title": "Raptor HE Gaming Switch",
+      "title_short": "Raptor HE"
+    },
+    "geon_raw_he": {
+      "title": "Raw HE Switch",
+      "title_short": "Raw HE"
+    },
+    "ttc_king": {
+      "title": "King Magnetic Switch",
+      "title_short": "King"
+    },
+    "ttc_king_rgb": {
+      "title": "King Magnetic Switch RGB",
+      "title_short": "King RGB"
+    },
+    "ttc_uranus": {
+      "title": "Uranus Magnetic Switch",
+      "title_short": "Uranus"
+    },
+    "ttc_uranus_se": {
+      "title": "Uranus Magnetic Switch SE",
+      "title_short": "Uranus SE"
+    },
+    "ttc_uranus_gaming": {
+      "title": "Uranus Magnetic Switch GAMING",
+      "title_short": "Uranus GAMING"
     }
+  },
+  "manufacturer": {
+    "gateron": "GATERON",
+    "ttc": "TTC",
+    "geonworks": "GEONWORKS"
   },
   "choose_switch": {
-    "title": "스위치를 고르세요.",
-    "continue": "계속",
+    "title": "Choose switch",
+    "continue": "Continue",
     "confirm_dialog": {
-      "title": "{{switch_name}}로 바뀝니다.",
-      "content": "설정 후 키보드가 {{switch_name}}에 따라 재보정됩니다. 몇 초 동안 키를 만지지 마세요.<p>스위치를 재설치할 때 스위치가 단단히 고정되지 않은 경우(즉, 스위치와 PCB 사이에 여전히 거리가 있는 경우) 거리 감지가 잘못되어 키보드를 분해하고 스위치를 재장착 해야 할 수 있습니다.<p>키의 잘못된 트리거를 방지하려면 스위치 교체 전에 키보드에서 USB 연결을 분리할 것을 권장합니다."
+      "title": "Change to {{switch_name}}?",
+      "content": "<p>The selected keys will be recalibrated according to {{switch_name}}. <b>Please do not touch the keys for a few seconds</b>.</p><p><b>If the switches triggers abnormally, please read the cautions on the left.</b></p>"
     },
-    "hint_success": "스위치 교체 성공.",
-    "hint_failed": "스위치 교체 실패.",
-    "hint_same_switch": "이미 {{switch_name}} 스위치가 설정되어 있습니다..",
-    "current": "현재"
-  },
-  "ok": "확인",
-  "cancel": "취소",
-  "wizard": {
-    "title": "브라우저에서 디바이스 연결을 허용합니다.",
-    "description": "아래 버튼을 클릭하면 브라우저의 주소 표시줄 아래에 대화 상자가 표시됩니다(예시 참조). 목록에서 장치 이름을 클릭하여 장치를 선택한 다음 \"Connect\"을 클릭합니다.",
-    "example": {
-      "title": "예시",
-      "dialog": {
-        "title": "{{hostname}}이 HID 장치에 연결하려고 합니다.",
-        "connect": "연결",
-        "cancel": "취소"
-      },
-      "hint_1": "1. 디바이스 이름을 클릭합니다.",
-      "hint_2": "2. 클릭 \"Connect\""
+    "hint_success": "Switch changed successfully.",
+    "hint_failed": "Failed to change switch.",
+    "hint_same_switch": "The switch is already {{switch_name}}.",
+    "current": "Current",
+    "hint_choose_switch_for_key_requires_firmware_update": {
+      "title": "Changing the switch will affect all the keys",
+      "description": "Your firmware version is too low to support different switches for different keys. No matter which keys you choose, it will affect all the keys."
+    },
+    "hint_no_keys_selected": "Please choose the keys you want to change the switch first.",
+    "hint_all_keys_has_same_switch": "All the keys uses {{ switch }}.",
+    "hint_most_keys_switch": "Most of the keys uses {{ switch }}.",
+    "hint_other_keys_switch": "{{ keys }} uses {{ switch }}.",
+    "changing_switch_on_soft_plate_warning": {
+      "title": "To replace the switch yourself…",
+      "description": "<p><b>Hall Effect keyboards require the switches to be securely fixed on the PCB</b>. Otherwise, it will lead to false triggers and resets.</p><p><b>Please ensure that the switches are firmly installed</b>, and if necessary, disassemble the internal components to press them tightly into place.</p><p><b>DO NOT use plates made of soft materials or those with slots</b>.</p><p>This is because newer switches usually have thinner pins, which will not fit securely into the holes on the PCB. With such plates, the switch will essentially be floating above the PCB, causing serious incorrect readings.</p>"
     }
-  }
+  },
+  "ok": "OK",
+  "cancel": "Cancel",
+  "close": "Close",
+  "continue": "Continue",
+  "wizard": {
+    "title": "Allow the browser to connect the device",
+    "description": "Click on the button below and your browser will show a dialog below the address bar (as shown in the example). Click on the device name in the list to select the device and then click \"Connect\".",
+    "example": {
+      "title": "Example",
+      "dialog": {
+        "title": "{{hostname}} wants to connect to a HID device",
+        "connect": "Connect",
+        "cancel": "Cancel"
+      },
+      "hint_1": "1. Click on the device name",
+      "hint_2": "2. Click \"Connect\""
+    },
+    "replug_hint": "If you cannot see your device or it keeps connecting, replug the device and try again.",
+    "cannot_connect_button": "I still cannot connect my device",
+    "cannot_connect_hint_firmware_update_failed": "If your device is accidentally disconnected or fails during the firmware upgrade process, it will stay in Recovery mode. Different devices will use different ways to indicate that they are in recovery mode, such as a solid indicator light. Don't panic, you can recover by updating the firmware again."
+  },
+  "profile": {
+    "title": "Profiles",
+    "current": "{{name}} (current)",
+    "standalone_keymap": {
+      "title": "Standalone keymap",
+      "description": "When on, this profile has independent key mapping settings. When off, this profile uses the keymap settings of profile 1."
+    },
+    "builtin": {
+      "unnamed": "Profile {{index}}",
+      "typing_profile": "Typing profile",
+      "gaming_profile": "Gaming profile"
+    },
+    "rename": {
+      "title": "Rename",
+      "description": "Rename profile #{{index}}",
+      "hint_empty": "The profile name cannot be empty.",
+      "hint_too_long": "The profile name can be up to {{ length }} characters long."
+    },
+    "how_to_switch": {
+      "title": "How to switch profile",
+      "description": "<b>Switch the profile used by the keyboard</b>: In Keymap, bind keys in Profile category to the location you want, then press the key on the keyboard. On some keyboards, the default \"Layer 1\" + QWER is to switch profile 1234. <p><b>Edit Profile</b>: Click the profile you want to edit."
+    },
+    "hint_keyboard_current_profile": "The keyboard is currently on this profile",
+    "hint_keyboard_switch_profile": "Under your remap settings, press {{ combination }} can switch to this profile",
+    "hint_profile_key_not_found": "The key to switch to this profile is not found, you can bind the profile key to the location you want",
+    "on_board_profiles": "On-board profiles",
+    "configure_profile": "Configure #{{ index }} {{ profile }}",
+    "hint_editing_profile_changes_for_keyboard_profile": "Due to a change in the configuration profile currently in use by the keyboard, the profile being edited has been switched."
+  },
+  "dark_mode": {
+    "dark_mode": "Dark mode",
+    "light_mode": "Light mode",
+    "follow_system": "Follow system"
+  },
+  "color_theme": {
+    "title": "Theme",
+    "preset": "Preset",
+    "pick_a_color": "Pick a color"
+  },
+  "device_management": {
+    "title": "My devices",
+    "current_device": "Current device",
+    "paired": "Paired",
+    "connected": "Connected",
+    "disconnected": "Disconnected",
+    "connect_to_new_device": "Connect to a new device"
+  },
+  "pwa": {
+    "app_ready_to_work_offline": "RAKKA Keyboard Configurator is ready to use offline",
+    "update_available": "RAKKA Keyboard Configurator has a new version available",
+    "reload": "Reload"
+  },
+  "enabled": "Enabled",
+  "disabled": "Disabled",
+  "lighting": {
+    "base_fx": "Base effect",
+    "indicators": "Indicators",
+    "choose_base_fx": "Choose base effect",
+    "overlay_fx": "Overlay effect",
+    "choose_overlay_fx": "Choose overlay effect",
+    "brightness": "Brightness",
+    "speed": "Speed",
+    "time": "Time",
+    "scale": "Scale",
+    "style": "Style",
+    "min_brightness": "Min brightness",
+    "windows_dynamic_lighting": {
+      "title": "Windows Dynamic Lighting",
+      "description": {
+        "title": "What is Windows Dynamic Lighting?",
+        "content": "Windows Dynamic Lighting allows you to control all supported keyboards, mice, and other peripherals in Windows settings or third-party control programs to achieve a unified lighting style. This feature is available on Windows 11 23H2 or later.",
+        "for_more_info": "For more information, please visit {{support_page}}.",
+        "microsoft_support_page": "Microsoft support page",
+        "microsoft_support_page_link": "https://support.microsoft.com/en-us/windows/control-your-dynamic-lighting-devices-in-windows-8e8f22e3-e820-476c-8f9d-9ffc7b6ffcd2"
+      },
+      "hint_not_supported": "It seems that Windows Dynamic Lighting is not supported on your system.",
+      "hint_support": "Windows Dynamic Lighting is supported on your system.",
+      "hint_disabled": "Windows Dynamic Lighting is disabled."
+    },
+    "hint_static_is_override": "This effect has its own color which will override the color you set.",
+    "fx": {
+      "none": {
+        "title": "None"
+      },
+      "static": {
+        "title": "Static"
+      },
+      "wave": {
+        "title": "Wave"
+      },
+      "cycle": {
+        "title": "Cycle"
+      },
+      "windows_dynamic_lighting": {
+        "title": "Windows Dynamic Lighting"
+      },
+      "enforce_indicator_on_profile_change": {
+        "title": "Enforce indicators on profile change",
+        "description": "Forces indicators (such as the CapsLock indicator) to turn on within a few seconds after a profile change. By setting different indicator lights for different profiles, you can distinguish which profile is the current one."
+      },
+      "breath": {
+        "title": "Breath"
+      },
+      "inherit": {
+        "title": "Follow primary scope",
+        "description": "Lighting will follow scope {{ scope }}."
+      }
+    },
+    "animation": {
+      "rainbow": "Rainbow",
+      "ocean": "Ocean"
+    },
+    "direction": {
+      "title": "Direction",
+      "forward": "Forward",
+      "backward": "Backward"
+    }
+  },
+  "swift_flow": {
+    "title": "Swift Flow",
+    "description": "{{name}} provides additional mechanisms to determine whether a key is triggered. First, {{trigger_travel}} or {{rapid_trigger}} determines whether the key is pressed, and then {{name}} determines whether the key should be triggered. Note that if the key matches the reset condition of {{trigger_travel}} or {{rapid_trigger}}, the button will always be reset.",
+    "combination": "Combination {{index}}",
+    "enable": "Enable this combination",
+    "set_as_selected": "Set as selected keys",
+    "hint_select_two_keys": "Please select two keys at the keyboard above.",
+    "hint_no_keys_selected": "This combination will not works since keys are not selected yet.",
+    "hint_last_input_banned": "\"{{priority}}\" has been banned by {{games}} because it is considered as automation. To avoid violations, please do not use it.",
+    "priority": {
+      "title": "Priority",
+      "depth": {
+        "title": "Depth priority",
+        "description": "If both keys are pressed, only trigger the key that pressed deeper."
+      },
+      "last_input": {
+        "title": "Last input priority",
+        "description": "Only trigger the key that was pressed later."
+      },
+      "absolute": {
+        "title": "Absolute priority ({{key}})",
+        "description": "If {{keyA}} is pressed, {{keyB}} will never trigger no matter it is pressed or not."
+      },
+      "neutral": {
+        "title": "Neutral",
+        "description": "If both of the keys are pressed, trigger none of them."
+      }
+    },
+    "depth_priority_sensitivity": {
+      "title": "Depth priority sensitivity",
+      "description": "The threshold for determining whether the pressing depth of one key exceeds that of another. This is to avoid the key being triggered repeatedly when the pressing depth is very close."
+    },
+    "requires_full_cycle": {
+      "title": "Requires full cycle",
+      "description": "If a triggered key is reset by this function, the key must first be released to the point where it is no longer considered pressed before it can be triggered by pressing it again."
+    }
+  },
+  "about": {
+    "title": "About",
+    "description": "RAKKA Keyboard Configurator is a web-based tool for configuring your RAKKA devices.",
+    "version": "Version {{version}}",
+    "date": "Build at {{date}}",
+    "all_rights_reserved": "All rights reserved."
+  },
+  "settings": "Settings",
+  "expand": "Expand",
+  "collapse": "Collapse",
+  "layer": {
+    "base": "Base layer",
+    "others": "Layer {{layer}}"
+  },
+  "window_too_small": {
+    "title": "Oops, it’s too small!",
+    "description1": "Your browser window size is too small to display all content.",
+    "description2": "Please try adjusting the window size and zoom ratio.",
+    "button": "I don't care, you calculated it wrong!"
+  },
+  "select_all": "Select all",
+  "discard_selection": "Discard selection",
+  "hint_firmware_version_too_low": "Your firmware version is too low to support this feature.",
+  "devices": {
+    "default": {
+      "name": "Default"
+    },
+    "rakka_80_edge": {
+      "lighting_scopes": {
+        "keys": "Keys",
+        "sidebar": "Sidebars",
+        "logo": "Logo"
+      }
+    }
+  },
+  "something_went_wrong": "Something went wrong"
 }
