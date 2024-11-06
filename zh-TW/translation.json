@@ -9,12 +9,12 @@
     "momentary_layer": {
       "description": "按下按鍵時臨時開啟層 {{layer}}"
     },
-    "toggle_layer": {
-      "description": "永久開啟或關閉層 {{layer}}"
-    },
     "profile": {
       "text": "设定档 {{profile}}",
       "description": "切换到设定档 {{profile}}"
+    },
+    "toggle_layer": {
+      "description": "永久開啟或關閉層 {{layer}}"
     },
     "bottom_layer": {
       "description": "設置層 {{layer}} 為默認層（最底層）"
@@ -280,7 +280,10 @@
       "hint_device_not_connected": "（設備未連接）",
       "host_operation_system": "主機操作系統（由設備獲取）",
       "os": {
-        "unknown": "未知"
+        "linux": "Linux",
+        "macos": "macOS",
+        "unknown": "未知",
+        "windows": "Windows"
       }
     },
     "log": {
@@ -306,9 +309,11 @@
       "stable": "穩定版",
       "beta": "Beta",
       "dev": "Dev",
+      "nightly": "Nightly",
       "previous": "前一個穩定版"
     },
     "dev_channel_warning": "Dev 通道的固件包含了最新的功能，但只經過了簡單測試。如果您不知道如何處理問題，請不要使用。",
+    "nightly_channel_warning": "The nightly channel firmware contains the real latest changes, but only the developer tests it very roughly. NOT for normal uses.",
     "version": "版本",
     "release_time": "發佈時間",
     "changelog": "更新日誌",
@@ -414,12 +419,6 @@
   "performance": {
     "hint_the_value_is_too_aggressive": "由於軸體和人手不可能絕對穩定，過於激進的設置可能會導致按鍵觸發異常。若要追求極限，我們建議您通過不斷增加設定的數值來找到一個合適自己的極限但穩定的數值。",
     "enable_rapid_trigger": "啟用快速觸發",
-    "trigger_travel": {
-      "title": "觸發行程",
-      "description": "按鍵觸發所需的按壓距離。不論其他選項如何設置，此選項決定了按鍵在完全重置後再次觸發需要按下的距離。",
-      "hint_too_low_is_meaningless": "除非您習慣於每次都完全鬆開按鍵後再按下，否則將此值設置得很低是沒有意義的。",
-      "hint_too_low_is_unstable": "如果將數值設置得極端的低，按鍵回彈時材料本身的輕微震動都可能會引發誤觸發，在空格鍵等大鍵上更為明顯。"
-    },
     "rapid_trigger": {
       "title": "快速觸發",
       "description": "開啟快速觸發後，按鍵的觸發和重置不再是一個固定的距離，而是在您按壓的過程中動態調整。這可以讓您更快地觸發或重置按鍵。在特定類型的遊戲中很有幫助。",
@@ -432,6 +431,12 @@
         "title": "動態觸發行程"
       },
       "hint_too_low_is_unstable": "如果將數值設置得極端的低，按鍵時材料本身的輕微震動都可能會引發誤觸發，在空格鍵等大鍵上更為明顯。"
+    },
+    "trigger_travel": {
+      "title": "觸發行程",
+      "description": "按鍵觸發所需的按壓距離。不論其他選項如何設置，此選項決定了按鍵在完全重置後再次觸發需要按下的距離。",
+      "hint_too_low_is_meaningless": "除非您習慣於每次都完全鬆開按鍵後再按下，否則將此值設置得很低是沒有意義的。",
+      "hint_too_low_is_unstable": "如果將數值設置得極端的低，按鍵回彈時材料本身的輕微震動都可能會引發誤觸發，在空格鍵等大鍵上更為明顯。"
     },
     "rapid_trigger_in_full_travel": {
       "title": "全行程快速觸發",
@@ -493,44 +498,63 @@
     },
     "gateron_ks20": {
       "title": "磁白軸",
+      "title_short": "White",
       "series_description": "其他一些型號的軸體與它參數相同，包括但不限於磁橙軸、Wooting Lekker 軸。"
     },
     "gateron_ks20u": {
       "title": "雙軌磁軸",
+      "title_short": "Dual-Rail",
       "series_description": "其他一些型號的軸體與它參數相同，包括但不限於雙軌磁橙軸。"
     },
     "gateron_ks20t": {
-      "title": "磁玉軸"
+      "title": "磁玉軸",
+      "title_short": "Jade"
     },
     "gateron_ks20t_pro": {
-      "title": "磁玉 PRO"
+      "title": "磁玉 PRO",
+      "title_short": "Jade Pro"
     },
     "gateron_ks20t_max": {
-      "title": "磁玉 MAX"
+      "title": "磁玉 MAX",
+      "title_short": "Jade MAX"
     },
     "gateron_ks20t_gaming": {
-      "title": "磁玉 Gaming"
+      "title": "磁玉 Gaming",
+      "title_short": "Jade Gaming"
+    },
+    "geon_raptor_he": {
+      "title": "Raptor HE Gaming Switch",
+      "title_short": "Raptor HE"
+    },
+    "geon_raw_he": {
+      "title": "Raw HE Switch",
+      "title_short": "Raw HE"
     },
     "ttc_king": {
-      "title": "萬磁王軸"
+      "title": "萬磁王軸",
+      "title_short": "King"
     },
     "ttc_king_rgb": {
-      "title": "萬磁王軸 RGB"
+      "title": "萬磁王軸 RGB",
+      "title_short": "King RGB"
     },
     "ttc_uranus": {
-      "title": "天王磁軸"
+      "title": "天王磁軸",
+      "title_short": "Uranus"
     },
     "ttc_uranus_se": {
-      "title": "天王磁軸 SE"
+      "title": "天王磁軸 SE",
+      "title_short": "Uranus SE"
     },
     "ttc_uranus_gaming": {
-      "title": "天王磁軸電競版"
+      "title": "天王磁軸電競版",
+      "title_short": "Uranus GAMING"
     }
   },
   "manufacturer": {
     "gateron": "佳達隆",
     "ttc": "TTC",
-    "geon": "GEONWORKS"
+    "geonworks": "GEONWORKS"
   },
   "choose_switch": {
     "title": "選擇軸體",
@@ -670,6 +694,9 @@
       "cycle": {
         "title": "循環"
       },
+      "windows_dynamic_lighting": {
+        "title": "Windows Dynamic Lighting"
+      },
       "enforce_indicator_on_profile_change": {
         "title": "设定档變化時強制打開指示燈",
         "description": "设定档改變後，在數秒內強制打開指示燈（例如 CapsLock 指示燈）。通過給不同的设定档設置不同的指示燈顏色，可以區分哪個设定档是當前的。"
@@ -691,13 +718,6 @@
       "forward": "正向",
       "backward": "反向"
     }
-  },
-  "about": {
-    "title": "關於",
-    "description": "RAKKA Keyboard Configurator 是一個基於 Web 的用於设定档您的 RAKKA 設備的工具。",
-    "version": "版本 {{version}}",
-    "date": "構建於 {{date}}",
-    "all_rights_reserved": "保留所有權利。"
   },
   "swift_flow": {
     "title": "Swift Flow",
@@ -735,6 +755,13 @@
       "title": "需要完整循環",
       "description": "如果一個已被觸發按鍵因為此功能變為重置，則該按鍵需首先抬起到不被認為是按下的，才能在之後通過再次按下而觸發。"
     }
+  },
+  "about": {
+    "title": "關於",
+    "description": "RAKKA Keyboard Configurator 是一個基於 Web 的用於设定档您的 RAKKA 設備的工具。",
+    "version": "版本 {{version}}",
+    "date": "構建於 {{date}}",
+    "all_rights_reserved": "保留所有權利。"
   },
   "settings": "設置",
   "expand": "展開",
