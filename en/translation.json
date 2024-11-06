@@ -180,9 +180,7 @@
     "title": {
       "demo_mode_format": "Demo mode",
       "device_connected_format": "Device connected",
-      "device_not_connected": "Device not connected",
-      "bad_cable": "One possible reason could be the use of a low-quality USB cable, which may cause an unstable connection or reduced connection speed (preventing the device from operating at USB 2.0 high speed).",
-      "contact_us": "If the issue persists, please email us at {{ email }} for assistance."
+      "device_not_connected": "Device not connected"
     }
   },
   "calibration": {
@@ -302,7 +300,9 @@
       "upgrade_was_interrupted": "The upgrade process was interrupted. Please replug the device and try again.",
       "firmware_interrupted": "The firmware upgrade was interrupted. Please replug the device and try again.",
       "unknown_error": "Unknown error ({{code}}).",
-      "device_not_connected": "Device not connected or the device is already in recovery mode."
+      "device_not_connected": "Device not connected or the device is already in recovery mode.",
+      "bad_cable": "One possible reason could be the use of a low-quality USB cable, which may cause an unstable connection or reduced connection speed (preventing the device from operating at USB 2.0 high speed).",
+      "contact_us": "If the issue persists, please email us at {{ email }} for assistance."
     },
     "choose_firmware": "Choose firmware",
     "channel": {
@@ -375,6 +375,7 @@
     "key": "Key",
     "combination": {
       "modifier": {
+        "all": "Modifiers",
         "left": "Left Modifiers",
         "right": "Right Modifiers"
       },
