@@ -1,0 +1,295 @@
+{
+  "action": {
+    "transparent": {
+      "description": "하위 레이어에의 키를 그대로 사용 합니다."
+    },
+    "layer": {
+      "text": "{{layer}}번 레이어"
+    },
+    "momentary_layer": {
+      "description": "해당 키가 입력되고 있는 동안 임시로 {layer}}번 레이어로 바뀝니다."
+    },
+    "profile": {
+      "text": "프로파일 {{profile}}",
+      "description": "프로파일을 바꿉니다. {{profile}}"
+    },
+    "toggle_layer": {
+      "description": "해당 키를 누를 때 마다 {{layer}}번 레이어를 켜고 끌 수 있습니다."
+    },
+    "bottom_layer": {
+      "description": "{{layer}}번 레이어를 기본 레이어로 설정 합니다."
+    },
+    "layer_tap": {
+      "description": "짧게 누르면 {{key}}키가 , 길게 누르면 {{layer}}레이어가 활성화 됩니다."
+    },
+    "mod_tap": {
+      "description": "짧게 누르면 {{key}}키가, 길게 누르면 {{modifiers}}모드 키가 입력 됩니다."
+    },
+    "key_tap": {
+      "description": "짧게 누르면 {{tapKey}}키가, 길게 누르면 {{holdKey}}키가 입력 됩니다."
+    }
+  },
+  "appbar": {
+    "button": {
+      "dark_mode": "다크 모드",
+      "language": "언어",
+      "settings": "설정"
+    },
+    "title": {
+      "demo_mode_format": "데모 모드",
+      "device_connected_format": "장치가 연결 되었습니다.",
+      "device_not_connected": "장치가 연결되지 않았습니다."
+    }
+  },
+  "calibration": {
+    "button": {
+      "abort": "중단",
+      "finish": "완료",
+      "start": "시작"
+    },
+    "do_i_need_calibration": {
+      "message": "필수는 아닙니다. 캘리브레이션은 자력 세기가 다른 스위치를 교체할 때 필요합니다.",
+      "title": "캘리브레이션이 필요한가요?"
+    },
+    "how_to_calibrate": {
+      "message": "캘리브레이션이 필요한 키를 선택하고 시작 버튼을 클릭합니다.\n키를 끝까지 눌렀다가 놓습니다.\n보정 시작 후에 표시되는 완료 버튼을 클릭하여 보정 결과를 저장합니다.",
+      "title": "캘리브레이션은 어떻게 하나요?"
+    },
+    "tooltip": "Initial: {{top}}\nBottom: {{bottom}}"
+  },
+  "connect": {
+    "button": {
+      "communicating": "키보드와 통신하기.",
+      "connect": "장치에 연결",
+      "requesting": "장치에 연결 요청하기…"
+    },
+    "hint": {
+      "device_is_in_use": "장치가 사용 중입니다. 다른 웹 페이지나 앱에서 디바이스를 연결했는지 확인하세요..",
+      "no_device_selected": "장치가 없습니다.<br><br>폼폼보드를 비롯한 v0.4.0 이하의 펌웨어를 사용하는 다른 장치들은 {{ legacy_site }}.",
+      "no_webhid_support": "브라우저가 WebHID를 지원하지 않습니다. 최신 버전의 Chrome 또는 Edge 브라우저를 사용하세요..",
+      "legacy_site": "구버전 웹사이트를 이용해 주세요"
+    }
+  },
+  "debug": {
+    "hint_hurt_performance": "이 탭을 계속 사용하면 성능에 영향을 줄 수 있습니다. 키보드 동작을 관찰하려면 장치 탭의 로그를 확인하는 것이 좋습니다..",
+    "re_initialize": {
+      "message": "전원을 켤 때 수행해야 하는 단계(캘리브레이션을 포함)를 다시 실행하고, 스위치가 설치되어 있는지 확인합니다. 여러 레이아웃을 지원하는 키보드의 경우 설치된 레이아웃도 다시 확인합니다.",
+      "title": "초기화",
+      "warning": "초기화를 시작한 후 몇 초 동안은 키를 입력하지 마세요.."
+    },
+    "start": "시작",
+    "enable_log": {
+      "title": "로그 작동",
+      "description": "결과값을 디바이스탭의 로그로 보냅니다. 문제의 수정을 쉽게 할 수 있습니다. 디바이스 탭의 로그 메뉴를 확인하세요. 이 옵션은 사용하지 않는것이 기본값이며, 옵션 사용 유무는 저장되지 않습니다."
+    }
+  },
+  "demo_mode": {
+    "device": {
+      "dummy_75": "75% 키보드 예시"
+    },
+    "title": "데모 모드",
+    "tooltip": "해당 장치의 기능을 이해할 수 있도록 시뮬레이션 장치를 연결합니다.."
+  },
+  "device": {
+    "information": {
+      "title": "정보",
+      "connection_speed": "연결 속도",
+      "connection_speeds": {
+        "full_speed": "USB 2.0 Full Speed",
+        "high_speed": "USB 2.0 High Speed",
+        "low_speed": "USB 1.1 Low Speed"
+      },
+      "developer": "개발자",
+      "device_name": "장치 이름",
+      "firmware_version": "펌웨어 버전",
+      "hint_device_not_connected": "(장치가 연결되지 않았습니다.)",
+      "host_operation_system": "운영체제 (장치에서 가져옴)",
+      "os": {
+        "linux": "Linux",
+        "macos": "macOS",
+        "unknown": "알수 없음",
+        "windows": "Windows"
+      }
+    },
+    "log": {
+      "title": "로그"
+    }
+  },
+  "firmware": {
+    "firmware_upgrade": "펌웨어 업그레이드",
+    "step_choose_firmware_file": {
+      "button": {
+        "reselect_file": "다른 파일을 선택하세요.",
+        "select_file": "파일을 선택하세요."
+      },
+      "description": "먼저 업그레이드하려는 펌웨어 파일을 선택해야 합니다.",
+      "title": "펌웨어 파일 선택"
+    },
+    "step_confirm": {
+      "button": {
+        "abort": "중단",
+        "start": "시작"
+      },
+      "description": "장치마다 부트 로더 모드에 진입했음을 표시하는 방식(예: 조명, 화면 등)이 다릅니다...",
+      "description_abort": "\"중단\" 버튼을 누르면 장치가 일반 모드로 재부팅됩니다.",
+      "description_start": "\"시작\" 버튼을 클릭하면 다시 장치를 연결하라는 메시지가 표시됩니다. 연결이 확인되면 펌웨어 업그레이드가 시작됩니다. 업그레이드하는 동안 페이지를 닫거나 장치의 USB 연결을 분리하지 마세요."
+    },
+    "step_preview_firmware": {
+      "title": "선택한 펌웨어 정보",
+      "update_date": "업데이트 날짜",
+      "version": "버전"
+    },
+    "step_reboot_to_bootloader": {
+      "button": {
+        "reboot": "장치를 부트 로더 모드로 재부팅합니다."
+      },
+      "description": "펌웨어 업그레이드를 시작하려면 장치를 부트 로더 모드로 재부팅해야 합니다.",
+      "description_if_the_device_is_connected": "이미 장치에 연결되어 있다면 아래 버튼을 클릭하세요.",
+      "description_worst_situation": "최악의 경우(예: 장치가 유저의 요청에 제대로 응답하지 않는 경우)에는 장치 PCB 뒷면의 부트 로더 버튼을 누른 상태에서 USB에서 장치를 분리하고 다시 USB 케이블을 연결하는 것이 부트 로더 모드로 들어가는 마지막 수단입니다. 이 작업을 수행하려면 키보드를 분해해야 합니다."
+    },
+    "step_upgrading": {
+      "description": "페이지를 닫거나 장치의 USB 연결을 분리하지 마세요.",
+      "title": "펌웨어 업그레이드"
+    }
+  },
+  "keyboard": {
+    "keycount": {
+      "button": "전체 선택 해제",
+      "selected_one": "{{count}} 개의 키가 선택되었습니다.",
+      "selected_other": "{{count}} 개의 키들이 선택되었습니다."
+    },
+    "layer": "레이어",
+    "tab": {
+      "calibration": "캘리브레이션",
+      "debug": "디버그",
+      "device": "장치",
+      "keymap": "키맵",
+      "performance": "트리거 설정",
+      "key-test": "키 테스트"
+    }
+  },
+  "keymap": {
+    "type": "타입: {{type}}",
+    "hint_no_keys_selected": "먼저 재설정할 키를 선택하세요.",
+    "hint_combo_is_empty": "콤보에 사용할 키 또는 모드 키를 하나 이상 선택해 주세요.",
+    "hint_tap_hold_hold_is_empty": "홀드 키를 설정하세요.",
+    "hint_tap_hold_key_not_supported": "이 설정을 사용하려면 최신 버전의 펌웨어가 필요합니다.",
+    "hint_tap_hold_tap_is_not_valid": "탭 키에는 일반 키만 설정 할 수 있습니다.",
+    "hint_tap_hold_key_is_same": "탭 키와 홀드 키에 동일한 키를 동시에 설정 할 수 없습니다.",
+    "combination": {
+      "modifier": {
+        "left": "좌측 모드 키",
+        "right": "우측 모드 키"
+      },
+      "name": "콤보",
+      "summary": "원하는 키 조합을 하나의 키에 설정할 수 있습니다.",
+      "text": "키 조합은 모드 키(예: Ctrl, Shift)와 일반 키의 조합입니다."
+    },
+    "dynamic": {
+      "limit": "이 키에 대한 구성을 더 추가할 수 없습니다.",
+      "name": "다이나믹 키",
+      "placeholder": "아래에서 키를 선택하여 구성에 추가합니다."
+    },
+    "normal": {
+      "name": "일반",
+      "summary": "일반적인 키 설정입니다.",
+      "text": "다시 설정하려는 키를 선택하고 아래 창에서 원하는 키를 클릭합니다.",
+      "types": {
+        "basic": "기본",
+        "extension": "확장",
+        "layer": "레이어",
+        "profile": "프로파일",
+        "system": "시스템"
+      }
+    },
+    "tap_hold": {
+      "hold": "홀드",
+      "name": "탭-홀드",
+      "tap": "탭",
+      "summary": "설정을 통해 효율적인 키보드 사용이 가능합니다.",
+      "text": "탭키와 홀드키는 서로 다른 키로 설정해야 합니다. <p> 레이어를 전환하는 키를 홀드 키에 지정하여 키보드의 가능성을 크게 확장할 수 있습니다. <p><b> 홀드 키 입력을 확인하는 데 시간이 걸리므로 \"tap\" 키가 트리거되는 속도가 일반 키보다 느려집니다. 탭-홀드 키에 래피드 트리거를 활성화하고 리셋 거리를 낮추면 성능이 향상되지만 여전히 일반 키만큼 좋지는 않습니다.</b>"
+    },
+    "toggle": {
+      "name": "토글 키"
+    }
+  },
+  "performance": {
+    "hint_no_keys_selected": "수정 사항은 모든 키에 적용됩니다. 원하는 키만을 개별적으로 수정하려면 먼저 해당 키를 선택해야 합니다.",
+    "hint_the_value_is_too_aggressive": "스위치와 사람의 손은 절대적으로 안정적일 수 없으므로 지나치게 민감하게 설정하면 비정상적인 키 입력이 발생할 수 있습니다. 가장 빠른 입력지점을 추구하려면 설정 값을 계속 조절해가면서 자신에게 맞는 빠르고 안정적인 입력지점을 찾는 것이 좋습니다.",
+    "rapid_trigger": {
+      "title": "래피드 트리거",
+      "description": "After enabling Rapid Trigger, the trigger and reset position are no longer fixed, but dynamically adjusted as you press. This allows you to trigger or reset keys more quickly, which can be helpful in certain types of games.",
+      "dynamic_reset_travel": {
+        "description": "래피드 트리거 모드에서는 키가 입력된 후 지정된 거리만큼 손을 떼면 입력해제됩니다.",
+        "title": "입력해제지점"
+      },
+      "dynamic_trigger_travel": {
+        "description": "래피드 트리거 모드에서 키가 입력 해제 된 경우 지정된 거리를 누르면 트리거됩니다.",
+        "title": "재입력지점"
+      }
+    },
+    "trigger_travel": {
+      "title": "입력지점"
+    },
+    "rapid_trigger_in_full_travel": {
+      "title": "총 이동거리 중 래피드 트리거 작동 모드"
+    },
+    "always_trigger_when_bottoming": {
+      "title": "바닥을 칠 때 항상 입력 모드"
+    }
+  },
+  "key_test": {
+    "title": "테스트 키 코드",
+    "description": "컴퓨터에 입력된 키 입력 코드를 테스트합니다. 키 설정을 수정한 경우 수정된 값이 표출됩니다.",
+    "test_matrix": {
+      "title": "입력 여부 테스트",
+      "description": "실제 키가 눌렸는지 테스트하며 키 매핑에 대해서는 테스트하지 않습니다. 이 옵션은 장치가 컴퓨터로 키 코드를 전송하기 전이기 때문에 디버깅에 유용합니다. 이 옵션은 기본적으로 비활성화되어 있으며 키보드에 저장되지 않습니다."
+    }
+  },
+  "unsupported_browser": {
+    "continue_button": "\"계속하기.\"",
+    "continue_description": "RAKKA 키보드 컨피규레이터의 기능을 이해하기 위해 계속 살펴볼 수도 있습니다. 하지만 페이지가 제대로 표시되지 않거나 키보드가 제대로 연결되지 않는 문제가 발생할 수 있습니다.",
+    "description": "RAKKA 키보드 컨피규레이터는 WebHID 및 일부 최신 기술을 사용하여 제작되었지만, 안타깝게도 현재 사용 중인 브라우저는 이러한 기술을 지원하지 않습니다. FireFox, Safari 등과 같은 브라우저는 WebHID를 지원하지 않으므로 지원되지 않습니다.",
+    "supported_browser": "지원 브라우저:",
+    "title": "지원되지 않는 브라우저를 사용하고 있습니다."
+  },
+  "contact": {
+    "title": "문의하기"
+  },
+  "help": {
+    "title": "도움말"
+  },
+  "switches": {
+    "metadata": {
+      "travel": "총 이동거리"
+    }
+  },
+  "choose_switch": {
+    "title": "스위치를 고르세요.",
+    "continue": "계속",
+    "confirm_dialog": {
+      "title": "{{switch_name}}로 바뀝니다.",
+      "content": "설정 후 키보드가 {{switch_name}}에 따라 재보정됩니다. 몇 초 동안 키를 만지지 마세요.<p>스위치를 재설치할 때 스위치가 단단히 고정되지 않은 경우(즉, 스위치와 PCB 사이에 여전히 거리가 있는 경우) 거리 감지가 잘못되어 키보드를 분해하고 스위치를 재장착 해야 할 수 있습니다.<p>키의 잘못된 트리거를 방지하려면 스위치 교체 전에 키보드에서 USB 연결을 분리할 것을 권장합니다."
+    },
+    "hint_success": "스위치 교체 성공.",
+    "hint_failed": "스위치 교체 실패.",
+    "hint_same_switch": "이미 {{switch_name}} 스위치가 설정되어 있습니다..",
+    "current": "현재"
+  },
+  "ok": "확인",
+  "cancel": "취소",
+  "wizard": {
+    "title": "브라우저에서 디바이스 연결을 허용합니다.",
+    "description": "아래 버튼을 클릭하면 브라우저의 주소 표시줄 아래에 대화 상자가 표시됩니다(예시 참조). 목록에서 장치 이름을 클릭하여 장치를 선택한 다음 \"Connect\"을 클릭합니다.",
+    "example": {
+      "title": "예시",
+      "dialog": {
+        "title": "{{hostname}}이 HID 장치에 연결하려고 합니다.",
+        "connect": "연결",
+        "cancel": "취소"
+      },
+      "hint_1": "1. 디바이스 이름을 클릭합니다.",
+      "hint_2": "2. 클릭 \"Connect\""
+    }
+  }
+}

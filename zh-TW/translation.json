@@ -1,0 +1,768 @@
+{
+  "action": {
+    "transparent": {
+      "description": "從更低的層尋找按鍵"
+    },
+    "layer": {
+      "text": "層 {{layer}}"
+    },
+    "momentary_layer": {
+      "description": "按下按鍵時臨時開啟層 {{layer}}"
+    },
+    "toggle_layer": {
+      "description": "永久開啟或關閉層 {{layer}}"
+    },
+    "profile": {
+      "text": "设定档 {{profile}}",
+      "description": "切换到设定档 {{profile}}"
+    },
+    "bottom_layer": {
+      "description": "設置層 {{layer}} 為默認層（最底層）"
+    },
+    "layer_tap": {
+      "description": "單擊時 {{key}}，長按時臨時開啟層 {{layer}}"
+    },
+    "mod_tap": {
+      "description": "單擊時 {{key}}，長按時 {{modifiers}}"
+    },
+    "key_tap": {
+      "description": "單擊時 {{tapKey}}，長按時 {{holdKey}}"
+    },
+    "none": {
+      "text": "無",
+      "description": "什麼都不做"
+    },
+    "consumer": {
+      "prev": {
+        "description": "上一曲"
+      },
+      "next": {
+        "description": "下一曲"
+      },
+      "play_pause": {
+        "description": "播放/暫停"
+      },
+      "stop": {
+        "description": "停止"
+      },
+      "brightness_increment": {
+        "description": "提高屏幕亮度"
+      },
+      "brightness_decrement": {
+        "description": "降低屏幕亮度"
+      },
+      "volume_increment": {
+        "description": "增加音量"
+      },
+      "volume_decrement": {
+        "description": "降低音量"
+      },
+      "mute": {
+        "description": "靜音"
+      },
+      "text_editor": {
+        "description": "打開文本編輯器"
+      },
+      "email_reader": {
+        "description": "打開郵件客戶端"
+      },
+      "calculator": {
+        "description": "打開計算器"
+      },
+      "local_browser": {
+        "description": "打開文件資源管理器"
+      },
+      "consumer_control_configuration": {
+        "description": "打開媒體播放器"
+      },
+      "control_panel": {
+        "description": "打開控制面板"
+      },
+      "search": {
+        "description": "搜索"
+      },
+      "home": {
+        "description": "主頁"
+      },
+      "back": {
+        "description": "後退"
+      },
+      "forward": {
+        "description": "前進"
+      },
+      "refresh": {
+        "description": "刷新"
+      },
+      "bookmarks": {
+        "description": "書籤"
+      },
+      "undo": {
+        "description": "撤銷"
+      },
+      "copy": {
+        "description": "複製"
+      },
+      "cut": {
+        "description": "剪切"
+      },
+      "paste": {
+        "description": "粘貼"
+      },
+      "select_all": {
+        "description": "全選"
+      },
+      "desktop_show_all_windows": {
+        "description": "調度中心（macOS）"
+      },
+      "desktop_show_all_applications": {
+        "description": "啟動臺（macOS）"
+      }
+    },
+    "extension": {
+      "bootloader": {
+        "description": "重新啟動鍵盤至恢復模式"
+      },
+      "reboot": {
+        "description": "重啟鍵盤"
+      },
+      "config_reset": {
+        "description": "重置键盘设定"
+      },
+      "nkro_toggle": {
+        "description": "開啟或關閉全鍵無衝"
+      },
+      "nkro_on": {
+        "description": "開啟全鍵無衝"
+      },
+      "nkro_off": {
+        "description": "關閉全鍵無衝"
+      },
+      "recalibrate": {
+        "description": "重新校準（需要數秒時間，期間請勿觸碰按鍵）"
+      },
+      "grave_esc": {
+        "description": "ESC，和 Shift 一起按下時 ~"
+      },
+      "toggle_profile": {
+        "text": "前一设定档",
+        "description": "在當前设定档和上一次切換到的设定档之間切換"
+      },
+      "toggle_profile_0": {
+        "text": "设定档 1",
+        "description": "在當前设定档和设定档 1 之間切換"
+      },
+      "cycle_profile": {
+        "text": "循环设定档",
+        "description": "循環切換设定档"
+      },
+      "cycle_profile_back": {
+        "text": "循环设定档",
+        "description": "循環切換设定档（反向）"
+      }
+    },
+    "hid": {
+      "ime_off": {
+        "title": "ImeOff",
+        "description": "ImeOff（日語輸入法）"
+      },
+      "ime_on": {
+        "title": "ImeOn",
+        "description": "ImeOn（日語輸入法）"
+      }
+    }
+  },
+  "appbar": {
+    "button": {
+      "dark_mode": "暗色模式",
+      "language": "語言",
+      "settings": "設置"
+    },
+    "title": {
+      "demo_mode_format": "演示模式",
+      "device_connected_format": "設備已連接",
+      "device_not_connected": "設備未連接"
+    }
+  },
+  "calibration": {
+    "button": {
+      "abort": "放棄",
+      "finish": "完成",
+      "start": "開始"
+    },
+    "do_i_need_calibration": {
+      "message": "通常情況下不需要。只有當更換了磁力強度不同的軸體時才需要進行校準。",
+      "title": "我需要進行校準嗎？"
+    },
+    "hint_no_keys_selected": "請先選擇您想要校準的按鍵。",
+    "how_to_calibrate": {
+      "message": "選擇您需要校準的按鍵，點擊開始按鈕。\n按下按鍵到底，然後再鬆開。\n點擊完成按鈕（開始校準後顯示）即可保存校準結果。",
+      "title": "如何進行校準？"
+    },
+    "tooltip": "初始：{{top}}\n觸底：{{bottom}}",
+    "auto_calibration": {
+      "title": "自動校準",
+      "description": "通過在運行過程中不斷進行自我校準以確保穩定性和準確性。此功能不可以關閉。"
+    },
+    "full_calibration": {
+      "title": "進行完整校準",
+      "description": "重新對整個鍵盤進行校準。對於支持多個配列選項的鍵盤，還會重新檢測使用了何種配列。"
+    },
+    "bottom_calibration": {
+      "title": "手工觸底校準",
+      "description": "在按鍵被大力按壓後，後續再使用正常力量按壓時就會出現異常。通過記錄人工校準值來避免這個問題。",
+      "save": "保存選定按鍵的校準值",
+      "clear": "清除選定按鍵的校準值",
+      "steps": {
+        "title": "請按以下步驟進行：",
+        "step1": "若您已經大力按壓過按鍵，先進行完整校準。",
+        "step2": "若按鍵已有校準值，先清除。",
+        "step3": "以正常力度按壓您想要校準的按鍵（不需要先選中它們）。按壓過程請儘量保證垂直向下。",
+        "step4": "選擇這些按鍵，點擊保存。"
+      },
+      "hint_change_switch_requires_redo": "更換軸體型號後，先前記錄的校準值會失效，您需要重新進行這個步驟。<br>即使是同型號的軸體，也需要重新進行，以避免個體差異帶來的影響。",
+      "hint_no_keys_selected": "請先選擇您想要保存校準結果的按鍵。"
+    },
+    "hint_calibrating": "校準中…",
+    "hint_dont_touch_keys": "請不要觸碰按鍵。"
+  },
+  "connect": {
+    "button": {
+      "communicating": "正在與設備通信…",
+      "connect": "連接到設備",
+      "requesting": "正在請求連接到設備…"
+    },
+    "hint": {
+      "device_is_in_use": "設備正被使用。請檢查您是是否已在其他網頁或應用程序中連接該設備。",
+      "no_device_selected": "未選擇設備。<br><br>對於 PomPomBoard 及其他固件版本小於 0.4.0 版本的設備請使用 {{ legacy_site }}。",
+      "no_webhid_support": "您的瀏覽器不支持 WebHID。請使用最新版本的 Chrome 或 Edge 瀏覽器。",
+      "legacy_site": "舊版本網站"
+    }
+  },
+  "debug": {
+    "hint_hurt_performance": "停留在此選項卡可能會影響性能。若要觀察鍵盤行為，建議停留在「設備」-「日誌」。",
+    "re_initialize": {
+      "message": "重新進行通電時進行的步驟，包括但不限於校準、檢測軸體是否安裝。對於支持多配列的鍵盤，還會重新檢查安裝了何種配列。",
+      "title": "重新初始化",
+      "warning": "在開始重新初始化的數秒內，請不要觸碰按鍵。"
+    },
+    "start": "開始",
+    "enable_log": {
+      "title": "啟用日誌",
+      "description": "啟用日誌輸出。這對調試很有用。在「設備」-「日誌」中查看日誌。該選項默認關閉，且不會保存到設備中。"
+    },
+    "reset": {
+      "title": "重置",
+      "description": "將設備设定档重置為默認设定档。在斷開連接前請等待約半分鐘以確保设定档被保存。"
+    }
+  },
+  "demo_mode": {
+    "device": {
+      "dummy_75": "示例 75% 鍵盤"
+    },
+    "title": "演示模式",
+    "tooltip": "連接一個模擬的設備，您可以藉此瞭解對應的設備的功能。"
+  },
+  "device": {
+    "information": {
+      "title": "信息",
+      "connection_speed": "連接速度",
+      "connection_speeds": {
+        "full_speed": "USB 2.0 全速",
+        "high_speed": "USB 2.0 高速",
+        "low_speed": "USB 1.1 低速"
+      },
+      "developer": "開發者",
+      "device_name": "設備名稱",
+      "firmware_update_date": "固件發佈日期",
+      "firmware_version": "固件版本",
+      "serial_number": "序列號",
+      "last_connected": "上次連接",
+      "hint_device_not_connected": "（設備未連接）",
+      "host_operation_system": "主機操作系統（由設備獲取）",
+      "os": {
+        "unknown": "未知"
+      }
+    },
+    "log": {
+      "title": "日誌"
+    }
+  },
+  "firmware": {
+    "firmware_upgrade": "固件升級",
+    "firmware_file": "固件文件",
+    "hint": {
+      "not_a_valid_firmware": "不是有效的固件文件。",
+      "read_file_error": "讀取文件時發生錯誤。",
+      "mismatched_firmware": "固件文件與設備不匹配。",
+      "upgrade_was_interrupted": "設備上次固件升級未完成。請重新插拔後再試。",
+      "firmware_interrupted": "升級過程意外中斷。請重新插拔後再試。",
+      "unknown_error": "未知錯誤 {{ code }}。",
+      "device_not_connected": "設備未連接或設備已處於恢復模式。",
+      "bad_cable": "一個可能的原因是使用了低質量 USB 線纜，使得連接不穩定或是連接速率降低（設備無法運行在 USB 2.0 高速）。",
+      "contact_us": "如果仍有問題，請發送郵件至 {{ email }} 以聯繫我們取得幫助。"
+    },
+    "choose_firmware": "選擇固件",
+    "channel": {
+      "stable": "穩定版",
+      "beta": "Beta",
+      "dev": "Dev",
+      "previous": "前一個穩定版"
+    },
+    "dev_channel_warning": "Dev 通道的固件包含了最新的功能，但只經過了簡單測試。如果您不知道如何處理問題，請不要使用。",
+    "version": "版本",
+    "release_time": "發佈時間",
+    "changelog": "更新日誌",
+    "choose_a_local_file": "選擇一個本地文件",
+    "verify_firmware": "驗證固件",
+    "reboot_to_recovery": "重啟設備至恢復模式",
+    "reboot_to_recovery_hint": "重啟到恢復模式後，設備會以常亮的指示燈等形式提示用戶設備處於恢復模式。",
+    "connect_to_recovery_device": "連接到處於恢復模式的設備",
+    "connect_to_recovery_device_hint": "點擊連接後，您需要再次選擇設備，隨即寫入過程就會開始。若放棄升級，請不要點擊連接，重新插拔設備後設備會回到正常模式。",
+    "flash_firmware": "寫入固件",
+    "flash_firmware_hint": "請不要斷開設備連接。若在寫入期間斷開設備，設備將停留在恢復模式，重新進行固件升級即可恢復。",
+    "finish": "完成",
+    "firmware_upgrade_finished": "升級成功。窗口將會自動關閉。",
+    "connect": "連接",
+    "reboot_the_device": "重啟設備",
+    "device_already_in_recovery": "設備已處於恢復模式",
+    "download_error": "下載失敗",
+    "choose_device": "選擇設備",
+    "choose_channel": "選擇通道",
+    "update_found": {
+      "title": "您的設備有固件更新",
+      "description": "您的設備正運行 {{currentVersion}}。最新版本是 {{latestVersion}}。",
+      "ignore": "忽略"
+    }
+  },
+  "keyboard": {
+    "title": "鍵盤",
+    "keycount": {
+      "button": "取消所有選擇",
+      "selected_other": "已選擇 {{count}} 個鍵位"
+    },
+    "layer": "層",
+    "global_config": "全局设定档",
+    "tab": {
+      "calibration": "校準",
+      "debug": "調試",
+      "device": "設備",
+      "keymap": "按鍵映射",
+      "performance": "性能",
+      "key-test": "按鍵測試",
+      "lighting": "燈光",
+      "switches": "軸體"
+    }
+  },
+  "keymap": {
+    "type": "類型：{{type}}",
+    "remap_selected_keys": "設置到已選擇的按鍵",
+    "config_advanced_key": "设定档{{key}}",
+    "hint_no_keys_selected": "請先選擇您想要重新映射的按鍵。",
+    "hint_combo_is_empty": "請至少為組合鍵選擇一個按鍵或修飾鍵。",
+    "hint_tap_hold_hold_is_empty": "請設置長按時的按鍵。",
+    "hint_tap_hold_key_not_supported": "此種設置要求一個更新版本的固件。",
+    "hint_tap_hold_tap_is_not_valid": "單擊按鍵需要是普通按鍵。",
+    "hint_tap_hold_key_is_same": "單擊和長按的按鍵不能相同。",
+    "hint_click_to_edit_the_key": "點擊以編輯按鍵",
+    "hint_choose_a_key": "選擇一個按鍵",
+    "hint_chosen_key_is_not_supported": "不支持選擇的按鍵。",
+    "key": "按鍵",
+    "combination": {
+      "modifier": {
+        "all": "修飾鍵",
+        "left": "左修飾鍵",
+        "right": "右修飾鍵"
+      },
+      "name": "組合鍵",
+      "summary": "一鍵觸發您想要的快捷鍵",
+      "text": "組合鍵是一個或多個修飾鍵（例如 Ctrl、Shift）和一個普通按鍵的組合。"
+    },
+    "dynamic": {
+      "limit": "此按鍵無法再添加更多设定档",
+      "name": "動態觸發鍵",
+      "placeholder": "從下面選擇一個鍵加入设定档…"
+    },
+    "normal": {
+      "name": "普通",
+      "summary": "平平無奇的普通按鍵",
+      "text": "選擇您想要重新映射的鍵位後在下方點擊按鍵即可。",
+      "types": {
+        "basic": "基本",
+        "extension": "擴展",
+        "layer": "層",
+        "profile": "设定档",
+        "system": "系統",
+        "advanced": "高級"
+      }
+    },
+    "tap_hold": {
+      "hold": "長按",
+      "name": "單擊/長按",
+      "tap": "單擊",
+      "summary": "解鎖無限可能",
+      "text": "單擊和長按分別對應不同的按鍵。<p>長按所對應的按鍵也可以是切層，這可以極大地擴展鍵盤的可能性。<p><b>由於判斷是否為單擊需要時間，觸發單擊按鍵會比正常按鍵慢。給此按鍵開啟快速觸發，並降低重置距離會改善，但是仍不如正常按鍵。</b>"
+    },
+    "toggle": {
+      "name": "切換鍵"
+    },
+    "intermittent": {
+      "name": "間斷",
+      "summary": "'ASASAS' 而不是 'ASSSSSS'",
+      "text": "將長按按鍵模擬為間斷地按下按鍵。"
+    }
+  },
+  "performance": {
+    "hint_the_value_is_too_aggressive": "由於軸體和人手不可能絕對穩定，過於激進的設置可能會導致按鍵觸發異常。若要追求極限，我們建議您通過不斷增加設定的數值來找到一個合適自己的極限但穩定的數值。",
+    "enable_rapid_trigger": "啟用快速觸發",
+    "trigger_travel": {
+      "title": "觸發行程",
+      "description": "按鍵觸發所需的按壓距離。不論其他選項如何設置，此選項決定了按鍵在完全重置後再次觸發需要按下的距離。",
+      "hint_too_low_is_meaningless": "除非您習慣於每次都完全鬆開按鍵後再按下，否則將此值設置得很低是沒有意義的。",
+      "hint_too_low_is_unstable": "如果將數值設置得極端的低，按鍵回彈時材料本身的輕微震動都可能會引發誤觸發，在空格鍵等大鍵上更為明顯。"
+    },
+    "rapid_trigger": {
+      "title": "快速觸發",
+      "description": "開啟快速觸發後，按鍵的觸發和重置不再是一個固定的距離，而是在您按壓的過程中動態調整。這可以讓您更快地觸發或重置按鍵。在特定類型的遊戲中很有幫助。",
+      "dynamic_reset_travel": {
+        "description": "處於快速觸發模式中時，如果按鍵已觸發，只要回彈指定的距離按鍵就會釋放。",
+        "title": "動態重置行程"
+      },
+      "dynamic_trigger_travel": {
+        "description": "處於快速觸發模式中時，如果按鍵未觸發，只要按下指定的距離按鍵就會觸發。",
+        "title": "動態觸發行程"
+      },
+      "hint_too_low_is_unstable": "如果將數值設置得極端的低，按鍵時材料本身的輕微震動都可能會引發誤觸發，在空格鍵等大鍵上更為明顯。"
+    },
+    "rapid_trigger_in_full_travel": {
+      "title": "全行程快速觸發",
+      "description": "啟用時，除非完全鬆開按鍵，快速觸發始終生效；禁用時，快速觸發只在觸發行程（{{travel}}mm）到觸底之間生效。"
+    },
+    "always_trigger_when_bottoming": {
+      "title": "觸底時始終觸發",
+      "description": "在按壓到最底部時搖晃手指會導致鍵盤檢測的距離發生變化。視軸體型號不同，這個變化量也不同。啟用時，觸底時將一律視為觸發，以避免錯誤的重置。"
+    },
+    "restore_to_use_global_settings": "恢復至「使用全局設置」",
+    "overview": {
+      "description": {
+        "global": "顯示的設置是所有「使用全局設置」的按鍵的設置。若要單獨修改某些按鍵，請先選定它們。",
+        "individual": "顯示的設置是已選擇的按鍵的設置。"
+      }
+    },
+    "use_global_setting": "使用全局設置",
+    "use_individual_setting": "使用獨立設置"
+  },
+  "key_switch": {
+    "title": "軸體"
+  },
+  "key_test": {
+    "title": "測試鍵值",
+    "description": "測試操作系統收到的鍵值。",
+    "test_matrix": {
+      "title": "測試按鍵是否被按下",
+      "description": "測試物理上的按鍵是否已經被按下，無關於按鍵映射。這早於設備發送鍵值給操作系統，故對調試很有用。該選項默認關閉，且不會保存設備中。"
+    }
+  },
+  "unsupported_browser": {
+    "continue_button": "我不管，我就要繼續！",
+    "continue_description": "您也可以選擇繼續探索 RAKKA Keyboard Configurator，以便了解其功能。但您可能會遇到頁面不能正常顯示的問題，並且您也可能不能正常地連接鍵盤。",
+    "description": "RAKKA Keyboard Configurator 使用 WebHID 和一些現代的技術構建，但很不幸，您正使用的瀏覽器不支持這些技術。注意，FireFox、Safari 等瀏覽器不受支持，因為它們不支持 WebHID。",
+    "supported_browser": "支持的瀏覽器：",
+    "title": "您正在使用不支持的瀏覽器",
+    "other_possibly_supported_browser": "其他基於 Chromium {{ version }}（{{ date }}）及以上版本開發的瀏覽器（可能支持）"
+  },
+  "contact": {
+    "title": "聯繫我們"
+  },
+  "help": {
+    "title": "幫助"
+  },
+  "switches": {
+    "series": "系列",
+    "hint_series": "這是一個系列的軸體，包含多個型號。",
+    "button_set_selected_keys": "設置到已選擇的按鍵",
+    "metadata": {
+      "travel": "總行程",
+      "mm": "{{distance}}mm",
+      "initial_force": "初始壓力",
+      "disclaimer": "數據來自廠商公開信息。",
+      "link": "訪問來自廠商的信息頁面"
+    },
+    "legacy": {
+      "title": "（舊）",
+      "description": "被早期版本固件所使用，僅為了不破壞用戶習慣而保留。"
+    },
+    "gateron_ks20": {
+      "title": "磁白軸",
+      "series_description": "其他一些型號的軸體與它參數相同，包括但不限於磁橙軸、Wooting Lekker 軸。"
+    },
+    "gateron_ks20u": {
+      "title": "雙軌磁軸",
+      "series_description": "其他一些型號的軸體與它參數相同，包括但不限於雙軌磁橙軸。"
+    },
+    "gateron_ks20t": {
+      "title": "磁玉軸"
+    },
+    "gateron_ks20t_pro": {
+      "title": "磁玉 PRO"
+    },
+    "gateron_ks20t_max": {
+      "title": "磁玉 MAX"
+    },
+    "gateron_ks20t_gaming": {
+      "title": "磁玉 Gaming"
+    },
+    "ttc_king": {
+      "title": "萬磁王軸"
+    },
+    "ttc_king_rgb": {
+      "title": "萬磁王軸 RGB"
+    },
+    "ttc_uranus": {
+      "title": "天王磁軸"
+    },
+    "ttc_uranus_se": {
+      "title": "天王磁軸 SE"
+    },
+    "ttc_uranus_gaming": {
+      "title": "天王磁軸電競版"
+    }
+  },
+  "manufacturer": {
+    "gateron": "佳達隆",
+    "ttc": "TTC",
+    "geon": "GEONWORKS"
+  },
+  "choose_switch": {
+    "title": "選擇軸體",
+    "continue": "繼續",
+    "confirm_dialog": {
+      "title": "更換為 {{switch_name}}？",
+      "content": "<p>指定的按鍵將以 {{switch_name}} 為標準進行重新校準，<b>請在數秒內不要觸碰按鍵</b>。</p><p><b>若出現按鍵觸發異常，請閱讀左側的注意事項。</b></p>"
+    },
+    "hint_success": "軸體更換成功。",
+    "hint_failed": "更換軸體失敗。",
+    "hint_same_switch": "當前的軸體已是 {{switch_name}}。",
+    "current": "當前",
+    "hint_choose_switch_for_key_requires_firmware_update": {
+      "title": "修改會作用到所有按鍵",
+      "description": "您的固件版本過低，不支持為不同按鍵選擇不同的軸體。不論您選擇了哪些按鍵，都會作用到全部按鍵。"
+    },
+    "hint_no_keys_selected": "請先選擇您想要更換軸體的按鍵。",
+    "hint_all_keys_has_same_switch": "所有按鍵都使用 {{ switch }}。",
+    "hint_most_keys_switch": "大部分按鍵使用 {{ switch }}。",
+    "hint_other_keys_switch": "{{ keys }} 使用 {{ switch }}。",
+    "changing_switch_on_soft_plate_warning": {
+      "title": "若要自行更換軸體…",
+      "description": "<p><b>磁軸鍵盤要求軸體必須穩定地固定於 PCB 上</b>，否則會導致錯誤的觸發和復位。</p><p><b>請保證軸體已牢牢地裝好</b>，必要時可能需要自行拆出內膽壓緊。</p><p><b>請務必避免使用軟質材料的或帶開槽的定位板</b>。</p><p>這是因為，較新的軸體通常小腳更細，可能無法與 PCB 上的孔牢固配合。使用此類定位板，軸體就相當於懸浮在 PCB 上，導致嚴重的讀數異常。</p>"
+    }
+  },
+  "ok": "確定",
+  "cancel": "取消",
+  "close": "關閉",
+  "continue": "繼續",
+  "wizard": {
+    "title": "允許瀏覽器連接到設備",
+    "description": "點擊下方按鈕，您的瀏覽器會在地址欄下方彈出一個對話框（如操作示例中所示）。在列表中點擊設備名稱以選擇設備，然後點擊「連接」。",
+    "example": {
+      "title": "操作示例",
+      "dialog": {
+        "title": "{{hostname}} 想連接到 HID 設備",
+        "connect": "連接",
+        "cancel": "取消"
+      },
+      "hint_1": "1. 點擊設備名稱",
+      "hint_2": "2. 點擊「連接」"
+    },
+    "replug_hint": "如果您無法看到您的設備或設備一直處於連接狀態，請重新插拔設備後再試。",
+    "cannot_connect_button": "我仍然無法連接我的設備",
+    "cannot_connect_hint_firmware_update_failed": "如果您的設備在升級固件的過程中意外斷開或失敗，它會停留在恢復模式。不同設備會使用不同的方式提示其處於恢復模式，例如常亮的指示燈。不要驚慌，再次進行固件升級可以恢復。"
+  },
+  "profile": {
+    "title": "设定档",
+    "current": "{{name}}（當前）",
+    "standalone_keymap": {
+      "title": "獨立的按鍵映射",
+      "description": "開啟時，該设定档享有獨立的按鍵映射設置。關閉時，該设定档使用设定档 1 的按鍵映射設置。"
+    },
+    "builtin": {
+      "unnamed": "设定档 {{index}}",
+      "typing_profile": "打字设定档",
+      "gaming_profile": "遊戲设定档"
+    },
+    "rename": {
+      "title": "重命名",
+      "description": "重命名设定档 #{{index}}",
+      "hint_empty": "设定档名稱不可為空。",
+      "hint_too_long": "设定档名稱長度最多隻能是 {{ length }}。"
+    },
+    "how_to_switch": {
+      "title": "如何切換设定档",
+      "description": "<b>切換鍵盤使用的设定档</b>：在按鍵映射中，將设定档類別的按鍵綁定到您想要的位置上，然後在鍵盤上按下這個按鍵。在部分鍵盤上，默認「層 1」+QWER 是切換设定档 1234。<p><b>編輯设定档</b>：點擊您想要編輯的设定档。"
+    },
+    "hint_keyboard_current_profile": "鍵盤現在正使用此设定档",
+    "hint_keyboard_switch_profile": "在您的按鍵映射設置下，按下 {{ combination }} 可以切換到此设定档",
+    "hint_profile_key_not_found": "未找到切換到此设定档的按鍵，您可以將设定档按鍵綁定到您想要的位置",
+    "on_board_profiles": "板載设定档",
+    "configure_profile": "修改 #{{ index }} {{ profile }}",
+    "hint_editing_profile_changes_for_keyboard_profile": "由於更改了鍵盤正使用的设定档，已切換當前編輯的设定档。"
+  },
+  "dark_mode": {
+    "dark_mode": "暗色模式",
+    "light_mode": "亮色模式",
+    "follow_system": "跟隨系統"
+  },
+  "color_theme": {
+    "title": "主題",
+    "preset": "預設",
+    "pick_a_color": "選擇一個顏色"
+  },
+  "device_management": {
+    "title": "我的設備",
+    "current_device": "當前設備",
+    "paired": "已配對",
+    "connected": "已連接",
+    "disconnected": "未連接",
+    "connect_to_new_device": "連接到新設備"
+  },
+  "pwa": {
+    "app_ready_to_work_offline": "RAKKA Keyboard Configurator 已準備好離線使用。",
+    "update_available": "RAKKA Keyboard Configurator 有新版本可用",
+    "reload": "重新加載"
+  },
+  "enabled": "啟用",
+  "disabled": "禁用",
+  "lighting": {
+    "base_fx": "基礎燈效",
+    "indicators": "指示燈",
+    "choose_base_fx": "選擇基礎燈效",
+    "overlay_fx": "燈效疊加層",
+    "choose_overlay_fx": "選擇燈效疊加層",
+    "brightness": "亮度",
+    "speed": "速度",
+    "time": "時間",
+    "scale": "縮放",
+    "style": "風格",
+    "min_brightness": "最小亮度",
+    "windows_dynamic_lighting": {
+      "title": "Windows Dynamic Lighting",
+      "description": {
+        "title": "什麼是 Windows Dynamic Lighting？",
+        "content": "動態光效（Windows Dynamic Lighting）允許您在 Windows 設置或第三方控制程序中統一控制所有支持的鍵盤、鼠標等外設，以達到統一的燈效風格。此功能適用於 Windows 11 23H2 或更高版本。",
+        "for_more_info": "如需瞭解更多信息，請訪問 {{support_page}}。",
+        "microsoft_support_page": "Microsoft 支持頁面",
+        "microsoft_support_page_link": "https://support.microsoft.com/zh-cn/windows/%E5%9C%A8-windows-%E4%B8%AD%E6%8E%A7%E5%88%B6%E5%8A%A8%E6%80%81%E7%85%A7%E6%98%8E%E8%AE%BE%E5%A4%87-8e8f22e3-e820-476c-8f9d-9ffc7b6ffcd2"
+      },
+      "hint_not_supported": "您的系統似乎不支持 Windows 動態光效。",
+      "hint_supported": "您的系統支持 Windows 動態光效。",
+      "hint_disabled": "Windows 動態光效已禁用。"
+    },
+    "hint_static_is_override": "此效果有自己的顏色，將覆蓋您設置的顏色。",
+    "fx": {
+      "none": {
+        "title": "無"
+      },
+      "static": {
+        "title": "靜態"
+      },
+      "wave": {
+        "title": "波浪"
+      },
+      "cycle": {
+        "title": "循環"
+      },
+      "enforce_indicator_on_profile_change": {
+        "title": "设定档變化時強制打開指示燈",
+        "description": "设定档改變後，在數秒內強制打開指示燈（例如 CapsLock 指示燈）。通過給不同的设定档設置不同的指示燈顏色，可以區分哪個设定档是當前的。"
+      },
+      "breath": {
+        "title": "呼吸"
+      },
+      "inherit": {
+        "title": "跟隨主要區域",
+        "description": "燈效將跟隨 {{ scope }} 區域。"
+      }
+    },
+    "animation": {
+      "rainbow": "彩虹",
+      "ocean": "海洋"
+    },
+    "direction": {
+      "title": "方向",
+      "forward": "正向",
+      "backward": "反向"
+    }
+  },
+  "about": {
+    "title": "關於",
+    "description": "RAKKA Keyboard Configurator 是一個基於 Web 的用於设定档您的 RAKKA 設備的工具。",
+    "version": "版本 {{version}}",
+    "date": "構建於 {{date}}",
+    "all_rights_reserved": "保留所有權利。"
+  },
+  "swift_flow": {
+    "title": "Swift Flow",
+    "description": "{{name}} 提供了額外的機制來決定按鍵是否被觸發。先由 {{trigger_travel}} 或 {{rapid_trigger}} 決定按鍵是否是被按下，隨後 {{name}} 再判斷按鍵是否應該被觸發。注意，如果按鍵符合 {{trigger_travel}} 或 {{rapid_trigger}} 的重置條件，則按鍵一定會被重置。",
+    "combination": "組合 {{index}}",
+    "enable": "啟用這個組合",
+    "set_as_selected": "設置為選中的按鍵",
+    "hint_select_two_keys": "請在上方的鍵盤選擇兩個按鍵。",
+    "hint_no_keys_selected": "因為尚未選擇按鍵，此組合不會生效。",
+    "hint_last_input_banned": "「{{priority}}」已被 {{games}} 禁止，因為其被認為是自動化操作。為避免違規，請不要使用它。",
+    "priority": {
+      "title": "優先級",
+      "depth": {
+        "title": "深度優先",
+        "description": "如果兩個按鍵都被按下，只觸發按壓深度更深的按鍵。"
+      },
+      "last_input": {
+        "title": "最後輸入優先",
+        "description": "僅處觸發最後一個被按下的按鍵。"
+      },
+      "absolute": {
+        "title": "絕對優先（{{key}}）",
+        "description": "若 {{keyA}} 被按下，則 {{keyB}} 不論是否被按下都不會都觸發。"
+      },
+      "neutral": {
+        "title": "中立",
+        "description": "若兩個按鍵都被按下，則都不會觸發。"
+      }
+    },
+    "depth_priority_sensitivity": {
+      "title": "深度優先靈敏度",
+      "description": "判斷一個鍵的按壓深度是否超過另一個時的閾值。這是為了避免按壓深度非常接近時按鍵被重複觸發。"
+    },
+    "requires_full_cycle": {
+      "title": "需要完整循環",
+      "description": "如果一個已被觸發按鍵因為此功能變為重置，則該按鍵需首先抬起到不被認為是按下的，才能在之後通過再次按下而觸發。"
+    }
+  },
+  "settings": "設置",
+  "expand": "展開",
+  "collapse": "摺疊",
+  "layer": {
+    "base": "基礎層",
+    "others": "層 {{layer}}"
+  },
+  "window_too_small": {
+    "title": "哎呀，太小了！",
+    "description1": "您的瀏覽器窗口尺寸過小，無法顯示所有內容。",
+    "description2": "請嘗試調整窗口大小及縮放比例。",
+    "button": "我不管，是你算錯了！"
+  },
+  "select_all": "全選",
+  "discard_selection": "取消選擇",
+  "hint_firmware_version_too_low": "您的固件版本過低，不支持此功能。",
+  "devices": {
+    "default": {
+      "name": "默認"
+    },
+    "rakka_80_edge": {
+      "lighting_scopes": {
+        "keys": "按鍵",
+        "sidebar": "側邊欄",
+        "logo": "Logo"
+      }
+    }
+  },
+  "something_went_wrong": "出錯了"
+}

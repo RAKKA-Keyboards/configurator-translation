@@ -27,6 +27,148 @@
     },
     "key_tap": {
       "description": "{{tapKey}} when pressed, {{holdKey}} when long pressed"
+    },
+    "none": {
+      "text": "None",
+      "description": "Do nothing"
+    },
+    "consumer": {
+      "prev": {
+        "description": "Previous track"
+      },
+      "next": {
+        "description": "Next track"
+      },
+      "play_pause": {
+        "description": "Play/Pause"
+      },
+      "stop": {
+        "description": "Stop"
+      },
+      "brightness_increment": {
+        "description": "Increase screen brightness"
+      },
+      "brightness_decrement": {
+        "description": "Decrease screen brightness"
+      },
+      "volume_increment": {
+        "description": "Increase volume"
+      },
+      "volume_decrement": {
+        "description": "Decrease volume"
+      },
+      "mute": {
+        "description": "Mute"
+      },
+      "text_editor": {
+        "description": "Open text editor"
+      },
+      "email_reader": {
+        "description": "Open email reader"
+      },
+      "calculator": {
+        "description": "Open calculator"
+      },
+      "local_browser": {
+        "description": "Open explorer"
+      },
+      "consumer_control_configuration": {
+        "description": "Open media player"
+      },
+      "control_panel": {
+        "description": "Open control panel"
+      },
+      "search": {
+        "description": "Search"
+      },
+      "home": {
+        "description": "Home"
+      },
+      "back": {
+        "description": "Back"
+      },
+      "forward": {
+        "description": "Forward"
+      },
+      "refresh": {
+        "description": "Refresh"
+      },
+      "bookmarks": {
+        "description": "Bookmarks"
+      },
+      "undo": {
+        "description": "Undo"
+      },
+      "copy": {
+        "description": "Copy"
+      },
+      "cut": {
+        "description": "Cut"
+      },
+      "paste": {
+        "description": "Paste"
+      },
+      "select_all": {
+        "description": "Select all"
+      },
+      "desktop_show_all_windows": {
+        "description": "Mission Control (macOS)"
+      },
+      "desktop_show_all_applications": {
+        "description": "Launchpad (macOS)"
+      }
+    },
+    "extension": {
+      "bootloader": {
+        "description": "Reboot the keyboard to Recovery mode"
+      },
+      "reboot": {
+        "description": "Reboot the keyboard"
+      },
+      "config_reset": {
+        "description": "Reset the keyboard configuration"
+      },
+      "nkro_toggle": {
+        "description": "Enable or disable NKRO"
+      },
+      "nkro_on": {
+        "description": "Enable NKRO"
+      },
+      "nkro_off": {
+        "description": "Disable NKRO"
+      },
+      "recalibrate": {
+        "description": "Recalibrate (takes a few seconds, do not touch the keys during this time)"
+      },
+      "grave_esc": {
+        "description": "ESC, ~ when Shift is pressed"
+      },
+      "toggle_profile": {
+        "text": "Prev-profile",
+        "description": "Switch between the current profile and the previous profile"
+      },
+      "toggle_profile_0": {
+        "text": "Profile 1",
+        "description": "Switch between the current profile and profile 1"
+      },
+      "cycle_profile": {
+        "text": "Cycle-profile",
+        "description": "Cycle through profiles"
+      },
+      "cycle_profile_back": {
+        "text": "Cycle-profile",
+        "description": "Cycle through profiles in reverse"
+      }
+    },
+    "hid": {
+      "ime_off": {
+        "title": "ImeOff",
+        "description": "ImeOff (Japanese IME)"
+      },
+      "ime_on": {
+        "title": "ImeOn",
+        "description": "ImeOn (Japanese IME)"
+      }
     }
   },
   "appbar": {
@@ -35,18 +177,12 @@
       "language": "Language",
       "settings": "Settings"
     },
-    "tab": {
-      "calibration": "Calibration",
-      "debug": "Debug",
-      "device": "Device",
-      "keymap": "Keymap",
-      "performance": "Performance",
-      "key-test": "Key Test"
-    },
     "title": {
       "demo_mode_format": "Demo mode",
       "device_connected_format": "Device connected",
-      "device_not_connected": "Device not connected"
+      "device_not_connected": "Device not connected",
+      "bad_cable": "One possible reason could be the use of a low-quality USB cable, which may cause an unstable connection or reduced connection speed (preventing the device from operating at USB 2.0 high speed).",
+      "contact_us": "If the issue persists, please email us at {{ email }} for assistance."
     }
   },
   "calibration": {
@@ -65,10 +201,31 @@
       "title": "How to do the calibration?"
     },
     "tooltip": "Initial: {{top}}\nBottom: {{bottom}}",
-    "enable_auto_calibration": {
-      "title": "Enable auto calibration (Experimental)",
-      "description": "Perform auto calibration at the \"right\" time."
-    }
+    "auto_calibration": {
+      "title": "Auto calibration",
+      "description": "Performs self-calibration continuously during operation to ensure stability and accuracy. This feature cannot be disabled."
+    },
+    "full_calibration": {
+      "title": "Perform full calibration",
+      "description": "Recalibrates the entire keyboard. For keyboards that support multiple layouts, it will also re-detect the layout in use."
+    },
+    "bottom_calibration": {
+      "title": "Manual bottom calibration",
+      "description": "After a key has been pressed with excessive force, it may behave abnormally when pressed with normal force. This can be avoided by recording manual calibration values.",
+      "save": "Save calibration values for selected keys",
+      "clear": "Clear saved calibration values for selected keys",
+      "steps": {
+        "title": "Please follow these steps:",
+        "step1": "If you have pressed the keys with excessive force, perform a full calibration first.",
+        "step2": "If the key already has a calibration value, clear it first.",
+        "step3": "Press the key you wish to calibrate with normal force (no need to select them first). Try to keep it vertically downward during the pressing process.",
+        "step4": "Select the keys and click save."
+      },
+      "hint_change_switch_requires_redo": "Calibration values recorded previously will become invalid after changing the switch model. You need to redo this process.<br>Even with the same switch model, re-calibration is required to account for individual differences.",
+      "hint_no_keys_selected": "Please select the key you want to save the calibration value first."
+    },
+    "hint_calibrating": "Calibrating…",
+    "hint_dont_touch_keys": "Please do not touch the keys."
   },
   "connect": {
     "button": {
@@ -78,8 +235,9 @@
     },
     "hint": {
       "device_is_in_use": "The device is in use. Please check if you have connected the device on another web page or app.",
-      "no_device_selected": "No device selected.<br><br>For PomPomBoard and other devices with firmware version lower than 0.4.0, please use <a href=\"/legacy\">the old version of the website</a>。",
-      "no_webhid_support": "Your browser does not support WebHID. Please use the latest version of Chrome or Edge browser."
+      "no_device_selected": "No device selected.<br><br>For PomPomBoard and other devices with firmware version lower than 0.4.0, please use {{ legacy_site }}.",
+      "no_webhid_support": "Your browser does not support WebHID. Please use the latest version of Chrome or Edge browser.",
+      "legacy_site": "the old version of the website"
     }
   },
   "debug": {
@@ -93,11 +251,14 @@
     "enable_log": {
       "title": "Enable log",
       "description": "Enable log output. This is useful for debugging. Check the log in Devices - Logs. This option is disabled by default and is not saved in the device."
+    },
+    "reset": {
+      "title": "Reset",
+      "description": "Reset the configuration of the device to default. Please wait for about half a minute before unplugging the device to ensure the configuration is saved."
     }
   },
   "demo_mode": {
     "device": {
-      "dummy_60": "RAKKA 60",
       "dummy_75": "Example 75% keyboard"
     },
     "title": "Demo mode",
@@ -108,14 +269,16 @@
       "title": "Information",
       "connection_speed": "Connection speed",
       "connection_speeds": {
-        "full_speed": "USB 2.0 Full Speed (Up to 1000Hz)",
-        "high_speed": "USB 2.0 High Speed (Up to 8000Hz)",
-        "low_speed": "USB 1.1 Low Speed (Up to 125Hz)"
+        "full_speed": "USB 2.0 Full Speed",
+        "high_speed": "USB 2.0 High Speed",
+        "low_speed": "USB 1.1 Low Speed"
       },
       "developer": "Developer",
       "device_name": "Device name",
-      "firmware_update_date": "Firmware update date",
+      "firmware_update_date": "Firmware release date",
       "firmware_version": "Firmware version",
+      "serial_number": "Serial number",
+      "last_connected": "Last connected",
       "hint_device_not_connected": "(Device not connected)",
       "host_operation_system": "Host operation system (fetched by the device)",
       "os": {
@@ -130,59 +293,86 @@
     }
   },
   "firmware": {
-    "firmware_upgrade": "Firmware Upgrade",
-    "step_choose_firmware_file": {
-      "button": {
-        "reselect_file": "Choose another file",
-        "select_file": "Choose the file"
-      },
-      "description": "First, you need to select the firmware file you want to upgrade to.",
-      "title": "Choose the firmware file"
+    "firmware_upgrade": "Firmware upgrade",
+    "firmware_file": "Firmware file",
+    "hint": {
+      "not_a_valid_firmware": "This is not a valid firmware file.",
+      "read_file_error": "Failed to read the file.",
+      "mismatched_firmware": "The firmware file does not match the device.",
+      "upgrade_was_interrupted": "The upgrade process was interrupted. Please replug the device and try again.",
+      "firmware_interrupted": "The firmware upgrade was interrupted. Please replug the device and try again.",
+      "unknown_error": "Unknown error ({{code}}).",
+      "device_not_connected": "Device not connected or the device is already in recovery mode."
     },
-    "step_confirm": {
-      "button": {
-        "abort": "Abort",
-        "start": "Start"
-      },
-      "description": "Different devices will indicate that they are in bootloader mode in different ways (such as lights, screens, etc.)..",
-      "description_abort": "Click the \"Abort\" button and the device will reboot into normal mode.",
-      "description_start": "Click the \"Start\" button and you will again be asked to connect the device. Once the connection is confirmed, the firmware upgrade will begin. During the upgrade, do not close the page or disconnect the USB connection of the device."
+    "choose_firmware": "Choose firmware",
+    "channel": {
+      "stable": "Stable",
+      "beta": "Beta",
+      "dev": "Dev",
+      "nightly": "Nightly",
+      "previous": "Previous stable version"
     },
-    "step_preview_firmware": {
-      "title": "Selected firmware information",
-      "update_date": "Update date",
-      "version": "Version"
-    },
-    "step_reboot_to_bootloader": {
-      "button": {
-        "reboot": "Reboot the device into Bootloader mode"
-      },
-      "description": "Next you need to reboot the device into Bootloader mode to start the firmware upgrade.",
-      "description_if_the_device_is_connected": "If you are already connected to the device, just click the button below.",
-      "description_worst_situation": "For worst-case scenarios (such as the device not responding to requests properly), disconnecting the device from USB and plugging in the USB cable while holding down the Bootloader button on the back of the device's PCB is the last resort to enter Bootloader mode. This operation requires disassembly of the device housing."
-    },
-    "step_upgrading": {
-      "description": "Do not close the page or disconnect the USB connection of the device.",
-      "title": "Upgrading firmware"
+    "dev_channel_warning": "The dev channel firmware contains the latest features, but has only been lightly tested. If you don't know how to handle issues, please do not use it.",
+    "nightly_channel_warning": "The nightly channel firmware contains the real latest changes, but only the developer tests it very roughly. NOT for normal uses.",
+    "version": "Version",
+    "release_time": "Release date",
+    "changelog": "Changelog",
+    "choose_a_local_file": "Choose a local file",
+    "verify_firmware": "Verify firmware",
+    "reboot_to_recovery": "Reboot the device to recovery mode",
+    "reboot_to_recovery_hint": "After restarting to recovery mode, the device will prompt the user that the device is in recovery mode by means of a indicator light.",
+    "connect_to_recovery_device": "Connect to device in recovery mode",
+    "connect_to_recovery_device_hint": "After clicking Connect, you need to select the device again and the writing process will begin. If you want to give up on upgrading, please DO NOT click Connect. The device will return to normal mode after replugging the device.",
+    "flash_firmware": "Flash firmware",
+    "flash_firmware_hint": "Please do not disconnect the device. If the device is disconnected during flashing, the device will stay in recovery mode and can be restored by re-upgrading the firmware.",
+    "finish": "Finish",
+    "firmware_upgrade_finished": "Update successes. The window will automatically close.",
+    "connect": "Connect",
+    "reboot_the_device": "Reboot the device",
+    "device_already_in_recovery": "The device is already in recovery mode",
+    "download_error": "Download failed",
+    "choose_device": "Choose device",
+    "choose_channel": "Choose channel",
+    "update_found": {
+      "title": "Update found for your device",
+      "description": "Your device is running firmware version {{currentVersion}}. The latest version is {{latestVersion}}.",
+      "ignore": "Ignore"
     }
   },
   "keyboard": {
+    "title": "Keyboard",
     "keycount": {
       "button": "Deselect All",
       "selected_one": "{{count}} key selected",
       "selected_other": "{{count}} keys selected"
     },
-    "layer": "Layer"
+    "layer": "Layer",
+    "global_config": "Global configuration",
+    "tab": {
+      "calibration": "Calibration",
+      "debug": "Debug",
+      "device": "Device",
+      "keymap": "Keymap",
+      "performance": "Performance",
+      "key-test": "Key Test",
+      "lighting": "Lighting",
+      "switches": "Switches"
+    }
   },
   "keymap": {
     "type": "Type: {{type}}",
-    "remap_selected_keys": "Remap selected keys",
+    "remap_selected_keys": "Set to selected keys",
+    "config_advanced_key": "Config {{key}}",
     "hint_no_keys_selected": "Please select the key you want to remap first.",
     "hint_combo_is_empty": "Please choose at least one key or modifier for the combo.",
     "hint_tap_hold_hold_is_empty": "Please set hold key.",
     "hint_tap_hold_key_not_supported": "This setup requires a newer version of firmware.",
     "hint_tap_hold_tap_is_not_valid": "Key for tap should be a normal key.",
     "hint_tap_hold_key_is_same": "Tap and hold keys cannot be the same.",
+    "hint_click_to_edit_the_key": "Click to edit the key",
+    "hint_choose_a_key": "Choose a key",
+    "hint_chosen_key_is_not_supported": "This key is not supported.",
+    "key": "Key",
     "combination": {
       "modifier": {
         "left": "Left Modifiers",
@@ -206,7 +396,8 @@
         "extension": "Extension",
         "layer": "Layer",
         "profile": "Profile",
-        "system": "System"
+        "system": "System",
+        "advanced": "Advanced"
       }
     },
     "tap_hold": {
@@ -218,52 +409,55 @@
     },
     "toggle": {
       "name": "Toggle Key"
+    },
+    "intermittent": {
+      "name": "Intermittent",
+      "summary": "'ASASAS' rather than 'ASSSSSS'",
+      "text": "Simulate a long key press as intermittent key presses."
     }
   },
   "performance": {
-    "hint_no_keys_selected": "The modification applies to all keys. To modify certain keys individually, select them first.",
     "hint_the_value_is_too_aggressive": "Since the switch and human hands cannot be absolutely stable, overly aggressive settings may result in abnormal key triggering. To pursue the limit, we recommend that you find an extreme but stable value that suits you by continuously increasing the value of the setting.",
-    "mode": {
-      "follow_default": {
-        "title": "Follow default"
+    "enable_rapid_trigger": "Enable Rapid Trigger",
+    "rapid_trigger": {
+      "title": "Rapid Trigger",
+      "description": "After enabling Rapid Trigger, the trigger and reset position are no longer fixed, but dynamically adjusted as you press. This allows you to trigger or reset keys more quickly, which can be helpful in certain types of games.",
+      "dynamic_reset_travel": {
+        "description": "When in Rapid Trigger mode, if the key is triggered, reset as long as the specified distance is released.",
+        "title": "Dynamic reset travel"
       },
-      "rapid_trigger": {
-        "description": "The trigger and reset position are adjusted dynamically as you press. This allows you to trigger or reset keys more quickly, which can be helpful in certain types of games.",
-        "dynamic_reset_travel": {
-          "description": "When in Rapid Trigger mode, if the key is triggered, reset as long as the specified distance is released.",
-          "title": "Dynamic reset travel"
-        },
-        "dynamic_trigger_travel": {
-          "description": "When in Rapid Trigger mode, if the key is not triggered, trigger as long as the specified distance is pressed.",
-          "title": "Dynamic trigger travel"
-        },
-        "initial_travel": {
-          "description": "When the key was fully released, press a specified distance to trigger the key and enter Rapid Trigger mode.",
-          "title": "Initial travel"
-        },
-        "title": "Rapid Trigger",
-        "when_in_rapid_trigger_mode": "When in Rapid Trigger mode"
+      "dynamic_trigger_travel": {
+        "description": "When in Rapid Trigger mode, if the key is not triggered, trigger as long as the specified distance is pressed.",
+        "title": "Dynamic trigger travel"
       },
-      "title": "Mode",
-      "traditional": {
-        "description": "The key is triggered after being pressed to a fixed position, and released after released to a fixed position. This is the same as mechanical keyboards.",
-        "pre_travel": {
-          "description": "Distance the key must be pressed down for it to trigger.",
-          "title": "Travel"
-        },
-        "title": "Traditional"
+      "hint_too_low_is_unstable": "If the values is set extremely low, even slight vibrations of the material during key presses may cause false triggers, which is more pronounced on larger keys like the Space."
+    },
+    "trigger_travel": {
+      "title": "Trigger travel",
+      "description": "The distance the key must be pressed down for it to trigger. Regardless of other settings, this option determines the distance the key must be pressed down after being fully reset to trigger again.",
+      "hint_too_low_is_meaningless": "Unless you are accustomed to fully releasing the key each time before pressing it again, setting this value very low is meaningless.",
+      "hint_too_low_is_unstable": "If the value is set extremely low, even slight vibrations of the material during key release may cause false triggers, which is especially noticeable on larger keys like the Space."
+    },
+    "rapid_trigger_in_full_travel": {
+      "title": "Rapid Trigger in full travel",
+      "description": "If enabled, Rapid Trigger mode will always active unless the key is fully released. If disabled, Rapid Trigger mode is only active between trigger travel, {{travel}}mm, to bottom."
+    },
+    "always_trigger_when_bottoming": {
+      "title": "Always trigger when bottoming",
+      "description": "Shaking a finger when pressing all the way down may cause the detected distance on the keyboard to change. The amount of change varies depending on the switch model. When enabled, bottoming out will consistently be treated as triggered to prevent incorrect resets."
+    },
+    "restore_to_use_global_settings": "Restore to \"Use global settings\"",
+    "overview": {
+      "description": {
+        "global": "The displayed settings are the settings of all keys that are set to \"Use global settings\". If you want to modify certain keys individually, select them first.",
+        "individual": "The displayed settings are the settings of selected keys."
       }
     },
-    "switches": {
-      "rapid_trigger_in_full_travel": {
-        "title": "Rapid Trigger in full travel",
-        "description": "The Rapid Trigger mode will remain active after the initial {{travel}}mm is pressed if enabled, except when the key is fully released. The Rapid Trigger mode is only active between {{travel}}mm to bottom if disabled."
-      },
-      "always_trigger_when_bottoming": {
-        "title": "Always trigger when bottoming",
-        "description": "For some models of switches, shaking your finger when bottoming out may produce a distance change of up to about 0.2mm. When enabled, bottoming will always be considered a trigger to avoid false resets."
-      }
-    }
+    "use_global_setting": "Use global settings",
+    "use_individual_setting": "Use individual settings"
+  },
+  "key_switch": {
+    "title": "Switch"
   },
   "key_test": {
     "title": "Test the key code",
@@ -274,11 +468,12 @@
     }
   },
   "unsupported_browser": {
-    "continue_button": "\"Let me continue\"",
+    "continue_button": "I don't care, let me continue!",
     "continue_description": "You can also choose to continue exploring RAKKA Keyboard Configurator in order to understand its features. However, you may encounter problems with pages not displaying properly, and you may not be able to connect a keyboard properly.",
     "description": "RAKKA Keyboard Configurator is built using WebHID and some modern technologies, but unfortunately, the browser you are using does not support these technologies. Note that browsers such as FireFox, Safari, etc. are not supported as they do not support WebHID.",
     "supported_browser": "Supported browsers:",
-    "title": "You are using an unsupported browser"
+    "title": "You are using an unsupported browser",
+    "other_possibly_supported_browser": "Other browsers based on Chromium {{ version }} ({{ date }}) (possibly supported)"
   },
   "contact": {
     "title": "Contact us"
@@ -287,36 +482,108 @@
     "title": "Help"
   },
   "switches": {
+    "series": "Series",
+    "hint_series": "This a series of switches, including multiple models.",
+    "button_set_selected_keys": "Set to selected keys",
     "metadata": {
-      "travel": "Travel: {{distance}}mm"
+      "travel": "Total travel",
+      "mm": "{{distance}}mm",
+      "initial_force": "Initial force",
+      "disclaimer": "Data comes from manufacturers’ public information",
+      "link": "Visit information webpage from the manufacturer"
     },
     "legacy": {
       "title": "(Legacy)",
       "description": "Used by early firmware version, only retained so as not to disrupt users' existing habits."
     },
     "gateron_ks20": {
-      "title": "Gateron Magnetic Switch",
-      "description": "Gateron KS-20. Including but not limited to magnetic white, magnetic orange, and Wooting Lekker switches."
+      "title": "Magnetic White Switch",
+      "title_short": "White",
+      "series_description": "Some other models of switches have the same parameters as it, including but not limited to Magnetic Orange Switch, and Wooting Lekker switches."
+    },
+    "gateron_ks20u": {
+      "title": "Dual-Rail Magnetic Switch",
+      "title_short": "Dual-Rail",
+      "series_description": "Some other models of switches have the same parameters as it, including but not limited to Dual-Rail Magnetic Orange Switch."
     },
     "gateron_ks20t": {
-      "title": "Gateron Magnetic Jade Switch [Experimental]",
-      "description": "Gateron KS-20T. The correspondence between detection distance and physical distance has not been tested."
+      "title": "Magnetic Jade Switch",
+      "title_short": "Jade"
+    },
+    "gateron_ks20t_pro": {
+      "title": "Magnetic Jade Pro Switch",
+      "title_short": "Jade Pro"
+    },
+    "gateron_ks20t_max": {
+      "title": "Magnetic Jade MAX Switch",
+      "title_short": "Jade MAX"
+    },
+    "gateron_ks20t_gaming": {
+      "title": "Magnetic Jade Gaming Switch",
+      "title_short": "Jade Gaming"
+    },
+    "geon_raptor_he": {
+      "title": "Raptor HE Gaming Switch",
+      "title_short": "Raptor HE"
+    },
+    "geon_raw_he": {
+      "title": "Raw HE Switch",
+      "title_short": "Raw HE"
+    },
+    "ttc_king": {
+      "title": "King Magnetic Switch",
+      "title_short": "King"
+    },
+    "ttc_king_rgb": {
+      "title": "King Magnetic Switch RGB",
+      "title_short": "King RGB"
+    },
+    "ttc_uranus": {
+      "title": "Uranus Magnetic Switch",
+      "title_short": "Uranus"
+    },
+    "ttc_uranus_se": {
+      "title": "Uranus Magnetic Switch SE",
+      "title_short": "Uranus SE"
+    },
+    "ttc_uranus_gaming": {
+      "title": "Uranus Magnetic Switch GAMING",
+      "title_short": "Uranus GAMING"
     }
+  },
+  "manufacturer": {
+    "gateron": "GATERON",
+    "ttc": "TTC",
+    "geonworks": "GEONWORKS"
   },
   "choose_switch": {
     "title": "Choose switch",
     "continue": "Continue",
     "confirm_dialog": {
       "title": "Change to {{switch_name}}?",
-      "content": "After confirmation, the keyboard will be recalibrated according to {{switch_name}}. Please do not touch the keys for a few seconds.<p>Note that when reinstalling the switch, the switch may not be tightly fitted, i.e. there is still a distance between the switch and the PCB, resulting in incorrect distance detection and you may need to remove the keyboard inner and re-press the switches.<p>To avoid false triggering of keys, we recommend disconnecting the USB connection from the keyboard before replacing the switch."
+      "content": "<p>The selected keys will be recalibrated according to {{switch_name}}. <b>Please do not touch the keys for a few seconds</b>.</p><p><b>If the switches triggers abnormally, please read the cautions on the left.</b></p>"
     },
     "hint_success": "Switch changed successfully.",
     "hint_failed": "Failed to change switch.",
     "hint_same_switch": "The switch is already {{switch_name}}.",
-    "current": "{{switch_name}} (Current)"
+    "current": "Current",
+    "hint_choose_switch_for_key_requires_firmware_update": {
+      "title": "Changing the switch will affect all the keys",
+      "description": "Your firmware version is too low to support different switches for different keys. No matter which keys you choose, it will affect all the keys."
+    },
+    "hint_no_keys_selected": "Please choose the keys you want to change the switch first.",
+    "hint_all_keys_has_same_switch": "All the keys uses {{ switch }}.",
+    "hint_most_keys_switch": "Most of the keys uses {{ switch }}.",
+    "hint_other_keys_switch": "{{ keys }} uses {{ switch }}.",
+    "changing_switch_on_soft_plate_warning": {
+      "title": "To replace the switch yourself…",
+      "description": "<p><b>Hall Effect keyboards require the switches to be securely fixed on the PCB</b>. Otherwise, it will lead to false triggers and resets.</p><p><b>Please ensure that the switches are firmly installed</b>, and if necessary, disassemble the internal components to press them tightly into place.</p><p><b>DO NOT use plates made of soft materials or those with slots</b>.</p><p>This is because newer switches usually have thinner pins, which will not fit securely into the holes on the PCB. With such plates, the switch will essentially be floating above the PCB, causing serious incorrect readings.</p>"
+    }
   },
   "ok": "OK",
   "cancel": "Cancel",
+  "close": "Close",
+  "continue": "Continue",
   "wizard": {
     "title": "Allow the browser to connect the device",
     "description": "Click on the button below and your browser will show a dialog below the address bar (as shown in the example). Click on the device name in the list to select the device and then click \"Connect\".",
@@ -329,6 +596,200 @@
       },
       "hint_1": "1. Click on the device name",
       "hint_2": "2. Click \"Connect\""
+    },
+    "replug_hint": "If you cannot see your device or it keeps connecting, replug the device and try again.",
+    "cannot_connect_button": "I still cannot connect my device",
+    "cannot_connect_hint_firmware_update_failed": "If your device is accidentally disconnected or fails during the firmware upgrade process, it will stay in Recovery mode. Different devices will use different ways to indicate that they are in recovery mode, such as a solid indicator light. Don't panic, you can recover by updating the firmware again."
+  },
+  "profile": {
+    "title": "Profiles",
+    "current": "{{name}} (current)",
+    "standalone_keymap": {
+      "title": "Standalone keymap",
+      "description": "When on, this profile has independent key mapping settings. When off, this profile uses the keymap settings of profile 1."
+    },
+    "builtin": {
+      "unnamed": "Profile {{index}}",
+      "typing_profile": "Typing profile",
+      "gaming_profile": "Gaming profile"
+    },
+    "rename": {
+      "title": "Rename",
+      "description": "Rename profile #{{index}}",
+      "hint_empty": "The profile name cannot be empty.",
+      "hint_too_long": "The profile name can be up to {{ length }} characters long."
+    },
+    "how_to_switch": {
+      "title": "How to switch profile",
+      "description": "<b>Switch the profile used by the keyboard</b>: In Keymap, bind keys in Profile category to the location you want, then press the key on the keyboard. On some keyboards, the default \"Layer 1\" + QWER is to switch profile 1234. <p><b>Edit Profile</b>: Click the profile you want to edit."
+    },
+    "hint_keyboard_current_profile": "The keyboard is currently on this profile",
+    "hint_keyboard_switch_profile": "Under your remap settings, press {{ combination }} can switch to this profile",
+    "hint_profile_key_not_found": "The key to switch to this profile is not found, you can bind the profile key to the location you want",
+    "on_board_profiles": "On-board profiles",
+    "configure_profile": "Configure #{{ index }} {{ profile }}",
+    "hint_editing_profile_changes_for_keyboard_profile": "Due to a change in the configuration profile currently in use by the keyboard, the profile being edited has been switched."
+  },
+  "dark_mode": {
+    "dark_mode": "Dark mode",
+    "light_mode": "Light mode",
+    "follow_system": "Follow system"
+  },
+  "color_theme": {
+    "title": "Theme",
+    "preset": "Preset",
+    "pick_a_color": "Pick a color"
+  },
+  "device_management": {
+    "title": "My devices",
+    "current_device": "Current device",
+    "paired": "Paired",
+    "connected": "Connected",
+    "disconnected": "Disconnected",
+    "connect_to_new_device": "Connect to a new device"
+  },
+  "pwa": {
+    "app_ready_to_work_offline": "RAKKA Keyboard Configurator is ready to use offline",
+    "update_available": "RAKKA Keyboard Configurator has a new version available",
+    "reload": "Reload"
+  },
+  "enabled": "Enabled",
+  "disabled": "Disabled",
+  "lighting": {
+    "base_fx": "Base effect",
+    "indicators": "Indicators",
+    "choose_base_fx": "Choose base effect",
+    "overlay_fx": "Overlay effect",
+    "choose_overlay_fx": "Choose overlay effect",
+    "brightness": "Brightness",
+    "speed": "Speed",
+    "time": "Time",
+    "scale": "Scale",
+    "style": "Style",
+    "min_brightness": "Min brightness",
+    "windows_dynamic_lighting": {
+      "title": "Windows Dynamic Lighting",
+      "description": {
+        "title": "What is Windows Dynamic Lighting?",
+        "content": "Windows Dynamic Lighting allows you to control all supported keyboards, mice, and other peripherals in Windows settings or third-party control programs to achieve a unified lighting style. This feature is available on Windows 11 23H2 or later.",
+        "for_more_info": "For more information, please visit {{support_page}}.",
+        "microsoft_support_page": "Microsoft support page",
+        "microsoft_support_page_link": "https://support.microsoft.com/en-us/windows/control-your-dynamic-lighting-devices-in-windows-8e8f22e3-e820-476c-8f9d-9ffc7b6ffcd2"
+      },
+      "hint_not_supported": "It seems that Windows Dynamic Lighting is not supported on your system.",
+      "hint_support": "Windows Dynamic Lighting is supported on your system.",
+      "hint_disabled": "Windows Dynamic Lighting is disabled."
+    },
+    "hint_static_is_override": "This effect has its own color which will override the color you set.",
+    "fx": {
+      "none": {
+        "title": "None"
+      },
+      "static": {
+        "title": "Static"
+      },
+      "wave": {
+        "title": "Wave"
+      },
+      "cycle": {
+        "title": "Cycle"
+      },
+      "windows_dynamic_lighting": {
+        "title": "Windows Dynamic Lighting"
+      },
+      "enforce_indicator_on_profile_change": {
+        "title": "Enforce indicators on profile change",
+        "description": "Forces indicators (such as the CapsLock indicator) to turn on within a few seconds after a profile change. By setting different indicator lights for different profiles, you can distinguish which profile is the current one."
+      },
+      "breath": {
+        "title": "Breath"
+      },
+      "inherit": {
+        "title": "Follow primary scope",
+        "description": "Lighting will follow scope {{ scope }}."
+      }
+    },
+    "animation": {
+      "rainbow": "Rainbow",
+      "ocean": "Ocean"
+    },
+    "direction": {
+      "title": "Direction",
+      "forward": "Forward",
+      "backward": "Backward"
     }
-  }
+  },
+  "swift_flow": {
+    "title": "Swift Flow",
+    "description": "{{name}} provides additional mechanisms to determine whether a key is triggered. First, {{trigger_travel}} or {{rapid_trigger}} determines whether the key is pressed, and then {{name}} determines whether the key should be triggered. Note that if the key matches the reset condition of {{trigger_travel}} or {{rapid_trigger}}, the button will always be reset.",
+    "combination": "Combination {{index}}",
+    "enable": "Enable this combination",
+    "set_as_selected": "Set as selected keys",
+    "hint_select_two_keys": "Please select two keys at the keyboard above.",
+    "hint_no_keys_selected": "This combination will not works since keys are not selected yet.",
+    "hint_last_input_banned": "\"{{priority}}\" has been banned by {{games}} because it is considered as automation. To avoid violations, please do not use it.",
+    "priority": {
+      "title": "Priority",
+      "depth": {
+        "title": "Depth priority",
+        "description": "If both keys are pressed, only trigger the key that pressed deeper."
+      },
+      "last_input": {
+        "title": "Last input priority",
+        "description": "Only trigger the key that was pressed later."
+      },
+      "absolute": {
+        "title": "Absolute priority ({{key}})",
+        "description": "If {{keyA}} is pressed, {{keyB}} will never trigger no matter it is pressed or not."
+      },
+      "neutral": {
+        "title": "Neutral",
+        "description": "If both of the keys are pressed, trigger none of them."
+      }
+    },
+    "depth_priority_sensitivity": {
+      "title": "Depth priority sensitivity",
+      "description": "The threshold for determining whether the pressing depth of one key exceeds that of another. This is to avoid the key being triggered repeatedly when the pressing depth is very close."
+    },
+    "requires_full_cycle": {
+      "title": "Requires full cycle",
+      "description": "If a triggered key is reset by this function, the key must first be released to the point where it is no longer considered pressed before it can be triggered by pressing it again."
+    }
+  },
+  "about": {
+    "title": "About",
+    "description": "RAKKA Keyboard Configurator is a web-based tool for configuring your RAKKA devices.",
+    "version": "Version {{version}}",
+    "date": "Build at {{date}}",
+    "all_rights_reserved": "All rights reserved."
+  },
+  "settings": "Settings",
+  "expand": "Expand",
+  "collapse": "Collapse",
+  "layer": {
+    "base": "Base layer",
+    "others": "Layer {{layer}}"
+  },
+  "window_too_small": {
+    "title": "Oops, it’s too small!",
+    "description1": "Your browser window size is too small to display all content.",
+    "description2": "Please try adjusting the window size and zoom ratio.",
+    "button": "I don't care, you calculated it wrong!"
+  },
+  "select_all": "Select all",
+  "discard_selection": "Discard selection",
+  "hint_firmware_version_too_low": "Your firmware version is too low to support this feature.",
+  "devices": {
+    "default": {
+      "name": "Default"
+    },
+    "rakka_80_edge": {
+      "lighting_scopes": {
+        "keys": "Keys",
+        "sidebar": "Sidebars",
+        "logo": "Logo"
+      }
+    }
+  },
+  "something_went_wrong": "Something went wrong"
 }
