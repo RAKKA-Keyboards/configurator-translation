@@ -355,7 +355,10 @@
       "performance": "性能",
       "key-test": "按键测试",
       "lighting": "灯光",
-      "switches": "轴体"
+      "switches": "轴体",
+      "trigger_travel": "触发行程",
+      "rapid_trigger": "快速触发",
+      "swift_flow": "Swift Flow"
     }
   },
   "keymap": {
@@ -657,6 +660,7 @@
   "disabled": "禁用",
   "lighting": {
     "base_fx": "基础灯效",
+    "color": "颜色",
     "indicators": "指示灯",
     "choose_base_fx": "选择基础灯效",
     "overlay_fx": "灯效叠加层",
@@ -681,6 +685,8 @@
       "hint_disabled": "Windows 动态光效已禁用。"
     },
     "hint_static_is_override": "此效果有自己的颜色，将覆盖您设置的颜色。",
+    "hint_left_click": "左键点击按键以设置其在“基础灯效”中的“静态”效果下的颜色。",
+    "hint_middle_click": "中键点击以吸取其颜色到颜色选择器。",
     "fx": {
       "none": {
         "title": "无"

@@ -356,7 +356,10 @@
       "performance": "Performance",
       "key-test": "Key Test",
       "lighting": "Lighting",
-      "switches": "Switches"
+      "switches": "Switches",
+      "trigger_travel": "Trigger travel",
+      "rapid_trigger": "Rapid Trigger",
+      "swift_flow": "Swift Flow"
     }
   },
   "keymap": {
@@ -658,6 +661,7 @@
   "disabled": "Disabled",
   "lighting": {
     "base_fx": "Base effect",
+    "color": "Color",
     "indicators": "Indicators",
     "choose_base_fx": "Choose base effect",
     "overlay_fx": "Overlay effect",
@@ -682,6 +686,8 @@
       "hint_disabled": "Windows Dynamic Lighting is disabled."
     },
     "hint_static_is_override": "This effect has its own color which will override the color you set.",
+    "hint_left_click": "Left-click a key to set its color for the \"Static\" effect under \"Base effect\".",
+    "hint_middle_click": "Middle-click to sample its color to the color picker.",
     "fx": {
       "none": {
         "title": "None"
@@ -790,6 +796,11 @@
         "sidebar": "Sidebars",
         "logo": "Logo"
       }
+    },
+    "cycle8_he": {
+        "lighting_scopes": {
+            "light_bar": "Light bar"
+        }
     }
   },
   "something_went_wrong": "Something went wrong"
