@@ -795,6 +795,11 @@
         "sidebar": "側邊欄",
         "logo": "Logo"
       }
+    },
+    "cycle8_he": {
+      "lighting_scopes": {
+        "light_bar": "Light bar"
+      }
     }
   },
   "something_went_wrong": "出錯了"
