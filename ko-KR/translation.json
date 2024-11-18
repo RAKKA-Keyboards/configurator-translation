@@ -463,7 +463,7 @@
     "title": "Switch"
   },
   "key_test": {
-    "title": "테스트 키 코드",
+    "title": "Key test",
     "description": "컴퓨터에 입력된 키 입력 코드를 테스트합니다. 키 설정을 수정한 경우 수정된 값이 표출됩니다.",
     "test_matrix": {
       "title": "입력 여부 테스트",

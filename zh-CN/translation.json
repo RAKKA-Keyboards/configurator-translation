@@ -323,6 +323,7 @@
     "reboot_to_recovery_hint": "重启到恢复模式后，设备会以常亮的指示灯等形式提示用户设备处于恢复模式。",
     "connect_to_recovery_device": "连接到处于恢复模式的设备",
     "connect_to_recovery_device_hint": "点击连接后，您需要再次选择设备，随即写入过程就会开始。若放弃升级，请不要点击连接，重新插拔设备后设备会回到正常模式。",
+    "connect_to_recovery_device_hint_unable_to_find_device": "如果无法找到设备，请确认设备已经进入恢复模式。例如，此时应不能打字。另外，使用低质量的 USB 线缆可能会导致设备无法运行在 USB 2.0 高速，从而无法被检测到。",
     "flash_firmware": "写入固件",
     "flash_firmware_hint": "请不要断开设备连接。若在写入期间断开设备，设备将停留在恢复模式，重新进行固件升级即可恢复。",
     "finish": "完成",
@@ -463,12 +464,22 @@
     "title": "轴体"
   },
   "key_test": {
-    "title": "测试键值",
+    "title": "按键测试",
     "description": "测试操作系统收到的键值。",
     "test_matrix": {
       "title": "测试按键是否被按下",
       "description": "测试物理上的按键是否已经被按下，无关于按键映射。这早于设备发送键值给操作系统，故对调试很有用。该选项默认关闭，且不会保存设备中。"
-    }
+    },
+    "type": {
+      "title": "类型",
+      "press": "按下",
+      "release": "释放"
+    },
+    "time": "时间",
+    "key": "按键",
+    "delta": "时间差",
+    "hint_limited_by_browser": "受限于浏览器环境，部分按键无法被测试。取得的时间精度有限且滞后。请不要使用工具进行按键延迟测试。",
+    "hint_unfocused": "浏览器未处于焦点状态，无法获取按键事件。"
   },
   "unsupported_browser": {
     "continue_button": "我不管，我就要继续！",

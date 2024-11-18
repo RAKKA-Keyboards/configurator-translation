@@ -323,6 +323,7 @@
     "reboot_to_recovery_hint": "重啟到恢復模式後，設備會以常亮的指示燈等形式提示用戶設備處於恢復模式。",
     "connect_to_recovery_device": "連接到處於恢復模式的設備",
     "connect_to_recovery_device_hint": "點擊連接後，您需要再次選擇設備，隨即寫入過程就會開始。若放棄升級，請不要點擊連接，重新插拔設備後設備會回到正常模式。",
+    "connect_to_recovery_device_hint_unable_to_find_device": "如果無法找到設備，請確認設備已經進入恢復模式。例如，此時應不能打字。另外，使用低質量的 USB 線纜可能會導致設備無法運行在 USB 2.0 高速，從而無法被檢測到。",
     "flash_firmware": "寫入固件",
     "flash_firmware_hint": "請不要斷開設備連接。若在寫入期間斷開設備，設備將停留在恢復模式，重新進行固件升級即可恢復。",
     "finish": "完成",
@@ -463,12 +464,22 @@
     "title": "軸體"
   },
   "key_test": {
-    "title": "測試鍵值",
+    "title": "按鍵測試",
     "description": "測試操作系統收到的鍵值。",
     "test_matrix": {
       "title": "測試按鍵是否被按下",
       "description": "測試物理上的按鍵是否已經被按下，無關於按鍵映射。這早於設備發送鍵值給操作系統，故對調試很有用。該選項默認關閉，且不會保存設備中。"
-    }
+    },
+    "type": {
+      "title": "類型",
+      "press": "按下",
+      "release": "釋放"
+    },
+    "time": "時間",
+    "key": "按鍵",
+    "delta": "時間差",
+    "hint_limited_by_browser": "受限於瀏覽器環境，部分按鍵無法被測試。取得的時間精度有限且滯後。請不要使用工具進行按鍵延遲測試。",
+    "hint_unfocused": "瀏覽器未處於焦點狀態，無法獲取按鍵事件。"
   },
   "unsupported_browser": {
     "continue_button": "我不管，我就要繼續！",

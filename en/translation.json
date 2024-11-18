@@ -323,6 +323,7 @@
     "reboot_to_recovery_hint": "After restarting to recovery mode, the device will prompt the user that the device is in recovery mode by means of a indicator light.",
     "connect_to_recovery_device": "Connect to device in recovery mode",
     "connect_to_recovery_device_hint": "After clicking Connect, you need to select the device again and the writing process will begin. If you want to give up on upgrading, please DO NOT click Connect. The device will return to normal mode after replugging the device.",
+    "connect_to_recovery_device_hint_unable_to_find_device": "If the device cannot be found, make sure it is in recovery mode. For example, typing should not be possible. Also, using a low-quality USB cable may prevent the device from running at USB 2.0 High Speed and thus not be detected.",
     "flash_firmware": "Flash firmware",
     "flash_firmware_hint": "Please do not disconnect the device. If the device is disconnected during flashing, the device will stay in recovery mode and can be restored by re-upgrading the firmware.",
     "finish": "Finish",
@@ -464,12 +465,22 @@
     "title": "Switch"
   },
   "key_test": {
-    "title": "Test the key code",
+    "title": "Key test",
     "description": "Tests the key code received by the operating system.",
     "test_matrix": {
       "title": "Test if the key is pressed",
       "description": "Tests if a physical key has been pressed, nothing about key mapping. This is useful for debugging as it predates the device sending the key code to the operating system. This option is disabled by default and is not saved in the device."
-    }
+    },
+    "type": {
+      "title": "Type",
+      "press": "Press",
+      "release": "Release"
+    },
+    "time": "Time",
+    "key": "Key",
+    "delta": "Delta",
+    "hint_limited_by_browser": "Due to browser environment limitations, some keys cannot be tested. The time accuracy obtained is limited and delayed. Please do not use this tool for latency testing.",
+    "hint_unfocused": "The browser is not in focus and cannot get key events."
   },
   "unsupported_browser": {
     "continue_button": "I don't care, let me continue!",
