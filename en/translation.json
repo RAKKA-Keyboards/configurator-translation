@@ -481,8 +481,9 @@
     "delta": "Delta",
     "hint": "This tool is intended for general-purpose key testing and can be used with any keyboard, but it is not suitable for specialized purposes such as latency testing.",
     "hint_limited_by_browser": "Due to the limitations of the browser environment, some keys cannot be tested and the obtained time may not be accurate.",
-    "hint_troubleshooting": "If you want to investigate or report to the developer the issue of chattering or missed keystrokes, please go to \"{{ target }}\".",
-    "hint_unfocused": "The browser is not in focus and cannot get key events."
+    "hint_troubleshooting": "If you want to investigate or report to the developer the issue of chattering or missed keystrokes, please \"{{ target }}\".",
+    "hint_unfocused": "The browser is not in focus and cannot get key events.",
+    "switch_to_investigating_mode": "Switch to investigating mode"
   },
   "unsupported_browser": {
     "continue_button": "I don't care, let me continue!",
@@ -830,11 +831,14 @@
     "reason": "Reason",
     "reason_format": "Reached {{ distance }}mm ({{ position }})",
     "hint": "This tool is used for self-investigation or reporting chattering or missed keystrokes issues to the developer.",
-    "hint_stay_in_this_page_will_slow_down": "Note, staying on this page will slightly slows down response time."
+    "hint_stay_in_this_page_will_slow_down": "Note, staying on this page will slightly slows down response time.",
+    "switch_to_general_purpose_mode": "Switch to general-purpose mode"
   },
   "rapid_trigger": {
     "hint_too_aggressive": "Under the current settings, slight hand movements during pressing, as well as deformation and vibration of the switch, PCB, and plate materials, have a significant impact on the detected distance, potentially causing chattering or missed keystrokes.",
     "hint_large_keys": "This phenomenon becomes more noticeable when keys are hit hard, especially larger keys, as they are more affected by vibrations.",
-    "hint_find_most_suitable": "Finding the most suitable settings requires continuous experimentation."
+    "hint_find_most_suitable": "Finding the most suitable settings requires continuous experimentation.",
+    "hint_requires_bottom_calibration": "Under the current settings, pressing the key forcefully and then pressing it with normal force is likely to cause issues. Please ensure manual bottom calibration has been performed.",
+    "hint_downgraded_since_lacks_bottom_calibration": "Due to the lack of manual bottom calibration, the effective setting is {{ mm }}."
   }
 }

@@ -831,6 +831,8 @@
   "rapid_trigger": {
     "hint_too_aggressive": "在當前設置下，按壓時人手的輕微晃動，軸體、PCB、定位板材料的形變、震動對檢測到的距離的影響已經不可忽視，可能會導致斷觸或誤觸。",
     "hint_large_keys": "這個現象在大力敲擊按鍵，尤其是大鍵時更加明顯，因為它們受震動影響更大。",
-    "hint_find_most_suitable": "找到最適合自己的設置需要不斷嘗試。"
+    "hint_find_most_suitable": "找到最適合自己的設置需要不斷嘗試。",
+    "hint_requires_bottom_calibration": "在當前設置下，大力按壓按鍵後再以正常力度按壓很可能會出現問題，請確定已進行人工底部校準。",
+    "hint_downgraded_since_lacks_bottom_calibration": "由於沒有進行人工底部校準，實際生效的設置為 {{ mm }}。"
   }
 }
