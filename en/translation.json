@@ -479,6 +479,7 @@
     "time": "Time",
     "key": "Key",
     "delta": "Delta",
+    "hint": "This tool is intended for general-purpose key testing and can be used with any keyboard, but it is not suitable for specialized purposes such as latency testing.",
     "hint_limited_by_browser": "Due to the limitations of the browser environment, some keys cannot be tested and the obtained time may not be accurate.",
     "hint_troubleshooting": "If you want to investigate or report to the developer the issue of chattering or missed keystrokes, please go to \"{{ target }}\".",
     "hint_unfocused": "The browser is not in focus and cannot get key events."

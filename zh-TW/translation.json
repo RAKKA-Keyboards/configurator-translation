@@ -438,8 +438,7 @@
       "dynamic_trigger_travel": {
         "description": "處於快速觸發模式中時，如果按鍵未觸發，只要按下指定的距離按鍵就會觸發。",
         "title": "動態觸發行程"
-      },
-      "hint_too_low_is_unstable": "如果將數值設置得極端的低，按鍵時材料本身的輕微震動都可能會引發誤觸發，在空格鍵等大鍵上更為明顯。"
+      }
     },
     "trigger_travel": {
       "title": "觸發行程",
@@ -479,7 +478,7 @@
     "time": "時間",
     "key": "按鍵",
     "delta": "時間差",
-    "hint": "此工具用於通常意義上的按鍵測試，不適用於測試延遲等特殊用途。",
+    "hint": "此工具用於通常意義上的按鍵測試，可用於測試任意鍵盤，但不適用於測試延遲等特殊用途。",
     "hint_limited_by_browser": "受限於瀏覽器環境，部分按鍵無法被測試，且取得的時間不一定準確。",
     "hint_troubleshooting": "如果您想要自行調查或是向開發者回報斷觸誤觸的問題，請前往「{{ target }}」。",
     "hint_unfocused": "瀏覽器未處於焦點狀態，無法獲取按鍵事件。"
@@ -828,5 +827,10 @@
     "reason_format": "達到 {{ distance }}mm（{{ position }}）",
     "hint": "此工具用於自我調查或是向開發者回報斷觸及誤觸問題。",
     "hint_stay_in_this_page_will_slow_down": "注意，停留在此頁面會輕微降低響應速度。"
+  },
+  "rapid_trigger": {
+    "hint_too_aggressive": "在當前設置下，按壓時人手的輕微晃動，軸體、PCB、定位板材料的形變、震動對檢測到的距離的影響已經不可忽視，可能會導致斷觸或誤觸。",
+    "hint_large_keys": "這個現象在大力敲擊按鍵，尤其是大鍵時更加明顯，因為它們受震動影響更大。",
+    "hint_find_most_suitable": "找到最適合自己的設置需要不斷嘗試。"
   }
 }
