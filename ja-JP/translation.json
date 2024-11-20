@@ -204,7 +204,6 @@
       "description": "Performs self-calibration continuously during operation to ensure stability and accuracy. This feature cannot be disabled."
     },
     "full_calibration": {
-      "title": "Perform full calibration",
       "description": "Recalibrates the entire keyboard. For keyboards that support multiple layouts, it will also re-detect the layout in use."
     },
     "bottom_calibration": {
@@ -214,7 +213,6 @@
       "clear": "Clear saved calibration values for selected keys",
       "steps": {
         "title": "Please follow these steps:",
-        "step1": "If you have pressed the keys with excessive force, perform a full calibration first.",
         "step2": "If the key already has a calibration value, clear it first.",
         "step3": "Press the key you wish to calibrate with normal force (no need to select them first). Try to keep it vertically downward during the pressing process.",
         "step4": "Select the keys and click save."
@@ -239,7 +237,7 @@
     }
   },
   "debug": {
-    "hint_hurt_performance": "Staying on this tab may affect performance. To observe keyboard behavior, it is recommended to stay in Devices - Logs.",
+    "hint_hurt_performance": "Staying on this tab will affect performance.",
     "re_initialize": {
       "message": "Redo the steps that to be performed when powering on, including but not limited to calibration, check if switches are installed. For keyboards that support multiple layouts, which layout is installed will also be rechecked.",
       "title": "Reinitialize",
@@ -464,11 +462,7 @@
   },
   "key_test": {
     "title": "Test the key code",
-    "description": "Tests the key code received by the operating system.",
-    "test_matrix": {
-      "title": "Test if the key is pressed",
-      "description": "Tests if a physical key has been pressed, nothing about key mapping. This is useful for debugging as it predates the device sending the key code to the operating system. This option is disabled by default and is not saved in the device."
-    }
+    "description": "Tests the key code received by the operating system."
   },
   "unsupported_browser": {
     "continue_button": "I don't care, let me continue!",
@@ -627,7 +621,6 @@
       "description": "<b>Switch the profile used by the keyboard</b>: In Keymap, bind keys in Profile category to the location you want, then press the key on the keyboard. On some keyboards, the default \"Layer 1\" + QWER is to switch profile 1234. <p><b>Edit Profile</b>: Click the profile you want to edit."
     },
     "hint_keyboard_current_profile": "The keyboard is currently on this profile",
-    "hint_keyboard_switch_profile": "Under your remap settings, press {{ combination }} can switch to this profile",
     "hint_profile_key_not_found": "The key to switch to this profile is not found, you can bind the profile key to the location you want",
     "on_board_profiles": "On-board profiles",
     "configure_profile": "Configure #{{ index }} {{ profile }}",

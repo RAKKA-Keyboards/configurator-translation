@@ -204,7 +204,7 @@
       "description": "Performs self-calibration continuously during operation to ensure stability and accuracy. This feature cannot be disabled."
     },
     "full_calibration": {
-      "title": "Perform full calibration",
+      "title": "Initialize automatic calibration",
       "description": "Recalibrates the entire keyboard. For keyboards that support multiple layouts, it will also re-detect the layout in use."
     },
     "bottom_calibration": {
@@ -214,7 +214,7 @@
       "clear": "Clear saved calibration values for selected keys",
       "steps": {
         "title": "Please follow these steps:",
-        "step1": "If you have pressed the keys with excessive force, perform a full calibration first.",
+        "step1": "If you have pressed the keys with excessive force, perform \"Initialize automatic calibration\" to clear automatically recorded bottom values.",
         "step2": "If the key already has a calibration value, clear it first.",
         "step3": "Press the key you wish to calibrate with normal force (no need to select them first). Try to keep it vertically downward during the pressing process.",
         "step4": "Select the keys and click save."
@@ -239,7 +239,8 @@
     }
   },
   "debug": {
-    "hint_hurt_performance": "Staying on this tab may affect performance. To observe keyboard behavior, it is recommended to stay in Devices - Logs.",
+    "title": "Debug",
+    "hint_hurt_performance": "Staying on this tab will affect performance.",
     "re_initialize": {
       "message": "Redo the steps that to be performed when powering on, including but not limited to calibration, check if switches are installed. For keyboards that support multiple layouts, which layout is installed will also be rechecked.",
       "title": "Reinitialize",
@@ -253,6 +254,10 @@
     "reset": {
       "title": "Reset",
       "description": "Reset the configuration of the device to default. Please wait for about half a minute before unplugging the device to ensure the configuration is saved."
+    },
+    "test_matrix": {
+      "title": "Reports whether the key is pressed",
+      "description": "Allows the keyboard to report whether a key is considered to be pressed. Pressed keys are indicated by the visual above. This option is disabled by default and is not saved in the device."
     }
   },
   "demo_mode": {
@@ -467,10 +472,6 @@
   "key_test": {
     "title": "Key test",
     "description": "Tests the key code received by the operating system.",
-    "test_matrix": {
-      "title": "Test if the key is pressed",
-      "description": "Tests if a physical key has been pressed, nothing about key mapping. This is useful for debugging as it predates the device sending the key code to the operating system. This option is disabled by default and is not saved in the device."
-    },
     "type": {
       "title": "Type",
       "press": "Press",
@@ -479,7 +480,8 @@
     "time": "Time",
     "key": "Key",
     "delta": "Delta",
-    "hint_limited_by_browser": "Due to browser environment limitations, some keys cannot be tested. The time accuracy obtained is limited and delayed. Please do not use this tool for latency testing.",
+    "hint_limited_by_browser": "Due to the limitations of the browser environment, some keys cannot be tested and the obtained time may not be accurate.",
+    "hint_troubleshooting": "If you want to investigate or report to the developer the issue of false triggers and releases, please go to \"{{ target }}\".",
     "hint_unfocused": "The browser is not in focus and cannot get key events."
   },
   "unsupported_browser": {
@@ -814,5 +816,20 @@
         }
     }
   },
-  "something_went_wrong": "Something went wrong"
+  "something_went_wrong": "Something went wrong",
+  "bug_report": {
+    "title": "Bug report"
+  },
+  "troubleshooting": {
+    "title": "Troubleshooting",
+    "pressed_at": "Pressed at {{ time }}",
+    "released_at": "Released at {{ time }}",
+    "key": "Key",
+    "time": "Time",
+    "delta": "Delta",
+    "reason": "Reason",
+    "reason_format": "Reached {{ distance }}mm ({{ position }})",
+    "hint": "This tool is used for self-investigation or reporting false trigger and release issues to the developer.",
+    "hint_stay_in_this_page_will_slow_down": "Note, staying on this page will slightly slows down response time."
+  }
 }
