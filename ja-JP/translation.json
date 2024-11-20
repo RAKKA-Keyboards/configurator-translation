@@ -430,8 +430,7 @@
       "dynamic_trigger_travel": {
         "description": "When in Rapid Trigger mode, if the key is not triggered, trigger as long as the specified distance is pressed.",
         "title": "Dynamic trigger travel"
-      },
-      "hint_too_low_is_unstable": "If the values is set extremely low, even slight vibrations of the material during key presses may cause false triggers, which is more pronounced on larger keys like the Space."
+      }
     },
     "trigger_travel": {
       "title": "Trigger travel",

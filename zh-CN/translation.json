@@ -438,8 +438,7 @@
       "dynamic_trigger_travel": {
         "description": "处于快速触发模式中时，如果按键未触发，只要按下指定的距离按键就会触发。",
         "title": "动态触发行程"
-      },
-      "hint_too_low_is_unstable": "如果将数值设置得极端的低，按键时材料本身的轻微震动都可能会引发误触发，在空格键等大键上更为明显。"
+      }
     },
     "trigger_travel": {
       "title": "触发行程",
@@ -828,5 +827,10 @@
     "reason_format": "达到 {{ distance }}mm（{{ position }}）",
     "hint": "此工具用于自我调查或是向开发者回报断触及误触问题。",
     "hint_stay_in_this_page_will_slow_down": "注意，停留在此页面会轻微降低响应速度。"
+  },
+  "rapid_trigger": {
+    "hint_too_aggressive": "在当前设置下，按压时人手的轻微晃动，轴体、PCB、定位板材料的形变、震动对检测到的距离的影响已经不可忽视，可能会导致断触或误触。",
+    "hint_large_keys": "这个现象在大力敲击按键，尤其是大键时更加明显，因为它们受震动影响更大。",
+    "hint_find_most_suitable": "找到最适合自己的设置需要不断尝试。"
   }
 }

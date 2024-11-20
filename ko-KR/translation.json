@@ -429,8 +429,7 @@
       "dynamic_trigger_travel": {
         "description": "래피드 트리거 모드에서 키가 입력 해제 된 경우 지정된 거리를 누르면 트리거됩니다.",
         "title": "재입력지점"
-      },
-      "hint_too_low_is_unstable": "If the values is set extremely low, even slight vibrations of the material during key presses may cause false triggers, which is more pronounced on larger keys like the Space."
+      }
     },
     "trigger_travel": {
       "title": "입력지점",

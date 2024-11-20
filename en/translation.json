@@ -439,14 +439,13 @@
       "dynamic_trigger_travel": {
         "description": "When in Rapid Trigger mode, if the key is not triggered, trigger as long as the specified distance is pressed.",
         "title": "Dynamic trigger travel"
-      },
-      "hint_too_low_is_unstable": "If the values is set extremely low, even slight vibrations of the material during key presses may cause false triggers, which is more pronounced on larger keys like the Space."
+      }
     },
     "trigger_travel": {
       "title": "Trigger travel",
       "description": "The distance the key must be pressed down for it to trigger. Regardless of other settings, this option determines the distance the key must be pressed down after being fully reset to trigger again.",
       "hint_too_low_is_meaningless": "Unless you are accustomed to fully releasing the key each time before pressing it again, setting this value very low is meaningless.",
-      "hint_too_low_is_unstable": "If the value is set extremely low, even slight vibrations of the material during key release may cause false triggers, which is especially noticeable on larger keys like the Space."
+      "hint_too_low_is_unstable": "If the value is set extremely low, even slight vibrations of the material during key release may cause chattering or missed keystrokes, which is especially noticeable on larger keys like the Space."
     },
     "rapid_trigger_in_full_travel": {
       "title": "Rapid Trigger in full travel",
@@ -481,7 +480,7 @@
     "key": "Key",
     "delta": "Delta",
     "hint_limited_by_browser": "Due to the limitations of the browser environment, some keys cannot be tested and the obtained time may not be accurate.",
-    "hint_troubleshooting": "If you want to investigate or report to the developer the issue of false triggers and releases, please go to \"{{ target }}\".",
+    "hint_troubleshooting": "If you want to investigate or report to the developer the issue of chattering or missed keystrokes, please go to \"{{ target }}\".",
     "hint_unfocused": "The browser is not in focus and cannot get key events."
   },
   "unsupported_browser": {
@@ -811,9 +810,9 @@
       }
     },
     "cycle8_he": {
-        "lighting_scopes": {
-            "light_bar": "Light bar"
-        }
+      "lighting_scopes": {
+        "light_bar": "Light bar"
+      }
     }
   },
   "something_went_wrong": "Something went wrong",
@@ -829,7 +828,12 @@
     "delta": "Delta",
     "reason": "Reason",
     "reason_format": "Reached {{ distance }}mm ({{ position }})",
-    "hint": "This tool is used for self-investigation or reporting false trigger and release issues to the developer.",
+    "hint": "This tool is used for self-investigation or reporting chattering or missed keystrokes issues to the developer.",
     "hint_stay_in_this_page_will_slow_down": "Note, staying on this page will slightly slows down response time."
+  },
+  "rapid_trigger": {
+    "hint_too_aggressive": "Under the current settings, slight hand movements during pressing, as well as deformation and vibration of the switch, PCB, and plate materials, have a significant impact on the detected distance, potentially causing chattering or missed keystrokes.",
+    "hint_large_keys": "This phenomenon becomes more noticeable when keys are hit hard, especially larger keys, as they are more affected by vibrations.",
+    "hint_find_most_suitable": "Finding the most suitable settings requires continuous experimentation."
   }
 }
