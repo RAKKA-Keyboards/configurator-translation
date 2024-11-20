@@ -817,6 +817,9 @@
     }
   },
   "something_went_wrong": "出错了",
+  "bug_report": {
+    "title": "Bug report"
+  },
   "troubleshooting": {
     "title": "疑难解答",
     "pressed_at": "按下于 {{ time }}",
