@@ -204,6 +204,7 @@
       "description": "Performs self-calibration continuously during operation to ensure stability and accuracy. This feature cannot be disabled."
     },
     "full_calibration": {
+      "title": "Initialize automatic calibration",
       "description": "Recalibrates the entire keyboard. For keyboards that support multiple layouts, it will also re-detect the layout in use."
     },
     "bottom_calibration": {
@@ -213,6 +214,7 @@
       "clear": "Clear saved calibration values for selected keys",
       "steps": {
         "title": "Please follow these steps:",
+        "step1": "If you have pressed the keys with excessive force, perform \"Initialize automatic calibration\" to clear automatically recorded bottom values.",
         "step2": "If the key already has a calibration value, clear it first.",
         "step3": "Press the key you wish to calibrate with normal force (no need to select them first). Try to keep it vertically downward during the pressing process.",
         "step4": "Select the keys and click save."
@@ -237,6 +239,7 @@
     }
   },
   "debug": {
+    "title": "Debug",
     "hint_hurt_performance": "Staying on this tab will affect performance.",
     "re_initialize": {
       "message": "Redo the steps that to be performed when powering on, including but not limited to calibration, check if switches are installed. For keyboards that support multiple layouts, which layout is installed will also be rechecked.",
@@ -251,6 +254,10 @@
     "reset": {
       "title": "Reset",
       "description": "Reset the configuration of the device to default. Please wait for about half a minute before unplugging the device to ensure the configuration is saved."
+    },
+    "test_matrix": {
+      "title": "Reports whether the key is pressed",
+      "description": "Allows the keyboard to report whether a key is considered to be pressed. Pressed keys are indicated by the visual above. This option is disabled by default and is not saved in the device."
     }
   },
   "demo_mode": {
@@ -321,6 +328,7 @@
     "reboot_to_recovery_hint": "After restarting to recovery mode, the device will prompt the user that the device is in recovery mode by means of a indicator light.",
     "connect_to_recovery_device": "Connect to device in recovery mode",
     "connect_to_recovery_device_hint": "After clicking Connect, you need to select the device again and the writing process will begin. If you want to give up on upgrading, please DO NOT click Connect. The device will return to normal mode after replugging the device.",
+    "connect_to_recovery_device_hint_unable_to_find_device": "If the device cannot be found, make sure it is in recovery mode. For example, typing should not be possible. Also, using a low-quality USB cable may prevent the device from running at USB 2.0 High Speed and thus not be detected.",
     "flash_firmware": "Flash firmware",
     "flash_firmware_hint": "Please do not disconnect the device. If the device is disconnected during flashing, the device will stay in recovery mode and can be restored by re-upgrading the firmware.",
     "finish": "Finish",
@@ -461,7 +469,20 @@
   },
   "key_test": {
     "title": "Test the key code",
-    "description": "Tests the key code received by the operating system."
+    "description": "Tests the key code received by the operating system.",
+    "type": {
+      "title": "Type",
+      "press": "Press",
+      "release": "Release"
+    },
+    "time": "Time",
+    "key": "Key",
+    "delta": "Delta",
+    "hint": "This tool is intended for general-purpose key testing and can be used with any keyboard, but it is not suitable for specialized purposes such as latency testing.",
+    "hint_limited_by_browser": "Due to the limitations of the browser environment, some keys cannot be tested and the obtained time may not be accurate.",
+    "hint_troubleshooting": "If you want to investigate or report to the developer the issue of chattering or missed keystrokes, please \"{{ target }}\".",
+    "hint_unfocused": "The browser is not in focus and cannot get key events.",
+    "switch_to_investigating_mode": "Switch to investigating mode"
   },
   "unsupported_browser": {
     "continue_button": "I don't care, let me continue!",
@@ -620,6 +641,7 @@
       "description": "<b>Switch the profile used by the keyboard</b>: In Keymap, bind keys in Profile category to the location you want, then press the key on the keyboard. On some keyboards, the default \"Layer 1\" + QWER is to switch profile 1234. <p><b>Edit Profile</b>: Click the profile you want to edit."
     },
     "hint_keyboard_current_profile": "The keyboard is currently on this profile",
+    "hint_keyboard_switch_profile": "Under your remap settings, press {{ combination }} can switch to this profile",
     "hint_profile_key_not_found": "The key to switch to this profile is not found, you can bind the profile key to the location you want",
     "on_board_profiles": "On-board profiles",
     "configure_profile": "Configure #{{ index }} {{ profile }}",
@@ -794,5 +816,28 @@
       }
     }
   },
-  "something_went_wrong": "Something went wrong"
+  "something_went_wrong": "Something went wrong",
+  "bug_report": {
+    "title": "Bug report"
+  },
+  "troubleshooting": {
+    "title": "Troubleshooting",
+    "pressed_at": "Pressed at {{ time }}",
+    "released_at": "Released at {{ time }}",
+    "key": "Key",
+    "time": "Time",
+    "delta": "Delta",
+    "reason": "Reason",
+    "reason_format": "Reached {{ distance }}mm ({{ position }})",
+    "hint": "This tool is used for self-investigation or reporting chattering or missed keystrokes issues to the developer.",
+    "hint_stay_in_this_page_will_slow_down": "Note, staying on this page will slightly slows down response time.",
+    "switch_to_general_purpose_mode": "Switch to general-purpose mode"
+  },
+  "rapid_trigger": {
+    "hint_too_aggressive": "Under the current settings, slight hand movements during pressing, as well as deformation and vibration of the switch, PCB, and plate materials, have a significant impact on the detected distance, potentially causing chattering or missed keystrokes.",
+    "hint_large_keys": "This phenomenon becomes more noticeable when keys are hit hard, especially larger keys, as they are more affected by vibrations.",
+    "hint_find_most_suitable": "Finding the most suitable settings requires continuous experimentation.",
+    "hint_requires_bottom_calibration": "Under the current settings, pressing the key forcefully and then pressing it with normal force is likely to cause issues. Please ensure manual bottom calibration has been performed.",
+    "hint_downgraded_since_lacks_bottom_calibration": "Due to the lack of manual bottom calibration, the effective setting is {{ mm }}."
+  }
 }
