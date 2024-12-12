@@ -731,7 +731,8 @@
     },
     "animation": {
       "rainbow": "彩虹",
-      "ocean": "海洋"
+      "ocean": "海洋",
+      "purple": "紫！"
     },
     "direction": {
       "title": "方向",

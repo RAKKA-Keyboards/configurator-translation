@@ -732,7 +732,8 @@
     },
     "animation": {
       "rainbow": "Rainbow",
-      "ocean": "Ocean"
+      "ocean": "Ocean",
+      "purple": "Purple!"
     },
     "direction": {
       "title": "Direction",
