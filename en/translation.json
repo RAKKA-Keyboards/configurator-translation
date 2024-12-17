@@ -486,7 +486,7 @@
     "switch_to_investigating_mode": "Switch to investigating mode"
   },
   "unsupported_browser": {
-    "continue_button": "I don't care, let me continue!",
+    "continue_button": "Nuh uh",
     "continue_description": "You can also choose to continue exploring RAKKA Keyboard Configurator in order to understand its features. However, you may encounter problems with pages not displaying properly, and you may not be able to connect a keyboard properly.",
     "description": "RAKKA Keyboard Configurator is built using WebHID and some modern technologies, but unfortunately, the browser you are using does not support these technologies. Note that browsers such as FireFox, Safari, etc. are not supported as they do not support WebHID.",
     "supported_browser": "Supported browsers:",
