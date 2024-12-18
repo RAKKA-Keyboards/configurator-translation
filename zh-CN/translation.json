@@ -268,6 +268,7 @@
     "tooltip": "连接一个模拟的设备，您可以借此了解对应的设备的功能。"
   },
   "device": {
+    "title": "设备",
     "information": {
       "title": "信息",
       "connection_speed": "连接速度",
@@ -603,7 +604,7 @@
   "continue": "继续",
   "wizard": {
     "title": "允许浏览器连接到设备",
-    "description": "点击下方按钮，您的浏览器会在地址栏下方弹出一个对话框（如操作示例中所示）。在列表中点击设备名称以选择设备，然后点击“连接”。",
+    "description": "您的浏览器应该会在地址栏下方弹出一个对话框（如操作示例中所示）。在列表中点击设备名称以选择设备，然后点击“连接”。",
     "example": {
       "title": "操作示例",
       "dialog": {
@@ -656,14 +657,6 @@
     "title": "主题",
     "preset": "预设",
     "pick_a_color": "选择一个颜色"
-  },
-  "device_management": {
-    "title": "我的设备",
-    "current_device": "当前设备",
-    "paired": "已配对",
-    "connected": "已连接",
-    "disconnected": "未连接",
-    "connect_to_new_device": "连接到新设备"
   },
   "pwa": {
     "app_ready_to_work_offline": "RAKKA Keyboard Configurator 已准备好离线使用。",
@@ -840,5 +833,26 @@
     "hint_find_most_suitable": "找到最适合自己的设置需要不断尝试。",
     "hint_requires_bottom_calibration": "在当前设置下，大力按压按键后再以正常力度按压很可能会出现问题，请确定已进行人工底部校准。",
     "hint_downgraded_since_lacks_bottom_calibration": "由于没有进行人工底部校准，实际生效的设置为 {{ mm }}。"
+  },
+  "config": {
+    "title": "配置"
+  },
+  "device_management": {
+    "device_info": "设备信息",
+    "device_name": "设备名称",
+    "my_devices": "我的设备",
+    "firmware_update_date": "固件发布日期",
+    "firmware_version": "固件版本",
+    "serial_number": "序列号",
+    "last_connected": "上次连接",
+    "status": {
+      "title": "状态",
+      "current_device": "当前设备",
+      "paired": "已配对",
+      "connected": "已连接",
+      "disconnected": "未连接"
+    },
+    "connect_to_new_device": "连接到新设备",
+    "hint_connect_to_a_device_first": "请先连接到一个设备。"
   }
 }
