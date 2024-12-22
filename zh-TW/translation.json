@@ -10,8 +10,8 @@
       "description": "按下按鍵時臨時開啟層 {{layer}}"
     },
     "profile": {
-      "text": "设定档 {{profile}}",
-      "description": "切换到设定档 {{profile}}"
+      "text": "配置 {{profile}}",
+      "description": "切換到設定檔 {{profile}}"
     },
     "toggle_layer": {
       "description": "永久開啟或關閉層 {{layer}}"
@@ -126,7 +126,7 @@
         "description": "重啟鍵盤"
       },
       "config_reset": {
-        "description": "重置键盘设定"
+        "description": "重置鍵盤設定"
       },
       "nkro_toggle": {
         "description": "開啟或關閉全鍵無衝"
@@ -144,20 +144,20 @@
         "description": "ESC，和 Shift 一起按下時 ~"
       },
       "toggle_profile": {
-        "text": "前一设定档",
-        "description": "在當前设定档和上一次切換到的设定档之間切換"
+        "text": "前一設定檔",
+        "description": "在當前設定檔和上一次切換到的設定檔之間切換"
       },
       "toggle_profile_0": {
-        "text": "设定档 1",
-        "description": "在當前设定档和设定档 1 之間切換"
+        "text": "配置 1",
+        "description": "在當前設定檔和設定檔 1 之間切換"
       },
       "cycle_profile": {
-        "text": "循环设定档",
-        "description": "循環切換设定档"
+        "text": "循環設定檔",
+        "description": "循環切換設定檔"
       },
       "cycle_profile_back": {
-        "text": "循环设定档",
-        "description": "循環切換设定档（反向）"
+        "text": "循環設定檔",
+        "description": "循環切換設定檔（反向）"
       }
     },
     "hid": {
@@ -179,8 +179,8 @@
     },
     "title": {
       "demo_mode_format": "演示模式",
-      "device_connected_format": "設備已連接",
-      "device_not_connected": "設備未連接"
+      "device_connected_format": "裝置已連接",
+      "device_not_connected": "裝置未連接"
     }
   },
   "calibration": {
@@ -227,13 +227,13 @@
   },
   "connect": {
     "button": {
-      "communicating": "正在與設備通信…",
-      "connect": "連接到設備",
-      "requesting": "正在請求連接到設備…"
+      "communicating": "正在與裝置通信…",
+      "connect": "連接到裝置",
+      "requesting": "正在請求連接到裝置…"
     },
     "hint": {
-      "device_is_in_use": "設備正被使用。請檢查您是是否已在其他網頁或應用程序中連接該設備。",
-      "no_device_selected": "未選擇設備。<br><br>對於 PomPomBoard 及其他固件版本小於 0.4.0 版本的設備請使用 {{ legacy_site }}。",
+      "device_is_in_use": "裝置正被使用。請檢查您是是否已在其他網頁或應用程序中連接該裝置。",
+      "no_device_selected": "未選擇裝置。<br><br>對於 PomPomBoard 及其他固件版本小於 0.4.0 版本的裝置請使用 {{ legacy_site }}。",
       "no_webhid_support": "您的瀏覽器不支持 WebHID。請使用最新版本的 Chrome 或 Edge 瀏覽器。",
       "legacy_site": "舊版本網站"
     }
@@ -249,15 +249,15 @@
     "start": "開始",
     "enable_log": {
       "title": "啟用日誌",
-      "description": "啟用日誌輸出。這對調試很有用。在「設備」-「日誌」中查看日誌。該選項默認關閉，且不會保存到設備中。"
+      "description": "啟用日誌輸出。這對調試很有用。在「裝置」-「日誌」中查看日誌。該選項默認關閉，且不會保存到裝置中。"
     },
     "reset": {
       "title": "重置",
-      "description": "將設備设定档重置為默認设定档。在斷開連接前請等待約半分鐘以確保设定档被保存。"
+      "description": "將裝置配置重置為默認配置。在斷開連接前請等待約半分鐘以確保配置被保存。"
     },
     "test_matrix": {
       "title": "回報按鍵是否被按下",
-      "description": "允許鍵盤迴報按鍵是否被認為是按下的。被按下的按鍵會在上方以視覺效果顯示。該選項默認關閉，且不會保存到設備中。"
+      "description": "允許鍵盤迴報按鍵是否被認為是按下的。被按下的按鍵會在上方以視覺效果顯示。該選項默認關閉，且不會保存到裝置中。"
     }
   },
   "demo_mode": {
@@ -265,10 +265,10 @@
       "dummy_75": "示例 75% 鍵盤"
     },
     "title": "演示模式",
-    "tooltip": "連接一個模擬的設備，您可以藉此瞭解對應的設備的功能。"
+    "tooltip": "連接一個模擬的裝置，您可以藉此瞭解對應的裝置的功能。"
   },
   "device": {
-    "title": "設備",
+    "title": "裝置",
     "information": {
       "title": "信息",
       "connection_speed": "連接速度",
@@ -278,13 +278,13 @@
         "low_speed": "USB 1.1 低速"
       },
       "developer": "開發者",
-      "device_name": "設備名稱",
+      "device_name": "裝置名稱",
       "firmware_update_date": "固件發佈日期",
       "firmware_version": "固件版本",
       "serial_number": "序列號",
       "last_connected": "上次連接",
-      "hint_device_not_connected": "（設備未連接）",
-      "host_operation_system": "主機操作系統（由設備獲取）",
+      "hint_device_not_connected": "（裝置未連接）",
+      "host_operation_system": "主機操作系統（由裝置獲取）",
       "os": {
         "linux": "Linux",
         "macos": "macOS",
@@ -302,12 +302,12 @@
     "hint": {
       "not_a_valid_firmware": "不是有效的固件文件。",
       "read_file_error": "讀取文件時發生錯誤。",
-      "mismatched_firmware": "固件文件與設備不匹配。",
-      "upgrade_was_interrupted": "設備上次固件升級未完成。請重新插拔後再試。",
+      "mismatched_firmware": "固件文件與裝置不匹配。",
+      "upgrade_was_interrupted": "裝置上次固件升級未完成。請重新插拔後再試。",
       "firmware_interrupted": "升級過程意外中斷。請重新插拔後再試。",
       "unknown_error": "未知錯誤 {{ code }}。",
-      "device_not_connected": "設備未連接或設備已處於恢復模式。",
-      "bad_cable": "一個可能的原因是使用了低質量 USB 線纜，使得連接不穩定或是連接速率降低（設備無法運行在 USB 2.0 高速）。",
+      "device_not_connected": "裝置未連接或裝置已處於恢復模式。",
+      "bad_cable": "一個可能的原因是使用了低質量 USB 線纜，使得連接不穩定或是連接速率降低（裝置無法運行在 USB 2.0 高速）。",
       "contact_us": "如果仍有問題，請發送郵件至 {{ email }} 以聯繫我們取得幫助。"
     },
     "choose_firmware": "選擇固件",
@@ -325,24 +325,24 @@
     "changelog": "更新日誌",
     "choose_a_local_file": "選擇一個本地文件",
     "verify_firmware": "驗證固件",
-    "reboot_to_recovery": "重啟設備至恢復模式",
-    "reboot_to_recovery_hint": "重啟到恢復模式後，設備會以常亮的指示燈等形式提示用戶設備處於恢復模式。",
-    "connect_to_recovery_device": "連接到處於恢復模式的設備",
-    "connect_to_recovery_device_hint": "點擊連接後，您需要再次選擇設備，隨即寫入過程就會開始。若放棄升級，請不要點擊連接，重新插拔設備後設備會回到正常模式。",
-    "connect_to_recovery_device_hint_unable_to_find_device": "如果無法找到設備，請確認設備已經進入恢復模式。例如，此時應不能打字。另外，使用低質量的 USB 線纜可能會導致設備無法運行在 USB 2.0 高速，從而無法被檢測到。",
+    "reboot_to_recovery": "重啟裝置至恢復模式",
+    "reboot_to_recovery_hint": "重啟到恢復模式後，裝置會以常亮的指示燈等形式提示用戶裝置處於恢復模式。",
+    "connect_to_recovery_device": "連接到處於恢復模式的裝置",
+    "connect_to_recovery_device_hint": "點擊連接後，您需要再次選擇裝置，隨即寫入過程就會開始。若放棄升級，請不要點擊連接，重新插拔裝置後設備會回到正常模式。",
+    "connect_to_recovery_device_hint_unable_to_find_device": "如果無法找到裝置，請確認裝置已經進入恢復模式。例如，此時應不能打字。另外，使用低質量的 USB 線纜可能會導致裝置無法運行在 USB 2.0 高速，從而無法被檢測到。",
     "flash_firmware": "寫入固件",
-    "flash_firmware_hint": "請不要斷開設備連接。若在寫入期間斷開設備，設備將停留在恢復模式，重新進行固件升級即可恢復。",
+    "flash_firmware_hint": "請不要斷開裝置連接。若在寫入期間斷開裝置，裝置將停留在恢復模式，重新進行固件升級即可恢復。",
     "finish": "完成",
     "firmware_upgrade_finished": "升級成功。窗口將會自動關閉。",
     "connect": "連接",
-    "reboot_the_device": "重啟設備",
-    "device_already_in_recovery": "設備已處於恢復模式",
+    "reboot_the_device": "重啟裝置",
+    "device_already_in_recovery": "裝置已處於恢復模式",
     "download_error": "下載失敗",
-    "choose_device": "選擇設備",
+    "choose_device": "選擇裝置",
     "choose_channel": "選擇通道",
     "update_found": {
-      "title": "您的設備有固件更新",
-      "description": "您的設備正運行 {{currentVersion}}。最新版本是 {{latestVersion}}。",
+      "title": "您的裝置有固件更新",
+      "description": "您的裝置正運行 {{currentVersion}}。最新版本是 {{latestVersion}}。",
       "ignore": "忽略"
     }
   },
@@ -353,11 +353,11 @@
       "selected_other": "已選擇 {{count}} 個鍵位"
     },
     "layer": "層",
-    "global_config": "全局设定档",
+    "global_config": "全局配置",
     "tab": {
       "calibration": "校準",
       "debug": "調試",
-      "device": "設備",
+      "device": "裝置",
       "keymap": "按鍵映射",
       "performance": "性能",
       "key-test": "按鍵測試",
@@ -371,7 +371,7 @@
   "keymap": {
     "type": "類型：{{type}}",
     "remap_selected_keys": "設置到已選擇的按鍵",
-    "config_advanced_key": "设定档{{key}}",
+    "config_advanced_key": "配置{{key}}",
     "hint_no_keys_selected": "請先選擇您想要重新映射的按鍵。",
     "hint_combo_is_empty": "請至少為組合鍵選擇一個按鍵或修飾鍵。",
     "hint_tap_hold_hold_is_empty": "請設置長按時的按鍵。",
@@ -393,9 +393,9 @@
       "text": "組合鍵是一個或多個修飾鍵（例如 Ctrl、Shift）和一個普通按鍵的組合。"
     },
     "dynamic": {
-      "limit": "此按鍵無法再添加更多设定档",
+      "limit": "此按鍵無法再添加更多配置",
       "name": "動態觸發鍵",
-      "placeholder": "從下面選擇一個鍵加入设定档…"
+      "placeholder": "從下面選擇一個鍵加入配置…"
     },
     "normal": {
       "name": "普通",
@@ -405,7 +405,7 @@
         "basic": "基本",
         "extension": "擴展",
         "layer": "層",
-        "profile": "设定档",
+        "profile": "設定檔",
         "system": "系統",
         "advanced": "高級"
       }
@@ -603,50 +603,50 @@
   "close": "關閉",
   "continue": "繼續",
   "wizard": {
-    "title": "允許瀏覽器連接到設備",
-    "description": "您的瀏覽器應該會在地址欄下方彈出一個對話框（如操作示例中所示）。在列表中點擊設備名稱以選擇設備，然後點擊「連接」。",
+    "title": "允許瀏覽器連接到裝置",
+    "description": "您的瀏覽器應該會在地址欄下方彈出一個對話框（如操作示例中所示）。在列表中點擊裝置名稱以選擇裝置，然後點擊「連接」。",
     "example": {
       "title": "操作示例",
       "dialog": {
-        "title": "{{hostname}} 想連接到 HID 設備",
+        "title": "{{hostname}} 想連接到 HID 裝置",
         "connect": "連接",
         "cancel": "取消"
       },
-      "hint_1": "1. 點擊設備名稱",
+      "hint_1": "1. 點擊裝置名稱",
       "hint_2": "2. 點擊「連接」"
     },
-    "replug_hint": "如果您無法看到您的設備或設備一直處於連接狀態，請重新插拔設備後再試。",
-    "cannot_connect_button": "我仍然無法連接我的設備",
-    "cannot_connect_hint_firmware_update_failed": "如果您的設備在升級固件的過程中意外斷開或失敗，它會停留在恢復模式。不同設備會使用不同的方式提示其處於恢復模式，例如常亮的指示燈。不要驚慌，再次進行固件升級可以恢復。"
+    "replug_hint": "如果您無法看到您的裝置或裝置一直處於連接狀態，請重新插拔裝置後再試。",
+    "cannot_connect_button": "我仍然無法連接我的裝置",
+    "cannot_connect_hint_firmware_update_failed": "如果您的裝置在升級固件的過程中意外斷開或失敗，它會停留在恢復模式。不同裝置會使用不同的方式提示其處於恢復模式，例如常亮的指示燈。不要驚慌，再次進行固件升級可以恢復。"
   },
   "profile": {
-    "title": "设定档",
+    "title": "設定檔",
     "current": "{{name}}（當前）",
     "standalone_keymap": {
       "title": "獨立的按鍵映射",
-      "description": "開啟時，該设定档享有獨立的按鍵映射設置。關閉時，該设定档使用设定档 1 的按鍵映射設置。"
+      "description": "開啟時，該設定檔享有獨立的按鍵映射設置。關閉時，該設定檔使用設定檔 1 的按鍵映射設置。"
     },
     "builtin": {
-      "unnamed": "设定档 {{index}}",
-      "typing_profile": "打字设定档",
-      "gaming_profile": "遊戲设定档"
+      "unnamed": "配置 {{index}}",
+      "typing_profile": "打字配置",
+      "gaming_profile": "遊戲配置"
     },
     "rename": {
       "title": "重命名",
-      "description": "重命名设定档 #{{index}}",
-      "hint_empty": "设定档名稱不可為空。",
-      "hint_too_long": "设定档名稱長度最多隻能是 {{ length }}。"
+      "description": "重命名設定檔 #{{index}}",
+      "hint_empty": "設定檔名稱不可為空。",
+      "hint_too_long": "設定檔名稱長度最多隻能是 {{ length }}。"
     },
     "how_to_switch": {
-      "title": "如何切換设定档",
-      "description": "<b>切換鍵盤使用的设定档</b>：在按鍵映射中，將设定档類別的按鍵綁定到您想要的位置上，然後在鍵盤上按下這個按鍵。在部分鍵盤上，默認「層 1」+QWER 是切換设定档 1234。<p><b>編輯设定档</b>：點擊您想要編輯的设定档。"
+      "title": "如何切換設定檔",
+      "description": "<b>切換鍵盤使用的設定檔</b>：在按鍵映射中，將設定檔類別的按鍵綁定到您想要的位置上，然後在鍵盤上按下這個按鍵。在部分鍵盤上，默認「層 1」+QWER 是切換設定檔 1234。<p><b>編輯設定檔</b>：點擊您想要編輯的設定檔。"
     },
-    "hint_keyboard_current_profile": "鍵盤現在正使用此设定档",
-    "hint_keyboard_switch_profile": "在您的按鍵映射設置下，按下 {{ combination }} 可以切換到此设定档",
-    "hint_profile_key_not_found": "未找到切換到此设定档的按鍵，您可以將设定档按鍵綁定到您想要的位置",
-    "on_board_profiles": "板載设定档",
+    "hint_keyboard_current_profile": "鍵盤現在正使用此設定檔",
+    "hint_keyboard_switch_profile": "在您的按鍵映射設置下，按下 {{ combination }} 可以切換到此設定檔",
+    "hint_profile_key_not_found": "未找到切換到此設定檔的按鍵，您可以將設定檔按鍵綁定到您想要的位置",
+    "on_board_profiles": "板載設定檔",
     "configure_profile": "修改 #{{ index }} {{ profile }}",
-    "hint_editing_profile_changes_for_keyboard_profile": "由於更改了鍵盤正使用的设定档，已切換當前編輯的设定档。"
+    "hint_editing_profile_changes_for_keyboard_profile": "由於更改了鍵盤正使用的設定檔，已切換當前編輯的設定檔。"
   },
   "dark_mode": {
     "dark_mode": "暗色模式",
@@ -711,8 +711,8 @@
         "title": "Windows Dynamic Lighting"
       },
       "enforce_indicator_on_profile_change": {
-        "title": "设定档變化時強制打開指示燈",
-        "description": "设定档改變後，在數秒內強制打開指示燈（例如 CapsLock 指示燈）。通過給不同的设定档設置不同的指示燈顏色，可以區分哪個设定档是當前的。"
+        "title": "設定檔變化時強制打開指示燈",
+        "description": "設定檔改變後，在數秒內強制打開指示燈（例如 CapsLock 指示燈）。通過給不同的設定檔設置不同的指示燈顏色，可以區分哪個設定檔是當前的。"
       },
       "breath": {
         "title": "呼吸"
@@ -772,7 +772,7 @@
   },
   "about": {
     "title": "關於",
-    "description": "RAKKA Keyboard Configurator 是一個基於 Web 的用於设定档您的 RAKKA 設備的工具。",
+    "description": "RAKKA Keyboard Configurator 是一個基於 Web 的用於配置您的 RAKKA 裝置的工具。",
     "version": "版本 {{version}}",
     "date": "構建於 {{date}}",
     "all_rights_reserved": "保留所有權利。"
@@ -835,24 +835,24 @@
     "hint_downgraded_since_lacks_bottom_calibration": "由於沒有進行人工底部校準，實際生效的設置為 {{ mm }}。"
   },
   "config": {
-    "title": "设定档"
+    "title": "配置"
   },
   "device_management": {
-    "device_info": "設備信息",
-    "device_name": "設備名稱",
-    "my_devices": "我的設備",
+    "device_info": "裝置信息",
+    "device_name": "裝置名稱",
+    "my_devices": "我的裝置",
     "firmware_update_date": "固件發佈日期",
     "firmware_version": "固件版本",
     "serial_number": "序列號",
     "last_connected": "上次連接",
     "status": {
       "title": "狀態",
-      "current_device": "當前設備",
+      "current_device": "當前裝置",
       "paired": "已配對",
       "connected": "已連接",
       "disconnected": "未連接"
     },
-    "connect_to_new_device": "連接到新設備",
-    "hint_connect_to_a_device_first": "請先連接到一個設備"
+    "connect_to_new_device": "連接到新裝置",
+    "hint_connect_to_a_device_first": "請先連接到一個裝置"
   }
 }
