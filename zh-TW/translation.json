@@ -439,11 +439,13 @@
       "dynamic_trigger_travel": {
         "description": "處於快速觸發模式中時，如果按鍵未觸發，只要按下指定的距離按鍵就會觸發。",
         "title": "動態觸發行程"
-      }
+      },
+      "hint_select_keys_first": "請先選擇您想要修改快速觸發的按鍵。"
     },
     "trigger_travel": {
       "title": "觸發行程",
       "description": "按鍵需要被按壓多少距離才會被觸發。",
+      "hint_select_keys_first": "請先選擇您想要修改觸發行程的按鍵。",
       "hint_too_low_is_meaningless": "追求將觸發行程設定得更低是沒有意義的，因為它只作用於完全鬆開按鍵後下次需要按壓多少。",
       "hint_too_low_is_unstable": "在當前設定下，鬆開按鍵時可能會導致再次觸發。",
       "hint_too_low_is_unstable_tooltip": "軸體或衛星軸在觸頂時，不可避免地會產生震動。<br><br>用力按壓後快速鬆開，或者按鍵帶有衛星軸（例如空格鍵），產生的震動相對更大。<br><br>震動幅度大於觸發行程時，會導致再次觸發。"

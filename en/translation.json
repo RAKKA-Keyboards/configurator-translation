@@ -440,7 +440,8 @@
       "dynamic_trigger_travel": {
         "description": "When in Rapid Trigger mode, if the key is not triggered, trigger as long as the specified distance is pressed.",
         "title": "Dynamic trigger travel"
-      }
+      },
+      "hint_select_keys_first": "Please select the key you want to set the Rapid Trigger first."
     },
     "trigger_travel": {
       "title": "Actuation distance",

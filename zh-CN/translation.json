@@ -439,7 +439,8 @@
       "dynamic_trigger_travel": {
         "description": "处于快速触发模式中时，如果按键未触发，只要按下指定的距离按键就会触发。",
         "title": "动态触发行程"
-      }
+      },
+      "hint_select_keys_first": "请先选择您想要修改快速触发的按键。"
     },
     "trigger_travel": {
       "title": "触发行程",
