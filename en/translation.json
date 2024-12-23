@@ -445,6 +445,7 @@
     "trigger_travel": {
       "title": "Actuation distance",
       "description": "How far a key needs to be pressed to trigger.",
+      "hint_select_keys_first": "Please select the key you want to set the actuation distance first.",
       "hint_too_low_is_meaningless": "Lowering the actuation distance further is meaningless, as it only affects how far the key needs to be pressed after being fully released.",
       "hint_too_low_is_unstable": "Under the current settings, releasing a key may cause it to trigger again.",
       "hint_too_low_is_unstable_tooltip": "Vibrations in the switch or stabilizers are unavoidable when they hit the top.<br><br>Forcefully pressing and quickly releasing, or using keys with stabilizers (e.g., the spacebar), results in relatively larger vibrations.<br><br>If the vibration amplitude exceeds the actuation distance, it will cause the key to trigger again."
