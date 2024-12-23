@@ -443,9 +443,10 @@
     },
     "trigger_travel": {
       "title": "触发行程",
-      "description": "按键触发所需的按压距离。不论其他选项如何设置，此选项决定了按键在完全重置后再次触发需要按下的距离。",
-      "hint_too_low_is_meaningless": "除非您习惯于每次都完全松开按键后再按下，否则将此值设置得很低是没有意义的。",
-      "hint_too_low_is_unstable": "如果将数值设置得极端的低，按键回弹时材料本身的轻微震动都可能会引发误触发，在空格键等大键上更为明显。"
+      "description": "按键需要被按压多少距离才会被触发。",
+      "hint_too_low_is_meaningless": "追求将触发行程设定得更低是没有意义的，因为它只作用于完全松开按键后下次需要按压多少。",
+      "hint_too_low_is_unstable": "在当前设定下，松开按键时可能会导致再次触发。",
+      "hint_too_low_is_unstable_tooltip": "轴体或卫星轴在触顶时，不可避免地会产生震动。<br><br>用力按压后快速松开，或者按键带有卫星轴（例如空格键），产生的震动相对更大。<br><br>震动幅度大于触发行程时，会导致再次触发。"
     },
     "rapid_trigger_in_full_travel": {
       "title": "全行程快速触发",

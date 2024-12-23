@@ -441,10 +441,11 @@
       }
     },
     "trigger_travel": {
-      "title": "Trigger travel",
-      "description": "The distance the key must be pressed down for it to trigger. Regardless of other settings, this option determines the distance the key must be pressed down after being fully reset to trigger again.",
-      "hint_too_low_is_meaningless": "Unless you are accustomed to fully releasing the key each time before pressing it again, setting this value very low is meaningless.",
-      "hint_too_low_is_unstable": "If the value is set extremely low, even slight vibrations of the material during key release may cause false triggers, which is especially noticeable on larger keys like the Space."
+      "title": "Actuation distance",
+      "description": "How far a key needs to be pressed to trigger.",
+      "hint_too_low_is_meaningless": "Lowering the actuation distance further is meaningless, as it only affects how far the key needs to be pressed after being fully released.",
+      "hint_too_low_is_unstable": "Under the current settings, releasing a key may cause it to trigger again.",
+      "hint_too_low_is_unstable_tooltip": "Vibrations in the switch or stabilizers are unavoidable when they hit the top.<br><br>Forcefully pressing and quickly releasing, or using keys with stabilizers (e.g., the spacebar), results in relatively larger vibrations.<br><br>If the vibration amplitude exceeds the actuation distance, it will cause the key to trigger again."
     },
     "rapid_trigger_in_full_travel": {
       "title": "Rapid Trigger in full travel",
