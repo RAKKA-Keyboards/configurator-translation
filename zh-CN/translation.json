@@ -433,12 +433,12 @@
       "title": "快速触发",
       "description": "开启快速触发后，按键的触发和重置不再是一个固定的距离，而是在您按压的过程中动态调整。这可以让您更快地触发或重置按键。在特定类型的游戏中很有帮助。",
       "dynamic_reset_travel": {
-        "description": "处于快速触发模式中时，如果按键已触发，只要回弹指定的距离按键就会释放。",
-        "title": "动态重置行程"
+        "description": "如果按键已触发，松开指定的距离按键就会释放。",
+        "title": "重置行程"
       },
       "dynamic_trigger_travel": {
-        "description": "处于快速触发模式中时，如果按键未触发，只要按下指定的距离按键就会触发。",
-        "title": "动态触发行程"
+        "description": "如果按键未触发，按下指定的距离按键就会触发。",
+        "title": "触发行程"
       },
       "hint_select_keys_first": "请先选择您想要修改快速触发的按键。"
     },
@@ -451,8 +451,8 @@
       "hint_too_low_is_unstable_tooltip": "轴体或卫星轴在触顶时，不可避免地会产生震动。<br><br>用力按压后快速松开，或者按键带有卫星轴（例如空格键），产生的震动相对更大。<br><br>震动幅度大于触发行程时，会导致再次触发。"
     },
     "rapid_trigger_in_full_travel": {
-      "title": "全行程快速触发",
-      "description": "启用时，除非完全松开按键，快速触发始终生效；禁用时，快速触发只在触发行程（{{travel}}mm）到触底之间生效。"
+      "title": "仅在触发行程内生效",
+      "description": "启用时，一旦按键松开至 {{travel}}mm 以上，则需要再次按压至 {{travel}}mm 才能再次触发；禁用时；除非完全松开按键，快速触发始终生效。"
     },
     "always_trigger_when_bottoming": {
       "title": "触底时始终触发",

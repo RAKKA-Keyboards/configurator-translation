@@ -434,12 +434,12 @@
       "title": "Rapid Trigger",
       "description": "After enabling Rapid Trigger, the trigger and reset position are no longer fixed, but dynamically adjusted as you press. This allows you to trigger or reset keys more quickly, which can be helpful in certain types of games.",
       "dynamic_reset_travel": {
-        "description": "When in Rapid Trigger mode, if the key is triggered, reset as long as the specified distance is released.",
-        "title": "Dynamic reset travel"
+        "description": "If the key is triggered, reset as long as the specified distance is released.",
+        "title": "Reset travel"
       },
       "dynamic_trigger_travel": {
-        "description": "When in Rapid Trigger mode, if the key is not triggered, trigger as long as the specified distance is pressed.",
-        "title": "Dynamic trigger travel"
+        "description": "If the key is not triggered, trigger as long as the specified distance is pressed.",
+        "title": "Trigger travel"
       },
       "hint_select_keys_first": "Please select the key you want to set the Rapid Trigger first."
     },
@@ -452,8 +452,8 @@
       "hint_too_low_is_unstable_tooltip": "Vibrations in the switch or stabilizers are unavoidable when they hit the top.<br><br>Forcefully pressing and quickly releasing, or using keys with stabilizers (e.g., the spacebar), results in relatively larger vibrations.<br><br>If the vibration amplitude exceeds the actuation distance, it will cause the key to trigger again."
     },
     "rapid_trigger_in_full_travel": {
-      "title": "Rapid Trigger in full travel",
-      "description": "If enabled, Rapid Trigger mode will always active unless the key is fully released. If disabled, Rapid Trigger mode is only active between trigger travel, {{travel}}mm, to bottom."
+      "title": "Effective only within Actuation distance",
+      "description": "When enabled, once the key is released beyond {{travel}}mm, it must be pressed again to {{travel}}mm to trigger again; when disabled, Rapid Trigger remains effective unless the key is fully released."
     },
     "always_trigger_when_bottoming": {
       "title": "Always trigger when bottoming",

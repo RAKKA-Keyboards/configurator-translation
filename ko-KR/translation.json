@@ -432,24 +432,26 @@
       "title": "래피드 트리거",
       "description": "After enabling Rapid Trigger, the trigger and reset position are no longer fixed, but dynamically adjusted as you press. This allows you to trigger or reset keys more quickly, which can be helpful in certain types of games.",
       "dynamic_reset_travel": {
-        "description": "래피드 트리거 모드에서는 키가 입력된 후 지정된 거리만큼 손을 떼면 입력해제됩니다.",
-        "title": "입력해제지점"
+        "description": "If the key is triggered, reset as long as the specified distance is released.",
+        "title": "Reset travel"
       },
       "dynamic_trigger_travel": {
-        "description": "래피드 트리거 모드에서 키가 입력 해제 된 경우 지정된 거리를 누르면 트리거됩니다.",
-        "title": "재입력지점"
-      }
+        "description": "If the key is not triggered, trigger as long as the specified distance is pressed.",
+        "title": "Trigger travel"
+      },
+      "hint_select_keys_first": "Please select the key you want to set the Rapid Trigger first."
     },
     "trigger_travel": {
       "title": "Actuation distance",
       "description": "How far a key needs to be pressed to trigger.",
+      "hint_select_keys_first": "Please select the key you want to set the actuation distance first.",
       "hint_too_low_is_meaningless": "Lowering the actuation distance further is meaningless, as it only affects how far the key needs to be pressed after being fully released.",
       "hint_too_low_is_unstable": "Under the current settings, releasing a key may cause it to trigger again.",
       "hint_too_low_is_unstable_tooltip": "Vibrations in the switch or stabilizers are unavoidable when they hit the top.<br><br>Forcefully pressing and quickly releasing, or using keys with stabilizers (e.g., the spacebar), results in relatively larger vibrations.<br><br>If the vibration amplitude exceeds the actuation distance, it will cause the key to trigger again."
     },
     "rapid_trigger_in_full_travel": {
-      "title": "총 이동거리 중 래피드 트리거 작동 모드",
-      "description": "If enabled, Rapid Trigger mode will always active unless the key is fully released. If disabled, Rapid Trigger mode is only active between trigger travel, {{travel}}mm, to bottom."
+      "title": "Effective only within Actuation distance",
+      "description": "When enabled, once the key is released beyond {{travel}}mm, it must be pressed again to {{travel}}mm to trigger again; when disabled, Rapid Trigger remains effective unless the key is fully released."
     },
     "always_trigger_when_bottoming": {
       "title": "바닥을 칠 때 항상 입력 모드",
