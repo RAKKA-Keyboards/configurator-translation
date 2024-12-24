@@ -740,6 +740,7 @@
     "title": "Swift Flow",
     "description": "{{name}} 提供了額外的機制來決定按鍵是否被觸發。先由 {{trigger_travel}} 或 {{rapid_trigger}} 決定按鍵是否是被按下，隨後 {{name}} 再判斷按鍵是否應該被觸發。注意，如果按鍵符合 {{trigger_travel}} 或 {{rapid_trigger}} 的重置條件，則按鍵一定會被重置。",
     "combination": "組合 {{index}}",
+    "combination_short": "組合 {{index}}",
     "enable": "啟用這個組合",
     "set_as_selected": "設置為選中的按鍵",
     "hint_select_two_keys": "請在上方的鍵盤選擇兩個按鍵。",

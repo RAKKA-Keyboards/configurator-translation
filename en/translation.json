@@ -741,6 +741,7 @@
     "title": "Swift Flow",
     "description": "{{name}} provides additional mechanisms to determine whether a key is triggered. First, {{trigger_travel}} or {{rapid_trigger}} determines whether the key is pressed, and then {{name}} determines whether the key should be triggered. Note that if the key matches the reset condition of {{trigger_travel}} or {{rapid_trigger}}, the button will always be reset.",
     "combination": "Combination {{index}}",
+    "combination_short": "Comb {{index}}",
     "enable": "Enable this combination",
     "set_as_selected": "Set as selected keys",
     "hint_select_two_keys": "Please select two keys at the keyboard above.",
