@@ -265,7 +265,10 @@
       "dummy_75": "Example 75% keyboard"
     },
     "title": "Demo mode",
-    "tooltip": "Connect a simulated device so that you can understand the function of the corresponding device."
+    "button": {
+      "title": "Try it out",
+      "summary": "Explore the device's features and capabilities through demo mode without purchasing the device. Start now!"
+    }
   },
   "device": {
     "title": "Device",
