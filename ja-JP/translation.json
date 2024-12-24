@@ -268,6 +268,7 @@
     "tooltip": "Connect a simulated device so that you can understand the function of the corresponding device."
   },
   "device": {
+    "title": "Device",
     "information": {
       "title": "Information",
       "connection_speed": "Connection speed",
@@ -660,14 +661,6 @@
     "preset": "Preset",
     "pick_a_color": "Pick a color"
   },
-  "device_management": {
-    "title": "My devices",
-    "current_device": "Current device",
-    "paired": "Paired",
-    "connected": "Connected",
-    "disconnected": "Disconnected",
-    "connect_to_new_device": "Connect to a new device"
-  },
   "pwa": {
     "app_ready_to_work_offline": "RAKKA Keyboard Configurator is ready to use offline",
     "update_available": "RAKKA Keyboard Configurator has a new version available",
@@ -747,6 +740,7 @@
     "title": "Swift Flow",
     "description": "{{name}} provides additional mechanisms to determine whether a key is triggered. First, {{trigger_travel}} or {{rapid_trigger}} determines whether the key is pressed, and then {{name}} determines whether the key should be triggered. Note that if the key matches the reset condition of {{trigger_travel}} or {{rapid_trigger}}, the button will always be reset.",
     "combination": "Combination {{index}}",
+    "combination_short": "Comb {{index}}",
     "enable": "Enable this combination",
     "set_as_selected": "Set as selected keys",
     "hint_select_two_keys": "Please select two keys at the keyboard above.",
@@ -843,5 +837,26 @@
     "hint_find_most_suitable": "Finding the most suitable settings requires continuous experimentation.",
     "hint_requires_bottom_calibration": "Under the current settings, pressing the key forcefully and then pressing it with normal force is likely to cause issues. Please ensure manual bottom calibration has been performed.",
     "hint_downgraded_since_lacks_bottom_calibration": "Due to the lack of manual bottom calibration, the effective setting is {{ mm }}."
+  },
+  "config": {
+    "title": "Config"
+  },
+  "device_management": {
+    "device_info": "Device info",
+    "device_name": "Device name",
+    "my_devices": "My devices",
+    "firmware_update_date": "Firmware release date",
+    "firmware_version": "Firmware version",
+    "serial_number": "Serial number",
+    "last_connected": "Last connected",
+    "status": {
+      "title": "Status",
+      "current_device": "Current device",
+      "paired": "Paired",
+      "connected": "Connected",
+      "disconnected": "Disconnected"
+    },
+    "connect_to_new_device": "Connect to a new device",
+    "hint_connect_to_a_device_first": "Please connect to a device first"
   }
 }

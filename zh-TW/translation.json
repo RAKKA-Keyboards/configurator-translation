@@ -283,8 +283,8 @@
       "firmware_version": "固件版本",
       "serial_number": "序列號",
       "last_connected": "上次連接",
-      "hint_device_not_connected": "（裝置未連接）",
-      "host_operation_system": "主機操作系統（由裝置獲取）",
+      "hint_device_not_connected": "（設備未連接）",
+      "host_operation_system": "主機操作系統（由設備獲取）",
       "os": {
         "linux": "Linux",
         "macos": "macOS",
@@ -307,7 +307,7 @@
       "firmware_interrupted": "升級過程意外中斷。請重新插拔後再試。",
       "unknown_error": "未知錯誤 {{ code }}。",
       "device_not_connected": "裝置未連接或裝置已處於恢復模式。",
-      "bad_cable": "一個可能的原因是使用了低質量 USB 線纜，使得連接不穩定或是連接速率降低（裝置無法運行在 USB 2.0 高速）。",
+      "bad_cable": "一個可能的原因是使用了低質量 USB 線纜，使得連接不穩定或是連接速率降低（設備無法運行在 USB 2.0 高速）。",
       "contact_us": "如果仍有問題，請發送郵件至 {{ email }} 以聯繫我們取得幫助。"
     },
     "choose_firmware": "選擇固件",
@@ -715,7 +715,7 @@
       },
       "enforce_indicator_on_profile_change": {
         "title": "設定檔變化時強制打開指示燈",
-        "description": "設定檔改變後，在數秒內強制打開指示燈（例如 CapsLock 指示燈）。通過給不同的設定檔設置不同的指示燈顏色，可以區分哪個設定檔是當前的。"
+        "description": "设定档改變後，在數秒內強制打開指示燈（例如 CapsLock 指示燈）。通過給不同的设定档設置不同的指示燈顏色，可以區分哪個设定档是當前的。"
       },
       "breath": {
         "title": "呼吸"

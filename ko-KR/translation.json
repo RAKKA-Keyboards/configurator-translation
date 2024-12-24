@@ -268,6 +268,7 @@
     "tooltip": "해당 장치의 기능을 이해할 수 있도록 시뮬레이션 장치를 연결합니다.."
   },
   "device": {
+    "title": "장치",
     "information": {
       "title": "정보",
       "connection_speed": "연결 속도",
@@ -437,7 +438,7 @@
       },
       "dynamic_trigger_travel": {
         "description": "If the key is not triggered, trigger as long as the specified distance is pressed.",
-        "title": "Trigger travel"
+        "title": "입력지점"
       },
       "hint_select_keys_first": "Please select the key you want to set the Rapid Trigger first."
     },
@@ -606,6 +607,7 @@
   "continue": "계속",
   "wizard": {
     "title": "브라우저에서 디바이스 연결을 허용합니다.",
+    "description": "Your browser should show a dialog below the address bar (as shown in the example). Click on the device name in the list to select the device and then click \"Connect\".",
     "example": {
       "title": "예시",
       "dialog": {
@@ -658,14 +660,6 @@
     "title": "Theme",
     "preset": "Preset",
     "pick_a_color": "Pick a color"
-  },
-  "device_management": {
-    "title": "My devices",
-    "current_device": "Current device",
-    "paired": "Paired",
-    "connected": "Connected",
-    "disconnected": "Disconnected",
-    "connect_to_new_device": "Connect to a new device"
   },
   "pwa": {
     "app_ready_to_work_offline": "RAKKA Keyboard Configurator is ready to use offline",
@@ -746,6 +740,7 @@
     "title": "Swift Flow",
     "description": "{{name}} provides additional mechanisms to determine whether a key is triggered. First, {{trigger_travel}} or {{rapid_trigger}} determines whether the key is pressed, and then {{name}} determines whether the key should be triggered. Note that if the key matches the reset condition of {{trigger_travel}} or {{rapid_trigger}}, the button will always be reset.",
     "combination": "Combination {{index}}",
+    "combination_short": "Comb {{index}}",
     "enable": "Enable this combination",
     "set_as_selected": "Set as selected keys",
     "hint_select_two_keys": "Please select two keys at the keyboard above.",
@@ -842,5 +837,26 @@
     "hint_find_most_suitable": "Finding the most suitable settings requires continuous experimentation.",
     "hint_requires_bottom_calibration": "Under the current settings, pressing the key forcefully and then pressing it with normal force is likely to cause issues. Please ensure manual bottom calibration has been performed.",
     "hint_downgraded_since_lacks_bottom_calibration": "Due to the lack of manual bottom calibration, the effective setting is {{ mm }}."
+  },
+  "config": {
+    "title": "Config"
+  },
+  "device_management": {
+    "device_info": "Device info",
+    "device_name": "장치 이름",
+    "my_devices": "My devices",
+    "firmware_update_date": "Firmware release date",
+    "firmware_version": "펌웨어 버전",
+    "serial_number": "Serial number",
+    "last_connected": "Last connected",
+    "status": {
+      "title": "Status",
+      "current_device": "Current device",
+      "paired": "Paired",
+      "connected": "Connected",
+      "disconnected": "Disconnected"
+    },
+    "connect_to_new_device": "Connect to a new device",
+    "hint_connect_to_a_device_first": "Please connect to a device first"
   }
 }
