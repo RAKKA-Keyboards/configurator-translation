@@ -855,7 +855,8 @@
       "current_device": "Current device",
       "paired": "Paired",
       "connected": "Connected",
-      "disconnected": "Disconnected"
+      "disconnected": "Disconnected",
+      "connecting": "Connecting"
     },
     "connect_to_new_device": "Connect to a new device",
     "hint_connect_to_a_device_first": "Please connect to a device first"

@@ -854,7 +854,8 @@
       "current_device": "当前设备",
       "paired": "已配对",
       "connected": "已连接",
-      "disconnected": "未连接"
+      "disconnected": "未连接",
+      "connecting": "连接中"
     },
     "connect_to_new_device": "连接到新设备",
     "hint_connect_to_a_device_first": "请先连接到一个设备"
