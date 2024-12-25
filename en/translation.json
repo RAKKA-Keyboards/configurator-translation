@@ -809,7 +809,8 @@
       "lighting_scopes": {
         "keys": "Keys",
         "sidebar": "Sidebars",
-        "logo": "Logo"
+        "logo": "Logo",
+        "indicator": "Indicator"
       }
     },
     "cycle8_he": {

@@ -808,7 +808,8 @@
       "lighting_scopes": {
         "keys": "按键",
         "sidebar": "侧边栏",
-        "logo": "Logo"
+        "logo": "Logo",
+        "indicator": "指示灯"
       }
     },
     "cycle8_he": {
