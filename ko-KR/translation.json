@@ -265,7 +265,10 @@
       "dummy_75": "75% 키보드 예시"
     },
     "title": "데모 모드",
-    "tooltip": "해당 장치의 기능을 이해할 수 있도록 시뮬레이션 장치를 연결합니다.."
+    "button": {
+      "title": "Try it out",
+      "summary": "Explore the device's features and capabilities through demo mode without purchasing the device. Start now!"
+    }
   },
   "device": {
     "title": "장치",
@@ -805,7 +808,8 @@
       "lighting_scopes": {
         "keys": "Keys",
         "sidebar": "Sidebars",
-        "logo": "Logo"
+        "logo": "Logo",
+        "indicator": "Indicator"
       }
     },
     "cycle8_he": {
@@ -854,9 +858,11 @@
       "current_device": "Current device",
       "paired": "Paired",
       "connected": "Connected",
-      "disconnected": "Disconnected"
+      "disconnected": "Disconnected",
+      "connecting": "Connecting"
     },
     "connect_to_new_device": "Connect to a new device",
     "hint_connect_to_a_device_first": "Please connect to a device first"
-  }
+  },
+  "hint_this_option_is_global": "This option is global and does not vary from profile to profile."
 }
