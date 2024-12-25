@@ -865,5 +865,20 @@
     "connect_to_new_device": "Connect to a new device",
     "hint_connect_to_a_device_first": "Please connect to a device first"
   },
-  "hint_this_option_is_global": "This option is global and does not vary from profile to profile."
+  "hint_this_option_is_global": "This option is global and does not vary from profile to profile.",
+  "regional_site": {
+    "hint_based_on_local_information": "The region is inferred locally based on your browser's language, time zone, and other information.",
+    "ignore": "Ignore",
+    "dont_show_again": "Don't show again",
+    "visit_global_site_in_mainland_china": {
+      "title": "You Are Visiting the Global Site",
+      "summary": "If you are in Mainland China, please visit the site tailored for Mainland China users for better access speed.",
+      "button": "Visit the Mainland China Site"
+    },
+    "visit_mainland_china_site_in_other_region": {
+      "title": "You May Not Be in Mainland China",
+      "summary": "If you are not in Mainland China, please visit the global site for better access speed.",
+      "button": "Visit the Global Site"
+    }
+  }
 }

@@ -864,5 +864,20 @@
     "connect_to_new_device": "連接到新裝置",
     "hint_connect_to_a_device_first": "請先連接到一個裝置"
   },
-  "hint_this_option_is_global": "此選項是全局的，不會因為設定檔的不同而不同。"
+  "hint_this_option_is_global": "此選項是全局的，不會因為設定檔的不同而不同。",
+  "regional_site": {
+    "hint_based_on_local_information": "地區由您瀏覽器的語言、時區等信息在本地推測。",
+    "ignore": "忽略",
+    "dont_show_again": "不再顯示",
+    "visit_global_site_in_mainland_china": {
+      "title": "您正在訪問面向全球用戶的站點",
+      "summary": "如果您身處中國大陸，請訪問面向中國大陸用戶的站點以獲得更好的訪問速度。",
+      "button": "訪問面向中國大陸用戶的站點"
+    },
+    "visit_mainland_china_site_in_other_region": {
+      "title": "您可能不位於中國大陸",
+      "summary": "如果您不在中國大陸，請訪問面向全球用戶的站點以獲得更好的訪問速度。",
+      "button": "訪問全球站點"
+    }
+  }
 }
