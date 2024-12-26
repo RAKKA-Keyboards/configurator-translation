@@ -563,6 +563,10 @@
       "title": "King Magnetic Switch RGB",
       "title_short": "King RGB"
     },
+    "ttc_king_pom": {
+      "title": "King Magnetic Switch POM",
+      "title_short": "King POM"
+    },
     "ttc_uranus": {
       "title": "Uranus Magnetic Switch",
       "title_short": "Uranus"

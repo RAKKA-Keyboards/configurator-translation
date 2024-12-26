@@ -562,6 +562,10 @@
       "title": "万磁王轴 RGB",
       "title_short": "King RGB"
     },
+    "ttc_king_pom": {
+      "title": "全 POM 万磁王轴",
+      "title_short": "King POM"
+    },
     "ttc_uranus": {
       "title": "天王磁轴",
       "title_short": "Uranus"
