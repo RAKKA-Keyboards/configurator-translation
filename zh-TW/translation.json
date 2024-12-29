@@ -903,5 +903,8 @@
   "color_picker": {
     "brighter": "更亮",
     "darker": "更暗"
+  },
+  "changelog": {
+    "title": "更新內容"
   }
 }

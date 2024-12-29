@@ -904,5 +904,8 @@
   "color_picker": {
     "brighter": "Brighter",
     "darker": "Darker"
+  },
+  "changelog": {
+    "title": "Changelog"
   }
 }
