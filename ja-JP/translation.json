@@ -678,7 +678,7 @@
   "lighting": {
     "base_fx": "Base effect",
     "color": "Color",
-    "indicators": "Indicators",
+    "settings": "Settings",
     "choose_base_fx": "Choose base effect",
     "overlay_fx": "Overlay effect",
     "choose_overlay_fx": "Choose overlay effect",
@@ -741,6 +741,17 @@
       "title": "Direction",
       "forward": "Forward",
       "backward": "Backward"
+    },
+    "indicator": {
+      "caps_lock": {
+        "title": "Caps Lock indicator color"
+      },
+      "scroll_lock": {
+        "title": "Scroll Lock indicator color"
+      },
+      "num_lock": {
+        "title": "Num Lock indicator color"
+      }
     }
   },
   "swift_flow": {
@@ -883,5 +894,9 @@
       "summary": "If you are not in Mainland China, please visit the global site for better access speed.",
       "button": "Visit the Global Site"
     }
+  },
+  "color_picker": {
+    "brighter": "Brighter",
+    "darker": "Darker"
   }
 }
