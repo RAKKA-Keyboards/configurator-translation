@@ -678,6 +678,7 @@
   "lighting": {
     "base_fx": "基礎燈效",
     "color": "顏色",
+    "settings": "設置",
     "indicators": "指示燈",
     "choose_base_fx": "選擇基礎燈效",
     "overlay_fx": "燈效疊加層",
@@ -741,6 +742,17 @@
       "title": "方向",
       "forward": "正向",
       "backward": "反向"
+    },
+    "indicator": {
+      "caps_lock": {
+        "title": "大寫鎖定（Caps Lock）指示燈顏色"
+      },
+      "scroll_lock": {
+        "title": "滾動鎖定（Scroll Lock）指示燈顏色"
+      },
+      "num_lock": {
+        "title": "數字鎖定（Num Lock）指示燈顏色"
+      }
     }
   },
   "swift_flow": {
