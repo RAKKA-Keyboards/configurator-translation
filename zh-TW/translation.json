@@ -325,6 +325,7 @@
     "nightly_channel_warning": "The nightly channel firmware contains the real latest changes, but only the developer tests it very roughly. NOT for normal uses.",
     "version": "版本",
     "release_time": "發佈時間",
+    "build_time": "構建時間",
     "changelog": "更新日誌",
     "choose_a_local_file": "選擇一個本地文件",
     "verify_firmware": "驗證固件",
