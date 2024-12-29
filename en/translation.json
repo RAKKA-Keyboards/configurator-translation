@@ -895,5 +895,9 @@
       "summary": "If you are not in Mainland China, please visit the global site for better access speed.",
       "button": "Visit the Global Site"
     }
+  },
+  "color_picker": {
+    "brighter": "Brighter",
+    "darker": "Darker"
   }
 }
