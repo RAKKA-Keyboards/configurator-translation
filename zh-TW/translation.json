@@ -332,7 +332,7 @@
     "reboot_to_recovery": "重啟裝置至恢復模式",
     "reboot_to_recovery_hint": "重啟到恢復模式後，裝置會以常亮的指示燈等形式提示用戶裝置處於恢復模式。",
     "connect_to_recovery_device": "連接到處於恢復模式的裝置",
-    "connect_to_recovery_device_hint": "點擊連接後，您需要再次選擇裝置，隨即寫入過程就會開始。若放棄升級，請不要點擊連接，重新插拔裝置後設備會回到正常模式。",
+    "connect_to_recovery_device_hint": "點擊連接後，您需要再次選擇裝置，隨即寫入過程就會開始。若放棄升級，請不要點擊連接，重新插拔裝置後裝置會回到正常模式。",
     "connect_to_recovery_device_hint_unable_to_find_device": "如果無法找到裝置，請確認裝置已經進入恢復模式。例如，此時應不能打字。另外，使用低質量的 USB 線纜可能會導致裝置無法運行在 USB 2.0 高速，從而無法被檢測到。",
     "flash_firmware": "寫入固件",
     "flash_firmware_hint": "請不要斷開裝置連接。若在寫入期間斷開裝置，裝置將停留在恢復模式，重新進行固件升級即可恢復。",
@@ -906,5 +906,6 @@
   },
   "changelog": {
     "title": "更新內容"
-  }
+  },
+  "hint_do_not_use_hub": "使用 USB Hub 連接裝置可能會導致性能下降或連接不穩定。"
 }

@@ -906,5 +906,6 @@
   },
   "changelog": {
     "title": "更新内容"
-  }
+  },
+  "hint_do_not_use_hub": "使用 USB Hub 连接设备可能会导致性能下降或连接不稳定。"
 }

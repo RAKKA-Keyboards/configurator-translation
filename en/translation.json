@@ -907,5 +907,6 @@
   },
   "changelog": {
     "title": "Changelog"
-  }
+  },
+  "hint_do_not_use_hub": "Using a USB Hub to connect devices may result in degraded performance or unstable connections."
 }
