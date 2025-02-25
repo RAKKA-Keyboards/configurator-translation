@@ -235,7 +235,10 @@
       "device_is_in_use": "장치가 사용 중입니다. 다른 웹 페이지나 앱에서 디바이스를 연결했는지 확인하세요..",
       "no_device_selected": "장치가 없습니다.<br><br>폼폼보드를 비롯한 v0.4.0 이하의 펌웨어를 사용하는 다른 장치들은 {{ legacy_site }}.",
       "no_webhid_support": "브라우저가 WebHID를 지원하지 않습니다. 최신 버전의 Chrome 또는 Edge 브라우저를 사용하세요..",
-      "legacy_site": "구버전 웹사이트를 이용해 주세요"
+      "legacy_site": "구버전 웹사이트를 이용해 주세요",
+      "firmware_outdated": "The firmware of the device is no longer supported. Please update the firmware to the latest version.",
+      "configurator_outdated": "This version of the configurator does not support the firmware of the device. Please update the configurator to the latest version.",
+      "device_in_recovery_mode": "Device is in recovery mode. If the last firmware upgrade was not completed, please re-plug the device and try upgrading the firmware again."
     }
   },
   "debug": {
