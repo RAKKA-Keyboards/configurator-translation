@@ -235,7 +235,10 @@
       "device_is_in_use": "The device is in use. Please check if you have connected the device on another web page or app.",
       "no_device_selected": "No device selected.<br><br>For PomPomBoard and other devices with firmware version lower than 0.4.0, please use {{ legacy_site }}.",
       "no_webhid_support": "Your browser does not support WebHID. Please use the latest version of Chrome or Edge browser.",
-      "legacy_site": "the old version of the website"
+      "legacy_site": "the old version of the website",
+      "firmware_outdated": "The firmware of the device is no longer supported. Please update the firmware to the latest version.",
+      "configurator_outdated": "This version of the configurator does not support the firmware of the device. Please update the configurator to the latest version.",
+      "device_in_recovery_mode": "Device is in recovery mode. If the last firmware upgrade was not completed, please re-plug the device and try upgrading the firmware again."
     }
   },
   "debug": {

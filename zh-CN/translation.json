@@ -235,7 +235,10 @@
       "device_is_in_use": "设备正被使用。请检查您是是否已在其他网页或应用程序中连接该设备。",
       "no_device_selected": "未选择设备。<br><br>对于 PomPomBoard 及其他固件版本小于 0.4.0 版本的设备请使用 {{ legacy_site }}。",
       "no_webhid_support": "您的浏览器不支持 WebHID。请使用最新版本的 Chrome 或 Edge 浏览器。",
-      "legacy_site": "旧版本网站"
+      "legacy_site": "旧版本网站",
+      "firmware_outdated": "设备正在使用不再支持的固件版本。请升级固件到最新版本。",
+      "configurator_outdated": "版本的配置器不支持设备运行的固件。请升级配置器到最新版本。",
+      "device_in_recovery_mode": "设备正处于恢复模式。如果上次固件升级未完成，请重新插拔设备后再次进行升级。"
     }
   },
   "debug": {
