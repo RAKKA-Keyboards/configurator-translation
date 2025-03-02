@@ -835,6 +835,11 @@
       "lighting_scopes": {
         "light_bar": "Light bar"
       }
+    },
+    "rakka_60_altus": {
+      "lighting_scopes": {
+        "underglow": "Underglow"
+      }
     }
   },
   "something_went_wrong": "Something went wrong",
