@@ -823,6 +823,35 @@
     "default": {
       "name": "默认"
     },
+    "rakka_60": {
+      "layout_options": {
+        "split_bs": {
+          "name": "退格键",
+          "choices_0": "标准退格键",
+          "choices_1": "分裂退格键"
+        },
+        "iso_enter": {
+          "name": "回车键",
+          "choices_0": "标准回车键",
+          "choices_1": "ISO 回车键（七字回车）"
+        },
+        "split_left_shift": {
+          "name": "左 Shift",
+          "choices_0": "标准左 Shift",
+          "choices_1": "分裂左 Shift"
+        },
+        "split_right_shift": {
+          "name": "右 Shift",
+          "choices_0": "标准右 Shift",
+          "choices_1": "分裂右 Shift"
+        },
+        "split_space": {
+          "name": "空格键",
+          "choices_0": "标准 6.25U 空格",
+          "choices_1": "分裂空格 2.25U - 2.75U - 1.25U"
+        }
+      }
+    },
     "rakka_80_edge": {
       "lighting_scopes": {
         "keys": "按键",
@@ -839,6 +868,40 @@
     "rakka_60_altus": {
       "lighting_scopes": {
         "underglow": "底灯"
+      },
+      "layout_options": {
+        "split_bs": {
+          "name": "退格键",
+          "choices_0": "标准退格键",
+          "choices_1": "分裂退格键"
+        },
+        "stepped_caps": {
+          "name": "大写锁定键",
+          "choices_0": "标准大写锁定键",
+          "choices_1": "阶梯大写锁定键"
+        },
+        "iso_enter": {
+          "name": "回车键",
+          "choices_0": "标准回车键",
+          "choices_1": "ISO 回车键（七字回车）"
+        },
+        "split_left_shift": {
+          "name": "左 Shift",
+          "choices_0": "标准左 Shift",
+          "choices_1": "分裂左 Shift"
+        },
+        "split_right_shift": {
+          "name": "右 Shift",
+          "choices_0": "标准右 Shift",
+          "choices_1": "分裂右 Shift"
+        },
+        "bottom_row": {
+          "name": "底部行",
+          "choices_0": "6.25U 空格",
+          "choices_1": "分裂空格 2.25U - 2.75U - 1.25U",
+          "choices_2": "7U 空格",
+          "choices_3": "分裂空格 3U - 1U - 3U"
+        }
       }
     }
   },
@@ -919,5 +982,14 @@
   "changelog": {
     "title": "更新内容"
   },
-  "hint_do_not_use_hub": "使用 USB Hub 连接设备可能会导致性能下降或连接不稳定。"
+  "hint_do_not_use_hub": "使用 USB Hub 连接设备可能会导致性能下降或连接不稳定。",
+  "layout_options": {
+    "title": "布局选项",
+    "auto_choose": {
+      "title": "自动选择",
+      "description": "根据您安装的按键自动选择布局选项。<p>更改安装的按键后需要重新自动选择。<br>如果检测有误则可能需要手动选择。"
+    },
+    "retry_auto_choose": "重新自动选择",
+    "manual_choose": "手动选择"
+  }
 }

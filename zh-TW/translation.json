@@ -823,6 +823,35 @@
     "default": {
       "name": "默認"
     },
+    "rakka_60": {
+      "layout_options": {
+        "split_bs": {
+          "name": "退格鍵",
+          "choices_0": "標準退格鍵",
+          "choices_1": "分裂退格鍵"
+        },
+        "iso_enter": {
+          "name": "回車鍵",
+          "choices_0": "標準回車鍵",
+          "choices_1": "ISO 回車鍵（七字回車）"
+        },
+        "split_left_shift": {
+          "name": "左 Shift",
+          "choices_0": "標準左 Shift",
+          "choices_1": "分裂左 Shift"
+        },
+        "split_right_shift": {
+          "name": "右 Shift",
+          "choices_0": "標準右 Shift",
+          "choices_1": "分裂右 Shift"
+        },
+        "split_space": {
+          "name": "空格鍵",
+          "choices_0": "標準 6.25U 空格",
+          "choices_1": "分裂空格 2.25U - 2.75U - 1.25U"
+        }
+      }
+    },
     "rakka_80_edge": {
       "lighting_scopes": {
         "keys": "按鍵",
@@ -839,6 +868,40 @@
     "rakka_60_altus": {
       "lighting_scopes": {
         "underglow": "底燈"
+      },
+      "layout_options": {
+        "split_bs": {
+          "name": "退格鍵",
+          "choices_0": "標準退格鍵",
+          "choices_1": "分裂退格鍵"
+        },
+        "stepped_caps": {
+          "name": "大寫鎖定鍵",
+          "choices_0": "標準大寫鎖定鍵",
+          "choices_1": "階梯大寫鎖定鍵"
+        },
+        "iso_enter": {
+          "name": "回車鍵",
+          "choices_0": "標準回車鍵",
+          "choices_1": "ISO 回車鍵（七字回車）"
+        },
+        "split_left_shift": {
+          "name": "左 Shift",
+          "choices_0": "標準左 Shift",
+          "choices_1": "分裂左 Shift"
+        },
+        "split_right_shift": {
+          "name": "右 Shift",
+          "choices_0": "標準右 Shift",
+          "choices_1": "分裂右 Shift"
+        },
+        "bottom_row": {
+          "name": "底部行",
+          "choices_0": "6.25U 空格",
+          "choices_1": "分裂空格 2.25U - 2.75U - 1.25U",
+          "choices_2": "7U 空格",
+          "choices_3": "分裂空格 3U - 1U - 3U"
+        }
       }
     }
   },
@@ -919,5 +982,14 @@
   "changelog": {
     "title": "更新內容"
   },
-  "hint_do_not_use_hub": "使用 USB Hub 連接裝置可能會導致性能下降或連接不穩定。"
+  "hint_do_not_use_hub": "使用 USB Hub 連接裝置可能會導致性能下降或連接不穩定。",
+  "layout_options": {
+    "title": "佈局選項",
+    "auto_choose": {
+      "title": "自動選擇",
+      "description": "根據您安裝的按鍵自動選擇佈局選項。<p>更改安裝的按鍵後需要重新自動選擇。<br>如果檢測有誤則可能需要手動選擇。"
+    },
+    "retry_auto_choose": "重新自動選擇",
+    "manual_choose": "手動選擇"
+  }
 }
