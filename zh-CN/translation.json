@@ -890,6 +890,10 @@
     "new_firmware_available": {
       "title": "有新固件可用",
       "item": "{{ channel }}：{{ version }}"
+    },
+    "auto_connect": {
+      "title": "自动连接",
+      "description": "当页面加载时自动连接到上次连接的设备"
     }
   },
   "hint_this_option_is_global": "此选项是全局的，不会因为配置文件的不同而不同。",

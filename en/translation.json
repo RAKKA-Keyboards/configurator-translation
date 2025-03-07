@@ -891,6 +891,10 @@
     "new_firmware_available": {
       "title": "New firmware available",
       "item": "{{ channel }}: {{ version }}"
+    },
+    "auto_connect": {
+      "title": "Auto connect",
+      "description": "Automatically connect to the last connected device when the page is loaded"
     }
   },
   "hint_this_option_is_global": "This option is global and does not vary from profile to profile.",
