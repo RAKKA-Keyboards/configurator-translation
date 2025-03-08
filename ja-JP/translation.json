@@ -823,6 +823,35 @@
     "default": {
       "name": "Default"
     },
+    "rakka_60": {
+      "layout_options": {
+        "split_bs": {
+          "name": "Backspace",
+          "choices_0": "Normal Backspace",
+          "choices_1": "Split Backspace"
+        },
+        "iso_enter": {
+          "name": "Enter",
+          "choices_0": "Normal Enter",
+          "choices_1": "ISO Enter"
+        },
+        "split_left_shift": {
+          "name": "Left Shift",
+          "choices_0": "Normal Left Shift",
+          "choices_1": "Split Left Shift"
+        },
+        "split_right_shift": {
+          "name": "Right Shift",
+          "choices_0": "Normal Right Shift",
+          "choices_1": "Split Right Shift"
+        },
+        "split_space": {
+          "name": "Spacebar",
+          "choices_0": "Standard 6.25U spacebar",
+          "choices_1": "Split spacebar 2.25U - 2.75U - 1.25U"
+        }
+      }
+    },
     "rakka_80_edge": {
       "lighting_scopes": {
         "keys": "Keys",
@@ -839,6 +868,40 @@
     "rakka_60_altus": {
       "lighting_scopes": {
         "underglow": "Underglow"
+      },
+      "layout_options": {
+        "split_bs": {
+          "name": "Backspace",
+          "choices_0": "Normal Backspace",
+          "choices_1": "Split Backspace"
+        },
+        "stepped_caps": {
+          "name": "CapsLock",
+          "choices_0": "Normal Caps Lock",
+          "choices_1": "Stepped Caps Lock"
+        },
+        "iso_enter": {
+          "name": "Enter",
+          "choices_0": "Normal Enter",
+          "choices_1": "ISO Enter"
+        },
+        "split_left_shift": {
+          "name": "Left Shift",
+          "choices_0": "Normal Left Shift",
+          "choices_1": "Split Left Shift"
+        },
+        "split_right_shift": {
+          "name": "Right Shift",
+          "choices_0": "Normal Right Shift",
+          "choices_1": "Split Right Shift"
+        },
+        "bottom_row": {
+          "name": "Bottom row",
+          "choices_0": "6.25U spacebar",
+          "choices_1": "Split spacebar 2.25U - 1.25U - 2.75U",
+          "choices_2": "7U spacebar",
+          "choices_3": "Split spacebar 3U - 1U - 3U"
+        }
       }
     }
   },
@@ -890,6 +953,10 @@
     "new_firmware_available": {
       "title": "New firmware available",
       "item": "{{ channel }}: {{ version }}"
+    },
+    "auto_connect": {
+      "title": "Auto connect",
+      "description": "Automatically connect to the last connected device when the page is loaded"
     }
   },
   "hint_this_option_is_global": "This option is global and does not vary from profile to profile.",
@@ -915,5 +982,18 @@
   "changelog": {
     "title": "Changelog"
   },
-  "hint_do_not_use_hub": "Using a USB Hub to connect devices may result in degraded performance or unstable connections."
+  "hint_do_not_use_hub": "Using a USB Hub to connect devices may result in degraded performance or unstable connections.",
+  "layout_options": {
+    "title": "Layout options",
+    "auto_choose": {
+      "title": "Auto choose",
+      "description": "Automatically select layout options based on your installed keys.<p>If you change the installed keys, you will need to Retry auto choose. <br>If the detection is incorrect, you may need to select manually."
+    },
+    "manual_choose_will_disable_auto_choose": {
+      "title": "Manual choose will disable auto choose",
+      "description": "If you manually select layout options, the auto choose feature will be disabled. If you change the key of your installation in the future, you will need to manually select the layout options."
+    },
+    "retry_auto_choose": "Retry auto choose",
+    "manual_choose": "Manual choose"
+  }
 }
