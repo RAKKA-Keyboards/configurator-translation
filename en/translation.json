@@ -990,6 +990,10 @@
       "title": "Auto choose",
       "description": "Automatically select layout options based on your installed keys.<p>If you change the installed keys, you will need to Retry auto choose. <br>If the detection is incorrect, you may need to select manually."
     },
+    "manual_choose_will_disable_auto_choose": {
+      "title": "Manual choose will disable auto choose",
+      "description": "If you manually select layout options, the auto choose feature will be disabled. If you change the key of your installation in the future, you will need to manually select the layout options."
+    },
     "retry_auto_choose": "Retry auto choose",
     "manual_choose": "Manual choose"
   }
