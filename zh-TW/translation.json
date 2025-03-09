@@ -932,32 +932,44 @@
     },
     "retry_auto_choose": "重新自動選擇",
     "manual_choose": "手動選擇",
-    "option_names": {
-      "backspace": "退格鍵",
-      "capslock": "大寫鎖定鍵",
-      "enter": "回車鍵",
-      "left_shift": "左 Shift",
-      "right_shift": "右 Shift",
-      "space": "空格鍵",
-      "bottom_row": "底部行"
-    },
-    "choice_names": {
-      "normal_bs": "標準退格鍵",
-      "split_bs": "分裂退格鍵",
-      "normal_capslock": "標準大寫鎖定鍵",
-      "stepped_capslock": "階梯大寫鎖定鍵",
-      "normal_enter": "標準回車鍵",
-      "iso_enter": "ISO 回車鍵（七字回車）",
-      "normal_left_shift": "標準左 Shift",
-      "split_left_shift": "分裂左 Shift",
-      "normal_right_shift": "標準右 Shift",
-      "split_right_shift": "分裂右 Shift",
-      "normal_625u_space": "6.25U 空格",
-      "split_space_225u_275u_125u": "分裂空格 2.25U - 2.75U - 1.25U",
-      "625u_space": "6.25U 空格",
-      "split_space_225u_125u_275u": "分裂空格 2.25U - 1.25U - 2.75U",
-      "700u_space": "7U 空格",
-      "split_space_300u_100u_300u": "分裂空格 3U - 1U - 3U"
+    "options": {
+      "backspace": {
+        "name": "退格鍵",
+        "normal": "標準退格鍵",
+        "split": "分裂退格鍵"
+      },
+      "capslock": {
+        "name": "大寫鎖定鍵",
+        "normal": "標準大寫鎖定鍵",
+        "stepped": "階梯大寫鎖定鍵"
+      },
+      "enter": {
+        "name": "回車鍵",
+        "normal": "標準回車鍵",
+        "iso": "ISO 回車鍵（七字回車）"
+      },
+      "left_shift": {
+        "name": "左 Shift",
+        "normal": "標準左 Shift",
+        "split": "分裂左 Shift"
+      },
+      "right_shift": {
+        "name": "右 Shift",
+        "normal": "標準右 Shift",
+        "split": "分裂右 Shift"
+      },
+      "space": {
+        "name": "空格",
+        "625u": "6.25U 空格",
+        "split_225u_275u_125u": "分裂空格 2.25U - 2.75U - 1.25U"
+      },
+      "bottom_row": {
+        "name": "底部行",
+        "625u": "6.25U 空格",
+        "split_225u_125u_275u": "分裂空格 2.25U - 1.25U - 2.75U",
+        "700u": "7U 空格",
+        "split_300u_100u_300u": "分裂空格 3U - 1U - 3U"
+      }
     }
   }
 }

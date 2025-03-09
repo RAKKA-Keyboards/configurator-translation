@@ -933,32 +933,44 @@
     },
     "retry_auto_choose": "Retry auto choose",
     "manual_choose": "Manual choose",
-    "option_names": {
-      "backspace": "Backspace",
-      "capslock": "CapsLock",
-      "enter": "Enter",
-      "left_shift": "Left Shift",
-      "right_shift": "Right Shift",
-      "space": "Spacebar",
-      "bottom_row": "Bottom row"
-    },
-    "choice_names": {
-      "normal_bs": "Normal Backspace",
-      "split_bs": "Split Backspace",
-      "normal_capslock": "Normal CapsLock",
-      "stepped_capslock": "Stepped CapsLock",
-      "normal_enter": "Normal Enter",
-      "iso_enter": "ISO Enter",
-      "normal_left_shift": "Normal Left Shift",
-      "split_left_shift": "Split Left Shift",
-      "normal_right_shift": "Normal Right Shift",
-      "split_right_shift": "Split Right Shift",
-      "normal_625u_space": "Standard 6.25U spacebar",
-      "split_space_225u_275u_125u": "Split spacebar 2.25U - 2.75U - 1.25U",
-      "625u_space": "6.25U spacebar",
-      "split_space_225u_125u_275u": "Split spacebar 2.25U - 1.25U - 2.75U",
-      "700u_space": "7U spacebar",
-      "split_space_300u_100u_300u": "Split spacebar 3U - 1U - 3U"
+    "options": {
+      "backspace": {
+        "name": "Backspace",
+        "normal": "Normal Backspace",
+        "split": "Split Backspace"
+      },
+      "capslock": {
+        "name": "CapsLock",
+        "normal": "Normal CapsLock",
+        "stepped": "Stepped CapsLock"
+      },
+      "enter": {
+        "name": "Enter",
+        "normal": "Normal Enter",
+        "iso": "ISO Enter"
+      },
+      "left_shift": {
+        "name": "Left Shift",
+        "normal": "Normal Left Shift",
+        "split": "Split Left Shift"
+      },
+      "right_shift": {
+        "name": "Right Shift",
+        "normal": "Normal Right Shift",
+        "split": "Split Right Shift"
+      },
+      "space": {
+        "name": "Space",
+        "625u": "Standard 6.25U spacebar",
+        "split_225u_275u_125u": "Split spacebar 2.25U - 2.75U - 1.25U"
+      },
+      "bottom_row": {
+        "name": "Bottom row",
+        "625u": "6.25U spacebar",
+        "split_225u_125u_275u": "Split spacebar 2.25U - 1.25U - 2.75U",
+        "700u": "7U spacebar",
+        "split_300u_100u_300u": "Split spacebar 3U - 1U - 3U"
+      }
     }
   }
 }

@@ -932,32 +932,44 @@
     },
     "retry_auto_choose": "重新自动选择",
     "manual_choose": "手动选择",
-    "option_names": {
-      "backspace": "退格键",
-      "capslock": "大写锁定键",
-      "enter": "回车键",
-      "left_shift": "左 Shift",
-      "right_shift": "右 Shift",
-      "space": "空格键",
-      "bottom_row": "底部行"
-    },
-    "choice_names": {
-      "normal_bs": "标准退格键",
-      "split_bs": "分裂退格键",
-      "normal_capslock": "标准大写锁定键",
-      "stepped_capslock": "阶梯大写锁定键",
-      "normal_enter": "标准回车键",
-      "iso_enter": "ISO 回车键（七字回车）",
-      "normal_left_shift": "标准左 Shift",
-      "split_left_shift": "分裂左 Shift",
-      "normal_right_shift": "标准右 Shift",
-      "split_right_shift": "分裂右 Shift",
-      "normal_625u_space": "6.25U 空格",
-      "split_space_225u_275u_125u": "分裂空格 2.25U - 2.75U - 1.25U",
-      "625u_space": "6.25U 空格",
-      "split_space_225u_125u_275u": "分裂空格 2.25U - 1.25U - 2.75U",
-      "700u_space": "7U 空格",
-      "split_space_300u_100u_300u": "分裂空格 3U - 1U - 3U"
+    "options": {
+      "backspace": {
+        "name": "退格键",
+        "normal": "标准退格键",
+        "split": "分裂退格键"
+      },
+      "capslock": {
+        "name": "大写锁定键",
+        "normal": "标准大写锁定键",
+        "stepped": "阶梯大写锁定键"
+      },
+      "enter": {
+        "name": "回车键",
+        "normal": "标准回车键",
+        "iso": "ISO 回车键（七字回车）"
+      },
+      "left_shift": {
+        "name": "左 Shift",
+        "normal": "标准左 Shift",
+        "split": "分裂左 Shift"
+      },
+      "right_shift": {
+        "name": "右 Shift",
+        "normal": "标准右 Shift",
+        "split": "分裂右 Shift"
+      },
+      "space": {
+        "name": "空格",
+        "625u": "6.25U 空格",
+        "split_225u_275u_125u": "分裂空格 2.25U - 2.75U - 1.25U"
+      },
+      "bottom_row": {
+        "name": "底部行",
+        "625u": "6.25U 空格",
+        "split_225u_125u_275u": "分裂空格 2.25U - 1.25U - 2.75U",
+        "700u": "7U 空格",
+        "split_300u_100u_300u": "分裂空格 3U - 1U - 3U"
+      }
     }
   }
 }
