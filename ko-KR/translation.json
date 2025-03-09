@@ -823,35 +823,6 @@
     "default": {
       "name": "Default"
     },
-    "rakka_60": {
-      "layout_options": {
-        "split_bs": {
-          "name": "Backspace",
-          "choices_0": "Normal Backspace",
-          "choices_1": "Split Backspace"
-        },
-        "iso_enter": {
-          "name": "Enter",
-          "choices_0": "Normal Enter",
-          "choices_1": "ISO Enter"
-        },
-        "split_left_shift": {
-          "name": "Left Shift",
-          "choices_0": "Normal Left Shift",
-          "choices_1": "Split Left Shift"
-        },
-        "split_right_shift": {
-          "name": "Right Shift",
-          "choices_0": "Normal Right Shift",
-          "choices_1": "Split Right Shift"
-        },
-        "split_space": {
-          "name": "Spacebar",
-          "choices_0": "Standard 6.25U spacebar",
-          "choices_1": "Split spacebar 2.25U - 2.75U - 1.25U"
-        }
-      }
-    },
     "rakka_80_edge": {
       "lighting_scopes": {
         "keys": "Keys",
@@ -868,40 +839,6 @@
     "rakka_60_altus": {
       "lighting_scopes": {
         "underglow": "Underglow"
-      },
-      "layout_options": {
-        "split_bs": {
-          "name": "Backspace",
-          "choices_0": "Normal Backspace",
-          "choices_1": "Split Backspace"
-        },
-        "stepped_caps": {
-          "name": "CapsLock",
-          "choices_0": "Normal Caps Lock",
-          "choices_1": "Stepped Caps Lock"
-        },
-        "iso_enter": {
-          "name": "Enter",
-          "choices_0": "Normal Enter",
-          "choices_1": "ISO Enter"
-        },
-        "split_left_shift": {
-          "name": "Left Shift",
-          "choices_0": "Normal Left Shift",
-          "choices_1": "Split Left Shift"
-        },
-        "split_right_shift": {
-          "name": "Right Shift",
-          "choices_0": "Normal Right Shift",
-          "choices_1": "Split Right Shift"
-        },
-        "bottom_row": {
-          "name": "Bottom row",
-          "choices_0": "6.25U spacebar",
-          "choices_1": "Split spacebar 2.25U - 1.25U - 2.75U",
-          "choices_2": "7U spacebar",
-          "choices_3": "Split spacebar 3U - 1U - 3U"
-        }
       }
     }
   },
@@ -994,6 +931,45 @@
       "description": "If you manually select layout options, the auto choose feature will be disabled. If you change the key of your installation in the future, you will need to manually select the layout options."
     },
     "retry_auto_choose": "Retry auto choose",
-    "manual_choose": "Manual choose"
+    "manual_choose": "Manual choose",
+    "options": {
+      "backspace": {
+        "name": "Backspace",
+        "normal": "Normal Backspace",
+        "split": "Split Backspace"
+      },
+      "capslock": {
+        "name": "CapsLock",
+        "normal": "Normal CapsLock",
+        "stepped": "Stepped CapsLock"
+      },
+      "enter": {
+        "name": "Enter",
+        "normal": "Normal Enter",
+        "iso": "ISO Enter"
+      },
+      "left_shift": {
+        "name": "Left Shift",
+        "normal": "Normal Left Shift",
+        "split": "Split Left Shift"
+      },
+      "right_shift": {
+        "name": "Right Shift",
+        "normal": "Normal Right Shift",
+        "split": "Split Right Shift"
+      },
+      "space": {
+        "name": "Space",
+        "625u": "Standard 6.25U spacebar",
+        "split_225u_275u_125u": "Split spacebar 2.25U - 2.75U - 1.25U"
+      },
+      "bottom_row": {
+        "name": "Bottom row",
+        "625u": "6.25U spacebar",
+        "split_225u_125u_275u": "Split spacebar 2.25U - 1.25U - 2.75U",
+        "700u": "7U spacebar",
+        "split_300u_100u_300u": "Split spacebar 3U - 1U - 3U"
+      }
+    }
   }
 }
