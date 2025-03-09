@@ -823,35 +823,6 @@
     "default": {
       "name": "默认"
     },
-    "rakka_60": {
-      "layout_options": {
-        "split_bs": {
-          "name": "退格键",
-          "choices_0": "标准退格键",
-          "choices_1": "分裂退格键"
-        },
-        "iso_enter": {
-          "name": "回车键",
-          "choices_0": "标准回车键",
-          "choices_1": "ISO 回车键（七字回车）"
-        },
-        "split_left_shift": {
-          "name": "左 Shift",
-          "choices_0": "标准左 Shift",
-          "choices_1": "分裂左 Shift"
-        },
-        "split_right_shift": {
-          "name": "右 Shift",
-          "choices_0": "标准右 Shift",
-          "choices_1": "分裂右 Shift"
-        },
-        "split_space": {
-          "name": "空格键",
-          "choices_0": "标准 6.25U 空格",
-          "choices_1": "分裂空格 2.25U - 2.75U - 1.25U"
-        }
-      }
-    },
     "rakka_80_edge": {
       "lighting_scopes": {
         "keys": "按键",
@@ -868,40 +839,6 @@
     "rakka_60_altus": {
       "lighting_scopes": {
         "underglow": "底灯"
-      },
-      "layout_options": {
-        "split_bs": {
-          "name": "退格键",
-          "choices_0": "标准退格键",
-          "choices_1": "分裂退格键"
-        },
-        "stepped_caps": {
-          "name": "大写锁定键",
-          "choices_0": "标准大写锁定键",
-          "choices_1": "阶梯大写锁定键"
-        },
-        "iso_enter": {
-          "name": "回车键",
-          "choices_0": "标准回车键",
-          "choices_1": "ISO 回车键（七字回车）"
-        },
-        "split_left_shift": {
-          "name": "左 Shift",
-          "choices_0": "标准左 Shift",
-          "choices_1": "分裂左 Shift"
-        },
-        "split_right_shift": {
-          "name": "右 Shift",
-          "choices_0": "标准右 Shift",
-          "choices_1": "分裂右 Shift"
-        },
-        "bottom_row": {
-          "name": "底部行",
-          "choices_0": "6.25U 空格",
-          "choices_1": "分裂空格 2.25U - 2.75U - 1.25U",
-          "choices_2": "7U 空格",
-          "choices_3": "分裂空格 3U - 1U - 3U"
-        }
       }
     }
   },
@@ -994,6 +931,33 @@
       "description": "手动选择布局选项后，将禁用自动选择。如果您在未来更改了安装的按键，您需要自行选择布局选项。"
     },
     "retry_auto_choose": "重新自动选择",
-    "manual_choose": "手动选择"
+    "manual_choose": "手动选择",
+    "option_names": {
+      "backspace": "退格键",
+      "capslock": "大写锁定键",
+      "enter": "回车键",
+      "left_shift": "左 Shift",
+      "right_shift": "右 Shift",
+      "space": "空格键",
+      "bottom_row": "底部行"
+    },
+    "choice_names": {
+      "normal_bs": "标准退格键",
+      "split_bs": "分裂退格键",
+      "normal_capslock": "标准大写锁定键",
+      "stepped_capslock": "阶梯大写锁定键",
+      "normal_enter": "标准回车键",
+      "iso_enter": "ISO 回车键（七字回车）",
+      "normal_left_shift": "标准左 Shift",
+      "split_left_shift": "分裂左 Shift",
+      "normal_right_shift": "标准右 Shift",
+      "split_right_shift": "分裂右 Shift",
+      "normal_625u_space": "6.25U 空格",
+      "split_space_225u_275u_125u": "分裂空格 2.25U - 2.75U - 1.25U",
+      "625u_space": "6.25U 空格",
+      "split_space_225u_125u_275u": "分裂空格 2.25U - 1.25U - 2.75U",
+      "700u_space": "7U 空格",
+      "split_space_300u_100u_300u": "分裂空格 3U - 1U - 3U"
+    }
   }
 }

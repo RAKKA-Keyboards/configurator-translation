@@ -823,35 +823,6 @@
     "default": {
       "name": "默認"
     },
-    "rakka_60": {
-      "layout_options": {
-        "split_bs": {
-          "name": "退格鍵",
-          "choices_0": "標準退格鍵",
-          "choices_1": "分裂退格鍵"
-        },
-        "iso_enter": {
-          "name": "回車鍵",
-          "choices_0": "標準回車鍵",
-          "choices_1": "ISO 回車鍵（七字回車）"
-        },
-        "split_left_shift": {
-          "name": "左 Shift",
-          "choices_0": "標準左 Shift",
-          "choices_1": "分裂左 Shift"
-        },
-        "split_right_shift": {
-          "name": "右 Shift",
-          "choices_0": "標準右 Shift",
-          "choices_1": "分裂右 Shift"
-        },
-        "split_space": {
-          "name": "空格鍵",
-          "choices_0": "標準 6.25U 空格",
-          "choices_1": "分裂空格 2.25U - 2.75U - 1.25U"
-        }
-      }
-    },
     "rakka_80_edge": {
       "lighting_scopes": {
         "keys": "按鍵",
@@ -868,40 +839,6 @@
     "rakka_60_altus": {
       "lighting_scopes": {
         "underglow": "底燈"
-      },
-      "layout_options": {
-        "split_bs": {
-          "name": "退格鍵",
-          "choices_0": "標準退格鍵",
-          "choices_1": "分裂退格鍵"
-        },
-        "stepped_caps": {
-          "name": "大寫鎖定鍵",
-          "choices_0": "標準大寫鎖定鍵",
-          "choices_1": "階梯大寫鎖定鍵"
-        },
-        "iso_enter": {
-          "name": "回車鍵",
-          "choices_0": "標準回車鍵",
-          "choices_1": "ISO 回車鍵（七字回車）"
-        },
-        "split_left_shift": {
-          "name": "左 Shift",
-          "choices_0": "標準左 Shift",
-          "choices_1": "分裂左 Shift"
-        },
-        "split_right_shift": {
-          "name": "右 Shift",
-          "choices_0": "標準右 Shift",
-          "choices_1": "分裂右 Shift"
-        },
-        "bottom_row": {
-          "name": "底部行",
-          "choices_0": "6.25U 空格",
-          "choices_1": "分裂空格 2.25U - 2.75U - 1.25U",
-          "choices_2": "7U 空格",
-          "choices_3": "分裂空格 3U - 1U - 3U"
-        }
       }
     }
   },
@@ -994,6 +931,33 @@
       "description": "手動選擇佈局選項後，將禁用自動選擇。如果您在未來更改了安裝的按鍵，您需要自行選擇佈局選項。"
     },
     "retry_auto_choose": "重新自動選擇",
-    "manual_choose": "手動選擇"
+    "manual_choose": "手動選擇",
+    "option_names": {
+      "backspace": "退格鍵",
+      "capslock": "大寫鎖定鍵",
+      "enter": "回車鍵",
+      "left_shift": "左 Shift",
+      "right_shift": "右 Shift",
+      "space": "空格鍵",
+      "bottom_row": "底部行"
+    },
+    "choice_names": {
+      "normal_bs": "標準退格鍵",
+      "split_bs": "分裂退格鍵",
+      "normal_capslock": "標準大寫鎖定鍵",
+      "stepped_capslock": "階梯大寫鎖定鍵",
+      "normal_enter": "標準回車鍵",
+      "iso_enter": "ISO 回車鍵（七字回車）",
+      "normal_left_shift": "標準左 Shift",
+      "split_left_shift": "分裂左 Shift",
+      "normal_right_shift": "標準右 Shift",
+      "split_right_shift": "分裂右 Shift",
+      "normal_625u_space": "6.25U 空格",
+      "split_space_225u_275u_125u": "分裂空格 2.25U - 2.75U - 1.25U",
+      "625u_space": "6.25U 空格",
+      "split_space_225u_125u_275u": "分裂空格 2.25U - 1.25U - 2.75U",
+      "700u_space": "7U 空格",
+      "split_space_300u_100u_300u": "分裂空格 3U - 1U - 3U"
+    }
   }
 }
