@@ -861,7 +861,9 @@
     "switch_to_general_purpose_mode": "Switch to general-purpose mode"
   },
   "rapid_trigger": {
-    "hint_too_aggressive": "Under the current settings, slight hand movements during pressing, as well as deformation and vibration of the switch, PCB, and plate materials, have a significant impact on the detected distance, potentially causing chattering or missed keystrokes.",
+    "hint_too_aggressive": "Under the current settings, unintended key presses or missed key presses may occur. This is due to unavoidable factors rather than the keyboard's inability to detect distance changes.",
+    "hint_too_aggressive_tooltip_1": "The keyboard estimates distance by detecting the strength of the magnetic field. However, if the switch is not pressed perfectly straight up and down, the magnet inside the switch may rotate slightly, causing a change in the detected distance. When the set parameter is too low, this variation may lead to abnormal key triggering.",
+    "hint_too_aggressive_tooltip_2": "Additionally, the switch housing, PCB, positioning plate, and stabilizers inevitably undergo deformation and vibration when pressed. If the set parameter is too low, these changes may also lead to abnormal key triggering.",
     "hint_large_keys": "This phenomenon becomes more noticeable when keys are hit hard, especially larger keys, as they are more affected by vibrations.",
     "hint_find_most_suitable": "Finding the most suitable settings requires continuous experimentation.",
     "hint_requires_bottom_calibration": "Under the current settings, pressing the key forcefully and then pressing it with normal force is likely to cause issues. Please ensure manual bottom calibration has been performed.",
