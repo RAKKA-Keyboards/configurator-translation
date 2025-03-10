@@ -866,7 +866,8 @@
     "hint_large_keys": "这个现象在大力敲击按键，尤其是大键时更加明显，因为它们受震动影响更大。",
     "hint_find_most_suitable": "找到最适合自己的设置需要不断尝试。",
     "hint_requires_bottom_calibration": "在当前设置下，大力按压按键后再以正常力度按压很可能会出现问题，请确定已进行人工底部校准。",
-    "hint_downgraded_since_lacks_bottom_calibration": "由于没有进行人工底部校准，实际生效的设置为 {{ mm }}。"
+    "hint_downgraded_since_lacks_bottom_calibration": "由于没有进行人工底部校准，实际生效的设置为 {{ mm }}。",
+    "hint_works_only_at_bottom": "在非底部区域作用为 {{ mm }}。"
   },
   "config": {
     "title": "配置"
