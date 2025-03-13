@@ -708,6 +708,8 @@
     "hint_static_is_override": "此效果有自己的颜色，将覆盖您设置的颜色。",
     "hint_left_click": "左键点击按键以设置其在“基础灯效”中的“静态”效果下的颜色。",
     "hint_middle_click": "中键点击以吸取其颜色到颜色选择器。",
+    "set_color_for_selected_keys": "为选中的按键设置颜色",
+    "set_color_for_selected_keys_tooltip": "颜色在“基础灯效”被设置为“静态”时生效。",
     "fx": {
       "none": {
         "title": "无"

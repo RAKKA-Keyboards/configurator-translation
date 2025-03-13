@@ -709,6 +709,8 @@
     "hint_static_is_override": "This effect has its own color which will override the color you set.",
     "hint_left_click": "Left-click a key to set its color for the \"Static\" effect under \"Base effect\".",
     "hint_middle_click": "Middle-click to sample its color to the color picker.",
+    "set_color_for_selected_keys": "Set color for selected keys",
+    "set_color_for_selected_keys_tooltip": "Color will take effect when \"Base effect\" is set to \"Static\".",
     "fx": {
       "none": {
         "title": "None"
