@@ -439,6 +439,7 @@
     "rapid_trigger": {
       "title": "快速觸發",
       "description": "開啟快速觸發後，按鍵的觸發和重置不再是一個固定的距離，而是在您按壓的過程中動態調整。這可以讓您更快地觸發或重置按鍵。在特定類型的遊戲中很有幫助。",
+      "hint_only_works_after_trigger": "若按鍵已完全釋放，則需要再次按壓至設定的觸發行程才能觸發。",
       "dynamic_reset_travel": {
         "description": "如果按鍵已觸發，鬆開指定的距離按鍵就會釋放。",
         "title": "重置行程"
