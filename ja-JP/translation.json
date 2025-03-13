@@ -439,6 +439,7 @@
     "rapid_trigger": {
       "title": "Rapid Trigger",
       "description": "After enabling Rapid Trigger, the trigger and reset position are no longer fixed, but dynamically adjusted as you press. This allows you to trigger or reset keys more quickly, which can be helpful in certain types of games.",
+      "hint_only_works_after_trigger": "If the key has been fully released, it needs to be pressed again to the set Actuation distance to trigger.",
       "dynamic_reset_travel": {
         "description": "If the key is triggered, reset as long as the specified distance is released.",
         "title": "Reset travel"
