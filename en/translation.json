@@ -869,7 +869,7 @@
     "hint_too_aggressive_tooltip_2": "Additionally, the switch housing, PCB, positioning plate, and stabilizers inevitably undergo deformation and vibration when pressed. If the set parameter is too low, these changes may also lead to abnormal key triggering.",
     "hint_large_keys": "This phenomenon becomes more noticeable when keys are hit hard, especially larger keys, as they are more affected by vibrations.",
     "hint_find_most_suitable": "Finding the most suitable settings requires continuous experimentation.",
-    "hint_requires_bottom_calibration": "Under the current settings, pressing the key forcefully and then pressing it with normal force is likely to cause issues. Please ensure manual bottom calibration has been performed.",
+    "hint_requires_bottom_calibration": "Under the current settings, pressing the key forcefully and then pressing it with normal force is likely to cause issues. Please ensure manual bottom calibration has been performed. Otherwise, the effective setting will be a higher value.",
     "hint_downgraded_since_lacks_bottom_calibration": "Due to the lack of manual bottom calibration, the effective setting is {{ mm }}.",
     "hint_works_only_at_bottom": "Acts as {{ mm }} for non-bottoming area."
   },
