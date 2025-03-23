@@ -863,9 +863,12 @@
     "switch_to_general_purpose_mode": "Switch to general-purpose mode"
   },
   "rapid_trigger": {
-    "hint_too_aggressive": "Under the current settings, slight hand movements during pressing, as well as deformation and vibration of the switch, PCB, and plate materials, have a significant impact on the detected distance, potentially causing chattering or missed keystrokes.",
-    "hint_too_aggressive_tooltip_1": "The keyboard estimates distance by detecting the strength of the magnetic field. However, if the switch is not pressed perfectly straight up and down, the magnet inside the switch may rotate slightly, causing a change in the detected distance. When the set parameter is too low, this variation may lead to abnormal key triggering.",
-    "hint_too_aggressive_tooltip_2": "Additionally, the switch housing, PCB, positioning plate, and stabilizers inevitably undergo deformation and vibration when pressed. If the set parameter is too low, these changes may also lead to abnormal key triggering.",
+    "hint_dont_too_aggressive": "We do not recommend lowering the options as much as possible. Excessively low settings may cause abnormal key triggering, but this is not an issue with the keyboard itself.",
+    "hint_dont_too_aggressive_tooltip_1": "The keyboard estimates distance by detecting the strength of the magnetic field. Other factors, such as switch rotation or material deformation, cannot be detected.",
+    "hint_dont_too_aggressive_tooltip_2": "Human fingers cannot move perfectly vertically and steadily. There may be some tilting or slight reverse movement during key presses. Obviously, if the parameters are set too low, abnormal behavior can occur.",
+    "hint_dont_too_aggressive_tooltip_3": "During key presses, components like the switch, PCB, mounting plate, and stabilizers inevitably experience deformation and vibration. If parameters are set too low, such deformation and vibration may be mistaken as key triggering.",
+    "hint_dont_too_aggressive_tooltip_4": "In fact, the keyboard’s response speed (latency) is also an important factor affecting the user experience. Our keyboard is already optimized for minimal latency, blindly pursuing precision may be counterproductive. We only offer extremely low travel options due to market demand ¯\\_(ツ)_/¯",
+    "hint_too_aggressive": "Abnormal behavior may occur with the current settings. Please adjust according to your actual usage.",
     "hint_large_keys": "This phenomenon becomes more noticeable when keys are hit hard, especially larger keys, as they are more affected by vibrations.",
     "hint_find_most_suitable": "Finding the most suitable settings requires continuous experimentation.",
     "hint_requires_bottom_calibration": "Under the current settings, pressing the key forcefully and then pressing it with normal force is likely to cause issues. Please ensure manual bottom calibration has been performed.",
