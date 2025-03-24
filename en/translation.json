@@ -261,6 +261,12 @@
     "test_matrix": {
       "title": "Reports whether the key is pressed",
       "description": "Allows the keyboard to report whether a key is considered to be pressed. Pressed keys are indicated by the visual above. This option is disabled by default and is not saved in the device."
+    },
+    "reboot": {
+      "title": "Reboot to Recovery Mode",
+      "description": "Reboot the device into recovery mode. Normally, you don't need to use this. If triggered by mistake, simply reconnect the device to recover.",
+      "reboot_to_recovery": "Reboot to Recovery Mode",
+      "reboot_to_recovery_factory_version": "Reboot to Factory Recovery Mode"
     }
   },
   "demo_mode": {

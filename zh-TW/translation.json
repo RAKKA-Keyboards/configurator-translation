@@ -261,6 +261,12 @@
     "test_matrix": {
       "title": "回報按鍵是否被按下",
       "description": "允許鍵盤迴報按鍵是否被認為是按下的。被按下的按鍵會在上方以視覺效果顯示。該選項默認關閉，且不會保存到裝置中。"
+    },
+    "reboot": {
+      "title": "重啟至恢復模式",
+      "description": "重啟裝置至恢復模式。正常情況下不需要使用它。如果誤操作，重新插拔裝置即可恢復。",
+      "reboot_to_recovery": "重啟至恢復模式",
+      "reboot_to_recovery_factory_version": "重啟至出廠版本的恢復模式"
     }
   },
   "demo_mode": {

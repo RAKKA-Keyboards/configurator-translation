@@ -261,6 +261,12 @@
     "test_matrix": {
       "title": "回报按键是否被按下",
       "description": "允许键盘回报按键是否被认为是按下的。被按下的按键会在上方以视觉效果显示。该选项默认关闭，且不会保存到设备中。"
+    },
+    "reboot": {
+      "title": "重启至恢复模式",
+      "description": "重启设备至恢复模式。正常情况下不需要使用它。如果误操作，重新插拔设备即可恢复。",
+      "reboot_to_recovery": "重启至恢复模式",
+      "reboot_to_recovery_factory_version": "重启至出厂版本的恢复模式"
     }
   },
   "demo_mode": {
