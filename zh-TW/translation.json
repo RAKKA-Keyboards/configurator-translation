@@ -367,6 +367,7 @@
     },
     "layer": "層",
     "global_config": "全局配置",
+    "profile_config": "設定檔配置",
     "tab": {
       "calibration": "校準",
       "debug": "調試",
@@ -912,6 +913,8 @@
     }
   },
   "hint_this_option_is_global": "此選項是全局的，不會因為設定檔的不同而不同。",
+  "hint_options_are_global": "這些選項是全局的，不會因為設定檔的不同而不同。",
+  "hint_options_are_individual": "這些選項會因為設定檔的不同而不同。例如，您可以為打字配置和遊戲配置設置不同的觸發行程，再通過設定不同的燈光來區分它們。",
   "regional_site": {
     "hint_based_on_local_information": "地區由您瀏覽器的語言、時區等信息在本地推測。",
     "ignore": "忽略",

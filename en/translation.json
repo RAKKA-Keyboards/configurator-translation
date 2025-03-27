@@ -368,6 +368,7 @@
     },
     "layer": "Layer",
     "global_config": "Global configuration",
+    "profile_config": "Profile configuration",
     "tab": {
       "calibration": "Calibration",
       "debug": "Debug",
@@ -913,6 +914,8 @@
     }
   },
   "hint_this_option_is_global": "This option is global and does not vary from profile to profile.",
+  "hint_options_are_global": "These options are global and does not vary from profile to profile.",
+  "hint_options_are_individual": "These option are varies from profile to profile. For example, you can set different trigger travels for typing profile and gaming profile, and then distinguish them by setting different lighting.",
   "regional_site": {
     "hint_based_on_local_information": "The region is inferred locally based on your browser's language, time zone, and other information.",
     "ignore": "Ignore",

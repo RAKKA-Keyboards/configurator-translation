@@ -367,6 +367,7 @@
     },
     "layer": "层",
     "global_config": "全局配置",
+    "profile_config": "配置文件配置",
     "tab": {
       "calibration": "校准",
       "debug": "调试",
@@ -912,6 +913,8 @@
     }
   },
   "hint_this_option_is_global": "此选项是全局的，不会因为配置文件的不同而不同。",
+  "hint_options_are_global": "这些选项是全局的，不会因为配置文件的不同而不同。",
+  "hint_options_are_individual": "这些选项会因为配置文件的不同而不同。例如，您可以为打字配置和游戏配置设置不同的触发行程，再通过设定不同的灯光来区分它们。",
   "regional_site": {
     "hint_based_on_local_information": "地区由您浏览器的语言、时区等信息在本地推测。",
     "ignore": "忽略",
