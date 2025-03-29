@@ -502,7 +502,8 @@
     "hint_limited_by_browser": "Due to the limitations of the browser environment, some keys cannot be tested and the obtained time may not be accurate.",
     "hint_troubleshooting": "If you want to investigate or report to the developer the issue of chattering or missed keystrokes, please \"{{ target }}\".",
     "hint_unfocused": "The browser is not in focus and cannot get key events.",
-    "switch_to_investigating_mode": "Switch to investigating mode"
+    "switch_to_investigating_mode": "Switch to investigating mode",
+    "clear": "Clear"
   },
   "unsupported_browser": {
     "continue_button": "Nuh uh",
@@ -868,7 +869,8 @@
     "reason_format": "Reached {{ distance }}mm ({{ position }})",
     "hint": "This tool is used for self-investigation or reporting chattering or missed keystrokes issues to the developer.",
     "hint_stay_in_this_page_will_slow_down": "Note, staying on this page will slightly slows down response time.",
-    "switch_to_general_purpose_mode": "Switch to general-purpose mode"
+    "switch_to_general_purpose_mode": "Switch to general-purpose mode",
+    "clear": "Clear"
   },
   "rapid_trigger": {
     "hint_dont_too_aggressive": "We do not recommend lowering the options as much as possible. Excessively low settings may cause abnormal key triggering, but this is not an issue with the keyboard itself.",

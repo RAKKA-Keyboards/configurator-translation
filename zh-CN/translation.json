@@ -501,7 +501,8 @@
     "hint_limited_by_browser": "受限于浏览器环境，部分按键无法被测试，且取得的时间不一定准确。",
     "hint_troubleshooting": "如果您想要自行调查或是向开发者回报断触误触的问题，请“{{ target }}”。",
     "hint_unfocused": "浏览器未处于焦点状态，无法获取按键事件。",
-    "switch_to_investigating_mode": "切换至调查模式"
+    "switch_to_investigating_mode": "切换至调查模式",
+    "clear": "清除"
   },
   "unsupported_browser": {
     "continue_button": "我不管，我就要继续！",
@@ -867,7 +868,8 @@
     "reason_format": "达到 {{ distance }}mm（{{ position }}）",
     "hint": "此工具用于自我调查或是向开发者回报断触及误触问题。",
     "hint_stay_in_this_page_will_slow_down": "注意，停留在此页面会轻微降低响应速度。",
-    "switch_to_general_purpose_mode": "切换到一般用途模式"
+    "switch_to_general_purpose_mode": "切换到一般用途模式",
+    "clear": "清除"
   },
   "rapid_trigger": {
     "hint_dont_too_aggressive": "我们不建议您追求将选项尽可能地设定得低。过低的设定可能会导致按键触发异常，但是这并非是键盘本身的问题。",

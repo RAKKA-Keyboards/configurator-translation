@@ -501,7 +501,8 @@
     "hint_limited_by_browser": "受限於瀏覽器環境，部分按鍵無法被測試，且取得的時間不一定準確。",
     "hint_troubleshooting": "如果您想要自行調查或是向開發者回報斷觸誤觸的問題，請「{{ target }}」。",
     "hint_unfocused": "瀏覽器未處於焦點狀態，無法獲取按鍵事件。",
-    "switch_to_investigating_mode": "切換至調查模式"
+    "switch_to_investigating_mode": "切換至調查模式",
+    "clear": "清除"
   },
   "unsupported_browser": {
     "continue_button": "我不管，我就要繼續！",
@@ -867,7 +868,8 @@
     "reason_format": "達到 {{ distance }}mm（{{ position }}）",
     "hint": "此工具用於自我調查或是向開發者回報斷觸及誤觸問題。",
     "hint_stay_in_this_page_will_slow_down": "注意，停留在此頁面會輕微降低響應速度。",
-    "switch_to_general_purpose_mode": "切換到一般用途模式"
+    "switch_to_general_purpose_mode": "切換到一般用途模式",
+    "clear": "清除"
   },
   "rapid_trigger": {
     "hint_dont_too_aggressive": "我們不建議您追求將選項儘可能地設定得低。過低的設定可能會導致按鍵觸發異常，但是這並非是鍵盤本身的問題。",
