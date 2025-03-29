@@ -223,7 +223,11 @@
       "hint_no_keys_selected": "請先選擇您想要保存校準結果的按鍵。"
     },
     "hint_calibrating": "校準中…",
-    "hint_dont_touch_keys": "請不要觸碰按鍵。"
+    "hint_dont_touch_keys": "請不要觸碰按鍵。",
+    "avoid_vibration": {
+      "title": "嘗試規避震動帶來的影響",
+      "description": "在按鍵被按下和回彈時，軸體、鍵帽等材料都會產生震動（可能超過 0.0幾mm），以較大力度按壓時更是這樣。開啟此選項可嘗試規避震動帶來的按鍵異常。但是，這會影響鍵盤的響應速度，也不能保證規避全部的情況。因此，我們更建議您將關閉此選項並將距離設置到一個合理值，而非設置儘可能低的距離再開啟此選項，這樣可能會導致壓到響應可能花費更多的時間。"
+    }
   },
   "connect": {
     "button": {
@@ -991,5 +995,6 @@
         "split_300u_100u_300u": "分裂空格 3U - 1U - 3U"
       }
     }
-  }
+  },
+  "hint_this_option_requires_a_newer_version_of_the_firmware": "此選項要求一個更新版本的固件。"
 }
