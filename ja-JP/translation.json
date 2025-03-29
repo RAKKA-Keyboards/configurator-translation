@@ -261,6 +261,12 @@
     "test_matrix": {
       "title": "Reports whether the key is pressed",
       "description": "Allows the keyboard to report whether a key is considered to be pressed. Pressed keys are indicated by the visual above. This option is disabled by default and is not saved in the device."
+    },
+    "reboot": {
+      "title": "Reboot to Recovery Mode",
+      "description": "Reboot the device into recovery mode. Normally, you don't need to use this. If triggered by mistake, simply reconnect the device to recover.",
+      "reboot_to_recovery": "Reboot to Recovery Mode",
+      "reboot_to_recovery_factory_version": "Reboot to Factory Recovery Mode"
     }
   },
   "demo_mode": {
@@ -361,6 +367,7 @@
     },
     "layer": "Layer",
     "global_config": "Global configuration",
+    "profile_config": "Profile configuration",
     "tab": {
       "calibration": "Calibration",
       "debug": "Debug",
@@ -494,7 +501,8 @@
     "hint_limited_by_browser": "Due to the limitations of the browser environment, some keys cannot be tested and the obtained time may not be accurate.",
     "hint_troubleshooting": "If you want to investigate or report to the developer the issue of chattering or missed keystrokes, please \"{{ target }}\".",
     "hint_unfocused": "The browser is not in focus and cannot get key events.",
-    "switch_to_investigating_mode": "Switch to investigating mode"
+    "switch_to_investigating_mode": "Switch to investigating mode",
+    "clear": "Clear"
   },
   "unsupported_browser": {
     "continue_button": "I don't care, let me continue!",
@@ -860,7 +868,8 @@
     "reason_format": "Reached {{ distance }}mm ({{ position }})",
     "hint": "This tool is used for self-investigation or reporting chattering or missed keystrokes issues to the developer.",
     "hint_stay_in_this_page_will_slow_down": "Note, staying on this page will slightly slows down response time.",
-    "switch_to_general_purpose_mode": "Switch to general-purpose mode"
+    "switch_to_general_purpose_mode": "Switch to general-purpose mode",
+    "clear": "Clear"
   },
   "rapid_trigger": {
     "hint_dont_too_aggressive": "We do not recommend lowering the options as much as possible. Excessively low settings may cause abnormal key triggering, but this is not an issue with the keyboard itself.",
@@ -906,6 +915,8 @@
     }
   },
   "hint_this_option_is_global": "This option is global and does not vary from profile to profile.",
+  "hint_options_are_global": "These options are global and does not vary from profile to profile.",
+  "hint_options_are_individual": "These option are varies from profile to profile. For example, you can set different trigger travels for typing profile and gaming profile, and then distinguish them by setting different lighting.",
   "regional_site": {
     "hint_based_on_local_information": "The region is inferred locally based on your browser's language, time zone, and other information.",
     "ignore": "Ignore",
