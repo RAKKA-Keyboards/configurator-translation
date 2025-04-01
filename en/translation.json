@@ -707,17 +707,26 @@
     "style": "Style",
     "min_brightness": "Min brightness",
     "windows_dynamic_lighting": {
-      "title": "Windows Dynamic Lighting",
+      "title": "Dynamic Lighting",
       "description": {
-        "title": "What is Windows Dynamic Lighting?",
-        "content": "Windows Dynamic Lighting allows you to control all supported keyboards, mice, and other peripherals in Windows settings or third-party control programs to achieve a unified lighting style. This feature is available on Windows 11 23H2 or later.",
+        "title": "What is Dynamic Lighting?",
+        "content": "Dynamic Lighting allows you to control all supported keyboards, mice, and other peripherals in Windows settings or third-party control programs to achieve a unified lighting style. This feature is available on Windows 11 23H2 or later.",
         "for_more_info": "For more information, please visit {{support_page}}.",
+        "open_windows_settings": "Open Dynamic Lighting page in Windows Settings",
         "microsoft_support_page": "Microsoft support page",
         "microsoft_support_page_link": "https://support.microsoft.com/en-us/windows/control-your-dynamic-lighting-devices-in-windows-8e8f22e3-e820-476c-8f9d-9ffc7b6ffcd2"
       },
-      "hint_not_supported": "It seems that Windows Dynamic Lighting is not supported on your system.",
-      "hint_supported": "Windows Dynamic Lighting is supported on your system.",
-      "hint_disabled": "Windows Dynamic Lighting is disabled."
+      "supported_third_party_software": {
+        "title": "Third-party software that supports Dynamic Lighting",
+        "possible_others": "and possibly others",
+        "disclaimer": {
+          "title": "Disclaimer",
+          "content": "The above links point to third-party websites. We are not responsible for the content of these websites."
+        }
+      },
+      "hint_not_supported": "It seems that Dynamic Lighting is not supported on your system.",
+      "hint_supported": "Dynamic Lighting is supported on your system.",
+      "hint_disabled": "Dynamic Lighting is disabled."
     },
     "hint_static_is_override": "This effect has its own color which will override the color you set.",
     "hint_left_click": "Left-click a key to set its color for the \"Static\" effect under \"Base effect\".",
@@ -738,7 +747,7 @@
         "title": "Cycle"
       },
       "windows_dynamic_lighting": {
-        "title": "Windows Dynamic Lighting"
+        "title": "Dynamic Lighting"
       },
       "enforce_indicator_on_profile_change": {
         "title": "Enforce indicators on profile change",
