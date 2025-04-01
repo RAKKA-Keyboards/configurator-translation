@@ -223,7 +223,11 @@
       "hint_no_keys_selected": "Please select the key you want to save the calibration value first."
     },
     "hint_calibrating": "Calibrating…",
-    "hint_dont_touch_keys": "Please do not touch the keys."
+    "hint_dont_touch_keys": "Please do not touch the keys.",
+    "avoid_vibration": {
+      "title": "Attempt to avoid the impact of vibration",
+      "description": "When a key is pressed and released, components such as the switch and keycap can generate vibrations (possibly exceeding 0.0x mm), especially under heavy keystrokes. Enabling this option may help mitigate key anomalies caused by such vibrations. However, it will impact the keyboard’s responsiveness and cannot guarantee complete prevention. Therefore, we recommend turning off this option and setting a reasonable trigger distance, rather than lowering the distance as much as possible and relying on this feature, as that may actually increase the time it takes for a key press to register."
+    }
   },
   "connect": {
     "button": {
@@ -707,8 +711,17 @@
         "title": "What is Windows Dynamic Lighting?",
         "content": "Windows Dynamic Lighting allows you to control all supported keyboards, mice, and other peripherals in Windows settings or third-party control programs to achieve a unified lighting style. This feature is available on Windows 11 23H2 or later.",
         "for_more_info": "For more information, please visit {{support_page}}.",
+        "open_windows_settings": "Open Dynamic Lighting page in Windows Settings",
         "microsoft_support_page": "Microsoft support page",
         "microsoft_support_page_link": "https://support.microsoft.com/en-us/windows/control-your-dynamic-lighting-devices-in-windows-8e8f22e3-e820-476c-8f9d-9ffc7b6ffcd2"
+      },
+      "supported_third_party_software": {
+        "title": "Third-party software that supports Dynamic Lighting",
+        "possible_others": "and possibly others",
+        "disclaimer": {
+          "title": "Disclaimer",
+          "content": "The above links point to third-party websites. We are not responsible for the content of these websites."
+        }
       },
       "hint_not_supported": "It seems that Windows Dynamic Lighting is not supported on your system.",
       "hint_supported": "Windows Dynamic Lighting is supported on your system.",
@@ -991,5 +1004,6 @@
         "split_300u_100u_300u": "Split spacebar 3U - 1U - 3U"
       }
     }
-  }
+  },
+  "hint_this_option_requires_a_newer_version_of_the_firmware": "This option requires a newer version of the firmware."
 }
