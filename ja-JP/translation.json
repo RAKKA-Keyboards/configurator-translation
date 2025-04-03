@@ -1003,5 +1003,11 @@
       }
     }
   },
-  "hint_this_option_requires_a_newer_version_of_the_firmware": "This option requires a newer version of the firmware."
+  "hint_this_option_requires_a_newer_version_of_the_firmware": "This option requires a newer version of the firmware.",
+  "error": {
+    "timeout_when_communicating_with_the_device": "Timeout when communicating with the device",
+    "error_when_communicating_with_the_device": "Error when communicating with the device",
+    "bad_cable": "One possible reason could be the quality of the USB cable, which may cause an unstable connection or reduced connection speed (preventing the device from operating at USB 2.0 high speed).",
+    "contact_us": "Please retry with another USB cale. If the issue persists, please email us at {{ email }} for assistance."
+  }
 }
