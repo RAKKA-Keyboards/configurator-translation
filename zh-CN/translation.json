@@ -322,9 +322,7 @@
       "upgrade_was_interrupted": "设备上次固件升级未完成。请重新插拔后再试。",
       "firmware_interrupted": "升级过程意外中断。请重新插拔后再试。",
       "unknown_error": "未知错误 {{ code }}。",
-      "device_not_connected": "设备未连接或设备已处于恢复模式。",
-      "bad_cable": "一个可能的原因是使用了低质量 USB 线缆，使得连接不稳定或是连接速率降低（设备无法运行在 USB 2.0 高速）。",
-      "contact_us": "如果仍有问题，请发送邮件至 {{ email }} 以联系我们取得帮助。"
+      "device_not_connected": "设备未连接或设备已处于恢复模式。"
     },
     "choose_firmware": "选择固件",
     "channel": {
@@ -1005,5 +1003,11 @@
       }
     }
   },
-  "hint_this_option_requires_a_newer_version_of_the_firmware": "此选项要求一个更新版本的固件。"
+  "hint_this_option_requires_a_newer_version_of_the_firmware": "此选项要求一个更新版本的固件。",
+  "error": {
+    "timeout_when_communicating_with_the_device": "与设备通信时超时",
+    "error_when_communicating_with_the_device": "与设备通信时出错",
+    "bad_cable": "一个可能的原因是 USB 线缆的质量问题，使得连接不稳定或是连接速率降低（设备无法运行在 USB 2.0 高速）。",
+    "contact_us": "请使用另外的 USB 线缆再试。如果仍有问题，请发送邮件至 {{ email }} 以联系我们取得帮助。"
+  }
 }
