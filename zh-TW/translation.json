@@ -671,7 +671,11 @@
     "hint_profile_key_not_found": "未找到切換到此設定檔的按鍵，您可以將設定檔按鍵綁定到您想要的位置",
     "on_board_profiles": "板載設定檔",
     "configure_profile": "修改 #{{ index }} {{ profile }}",
-    "hint_editing_profile_changes_for_keyboard_profile": "由於更改了鍵盤正使用的設定檔，已切換當前編輯的設定檔。"
+    "hint_editing_profile_changes_for_keyboard_profile": "由於更改了鍵盤正使用的設定檔，已切換當前編輯的設定檔。",
+    "hint_editing_profile_is_not_current": {
+      "title": "您正在編輯非當前設定檔",
+      "description": "<p>在切換到該設定檔前，您是無法看到或用到您所作出的修改的。</p><p>鍵盤具有設定檔功能，用以應對在不同的使用場景間切換。例如，您可以針對打字及遊戲場景設定不同的觸發行程、快速觸發設置，再通過設定不同的燈光效果以區分它們。</p><p>切換設定檔的按鍵可以通過移動鼠標至設定檔的名稱上看到。此按鍵是可以任意自定義的。</p>"
+    }
   },
   "dark_mode": {
     "dark_mode": "暗色模式",
@@ -931,7 +935,6 @@
   "regional_site": {
     "hint_based_on_local_information": "地區由您瀏覽器的語言、時區等信息在本地推測。",
     "ignore": "忽略",
-    "dont_show_again": "不再顯示",
     "visit_global_site_in_mainland_china": {
       "title": "您正在訪問面向全球用戶的站點",
       "summary": "如果您身處中國大陸，請訪問面向中國大陸用戶的站點以獲得更好的訪問速度。",
@@ -1009,5 +1012,6 @@
     "error_when_communicating_with_the_device": "與裝置通信時出錯",
     "bad_cable": "一個可能的原因是 USB 線纜的質量問題，使得連接不穩定或是連接速率降低（裝置無法運行在 USB 2.0 高速）。",
     "contact_us": "請使用另外的 USB 線纜再試。如果仍有問題，請發送郵件至 {{ email }} 以聯繫我們取得幫助。"
-  }
+  },
+  "dont_show_again": "不再顯示"
 }

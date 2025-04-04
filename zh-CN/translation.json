@@ -671,7 +671,11 @@
     "hint_profile_key_not_found": "未找到切换到此配置文件的按键，您可以将配置文件按键绑定到您想要的位置",
     "on_board_profiles": "板载配置文件",
     "configure_profile": "修改 #{{ index }} {{ profile }}",
-    "hint_editing_profile_changes_for_keyboard_profile": "由于更改了键盘正使用的配置文件，已切换当前编辑的配置文件。"
+    "hint_editing_profile_changes_for_keyboard_profile": "由于更改了键盘正使用的配置文件，已切换当前编辑的配置文件。",
+    "hint_editing_profile_is_not_current": {
+      "title": "您正在编辑非当前配置文件",
+      "description": "<p>在切换到该配置文件前，您是无法看到或用到您所作出的修改的。</p><p>键盘具有配置文件功能，用以应对在不同的使用场景间切换。例如，您可以针对打字及游戏场景设定不同的触发行程、快速触发设置，再通过设定不同的灯光效果以区分它们。</p><p>切换配置文件的按键可以通过移动鼠标至配置文件的名称上看到。此按键是可以任意自定义的。</p>"
+    }
   },
   "dark_mode": {
     "dark_mode": "暗色模式",
@@ -931,7 +935,6 @@
   "regional_site": {
     "hint_based_on_local_information": "地区由您浏览器的语言、时区等信息在本地推测。",
     "ignore": "忽略",
-    "dont_show_again": "不再显示",
     "visit_global_site_in_mainland_china": {
       "title": "您正在访问面向全球用户的站点",
       "summary": "如果您身处中国大陆，请访问面向中国大陆用户的站点以获得更好的访问速度。",
@@ -1009,5 +1012,6 @@
     "error_when_communicating_with_the_device": "与设备通信时出错",
     "bad_cable": "一个可能的原因是 USB 线缆的质量问题，使得连接不稳定或是连接速率降低（设备无法运行在 USB 2.0 高速）。",
     "contact_us": "请使用另外的 USB 线缆再试。如果仍有问题，请发送邮件至 {{ email }} 以联系我们取得帮助。"
-  }
+  },
+  "dont_show_again": "不再显示"
 }
