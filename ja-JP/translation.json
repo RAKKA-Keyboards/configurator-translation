@@ -671,7 +671,11 @@
     "hint_profile_key_not_found": "The key to switch to this profile is not found, you can bind the profile key to the location you want",
     "on_board_profiles": "On-board profiles",
     "configure_profile": "Configure #{{ index }} {{ profile }}",
-    "hint_editing_profile_changes_for_keyboard_profile": "Due to a change in the configuration profile currently in use by the keyboard, the profile being edited has been switched."
+    "hint_editing_profile_changes_for_keyboard_profile": "Due to a change in the configuration profile currently in use by the keyboard, the profile being edited has been switched.",
+    "hint_editing_profile_is_not_current": {
+      "title": "You are editing a non-current profile",
+      "description": "<p>You won't be able to see or use the changes you've made until you switch to this profile.</p><p>The keyboard supports multiple profiles to accommodate different usage scenarios. For example, you can set different actuation distances and Rapid Trigger settings for typing and gaming, and use distinct lighting effects to differentiate them.</p><p>You can find the profile switch key by hovering your mouse over the profile name. This key is fully customizable.</p>"
+    }
   },
   "dark_mode": {
     "dark_mode": "Dark mode",
@@ -931,7 +935,6 @@
   "regional_site": {
     "hint_based_on_local_information": "The region is inferred locally based on your browser's language, time zone, and other information.",
     "ignore": "Ignore",
-    "dont_show_again": "Don't show again",
     "visit_global_site_in_mainland_china": {
       "title": "You Are Visiting the Global Site",
       "summary": "If you are in Mainland China, please visit the site tailored for Mainland China users for better access speed.",
@@ -1009,5 +1012,6 @@
     "error_when_communicating_with_the_device": "Error when communicating with the device",
     "bad_cable": "One possible reason could be the quality of the USB cable, which may cause an unstable connection or reduced connection speed (preventing the device from operating at USB 2.0 high speed).",
     "contact_us": "Please retry with another USB cale. If the issue persists, please email us at {{ email }} for assistance."
-  }
+  },
+  "dont_show_again": "Don't show again"
 }
