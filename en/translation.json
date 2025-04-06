@@ -333,7 +333,7 @@
       "previous": "Previous stable version"
     },
     "dev_channel_warning": "The dev channel firmware contains the latest features, but has only been lightly tested. If you don't know how to handle issues, please do not use it.",
-    "nightly_channel_warning": "The nightly channel firmware contains the real latest changes, but only the developer tests it very roughly. NOT for normal uses.",
+    "nightly_channel_warning": "The nightly channel firmware contains the real latest changes, but only the developer tests it very roughly.",
     "version": "Version",
     "release_time": "Release date",
     "build_time": "Build date",

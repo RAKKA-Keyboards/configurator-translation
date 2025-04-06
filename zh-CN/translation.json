@@ -333,7 +333,7 @@
       "previous": "前一个稳定版"
     },
     "dev_channel_warning": "Dev 通道的固件包含了最新的功能，但只经过了简单测试。如果您不知道如何处理问题，请不要使用。",
-    "nightly_channel_warning": "The nightly channel firmware contains the real latest changes, but only the developer tests it very roughly. NOT for normal uses.",
+    "nightly_channel_warning": "Nightly 通道包含了真正最新的改变，但是仅有开发者自己粗略地测试了它。",
     "version": "版本",
     "release_time": "发布时间",
     "build_time": "构建时间",
