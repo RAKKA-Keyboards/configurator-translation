@@ -225,7 +225,8 @@
     "hint_calibrating": "Calibrating…",
     "hint_dont_touch_keys": "Please do not touch the keys.",
     "avoid_vibration": {
-      "title": "Attempt to avoid the impact of vibration"
+      "title": "Attempt to avoid the impact of vibration",
+      "description": "When a key is pressed and released, components such as the switch and keycap can generate vibrations (possibly exceeding 0.0x mm), especially under heavy keystrokes. Enabling this option may help mitigate key anomalies caused by such vibrations. However, it will impact the keyboard’s responsiveness (if you can press the key continuously with a extreme fast speed) and cannot guarantee complete prevention. Therefore, we recommend turning off this option and setting a reasonable trigger distance, rather than lowering the distance as much as possible and relying on this feature."
     }
   },
   "connect": {
@@ -332,6 +333,7 @@
       "previous": "Previous stable version"
     },
     "dev_channel_warning": "The dev channel firmware contains the latest features, but has only been lightly tested. If you don't know how to handle issues, please do not use it.",
+    "nightly_channel_warning": "The nightly channel firmware contains the real latest changes, but only the developer tests it very roughly.",
     "version": "Version",
     "release_time": "Release date",
     "build_time": "Build date",
