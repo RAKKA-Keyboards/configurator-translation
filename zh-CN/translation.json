@@ -592,12 +592,17 @@
     "ttc_uranus_gaming": {
       "title": "天王磁轴电竞版",
       "title_short": "Uranus GAMING"
+    },
+    "mount_tai_he": {
+      "title": "泰山磁轴",
+      "title_short": "泰山磁轴"
     }
   },
   "manufacturer": {
     "gateron": "佳达隆",
     "ttc": "TTC",
-    "geonworks": "GEONWORKS"
+    "geonworks": "GEONWORKS",
+    "ug": "UGAMING游众"
   },
   "choose_switch": {
     "title": "选择轴体",

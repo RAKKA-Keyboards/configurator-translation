@@ -593,12 +593,17 @@
     "ttc_uranus_gaming": {
       "title": "Uranus Magnetic Switch GAMING",
       "title_short": "Uranus GAMING"
+    },
+    "mount_tai_he": {
+      "title": "Mount Tai HE",
+      "title_short": "Mount Tai HE"
     }
   },
   "manufacturer": {
     "gateron": "GATERON",
     "ttc": "TTC",
-    "geonworks": "GEONWORKS"
+    "geonworks": "GEONWORKS",
+    "ug": "UGAMING"
   },
   "choose_switch": {
     "title": "Choose switch",
