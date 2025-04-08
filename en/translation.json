@@ -525,6 +525,7 @@
     "series": "Series",
     "hint_series": "This a series of switches, including multiple models.",
     "button_set_selected_keys": "Set to selected keys",
+    "hint_pins_are_thinker": "This switch has slightly thicker pins, while the corresponding holes on the PCB are relatively narrow. If the switch is installed carelessly, it may not be fully seated, which could lead to issues such as key chattering or intermittent key response.",
     "metadata": {
       "travel": "Total travel",
       "mm": "{{distance}}mm",
