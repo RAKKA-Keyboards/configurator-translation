@@ -214,10 +214,11 @@
       "clear": "Clear saved calibration values for selected keys",
       "steps": {
         "title": "Please follow these steps:",
-        "step1": "If you have pressed the keys with excessive force, perform \"Initialize automatic calibration\" to clear automatically recorded bottom values.",
-        "step2": "If the key already has a calibration value, clear it first.",
-        "step3": "Press the key you wish to calibrate with normal force (no need to select them first). Try to keep it vertically downward during the pressing process.",
-        "step4": "Select the keys and click save."
+        "step1": "Firmly press the switch into place, as it may have loosened during transport. To verify, check whether the bottom-out reading appears significantly high on the debug page. If this step is not ensured, various issues may occur.",
+        "step2": "If you have pressed the keys with excessive force, perform \"Initialize automatic calibration\" to clear automatically recorded bottom values.",
+        "step3": "If the key already has a calibration value, clear it first.",
+        "step4": "Press the key you wish to calibrate with normal force (no need to select them first). Try to keep it vertically downward during the pressing process.",
+        "step5": "Select the keys and click save."
       },
       "hint_change_switch_requires_redo": "Calibration values recorded previously will become invalid after changing the switch model. You need to redo this process.<br>Even with the same switch model, re-calibration is required to account for individual differences.",
       "hint_no_keys_selected": "Please select the key you want to save the calibration value first."
