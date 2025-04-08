@@ -226,7 +226,7 @@
     "hint_dont_touch_keys": "Please do not touch the keys.",
     "avoid_vibration": {
       "title": "Attempt to avoid the impact of vibration",
-      "description": "When a key is pressed and released, components such as the switch and keycap can generate vibrations (possibly exceeding 0.0x mm), especially under heavy keystrokes. Enabling this option may help mitigate key anomalies caused by such vibrations. However, it will impact the keyboard’s responsiveness (if you can press the key continuously with a extreme fast speed) and cannot guarantee complete prevention. Therefore, we recommend turning off this option and setting a reasonable trigger distance, rather than lowering the distance as much as possible and relying on this feature."
+      "description": "When a key is pressed and released, components such as the switch and keycap may produce vibrations (potentially exceeding 0.0x mm), especially under heavy pressing force. Enabling this option attempts to mitigate key input anomalies caused by such vibrations. However, if you press the key repeatedly at a speed faster than the vibration interval, the keyboard may fail to respond in time. Additionally, this feature does not guarantee the elimination of all vibration-related anomalies. Therefore, we recommend disabling this option and setting a reasonable actuation distance, rather than using the lowest possible distance in conjunction with this option."
     }
   },
   "connect": {
