@@ -525,7 +525,8 @@
     "series": "Series",
     "hint_series": "This a series of switches, including multiple models.",
     "button_set_selected_keys": "Set to selected keys",
-    "hint_pins_are_thinker": "This switch has slightly thicker pins, while the corresponding holes on the PCB are relatively narrow. If the switch is installed carelessly, it may not be fully seated, which could lead to issues such as key chattering or intermittent key response.",
+    "hint_bad_installation_causes_abnormal": "Improper installation may cause key input issues",
+    "hint_pins_are_thinker": "This switch features slightly thicker pins, while the PCB has relatively smaller holes to accommodate more common switches. If not properly installed, the switch may not be fully seated, which can lead to issues such as key chattering or input dropouts. The way to check is by observing whether the bottom-out reading appears abnormally high on the debug page.\n",
     "metadata": {
       "travel": "Total travel",
       "mm": "{{distance}}mm",

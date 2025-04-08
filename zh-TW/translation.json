@@ -524,7 +524,8 @@
     "series": "系列",
     "hint_series": "這是一個系列的軸體，包含多個型號。",
     "button_set_selected_keys": "設置到已選擇的按鍵",
-    "hint_pins_are_thinker": "此款軸體的小腳較粗，而 PCB 上對應開孔較細，如果只是隨便地安裝，很可能出現未完全安裝到底的情況。此時可能會出現連擊和斷觸。",
+    "hint_bad_installation_causes_abnormal": "安裝不良會導致按鍵異常",
+    "hint_pins_are_thinker": "此款軸體的小腳較粗，而 PCB 為了適應常見的軸體，其對應的開孔較小。如果安裝不夠到位，容易出現未完全插入的情況，進而引發連擊或斷觸等問題。判斷方式是在調試頁觀察其觸底時的讀數是不是偏大。",
     "metadata": {
       "travel": "總行程",
       "mm": "{{distance}}mm",
