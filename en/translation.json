@@ -1032,10 +1032,10 @@
     },
     "action": {
       "select": "Select",
-      "select_all": "Select All",
-      "deselect_all": "Deselect",
-      "drag_select": "Drag Select",
-      "pick_color": "Pick Color"
+      "select_all": "Select all",
+      "deselect_all": "Deselect all",
+      "drag_select": "Drag select",
+      "pick_color": "Pick color"
     }
   }
 
