@@ -1021,5 +1021,20 @@
     "bad_cable": "一個可能的原因是 USB 線纜的質量問題，使得連接不穩定或是連接速率降低（裝置無法運行在 USB 2.0 高速）。",
     "contact_us": "請使用另外的 USB 線纜再試。如果仍有問題，請發送郵件至 {{ email }} 以聯繫我們取得幫助。"
   },
-  "dont_show_again": "不再顯示"
+  "dont_show_again": "不再顯示",
+  "shortcuts": {
+    "key": {
+      "mouse_left": "鼠標左鍵",
+      "mouse_right": "鼠標右鍵",
+      "mouse_middle": "鼠標中鍵",
+      "drag": "拖動"
+    },
+    "action": {
+      "select": "選擇",
+      "select_all": "全選",
+      "deselect_all": "取消選擇",
+      "drag_select": "拖動選擇",
+      "pick_color": "取色"
+    }
+  }
 }

@@ -1022,5 +1022,21 @@
     "bad_cable": "One possible reason could be the quality of the USB cable, which may cause an unstable connection or reduced connection speed (preventing the device from operating at USB 2.0 high speed).",
     "contact_us": "Please retry with another USB cale. If the issue persists, please email us at {{ email }} for assistance."
   },
-  "dont_show_again": "Don't show again"
+  "dont_show_again": "Don't show again",
+  "shortcuts": {
+    "key": {
+      "mouse_left": "Left Click",
+      "mouse_right": "Right Click",
+      "mouse_middle": "Middle Click",
+      "drag": "Drag"
+    },
+    "action": {
+      "select": "Select",
+      "select_all": "Select All",
+      "deselect_all": "Deselect",
+      "drag_select": "Drag Select",
+      "pick_color": "Pick Color"
+    }
+  }
+
 }

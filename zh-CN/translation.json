@@ -1021,5 +1021,20 @@
     "bad_cable": "一个可能的原因是 USB 线缆的质量问题，使得连接不稳定或是连接速率降低（设备无法运行在 USB 2.0 高速）。",
     "contact_us": "请使用另外的 USB 线缆再试。如果仍有问题，请发送邮件至 {{ email }} 以联系我们取得帮助。"
   },
-  "dont_show_again": "不再显示"
+  "dont_show_again": "不再显示",
+  "shortcuts": {
+    "key": {
+      "mouse_left": "鼠标左键",
+      "mouse_right": "鼠标右键",
+      "mouse_middle": "鼠标中键",
+      "drag": "拖动"
+    },
+    "action": {
+      "select": "选择",
+      "select_all": "全选",
+      "deselect_all": "取消选择",
+      "drag_select": "拖动选择",
+      "pick_color": "取色"
+    }
+  }
 }
