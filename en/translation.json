@@ -527,7 +527,7 @@
     "hint_series": "This a series of switches, including multiple models.",
     "button_set_selected_keys": "Set to selected keys",
     "hint_bad_installation_causes_abnormal": "Improper installation may cause key input issues",
-    "hint_pins_are_thinker": "This switch features slightly thicker pins, while the PCB has relatively smaller holes to accommodate more common switches. If not properly installed, the switch may not be fully seated, which can lead to issues such as key chattering or input dropouts. The way to check is by observing whether the bottom-out reading appears abnormally high on the debug page.\n",
+    "hint_pins_are_thinker": "This switch has thicker pins, while the PCB is designed with smaller holes to accommodate more common switch types. Proper installation may require fully disassembling the keyboard; otherwise, incomplete insertion could lead to issues like chattering or disconnection. However, for prebuilt keyboards, this may void the warranty—please proceed at your own discretion.",
     "metadata": {
       "travel": "Total travel",
       "mm": "{{distance}}mm",
