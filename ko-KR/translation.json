@@ -200,22 +200,22 @@
     },
     "tooltip": "Initial: {{top}}\nBottom: {{bottom}}",
     "auto_calibration": {
-      "title": "Auto calibration",
+      "title": "Runtime calibration",
       "description": "Performs self-calibration continuously during operation to ensure stability and accuracy. This feature cannot be disabled."
     },
     "full_calibration": {
-      "title": "Initialize automatic calibration",
-      "description": "Recalibrates the entire keyboard. For keyboards that support multiple layouts, it will also re-detect the layout in use."
+      "title": "Clear values recorded by Runtime calibration",
+      "description": "Clear values recorded by Runtime calibration. For keyboards that support multiple layouts, it will also re-detect the layout in use."
     },
     "bottom_calibration": {
-      "title": "Manual bottom calibration",
-      "description": "After a key has been pressed with excessive force, it may behave abnormally when pressed with normal force. This can be avoided by recording manual calibration values.",
-      "save": "Save calibration values for selected keys",
-      "clear": "Clear saved calibration values for selected keys",
+      "title": "Manually calibrate relative bottom-out value",
+      "description": "When a key is pressed forcefully, subsequent presses with normal force may behave abnormally. This issue becomes more apparent with very low settings. This step addresses it by recording relative values from presses with normal force.",
+      "save": "Save values for selected keys",
+      "clear": "Clear saved values for selected keys",
       "steps": {
         "title": "Please follow these steps:",
         "step1": "Firmly press the switch into place, as it may have loosened during transport. To verify, check whether the bottom-out reading appears significantly high on the debug page. If this step is not ensured, various issues may occur.",
-        "step2": "If you have pressed the keys with excessive force, perform \"Initialize automatic calibration\" to clear automatically recorded bottom values.",
+        "step2": "If you have pressed the keys with excessive force, perform \"Clear values recorded by Runtime calibration\" to clear automatically recorded bottom values.",
         "step3": "If the key already has a calibration value, clear it first.",
         "step4": "Press the key you wish to calibrate with normal force (no need to select them first). Try to keep it vertically downward during the pressing process.",
         "step5": "Select the keys and click save."
