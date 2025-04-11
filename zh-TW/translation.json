@@ -1032,7 +1032,7 @@
     "action": {
       "select": "選擇",
       "select_all": "全選",
-      "deselect_all": "取消選擇",
+      "deselect_all": "全部取消選擇",
       "drag_select": "拖動選擇",
       "pick_color": "取色"
     }
