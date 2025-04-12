@@ -905,7 +905,6 @@
     "hint_extreme": "The current setting is extreme and requires exceptionally stable operation to function properly.",
     "hint_large_keys": "This phenomenon becomes more noticeable when keys are hit hard, especially larger keys, as they are more affected by vibrations.",
     "hint_find_most_suitable": "Finding the most suitable settings requires continuous experimentation.",
-    "hint_requires_bottom_calibration": "Please ensure that Manually calibrate relative bottom-out value has been performed. Otherwise, the effective setting will be a higher value.",
     "hint_downgraded_since_lacks_bottom_calibration": "Due to the lack of Manually calibrate relative bottom-out value, the effective setting is {{ mm }}.",
     "hint_works_only_at_bottom": "Acts as {{ mm }} for non-bottoming area."
   },

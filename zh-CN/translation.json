@@ -904,7 +904,6 @@
     "hint_extreme": "当前设定属于极端设定，需要极为稳定的操作才能正常使用。",
     "hint_large_keys": "这个现象在大力敲击按键，尤其是大键时更加明显，因为它们受震动影响更大。",
     "hint_find_most_suitable": "找到最适合自己的设置需要不断尝试。",
-    "hint_requires_bottom_calibration": "请确定已进行人工校准相对触底值。否则，实际生效的会是一个更高的值。",
     "hint_downgraded_since_lacks_bottom_calibration": "由于没有进行人工校准相对触底值，实际生效的设置为 {{ mm }}。",
     "hint_works_only_at_bottom": "在非底部区域作用为 {{ mm }}。"
   },
