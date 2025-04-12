@@ -894,7 +894,6 @@
     "hint_too_aggressive": "Abnormal behavior may occur with the current settings. Please adjust according to your actual usage.",
     "hint_large_keys": "This phenomenon becomes more noticeable when keys are hit hard, especially larger keys, as they are more affected by vibrations.",
     "hint_find_most_suitable": "Finding the most suitable settings requires continuous experimentation.",
-    "hint_requires_bottom_calibration": "Under the current settings, pressing the key forcefully and then pressing it with normal force is likely to cause issues. Please ensure manual bottom calibration has been performed.",
     "hint_downgraded_since_lacks_bottom_calibration": "Due to the lack of manual bottom calibration, the effective setting is {{ mm }}.",
     "hint_works_only_at_bottom": "Acts as {{ mm }} for non-bottoming area."
   },
