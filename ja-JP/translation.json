@@ -467,12 +467,10 @@
       "hint_too_low_is_unstable_tooltip": "Vibrations in the switch or stabilizers are unavoidable when they hit the top.<br><br>Forcefully pressing and quickly releasing, or using keys with stabilizers (e.g., the spacebar), results in relatively larger vibrations.<br><br>If the vibration amplitude exceeds the actuation distance, it will cause the key to trigger again."
     },
     "rapid_trigger_in_full_travel": {
-      "title": "Effective only within Actuation distance",
-      "description": "When enabled, once the key is released beyond {{travel}}mm, it must be pressed again to {{travel}}mm to trigger again; when disabled, Rapid Trigger remains effective unless the key is fully released."
+      "title": "Effective only within Actuation distance"
     },
     "always_trigger_when_bottoming": {
-      "title": "Always trigger when bottoming",
-      "description": "Shaking a finger when pressing all the way down may cause the detected distance on the keyboard to change. The amount of change varies depending on the switch model. When enabled, bottoming out will consistently be treated as triggered to prevent incorrect resets."
+      "title": "Always trigger when bottoming"
     },
     "restore_to_use_global_settings": "Restore to \"Use global settings\"",
     "overview": {

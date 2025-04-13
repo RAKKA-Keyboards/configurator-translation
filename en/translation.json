@@ -471,11 +471,11 @@
     },
     "rapid_trigger_in_full_travel": {
       "title": "Effective only within Actuation distance",
-      "description": "When enabled, once the key is released beyond {{travel}}mm, it must be pressed again to {{travel}}mm to trigger again; when disabled, Rapid Trigger remains effective unless the key is fully released."
+      "description": "When turned on, once the key is released beyond {{travel}}mm (the Actuation distance you set), it must be pressed again to {{travel}}mm to trigger again; when turned off, Rapid Trigger remains effective unless the key is fully released."
     },
     "always_trigger_when_bottoming": {
       "title": "Always trigger when bottoming",
-      "description": "Shaking a finger when pressing all the way down may cause the detected distance on the keyboard to change. The amount of change varies depending on the switch model. When enabled, bottoming out will consistently be treated as triggered to prevent incorrect resets."
+      "description": "Shaking a finger when pressing all the way down may cause the detected distance on the keyboard to change. The amount of change varies depending on the switch model. When enabled, bottoming out will consistently be treated as triggered to prevent incorrect resets. Don't turn it on when pursuing extreme settings."
     },
     "restore_to_use_global_settings": "Restore to \"Use global settings\"",
     "overview": {
@@ -896,13 +896,14 @@
     "clear": "Clear"
   },
   "rapid_trigger": {
-    "hint_dont_too_aggressive": "We do not recommend setting the options as low as possible. Due to unavoidable objective factors, overly low settings may cause abnormal key triggering.",
+    "hint_dont_too_aggressive": "We do not recommend setting the options as low as possible.",
+    "hint_dont_too_aggressive_hint": "Due to unavoidable objective factors, overly low settings require stable operation, or abnormal key triggering may occur. We do not attempt to circumvent these objective factors because doing so would require significantly sacrificing response speed (latency).",
     "hint_dont_too_aggressive_tooltip_1": "The keyboard estimates distance by detecting the strength of the magnetic field. It cannot detect other factors such as switch wobble or material vibrations.",
-    "hint_dont_too_aggressive_tooltip_2": "Human hands can't move perfectly straight up and down—there may be slight wobbling. Obviously, if the parameters are set too low, even minor tilts can result in missed keypresses.",
-    "hint_dont_too_aggressive_tooltip_3": "During key presses, components like the switch, PCB, mounting plate, and stabilizers inevitably experience deformation and vibration. If parameters are set too low, such deformation and vibration may be mistaken as key triggering.",
-    "hint_dont_too_aggressive_tooltip_4": "In fact, the keyboard’s response speed (latency) is also an important factor affecting the user experience. Our keyboard is already optimized for minimal latency, blindly pursuing precision may be counterproductive. We only offer extremely low travel options due to market demand ¯\\_(ツ)_/¯",
-    "hint_too_aggressive": "Abnormal behavior may occur with the current settings. Please adjust according to your actual usage.",
-    "hint_extreme": "The current setting is extreme and requires exceptionally stable operation to function properly.",
+    "hint_dont_too_aggressive_tooltip_2": "Human hands cannot move in a perfectly vertical and stable motion—slight wobbling may occur. Clearly, if parameters are set too low, even minor tilts can result in missed keypresses.",
+    "hint_dont_too_aggressive_tooltip_3": "Deformation and vibration inevitably occur when pressing the switch, PCB, plate, or stabilizers. When the parameters are set extremely low, these deformations and vibrations may be interpreted as key activations.",
+    "hint_dont_too_aggressive_tooltip_4": "We believe the most important feature of Hall Effect keyboards is the response speed (low latency)—the keyboard should react as quickly as possible to even the smallest changes. Sacrificing response time by multiples—dozens or even hundreds of times—just to maintain 'stability' under extremely low settings is counterproductive.",
+    "hint_too_aggressive": "The current settings are starting to be affected by unavoidable objective factors and require relatively stable operation to function properly. Please find a configuration that suits your actual usage.",
+    "hint_extreme": "The current setting is extreme and requires exceptionally stable operation to function properly. You can imagine the key as a vertical needle—it must be pressed almost perfectly vertically to avoid abnormal behavior.",
     "hint_large_keys": "This phenomenon becomes more noticeable when keys are hit hard, especially larger keys, as they are more affected by vibrations.",
     "hint_find_most_suitable": "Finding the most suitable settings requires continuous experimentation.",
     "hint_downgraded_since_lacks_bottom_calibration": "Due to the lack of Manually calibrate relative bottom-out value, the effective setting is {{ mm }}.",
