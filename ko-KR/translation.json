@@ -226,7 +226,8 @@
     "hint_calibrating": "Calibrating…",
     "hint_dont_touch_keys": "Please do not touch the keys.",
     "avoid_vibration": {
-      "title": "Attempt to avoid the impact of vibration"
+      "title": "Attempt to avoid the impact of vibration",
+      "description": "When a key is pressed and released, components such as the switch and keycap may produce vibrations (potentially exceeding 0.0x mm), especially under heavy pressing force. Enabling this option attempts to mitigate key input anomalies caused by such vibrations. However, if you press the key repeatedly at a speed faster than the vibration interval, the keyboard may fail to respond in time. Additionally, this feature does not guarantee the elimination of all vibration-related anomalies. Therefore, we recommend disabling this option and setting a reasonable actuation distance, rather than using the lowest possible distance in conjunction with this option."
     }
   },
   "connect": {
@@ -333,6 +334,7 @@
       "previous": "Previous stable version"
     },
     "dev_channel_warning": "The dev channel firmware contains the latest features, but has only been lightly tested. If you don't know how to handle issues, please do not use it.",
+    "nightly_channel_warning": "The nightly channel firmware contains the real latest changes, but only the developer tests it very roughly.",
     "version": "Version",
     "release_time": "Release date",
     "build_time": "Build date",
@@ -467,10 +469,12 @@
       "hint_too_low_is_unstable_tooltip": "Vibrations in the switch or stabilizers are unavoidable when they hit the top.<br><br>Forcefully pressing and quickly releasing, or using keys with stabilizers (e.g., the spacebar), results in relatively larger vibrations.<br><br>If the vibration amplitude exceeds the actuation distance, it will cause the key to trigger again."
     },
     "rapid_trigger_in_full_travel": {
-      "title": "Effective only within Actuation distance"
+      "title": "Effective only within Actuation distance",
+      "description": "When turned on, once the key is released beyond {{travel}}mm (the Actuation distance you set), it must be pressed again to {{travel}}mm to trigger again; when turned off, Rapid Trigger remains effective unless the key is fully released."
     },
     "always_trigger_when_bottoming": {
-      "title": "바닥을 칠 때 항상 입력 모드"
+      "title": "바닥을 칠 때 항상 입력 모드",
+      "description": "Shaking a finger when pressing all the way down may cause the detected distance on the keyboard to change. The amount of change varies depending on the switch model. When enabled, bottoming out will consistently be treated as triggered to prevent incorrect resets. Don't turn it on when pursuing extreme settings."
     },
     "restore_to_use_global_settings": "Restore to \"Use global settings\"",
     "overview": {
@@ -521,6 +525,8 @@
     "series": "Series",
     "hint_series": "This a series of switches, including multiple models.",
     "button_set_selected_keys": "Set to selected keys",
+    "hint_bad_installation_causes_abnormal": "Improper installation may cause key input issues",
+    "hint_pins_are_thinker": "This switch has thicker pins, while the PCB is designed with smaller holes to accommodate more common switch types. Proper installation may require fully disassembling the keyboard; otherwise, incomplete insertion could lead to issues like chattering or disconnection. However, for prebuilt keyboards, this may void the warranty—please proceed at your own discretion.",
     "metadata": {
       "travel": "총 이동거리",
       "mm": "{{distance}}mm",
@@ -589,12 +595,17 @@
     "ttc_uranus_gaming": {
       "title": "Uranus Magnetic Switch GAMING",
       "title_short": "Uranus GAMING"
+    },
+    "mount_tai_he": {
+      "title": "Mount Tai HE",
+      "title_short": "Mount Tai HE"
     }
   },
   "manufacturer": {
     "gateron": "GATERON",
     "ttc": "TTC",
-    "geonworks": "GEONWORKS"
+    "geonworks": "GEONWORKS",
+    "ug": "UGAMING"
   },
   "choose_switch": {
     "title": "스위치를 고르세요.",
@@ -884,7 +895,14 @@
     "clear": "Clear"
   },
   "rapid_trigger": {
+    "hint_dont_too_aggressive": "We do not recommend setting the options as low as possible.",
+    "hint_dont_too_aggressive_hint": "Due to unavoidable objective factors, overly low settings require stable operation, or abnormal key triggering may occur. We do not attempt to circumvent these objective factors because doing so would require significantly sacrificing response speed (latency).",
+    "hint_dont_too_aggressive_tooltip_1": "The keyboard estimates distance by detecting the strength of the magnetic field. It cannot detect other factors such as switch wobble or material vibrations.",
+    "hint_dont_too_aggressive_tooltip_2": "Human hands cannot move in a perfectly vertical and stable motion—slight wobbling may occur. Clearly, if parameters are set too low, even minor tilts can result in missed keypresses.",
+    "hint_dont_too_aggressive_tooltip_3": "Deformation and vibration inevitably occur when pressing the switch, PCB, plate, or stabilizers. When the parameters are set extremely low, these deformations and vibrations may be interpreted as key activations.",
+    "hint_dont_too_aggressive_tooltip_4": "We believe the most important feature of Hall Effect keyboards is the response speed (low latency)—the keyboard should react as quickly as possible to even the smallest changes. Sacrificing response time by multiples—dozens or even hundreds of times—just to maintain 'stability' under extremely low settings is counterproductive.",
     "hint_too_aggressive": "Abnormal behavior may occur with the current settings. Please adjust according to your actual usage.",
+    "hint_extreme": "The current setting is extreme and requires exceptionally stable operation to function properly. You can imagine the key as a vertical needle—it must be pressed almost perfectly vertically to avoid abnormal behavior.",
     "hint_large_keys": "This phenomenon becomes more noticeable when keys are hit hard, especially larger keys, as they are more affected by vibrations.",
     "hint_find_most_suitable": "Finding the most suitable settings requires continuous experimentation.",
     "hint_downgraded_since_lacks_bottom_calibration": "Due to the lack of manual bottom calibration, the effective setting is {{ mm }}.",
@@ -1004,5 +1022,20 @@
     "bad_cable": "One possible reason could be the quality of the USB cable, which may cause an unstable connection or reduced connection speed (preventing the device from operating at USB 2.0 high speed).",
     "contact_us": "Please retry with another USB cale. If the issue persists, please email us at {{ email }} for assistance."
   },
-  "dont_show_again": "Don't show again"
+  "dont_show_again": "Don't show again",
+  "shortcuts": {
+    "key": {
+      "mouse_left": "Left Click",
+      "mouse_right": "Right Click",
+      "mouse_middle": "Middle Click",
+      "drag": "Drag"
+    },
+    "action": {
+      "select": "Select",
+      "select_all": "Select all",
+      "deselect_all": "Deselect all",
+      "drag_select": "Drag select",
+      "pick_color": "Pick color"
+    }
+  }
 }
