@@ -970,7 +970,9 @@
     "darker": "更暗"
   },
   "changelog": {
-    "title": "更新内容"
+    "title": "更新内容",
+    "firmware_changelog": "固件更新日志",
+    "configurator_changelog": "配置器更新日志"
   },
   "hint_do_not_use_hub": "使用 USB Hub 连接设备可能会导致性能下降或连接不稳定。",
   "layout_options": {
@@ -1047,5 +1049,6 @@
       "drag_select": "拖动选择",
       "pick_color": "取色"
     }
-  }
+  },
+  "upgrade": "升级"
 }

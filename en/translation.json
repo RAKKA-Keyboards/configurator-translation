@@ -972,7 +972,9 @@
     "darker": "Darker"
   },
   "changelog": {
-    "title": "Changelog"
+    "title": "Changelog",
+    "firmware_changelog": "Firmware changelog",
+    "configurator_changelog": "Configurator changelog"
   },
   "hint_do_not_use_hub": "Using a USB Hub to connect devices may result in degraded performance or unstable connections.",
   "layout_options": {
@@ -1049,6 +1051,6 @@
       "drag_select": "Drag select",
       "pick_color": "Pick color"
     }
-  }
-
+  },
+  "upgrade": "Upgrade"
 }
