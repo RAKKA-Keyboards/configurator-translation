@@ -790,6 +790,16 @@
       "num_lock": {
         "title": "數字鎖定（Num Lock）指示燈顏色"
       }
+    },
+    "sleep_mode": {
+      "title": "休眠模式",
+      "description": "在指定的時間內沒有任何按鍵被按下，燈光變暗或熄滅。注意，如果電腦進入睡眠或關機狀態，燈光將直接熄滅，不受以下設置影響。",
+      "dimming": "指定時間後變暗",
+      "off": "指定時間後熄滅",
+      "format": {
+        "minute_other": "{{count}} 分鐘"
+      },
+      "minutes": "分鐘"
     }
   },
   "swift_flow": {

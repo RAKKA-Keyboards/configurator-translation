@@ -791,6 +791,17 @@
       "num_lock": {
         "title": "Num Lock indicator color"
       }
+    },
+    "sleep_mode": {
+      "title": "Sleep mode",
+      "description": "If no keys are pressed for a specified period of time, the lighting will dim or turn off. Note that if the computer enters sleep or shutdown mode, the lighting will turn off directly, regardless of the following settings.",
+      "dimming": "Dim after a specified time",
+      "off": "Turn off after a specified time",
+      "format": {
+        "minute_one": "{{count}} minute",
+        "minute_other": "{{count}} minutes"
+      },
+      "minutes": "minutes"
     }
   },
   "swift_flow": {
