@@ -892,20 +892,6 @@
   "bug_report": {
     "title": "Bug report"
   },
-  "troubleshooting": {
-    "title": "Troubleshooting",
-    "pressed_at": "Pressed at {{ time }}",
-    "released_at": "Released at {{ time }}",
-    "key": "Key",
-    "time": "Time",
-    "delta": "Delta",
-    "reason": "Reason",
-    "reason_format": "Reached {{ distance }}mm ({{ position }})",
-    "hint": "This tool is used for self-investigation or reporting chattering or missed keystrokes issues to the developer.",
-    "hint_stay_in_this_page_will_slow_down": "Note, staying on this page will slightly slows down response time.",
-    "switch_to_general_purpose_mode": "Switch to general-purpose mode",
-    "clear": "Clear"
-  },
   "rapid_trigger": {
     "hint_dont_too_aggressive": "We do not recommend setting the options as low as possible.",
     "hint_dont_too_aggressive_hint": "Due to unavoidable objective factors, overly low settings require stable operation, or abnormal key triggering may occur. We do not attempt to circumvent these objective factors because doing so would require significantly sacrificing response speed (latency).",
@@ -1052,5 +1038,37 @@
       "pick_color": "Pick color"
     }
   },
-  "upgrade": "Upgrade"
+  "upgrade": "Upgrade",
+  "troubleshooting": {
+    "title": "Troubleshooting",
+    "pressed_at": "Pressed at {{ time }}",
+    "released_at": "Released at {{ time }}",
+    "key": "Key",
+    "time": "Time",
+    "delta": "Delta",
+    "reason": "Reason",
+    "reason_format": "Reached {{ distance }}mm ({{ position }})",
+    "hint": "This tool is used for self-investigation or reporting chattering or missed keystrokes issues to the developer.",
+    "hint_stay_in_this_page_will_slow_down": "Note, staying on this page will slightly slows down response time.",
+    "switch_to_general_purpose_mode": "Switch to general-purpose mode",
+    "clear": "Clear"
+  },
+  "can_i_control_it": {
+    "title": "Can I Really 'Keep It Steady'?",
+    "choose_the_key_to_track": "Select the key to track",
+    "start": "Start",
+    "stop": "Stop",
+    "texts": {
+      "description": "This tool allows you to track the pressing distance of a key in real time and display it as a chart.",
+      "limitation_intro": "The keyboard cannot distinguish a normal press from the following situations:",
+      "limitation": {
+        "shaking": "Hand movement during key press",
+        "press_force_change": "Force changes after the key bottoms out",
+        "hard_hit": "Pressing the key with excessive force"
+      },
+      "extreme_param_warning": "When using extreme parameters (e.g., around 0.01mm or even lower), issues like 'key releases unintended' are likely caused by insufficient precision in finger control, not by a keyboard malfunction.",
+      "reproduce_tips": "You can simulate in-game key presses and compare them with steady, straight-down presses. If the issue only occurs in the former, it's most likely due to how the key is being pressed.",
+      "design_philosophy": "Our keyboards are designed for low latency, meaning they respond to even the slightest changes—instead of relying on various tricks to appear 'stable'. Think about it: since a keyboard can't truly distinguish normal presses from the above scenarios, those tricks must come at the cost of increased latency—often not just slightly, but by tens or even hundreds of times."
+    }
+  }
 }

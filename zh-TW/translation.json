@@ -890,20 +890,6 @@
   "bug_report": {
     "title": "Bug report"
   },
-  "troubleshooting": {
-    "title": "疑難解答",
-    "pressed_at": "按下於 {{ time }}",
-    "released_at": "釋放於 {{ time }}",
-    "key": "按鍵",
-    "time": "時間",
-    "delta": "時間差",
-    "reason": "原因",
-    "reason_format": "達到 {{ distance }}mm（{{ position }}）",
-    "hint": "此工具用於自我調查或是向開發者回報斷觸及誤觸問題。",
-    "hint_stay_in_this_page_will_slow_down": "注意，停留在此頁面會輕微降低響應速度。",
-    "switch_to_general_purpose_mode": "切換到一般用途模式",
-    "clear": "清除"
-  },
   "rapid_trigger": {
     "hint_dont_too_aggressive": "我們不建議您追求將選項儘可能地設定得低。",
     "hint_dont_too_aggressive_hint": "由於不可避免的客觀原因，過低的設定需要穩定的操作，否則可能會導致按鍵觸發異常。我們不嘗試規避那些客觀因素是因為需要極大地犧牲響應速度（延遲）。",
@@ -1050,5 +1036,37 @@
       "pick_color": "取色"
     }
   },
-  "upgrade": "升級"
+  "upgrade": "升級",
+  "troubleshooting": {
+    "title": "疑難解答",
+    "pressed_at": "按下於 {{ time }}",
+    "released_at": "釋放於 {{ time }}",
+    "key": "按鍵",
+    "time": "時間",
+    "delta": "時間差",
+    "reason": "原因",
+    "reason_format": "達到 {{ distance }}mm（{{ position }}）",
+    "hint": "此工具用於自我調查或是向開發者回報斷觸及誤觸問題。",
+    "hint_stay_in_this_page_will_slow_down": "注意，停留在此頁面會輕微降低響應速度。",
+    "switch_to_general_purpose_mode": "切換到一般用途模式",
+    "clear": "清除"
+  },
+  "can_i_control_it": {
+    "title": "我能「穩得住」嗎？",
+    "choose_the_key_to_track": "選擇要追蹤的按鍵",
+    "start": "開始",
+    "stop": "停止",
+    "texts": {
+      "description": "此工具可以實時追蹤一個按鍵的按壓距離，並繪製成圖表。",
+      "limitation_intro": "鍵盤無法區分正常的按壓與下面的情況：",
+      "limitation": {
+        "shaking": "人手在按壓按鍵時出現晃動",
+        "press_force_change": "人手按壓按鍵觸底後，力度發生變化",
+        "hard_hit": "以較大力度敲擊按鍵"
+      },
+      "extreme_param_warning": "設定極端參數時（例如 0.01mm 左右甚至更低）出現「斷觸」等現象很可能是因為人手操作不夠精細，而非鍵盤有問題。",
+      "reproduce_tips": "您可以模擬遊戲時的操作方式，並對比穩定且直上直下的按壓方式，如果問題僅出現在前者，則基本可以判定是人手操作的問題。",
+      "design_philosophy": "我們的鍵盤追求的是低延遲，即鍵盤會響應即使很微小的變化，而不是通過各種手段使它顯得「很穩定」。稍微思考一下就會知道，因為鍵盤不可能能夠區分正常按壓與上面說的情況，那麼，那些手段一定是以增加延遲為代價的，且不是輕微增加而是成本乃至幾十上百倍地增加。"
+    }
+  }
 }

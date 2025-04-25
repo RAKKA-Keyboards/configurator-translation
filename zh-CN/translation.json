@@ -890,20 +890,6 @@
   "bug_report": {
     "title": "Bug report"
   },
-  "troubleshooting": {
-    "title": "疑难解答",
-    "pressed_at": "按下于 {{ time }}",
-    "released_at": "释放于 {{ time }}",
-    "key": "按键",
-    "time": "时间",
-    "delta": "时间差",
-    "reason": "原因",
-    "reason_format": "达到 {{ distance }}mm（{{ position }}）",
-    "hint": "此工具用于自我调查或是向开发者回报断触及误触问题。",
-    "hint_stay_in_this_page_will_slow_down": "注意，停留在此页面会轻微降低响应速度。",
-    "switch_to_general_purpose_mode": "切换到一般用途模式",
-    "clear": "清除"
-  },
   "rapid_trigger": {
     "hint_dont_too_aggressive": "我们不建议您追求将选项尽可能地设定得低。",
     "hint_dont_too_aggressive_hint": "由于不可避免的客观原因，过低的设定需要稳定的操作，否则可能会导致按键触发异常。我们不尝试规避那些客观因素是因为需要极大地牺牲响应速度（延迟）。",
@@ -1050,5 +1036,37 @@
       "pick_color": "取色"
     }
   },
-  "upgrade": "升级"
+  "upgrade": "升级",
+  "troubleshooting": {
+    "title": "疑难解答",
+    "pressed_at": "按下于 {{ time }}",
+    "released_at": "释放于 {{ time }}",
+    "key": "按键",
+    "time": "时间",
+    "delta": "时间差",
+    "reason": "原因",
+    "reason_format": "达到 {{ distance }}mm（{{ position }}）",
+    "hint": "此工具用于自我调查或是向开发者回报断触及误触问题。",
+    "hint_stay_in_this_page_will_slow_down": "注意，停留在此页面会轻微降低响应速度。",
+    "switch_to_general_purpose_mode": "切换到一般用途模式",
+    "clear": "清除"
+  },
+  "can_i_control_it": {
+    "title": "我能“稳得住”吗？",
+    "choose_the_key_to_track": "选择要追踪的按键",
+    "start": "开始",
+    "stop": "停止",
+    "texts": {
+      "description": "此工具可以实时追踪一个按键的按压距离，并绘制成图表。",
+      "limitation_intro": "键盘无法区分正常的按压与下面的情况：",
+      "limitation": {
+        "shaking": "人手在按压按键时出现晃动",
+        "press_force_change": "人手按压按键触底后，力度发生变化",
+        "hard_hit": "以较大力度敲击按键"
+      },
+      "extreme_param_warning": "设定极端参数时（例如 0.01mm 左右甚至更低）出现“断触”等现象很可能是因为人手操作不够精细，而非键盘有问题。",
+      "reproduce_tips": "您可以模拟游戏时的操作方式，并对比稳定且直上直下的按压方式，如果问题仅出现在前者，则基本可以判定是人手操作的问题。",
+      "design_philosophy": "我们的键盘追求的是低延迟，即键盘会响应即使很微小的变化，而不是通过各种手段使它显得“很稳定”。稍微思考一下就会知道，因为键盘不可能能够区分正常按压与上面说的情况，那么，那些手段一定是以增加延迟为代价的，且不是轻微增加而是成本乃至几十上百倍地增加。"
+    }
+  }
 }
