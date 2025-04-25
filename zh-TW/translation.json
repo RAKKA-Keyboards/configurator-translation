@@ -1026,14 +1026,16 @@
       "mouse_left": "鼠標左鍵",
       "mouse_right": "鼠標右鍵",
       "mouse_middle": "鼠標中鍵",
-      "drag": "拖動"
+      "drag": "拖動",
+      "mouse_wheel": "鼠標滾輪"
     },
     "action": {
       "select": "選擇",
       "select_all": "全選",
       "deselect_all": "全部取消選擇",
       "drag_select": "拖動選擇",
-      "pick_color": "取色"
+      "pick_color": "取色",
+      "zoom": "縮放"
     }
   },
   "upgrade": "升級",
@@ -1055,6 +1057,7 @@
     "title": "我能「穩得住」嗎？",
     "choose_the_key_to_track": "選擇要追蹤的按鍵",
     "start": "開始",
+    "start_for_seconds": "開始 {{ seconds }} 秒",
     "stop": "停止",
     "texts": {
       "description": "此工具可以實時追蹤一個按鍵的按壓距離，並繪製成圖表供使用者觀察檢測。",

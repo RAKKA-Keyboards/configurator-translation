@@ -1026,14 +1026,16 @@
       "mouse_left": "鼠标左键",
       "mouse_right": "鼠标右键",
       "mouse_middle": "鼠标中键",
-      "drag": "拖动"
+      "drag": "拖动",
+      "mouse_wheel": "鼠标滚轮"
     },
     "action": {
       "select": "选择",
       "select_all": "全选",
       "deselect_all": "全部取消选择",
       "drag_select": "拖动选择",
-      "pick_color": "取色"
+      "pick_color": "取色",
+      "zoom": "缩放"
     }
   },
   "upgrade": "升级",
@@ -1055,6 +1057,7 @@
     "title": "我能“稳得住”吗？",
     "choose_the_key_to_track": "选择要追踪的按键",
     "start": "开始",
+    "start_for_seconds": "开始 {{ seconds }} 秒",
     "stop": "停止",
     "texts": {
       "description": "此工具可以实时追踪一个按键的按压距离，并绘制成图表供使用者观察检测。",

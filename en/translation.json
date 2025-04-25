@@ -1028,14 +1028,16 @@
       "mouse_left": "Left Click",
       "mouse_right": "Right Click",
       "mouse_middle": "Middle Click",
-      "drag": "Drag"
+      "drag": "Drag",
+      "mouse_wheel": "Mouse Wheel"
     },
     "action": {
       "select": "Select",
       "select_all": "Select all",
       "deselect_all": "Deselect all",
       "drag_select": "Drag select",
-      "pick_color": "Pick color"
+      "pick_color": "Pick color",
+      "zoom": "Zoom"
     }
   },
   "upgrade": "Upgrade",
@@ -1057,6 +1059,7 @@
     "title": "Can I Really 'Keep It Steady'?",
     "choose_the_key_to_track": "Select the key to track",
     "start": "Start",
+    "start_for_seconds": "Start for {{ seconds }} seconds",
     "stop": "Stop",
     "texts": {
       "description": "This tool tracks the pressing distance of a key in real time and visualizes it in a chart for observation and analysis.",
