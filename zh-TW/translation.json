@@ -1069,7 +1069,7 @@
       "design_philosophy_intro": "RAKKA 產品性能並不通過能夠穩定多少的行程精度來體現。",
       "design_philosophy": "更快速通過鍵盤完成操作觸達及確保低延遲是我們向來的設計目的和開發追求。為了穩定人手操作本就無法感知和控制的精度，需要幾十乃至上百倍地犧牲延遲（即：速度本身）違背 RAKKA 對追求性能的初衷。"
     },
-    "trigger_log" : {
+    "trigger_log": {
       "trigger": "觸發",
       "reset": "重置",
       "no_items": "沒有觸發記錄"
