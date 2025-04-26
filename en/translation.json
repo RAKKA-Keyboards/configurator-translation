@@ -1062,6 +1062,7 @@
     "start": "Start",
     "start_for_seconds": "Start for {{ seconds }} seconds",
     "stop": "Stop",
+    "current_config": "Current configuration",
     "texts": {
       "description": "This tool allows you to track the pressing distance of a key in real time and visualize it in a chart for observation and analysis.",
       "limitation_intro": "Due to fundamental limitations, the keyboard itself cannot distinguish 'normal pressing' from the following objectively existing conditions (including but not limited to). When parameters are set extremely low (e.g., around 0.01mm or even lower), the impact of these conditions becomes very significant.",
