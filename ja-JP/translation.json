@@ -1050,29 +1050,5 @@
     "hint_stay_in_this_page_will_slow_down": "Note, staying on this page will slightly slows down response time.",
     "switch_to_general_purpose_mode": "Switch to general-purpose mode",
     "clear": "Clear"
-  },
-  "can_i_control_it": {
-    "title": "Can I Really 'Keep It Steady'?",
-    "choose_the_key_to_track": "Select the key to track",
-    "start": "Start",
-    "stop": "Stop",
-    "texts": {
-      "description": "This tool tracks the pressing distance of a key in real time and visualizes it in a chart for observation and analysis.",
-      "limitation_intro": "Due to fundamental limitations, the keyboard itself cannot distinguish 'normal pressing' from the following objectively existing usage scenarios:",
-      "limitation": {
-        "shaking": "Hand movement during key press;",
-        "press_force_change": "Changes in force after the key is pressed down;",
-        "hard_hit": "Pressing the key with greater force (compared to a 'normal press');"
-      },
-      "extreme_param_warning": "When using extreme parameters (e.g., around 0.01mm or even lower—consider that a human hair is typically about 0.04mm to 0.05mm thick), experiencing 'no response' is normal. This is due to the unavoidable influence of the above-mentioned factors in human operation, and does not reliably indicate a keyboard malfunction.",
-      "reproduce_tips": "You can simulate in-game actions and compare them to vertical and stable key presses. This comparison can help analyze and determine the real impact of finger control on pressing distance.",
-      "design_philosophy_intro": "RAKKA products do not measure performance by how precise the key travel appears to be.",
-      "design_philosophy": "Our consistent design goal is to enable faster actions through the keyboard and ensure low latency. Sacrificing speed—by tens or even hundreds of times—to stabilize a precision that human hands cannot even perceive or control goes against RAKKA's original intent of pursuing performance."
-    },
-    "trigger_log": {
-      "trigger": "Trigger",
-      "reset": "Reset",
-      "no_items": "No trigger records"
-    }
   }
 }

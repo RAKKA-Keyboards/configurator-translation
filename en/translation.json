@@ -1016,6 +1016,7 @@
     }
   },
   "hint_this_option_requires_a_newer_version_of_the_firmware": "This option requires a newer version of the firmware.",
+  "hint_this_function_requires_a_newer_version_of_the_firmware": "This function requires a newer version of the firmware.",
   "error": {
     "timeout_when_communicating_with_the_device": "Timeout when communicating with the device",
     "error_when_communicating_with_the_device": "Error when communicating with the device",
@@ -1055,29 +1056,40 @@
     "switch_to_general_purpose_mode": "Switch to general-purpose mode",
     "clear": "Clear"
   },
-  "can_i_control_it": {
-    "title": "Can I Really 'Keep It Steady'?",
+  "key_tracker": {
+    "title": "Key Tracking",
     "choose_the_key_to_track": "Select the key to track",
     "start": "Start",
     "start_for_seconds": "Start for {{ seconds }} seconds",
     "stop": "Stop",
     "texts": {
-      "description": "This tool tracks the pressing distance of a key in real time and visualizes it in a chart for observation and analysis.",
-      "limitation_intro": "Due to fundamental limitations, the keyboard itself cannot distinguish 'normal pressing' from the following objectively existing usage scenarios:",
+      "description": "This tool allows you to track the pressing distance of a key in real time and visualize it in a chart for observation and analysis.",
+      "limitation_intro": "Due to fundamental limitations, the keyboard itself cannot distinguish 'normal pressing' from the following objectively existing conditions (including but not limited to). When parameters are set extremely low (e.g., around 0.01mm or even lower), the impact of these conditions becomes very significant.",
       "limitation": {
-        "shaking": "Hand movement during key press;",
-        "press_force_change": "Changes in force after the key is pressed down;",
-        "hard_hit": "Pressing the key with greater force (compared to a 'normal press');"
+        "shaking": {
+          "text": "Hand movement during key press",
+          "tooltip": "Movement causes the magnet inside the switch to tilt, altering the detected magnetic force. The keyboard cannot tell whether this change is part of a 'normal press'."
+        },
+        "press_force_change": {
+          "text": "Force changes after the key bottoms out",
+          "tooltip": "Materials such as the switch can experience slight deformation under pressure, causing minor shifts in the magnet’s position. The keyboard cannot tell whether this change is part of a 'normal press'."
+        },
+        "hard_hit": {
+          "text": "Pressing the key with greater force (compared to a 'normal press')",
+          "tooltip": "During pressing, especially with hard hits, components like the switch and keycap may deform or vibrate, causing the magnet inside the switch to move slightly. The keyboard cannot tell whether this change is part of a 'normal press'."
+        }
       },
-      "extreme_param_warning": "When using extreme parameters (e.g., around 0.01mm or even lower—consider that a human hair is typically about 0.04mm to 0.05mm thick), experiencing 'no response' is normal. This is due to the unavoidable influence of the above-mentioned factors in human operation, and does not reliably indicate a keyboard malfunction.",
-      "reproduce_tips": "You can simulate in-game actions and compare them to vertical and stable key presses. This comparison can help analyze and determine the real impact of finger control on pressing distance.",
-      "design_philosophy_intro": "RAKKA products do not measure performance by how precise the key travel appears to be.",
-      "design_philosophy": "Our consistent design goal is to enable faster actions through the keyboard and ensure low latency. Sacrificing speed—by tens or even hundreds of times—to stabilize a precision that human hands cannot even perceive or control goes against RAKKA's original intent of pursuing performance."
-    },
-    "trigger_log": {
-      "trigger": "Trigger",
-      "reset": "Reset",
-      "no_items": "No trigger records"
+      "extreme_param_warning": "Since the above factors are unavoidable during manual operation, unintended key releases under extremely low settings are considered normal and do not indicate an issue with the keyboard itself.",
+      "reproduce_tips": "You can simulate in-game operations and compare them with more vertical and stable presses to better understand the differences between various pressing styles.",
+      "design_philosophy_intro": "We believe that the most important feature of Hall Effect keyboards is their response speed (low latency).",
+      "design_philosophy": "Our products (especially the RAKKA 80 Edge and later) are designed to faithfully and sensitively reflect user actions in real time, even when those actions are influenced by the objective factors mentioned above. <b>Trying to eliminate these factors by sacrificing latency—often by tens or even hundreds of times—ultimately slows down the keyboard’s response to normal operations, which completely defeats the purpose.</b>"
     }
+  },
+  "trigger_log": {
+    "trigger": "Trigger",
+    "reset": "Reset",
+    "no_items": "No trigger records",
+    "delta_tooltip": "The time difference between the last trigger/reset event and the current event. However, the time is acquired from the host, so it may not be accurate.",
+    "delta_too_small": "(time difference too small)"
   }
 }
