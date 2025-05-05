@@ -1039,7 +1039,8 @@
       "deselect_all": "Deselect all",
       "drag_select": "Drag select",
       "pick_color": "Pick color",
-      "zoom": "Zoom"
+      "zoom": "Zoom",
+      "pan": "Pan"
     }
   },
   "upgrade": "Upgrade",

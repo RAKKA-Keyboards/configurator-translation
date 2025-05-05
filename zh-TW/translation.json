@@ -1037,7 +1037,8 @@
       "deselect_all": "全部取消選擇",
       "drag_select": "拖動選擇",
       "pick_color": "取色",
-      "zoom": "縮放"
+      "zoom": "縮放",
+      "pan": "平移"
     }
   },
   "upgrade": "升級",
