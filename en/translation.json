@@ -1095,6 +1095,8 @@
       "delta_tooltip": "The time difference between the last trigger/reset event and the current event. However, the time is acquired from the host, so it may not be accurate.",
       "delta_too_small": "(time difference too small)",
       "hint_scroll": "You can zoom in and out of the chart using the mouse scroll wheel to closely observe changes during triggers or resets. Unintended triggers and resets caused by the mentioned objective factors usually happen very quickly and subtly, requiring zooming in to be properly seen."
-    }
+    },
+    "reset_zoom": "Reset zoom",
+    "zoom_to_bottom": "Zoom to the bottom {{ distance }}mm"
   }
 }
