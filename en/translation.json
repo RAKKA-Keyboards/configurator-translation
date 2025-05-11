@@ -630,6 +630,11 @@
     "changing_switch_on_soft_plate_warning": {
       "title": "To replace the switch yourself…",
       "description": "<p><b>Hall Effect keyboards require the switches to be securely fixed on the PCB</b>. Otherwise, it will lead to false triggers and resets.</p><p><b>Please ensure that the switches are firmly installed</b>, and if necessary, disassemble the internal components to press them tightly into place.</p><p><b>DO NOT use plates made of soft materials or those with slots</b>.</p><p>This is because newer switches usually have thinner pins, which will not fit securely into the holes on the PCB. With such plates, the switch will essentially be floating above the PCB, causing serious incorrect readings.</p>"
+    },
+    "changing_switch_powered_on": {
+      "title": "Re-plugin the switch while powered on…",
+      "description": "Please ensure that the installation is secure and reset the runtime calibration data.",
+      "button": "Reset"
     }
   },
   "ok": "OK",
