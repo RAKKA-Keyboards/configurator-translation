@@ -221,14 +221,14 @@
         "step5": "Select the keys and click save."
       },
       "hint_change_switch_requires_redo": "Calibration values recorded previously will become invalid after changing the switch model. You need to redo this process.<br>Even with the same switch model, re-calibration is required to account for individual differences.",
-      "hint_no_keys_selected": "Please select the key you want to save the calibration value first."
+      "hint_no_keys_selected": "Please select the key you want to save the calibration value first.",
+      "dialog_failed": {
+        "title": "Failed to save one or more values",
+        "description": "This may be due to not pressing the key at all, or because the switch is not securely installed. Note: Transportation may cause the switch to become loose. Even looseness that is visually hard to detect can have a significant impact on a Hall Effect keyboard."
+      }
     },
     "hint_calibrating": "Calibrating…",
-    "hint_dont_touch_keys": "Please do not touch the keys.",
-    "avoid_vibration": {
-      "title": "Attempt to avoid the impact of vibration",
-      "description": "When a key is pressed and released, components such as the switch and keycap may produce vibrations (potentially exceeding 0.0x mm), especially under heavy pressing force. Enabling this option attempts to mitigate key input anomalies caused by such vibrations. However, if you press the key repeatedly at a speed faster than the vibration interval, the keyboard may fail to respond in time. Additionally, this feature does not guarantee the elimination of all vibration-related anomalies. Therefore, we recommend disabling this option and setting a reasonable actuation distance, rather than using the lowest possible distance in conjunction with this option."
-    }
+    "hint_dont_touch_keys": "Please do not touch the keys."
   },
   "connect": {
     "button": {
@@ -383,7 +383,8 @@
       "switches": "Switches",
       "trigger_travel": "Trigger travel",
       "rapid_trigger": "Rapid Trigger",
-      "swift_flow": "Swift Flow"
+      "swift_flow": "Swift Flow",
+      "debounce": "Debounce"
     }
   },
   "keymap": {
@@ -1103,5 +1104,38 @@
     },
     "reset_zoom": "Reset zoom",
     "zoom_to_bottom": "Zoom to the bottom {{ distance }}mm"
+  },
+  "debounce": {
+    "level": "Debounce level",
+    "enabled_features": "Enabled features",
+    "levels": {
+      "off": "Off",
+      "0": "Level 0",
+      "1": "Level 1",
+      "2": "Level 2",
+      "3": "Level 3"
+    },
+    "hint_not_affect_latency": "Does not affect latency.",
+    "hint_latency_increase_to_at_the_worst_scenario": "In the worst-case scenario, latency may increase by approximately {{ times }} times.",
+    "hint_user_actions_are_inaccurate": "Cannot guarantee consistent behavior under extremely low thresholds (e.g., 0.0xmm), as the switch may wobble during key presses.",
+    "hint_dont_use_under_normal_conditions": "Don't use under normal conditions.",
+    "avoid_vibration": {
+      "title": "Attempt to avoid the impact of vibration",
+      "description": "When a key is pressed and released, components such as the switch and keycap may produce vibrations, especially under heavy pressing force. This function is used to avoid such influence."
+    },
+    "filter_strength": {
+      "title": "Filter Strength",
+      "description": "Filtering algorithms can make key presses more 'stable', but the trade-off is a significant reduction in responsiveness, resulting in higher latency.",
+      "levels": {
+        "0": "Off",
+        "1": "Normal",
+        "2": "Strong",
+        "3": "Extreme"
+      }
+    },
+    "always_trigger_at_bottom": {
+      "title": "Always Trigger at Bottom",
+      "description": "Since wobble is inevitable during key presses and the keyboard cannot reliably distinguish between a normal finger lift and signal fluctuations caused by wobble, a small region near the bottom is treated as always triggered to prevent unintended key release at extremely low thresholds. The size of this region varies depending on the switch structure. Please note that enabling this feature sacrifices the keyboard's ability to detect subtle changes in pressing distance near the bottom."
+    }
   }
 }

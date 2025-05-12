@@ -221,14 +221,14 @@
         "step5": "選擇這些按鍵，點擊保存。"
       },
       "hint_change_switch_requires_redo": "更換軸體型號後，先前記錄的校準值會失效，您需要重新進行這個步驟。<br>即使是同型號的軸體，也需要重新進行，以避免個體差異帶來的影響。",
-      "hint_no_keys_selected": "請先選擇您想要保存校準結果的按鍵。"
+      "hint_no_keys_selected": "請先選擇您想要保存校準結果的按鍵。",
+      "dialog_failed": {
+        "title": "無法保存一個或多個數值",
+        "description": "可能是因為完全沒有按壓按鍵，或軸體安裝得不夠緊固。注意運輸可能使軸體鬆脫，即使是視覺上難以發現的鬆脫對於磁軸鍵盤來說也是十分巨大的。"
+      }
     },
     "hint_calibrating": "校準中…",
-    "hint_dont_touch_keys": "請不要觸碰按鍵。",
-    "avoid_vibration": {
-      "title": "嘗試規避震動帶來的影響",
-      "description": "在按鍵被按下和回彈時，軸體、鍵帽等材料都會產生震動（可能超過 0.0幾mm），以較大力度按壓時更是這樣。開啟此選項可嘗試規避震動帶來的按鍵異常。但是，如果您能夠以小於震動間隔時間的速度連續按地壓按鍵，鍵盤將無法及時響應。此外，此功能無法保證規避所有震動帶來的異常。因此，我們更建議您將關閉此選項並將距離設置到一個合理值，而非設置儘可能低的距離再開啟此選項。"
-    }
+    "hint_dont_touch_keys": "請不要觸碰按鍵。"
   },
   "connect": {
     "button": {
@@ -382,7 +382,8 @@
       "switches": "軸體",
       "trigger_travel": "觸發行程",
       "rapid_trigger": "快速觸發",
-      "swift_flow": "Swift Flow"
+      "swift_flow": "Swift Flow",
+      "debounce": "去抖動"
     }
   },
   "keymap": {
@@ -474,7 +475,7 @@
     },
     "always_trigger_when_bottoming": {
       "title": "觸底時始終觸發",
-      "description": "在按壓到最底部時搖晃手指會導致鍵盤檢測的距離發生變化。視軸體型號不同，這個變化量也不同。開啟時，觸底時將一律視為觸發，以避免錯誤的重置。追求極端設置時不要開啟。"
+      "description": "在按壓到最底部時搖晃手指會導致鍵盤檢測的距離發生變化。視軸體型號不同，這個變化量也不同。開啟時，觸底時將一律視為觸發，以避免錯誤的重置。"
     },
     "restore_to_use_global_settings": "恢復至「使用全局設置」",
     "overview": {
@@ -1101,5 +1102,37 @@
     },
     "reset_zoom": "重置縮放",
     "zoom_to_bottom": "縮放至底部 {{ distance }}mm"
+  },
+  "debounce": {
+    "level": "去抖動等級",
+    "enabled_features": "開啟的功能",
+    "levels": {
+      "off": "關閉",
+      "0": "等級 0",
+      "1": "等級 1",
+      "2": "等級 2",
+      "3": "等級 3"
+    },
+    "hint_not_affect_latency": "不會影響延遲。",
+    "hint_latency_increase_to_at_the_worst_scenario": "在最壞的情況下，延遲提升約 {{ times }} 倍。",
+    "hint_user_actions_are_inaccurate": "不能保證在極低參數（例如 0.0xmm）下始終正常。因為軸體在按壓時可能出現晃動，而鍵盤不可能能夠區分正常地手指抬起與出現了晃動。",
+    "hint_dont_use_under_normal_conditions": "在正常情況下不要使用。",
+    "avoid_vibration": {
+      "title": "嘗試規避震動帶來的影響",
+      "description": "在按鍵被按下和回彈時，軸體、鍵帽等材料都會產生震動，以較大力度按壓時更是這樣。此功能用於規避這樣的影響。"
+    },
+    "filter_strength": {
+      "title": "濾波強度",
+      "description": "濾波算法可以使按鍵變得「穩定」，但是代價則是成倍地降低按鍵的響應速度，即延遲會更高。",
+      "levels": {
+        "0": "關閉",
+        "1": "輕度",
+        "2": "強力",
+        "3": "極端"
+      }
+    },"always_trigger_at_bottom": {
+      "title": "底部始終觸發",
+      "description": "由於在按壓軸體時不可避免地會產生晃動，而鍵盤無法準確區分手指的正常抬起與晃動造成的信號波動，為避免在極低參數下因晃動導致意外斷觸，可將靠近底部的一小段區域設置為始終觸發。該區域的具體大小因軸體結構而異。請注意，啟用此功能等同於放棄識別底部區域微小按壓距離變化的能力。"
+    }
   }
 }

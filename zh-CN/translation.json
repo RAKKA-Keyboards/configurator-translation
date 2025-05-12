@@ -221,14 +221,14 @@
         "step5": "选择这些按键，点击保存。"
       },
       "hint_change_switch_requires_redo": "更换轴体型号后，先前记录的校准值会失效，您需要重新进行这个步骤。<br>即使是同型号的轴体，也需要重新进行，以避免个体差异带来的影响。",
-      "hint_no_keys_selected": "请先选择您想要保存校准结果的按键。"
+      "hint_no_keys_selected": "请先选择您想要保存校准结果的按键。",
+      "dialog_failed": {
+        "title": "无法保存一个或多个数值",
+        "description": "可能是因为完全没有按压按键，或轴体安装得不够紧固。注意运输可能使轴体松脱，即使是视觉上难以发现的松脱对于磁轴键盘来说也是十分巨大的。"
+      }
     },
     "hint_calibrating": "校准中…",
-    "hint_dont_touch_keys": "请不要触碰按键。",
-    "avoid_vibration": {
-      "title": "尝试规避震动带来的影响",
-      "description": "在按键被按下和回弹时，轴体、键帽等材料都会产生震动（可能超过 0.0几mm），以较大力度按压时更是这样。开启此选项可尝试规避震动带来的按键异常。但是，如果您能够以小于震动间隔时间的速度连续按地压按键，键盘将无法及时响应。此外，此功能无法保证规避所有震动带来的异常。因此，我们更建议您将关闭此选项并将距离设置到一个合理值，而非设置尽可能低的距离再开启此选项。"
-    }
+    "hint_dont_touch_keys": "请不要触碰按键。"
   },
   "connect": {
     "button": {
@@ -382,7 +382,8 @@
       "switches": "轴体",
       "trigger_travel": "触发行程",
       "rapid_trigger": "快速触发",
-      "swift_flow": "Swift Flow"
+      "swift_flow": "Swift Flow",
+      "debounce": "去抖动"
     }
   },
   "keymap": {
@@ -474,7 +475,7 @@
     },
     "always_trigger_when_bottoming": {
       "title": "触底时始终触发",
-      "description": "在按压到最底部时摇晃手指会导致键盘检测的距离发生变化。视轴体型号不同，这个变化量也不同。开启时，触底时将一律视为触发，以避免错误的重置。追求极端设置时不要开启。"
+      "description": "在按压到最底部时摇晃手指会导致键盘检测的距离发生变化。视轴体型号不同，这个变化量也不同。开启时，触底时将一律视为触发，以避免错误的重置。"
     },
     "restore_to_use_global_settings": "恢复至“使用全局设置”",
     "overview": {
@@ -1101,5 +1102,37 @@
     },
     "reset_zoom": "重置缩放",
     "zoom_to_bottom": "缩放至底部 {{ distance }}mm"
+  },
+  "debounce": {
+    "level": "去抖动等级",
+    "enabled_features": "开启的功能",
+    "levels": {
+      "off": "关闭",
+      "0": "等级 0",
+      "1": "等级 1",
+      "2": "等级 2",
+      "3": "等级 3"
+    },
+    "hint_not_affect_latency": "不会影响延迟。",
+    "hint_latency_increase_to_at_the_worst_scenario": "在最坏的情况下，延迟提升约 {{ times }} 倍。",
+    "hint_user_actions_are_inaccurate": "不能保证在极低参数（例如 0.0xmm）下始终正常。因为轴体在按压时可能出现晃动，而键盘不可能能够区分正常地手指抬起与出现了晃动。",
+    "hint_dont_use_under_normal_conditions": "在正常情况下不要使用。",
+    "avoid_vibration": {
+      "title": "尝试规避震动带来的影响",
+      "description": "在按键被按下和回弹时，轴体、键帽等材料都会产生震动，以较大力度按压时更是这样。此功能用于规避这样的影响。"
+    },
+    "filter_strength": {
+      "title": "滤波强度",
+      "description": "滤波算法可以使按键变得“稳定”，但是代价则是成倍地降低按键的响应速度，即延迟会更高。",
+      "levels": {
+        "0": "关闭",
+        "1": "轻度",
+        "2": "强力",
+        "3": "极端"
+      }
+    },"always_trigger_at_bottom": {
+      "title": "底部始终触发",
+      "description": "由于在按压轴体时不可避免地会产生晃动，而键盘无法准确区分手指的正常抬起与晃动造成的信号波动，为避免在极低参数下因晃动导致意外断触，可将靠近底部的一小段区域设置为始终触发。该区域的具体大小因轴体结构而异。请注意，启用此功能等同于放弃识别底部区域微小按压距离变化的能力。"
+    }
   }
 }

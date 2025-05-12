@@ -474,7 +474,7 @@
     },
     "always_trigger_when_bottoming": {
       "title": "Always trigger when bottoming",
-      "description": "Shaking a finger when pressing all the way down may cause the detected distance on the keyboard to change. The amount of change varies depending on the switch model. When enabled, bottoming out will consistently be treated as triggered to prevent incorrect resets. Don't turn it on when pursuing extreme settings."
+      "description": "Shaking a finger when pressing all the way down may cause the detected distance on the keyboard to change. The amount of change varies depending on the switch model. When enabled, bottoming out will consistently be treated as triggered to prevent incorrect resets."
     },
     "restore_to_use_global_settings": "Restore to \"Use global settings\"",
     "overview": {
