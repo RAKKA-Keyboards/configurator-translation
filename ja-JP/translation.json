@@ -1115,10 +1115,10 @@
     },
     "hint_not_affect_latency": "Does not affect latency.",
     "hint_latency_increase_to_at_the_worst_scenario": "In the worst-case scenario, latency may increase by approximately {{ times }} times.",
-    "hint_user_actions_are_inaccurate": "Cannot guarantee consistent behavior under extremely low thresholds (e.g., 0.0xmm), as the switch may wobble during key presses.",
+    "hint_user_actions_are_inaccurate": "Stable behavior cannot be guaranteed under extremely low thresholds (e.g., 0.0xmm), as the switch may wobble during pressing, and the keyboard cannot distinguish between a normal finger lift and unintended wobble.",
     "hint_dont_use_under_normal_conditions": "Don't use under normal conditions!",
     "filter_strength": {
-      "title": "Filter Strength",
+      "title": "Filter strength",
       "description": "Filtering algorithms can make key presses more 'stable', but the trade-off is a significant reduction in responsiveness, resulting in higher latency.",
       "levels": {
         "0": "Off",
@@ -1128,8 +1128,8 @@
       }
     },
     "always_trigger_at_bottom": {
-      "title": "Always Trigger at Bottom",
-      "description": "Since wobble is inevitable during key presses and the keyboard cannot reliably distinguish between a normal finger lift and signal fluctuations caused by wobble, a small region near the bottom is treated as always triggered to prevent unintended key release at extremely low thresholds. The size of this region varies depending on the switch structure. Please note that enabling this feature sacrifices the keyboard's ability to detect subtle changes in pressing distance near the bottom."
+      "title": "Always trigger at bottom",
+      "description": "Since wobble is inevitable during key presses and the keyboard cannot distinguish between a normal finger lift and signal fluctuations caused by wobble, a small region near the bottom is treated as always triggered to prevent unintended key release at extremely low thresholds. The size of this region varies depending on the switch structure.<br>Please note that enabling this feature sacrifices the keyboard's ability to detect subtle changes in pressing distance near the bottom."
     },
     "avoid_vibration": {
       "title": "Avoid effects of vibration",
