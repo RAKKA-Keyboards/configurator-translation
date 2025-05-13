@@ -600,7 +600,11 @@
     },
     "mount_tai_he": {
       "title": "Mount Tai HE",
-      "title_short": "Mount Tai HE"
+      "title_short": "Tai"
+    },
+    "mount_tai_he_gt": {
+      "title": "Mount Tai HE GT",
+      "title_short": "Tai GT"
     }
   },
   "manufacturer": {

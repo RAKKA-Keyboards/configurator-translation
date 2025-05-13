@@ -600,6 +600,10 @@
     "mount_tai_he": {
       "title": "泰山磁轴",
       "title_short": "泰山磁轴"
+    },
+    "mount_tai_he_gt": {
+      "title": "泰山磁轴 GT",
+      "title_short": "泰山磁轴 GT"
     }
   },
   "manufacturer": {
