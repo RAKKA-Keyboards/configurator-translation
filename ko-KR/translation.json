@@ -600,6 +600,10 @@
     "mount_tai_he": {
       "title": "Mount Tai HE",
       "title_short": "Mount Tai HE"
+    },
+    "mount_tai_he_gt": {
+      "title": "Mount Tai HE GT",
+      "title_short": "Tai GT"
     }
   },
   "manufacturer": {
@@ -1137,7 +1141,8 @@
     },
     "avoid_overshoot": {
       "title": "Avoid effects of bottom-out rebound",
-      "description": "When a key bottoms out, the inevitable deformation of components like the switch causes the detected pressing distance to briefly overshoot before stabilizing—this is known as 'rebound'. The effect is more pronounced with harder presses. If the parameters are set very low or the force is great, it may result in incorrect key release detection.<br>This feature aims to mitigate such effects without impacting latency."
+      "description": "When a key bottoms out, the inevitable deformation of components like the switch causes the detected pressing distance to briefly overshoot before stabilizing—this is known as 'rebound'. The effect is more pronounced with harder presses. If the parameters are set very low or the force is great, it may result in incorrect key release detection.<br>This feature aims to mitigate such effects without impacting latency.",
+      "hint_requires_bottom_calibration": "This feature can only works for keys that have done \"Manually calibrate relative bottom-out value\", since it requires a rough estimate of the bottom-out position."
     }
   }
 }
