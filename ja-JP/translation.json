@@ -1119,6 +1119,9 @@
     },
     "hint_not_affect_latency": "Does not affect latency.",
     "hint_latency_increase_to_at_the_worst_scenario": "In the worst-case scenario, latency may increase by approximately {{ times }} times.",
+    "hint_worse_than_level0": "Using this level with extreme parameter settings may result in slower response (higher latency) than using Level 0 with more moderate parameters.",
+    "hint_about_latency_test": "Latency test methods that instantly change sensor output are inaccurate, as human fingers cannot move that quickly. Such methods will only produce results that are better—or even significantly better—than actual real-world performance.",
+    "hint_others_will_not_tell_you": "Others will not tell you…",
     "hint_user_actions_are_inaccurate": "Stable behavior cannot be guaranteed under extremely low thresholds (e.g., 0.0xmm), as the switch may wobble during pressing, and the keyboard cannot distinguish between a normal finger lift and unintended wobble.",
     "hint_dont_use_under_normal_conditions": "Don't use under normal conditions!",
     "filter_strength": {
