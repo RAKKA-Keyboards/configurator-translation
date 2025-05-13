@@ -221,11 +221,7 @@
         "step5": "Select the keys and click save."
       },
       "hint_change_switch_requires_redo": "Calibration values recorded previously will become invalid after changing the switch model. You need to redo this process.<br>Even with the same switch model, re-calibration is required to account for individual differences.",
-      "hint_no_keys_selected": "Please select the key you want to save the calibration value first.",
-      "dialog_failed": {
-        "title": "Failed to save one or more values",
-        "description": "This may be due to not pressing the key at all, or because the switch is not securely installed. Note: Transportation may cause the switch to become loose. Even looseness that is visually hard to detect can have a significant impact on a Hall Effect keyboard."
-      }
+      "hint_no_keys_selected": "Please select the key you want to save the calibration value first."
     },
     "hint_calibrating": "Calibrating…",
     "hint_dont_touch_keys": "Please do not touch the keys."
