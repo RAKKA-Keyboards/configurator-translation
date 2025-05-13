@@ -242,7 +242,7 @@
       "no_webhid_support": "您的瀏覽器不支持 WebHID。請使用最新版本的 Chrome 或 Edge 瀏覽器。",
       "legacy_site": "舊版本網站",
       "firmware_outdated": "裝置正在使用不再支持的固件版本。請升級固件到最新版本。",
-      "configurator_outdated": "版本的配置器不支持裝置運行的固件。請升級配置器到最新版本。",
+      "configurator_outdated": "當前版本的配置器不支持裝置運行的固件。請升級配置器到最新版本。",
       "device_in_recovery_mode": "裝置正處於恢復模式。如果上次固件升級未完成，請重新插拔裝置後再次進行升級。"
     }
   },
@@ -1114,7 +1114,9 @@
       "3": "等級 3"
     },
     "hint_not_affect_latency": "不會影響延遲。",
-    "hint_latency_increase_to_at_the_worst_scenario": "在最壞的情況下，延遲提升約 {{ times }} 倍。",
+    "hint_latency_increase_to_at_the_worst_scenario": "鍵盤將響應無法及時響應按鍵的變化。在最壞的情況下，延遲增加 {{ times }} 倍。",
+    "hint_worse_than_level0": "使用此等級並設置極端參數，最終的響應速度很可能不如使用等級 0 並設定非極端參數。",
+    "hint_others_will_not_tell_you": "其他人不會告訴你的…",
     "hint_user_actions_are_inaccurate": "不能保證在極低參數（例如 0.0xmm）下始終正常。因為軸體在被按壓時會出現晃動，而鍵盤不可能能夠區分正常地手指抬起與出現了晃動。",
     "hint_dont_use_under_normal_conditions": "在正常情況下不要使用！",
     "filter_strength": {
