@@ -221,7 +221,11 @@
         "step5": "Select the keys and click save."
       },
       "hint_change_switch_requires_redo": "Calibration values recorded previously will become invalid after changing the switch model. You need to redo this process.<br>Even with the same switch model, re-calibration is required to account for individual differences.",
-      "hint_no_keys_selected": "Please select the key you want to save the calibration value first."
+      "hint_no_keys_selected": "Please select the key you want to save the calibration value first.",
+      "dialog_failed": {
+        "title": "Key not pressed or switch improperly installed",
+        "description": "<b>Please make sure you have pressed the key with normal force. Do not attempt to save without pressing it at all.</b><p><small><b>If you have replaced the switch yourself, please ensure it is firmly installed</b>. Even slight looseness that is visually hard to detect can have a significant impact on keyboard performance. Transportation may also cause minor loosening of the switch.</small>"
+      }
     },
     "hint_calibrating": "Calibrating…",
     "hint_dont_touch_keys": "Please do not touch the keys."
