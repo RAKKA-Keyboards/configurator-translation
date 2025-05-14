@@ -1,568 +1,568 @@
 {
   "action": {
     "transparent": {
-      "description": "Find keys from lower layers"
+      "description": "下のレイヤーからキーを探す"
     },
     "layer": {
-      "text": "Layer {{layer}}"
+      "text": "レイヤー {{layer}}"
     },
     "momentary_layer": {
-      "description": "Temporary turn on layer {{layer}} if the key is being pressed"
+      "description": "キーを押している間、レイヤー {{layer}} を一時的に有効にする"
     },
     "profile": {
-      "text": "Profile {{profile}}",
-      "description": "Switch to profile {{profile}}"
+      "text": "プロファイル {{profile}}",
+      "description": "プロファイル {{profile}} に切り替える"
     },
     "toggle_layer": {
-      "description": "Permanently turn on or off layer {{layer}}"
+      "description": "レイヤー {{layer}} を永続的に有効/無効にする"
     },
     "bottom_layer": {
-      "description": "Set layer {{layer}} as the default (bottom) layer"
+      "description": "レイヤー {{layer}} をデフォルトレイヤー（最下層）に設定する"
     },
     "layer_tap": {
-      "description": "{{key}} when pressed, temporary turn on layer {{layer}} when long pressed"
+      "description": "タップ時は {{key}}、長押し時はレイヤー {{layer}} を一時的に有効にする"
     },
     "mod_tap": {
-      "description": "{{key}} when pressed, {{modifiers}} when long pressed"
+      "description": "タップ時は {{key}}、長押し時は {{modifiers}}"
     },
     "key_tap": {
-      "description": "{{tapKey}} when pressed, {{holdKey}} when long pressed"
+      "description": "タップ時は {{tapKey}}、長押し時は {{holdKey}}"
     },
     "none": {
-      "text": "None",
-      "description": "Do nothing"
+      "text": "なし",
+      "description": "何もしない"
     },
     "consumer": {
       "prev": {
-        "description": "Previous track"
+        "description": "前の曲"
       },
       "next": {
-        "description": "Next track"
+        "description": "次の曲"
       },
       "play_pause": {
-        "description": "Play/Pause"
+        "description": "再生/一時停止"
       },
       "stop": {
-        "description": "Stop"
+        "description": "停止"
       },
       "brightness_increment": {
-        "description": "Increase screen brightness"
+        "description": "画面の明るさを上げる"
       },
       "brightness_decrement": {
-        "description": "Decrease screen brightness"
+        "description": "画面の明るさを下げる"
       },
       "volume_increment": {
-        "description": "Increase volume"
+        "description": "音量を上げる"
       },
       "volume_decrement": {
-        "description": "Decrease volume"
+        "description": "音量を下げる"
       },
       "mute": {
-        "description": "Mute"
+        "description": "ミュート"
       },
       "text_editor": {
-        "description": "Open text editor"
+        "description": "テキストエディタを開く"
       },
       "email_reader": {
-        "description": "Open email reader"
+        "description": "メールクライアントを開く"
       },
       "calculator": {
-        "description": "Open calculator"
+        "description": "電卓を開く"
       },
       "local_browser": {
-        "description": "Open explorer"
+        "description": "ファイルエクスプローラーを開く"
       },
       "consumer_control_configuration": {
-        "description": "Open media player"
+        "description": "メディアプレーヤーを開く"
       },
       "control_panel": {
-        "description": "Open control panel"
+        "description": "コントロールパネルを開く"
       },
       "search": {
-        "description": "Search"
+        "description": "検索"
       },
       "home": {
-        "description": "Home"
+        "description": "ホーム"
       },
       "back": {
-        "description": "Back"
+        "description": "戻る"
       },
       "forward": {
-        "description": "Forward"
+        "description": "進む"
       },
       "refresh": {
-        "description": "Refresh"
+        "description": "更新"
       },
       "bookmarks": {
-        "description": "Bookmarks"
+        "description": "ブックマーク"
       },
       "undo": {
-        "description": "Undo"
+        "description": "元に戻す"
       },
       "copy": {
-        "description": "Copy"
+        "description": "コピー"
       },
       "cut": {
-        "description": "Cut"
+        "description": "切り取り"
       },
       "paste": {
-        "description": "Paste"
+        "description": "貼り付け"
       },
       "select_all": {
-        "description": "Select all"
+        "description": "すべて選択"
       },
       "desktop_show_all_windows": {
-        "description": "Mission Control (macOS)"
+        "description": "ミッションコントロール（macOS）"
       },
       "desktop_show_all_applications": {
-        "description": "Launchpad (macOS)"
+        "description": "ランチパッド（macOS）"
       }
     },
     "extension": {
       "bootloader": {
-        "description": "Reboot the keyboard to Recovery mode"
+        "description": "キーボードをリカバリモードで再起動する"
       },
       "reboot": {
-        "description": "Reboot the keyboard"
+        "description": "キーボードを再起動する"
       },
       "config_reset": {
-        "description": "Reset the keyboard configuration"
+        "description": "キーボード設定をリセットする"
       },
       "nkro_toggle": {
-        "description": "Enable or disable NKRO"
+        "description": "NKRO（全キーロールオーバー）を有効/無効にする"
       },
       "nkro_on": {
-        "description": "Enable NKRO"
+        "description": "NKRO（全キーロールオーバー）を有効にする"
       },
       "nkro_off": {
-        "description": "Disable NKRO"
+        "description": "NKRO（全キーロールオーバー）を無効にする"
       },
       "recalibrate": {
-        "description": "Recalibrate (takes a few seconds, do not touch the keys during this time)"
+        "description": "再キャリブレーション（数秒かかります。その間、キーに触れないでください）"
       },
       "grave_esc": {
-        "description": "ESC, ~ when Shift is pressed"
+        "description": "ESC。Shift と一緒に押すと ~"
       },
       "toggle_profile": {
-        "text": "Prev-profile",
-        "description": "Switch between the current profile and the previous profile"
+        "text": "前のプロファイル",
+        "description": "現在のプロファイルと最後に切り替えたプロファイルを切り替える"
       },
       "toggle_profile_0": {
-        "text": "Profile 1",
-        "description": "Switch between the current profile and profile 1"
+        "text": "プロファイル 1",
+        "description": "現在のプロファイルとプロファイル 1 を切り替える"
       },
       "cycle_profile": {
-        "text": "Cycle-profile",
-        "description": "Cycle through profiles"
+        "text": "プロファイルを循環",
+        "description": "プロファイルを順番に切り替える"
       },
       "cycle_profile_back": {
-        "text": "Cycle-profile",
-        "description": "Cycle through profiles in reverse"
+        "text": "プロファイルを循環（逆順）",
+        "description": "プロファイルを逆順に切り替える"
       }
     },
     "hid": {
       "ime_off": {
         "title": "ImeOff",
-        "description": "ImeOff (Japanese IME)"
+        "description": "ImeOff（日本語入力オフ）"
       },
       "ime_on": {
         "title": "ImeOn",
-        "description": "ImeOn (Japanese IME)"
+        "description": "ImeOn（日本語入力オン）"
       }
     }
   },
   "appbar": {
     "button": {
-      "dark_mode": "Dark mode",
-      "language": "Language",
-      "settings": "Settings"
+      "dark_mode": "ダークモード",
+      "language": "言語",
+      "settings": "設定"
     },
     "title": {
-      "demo_mode_format": "Demo mode",
-      "device_connected_format": "Device connected",
-      "device_not_connected": "Device not connected"
+      "demo_mode_format": "デモモード",
+      "device_connected_format": "デバイスが接続されました",
+      "device_not_connected": "デバイスが接続されていません"
     }
   },
   "calibration": {
     "button": {
-      "abort": "Abort",
-      "finish": "Finish",
-      "start": "Start"
+      "abort": "中止",
+      "finish": "完了",
+      "start": "開始"
     },
     "do_i_need_calibration": {
-      "message": "Usually not needed. Calibration is only required when changing switches with different magnetic strengths.",
-      "title": "Do I need to calibrate?"
+      "message": "通常は必要ありません。磁力の異なるスイッチに交換した場合のみキャリブレーションが必要です。",
+      "title": "キャリブレーションは必要ですか？"
     },
-    "hint_no_keys_selected": "Please select the key you want to calibrate first.",
+    "hint_no_keys_selected": "キャリブレーションするキーを選択してください。",
     "how_to_calibrate": {
-      "message": "Select keys you need to calibrate and click the start button.\nPress the button all the way down, then release it.\nClick the Finish button (displayed after starting calibration) to save the calibration results.",
-      "title": "How to do the calibration?"
+      "message": "キャリブレーションするキーを選択し、開始ボタンをクリックします。\nキーを底まで押し、その後離します。\n完了ボタン（キャリブレーション開始後に表示）をクリックして結果を保存します。",
+      "title": "キャリブレーション方法"
     },
-    "tooltip": "Initial: {{top}}\nBottom: {{bottom}}",
+    "tooltip": "初期: {{top}}\n底: {{bottom}}",
     "auto_calibration": {
-      "title": "Runtime calibration",
-      "description": "Performs self-calibration continuously during operation to ensure stability and accuracy. This feature cannot be disabled."
+      "title": "ランタイムキャリブレーション",
+      "description": "動作中に自動的にキャリブレーションを行い、安定性と精度を確保します。この機能は無効にできません。"
     },
     "full_calibration": {
-      "title": "Clear values recorded by Runtime calibration",
-      "description": "Clear values recorded by Runtime calibration. For keyboards that support multiple layouts, it will also re-detect the layout in use."
+      "title": "ランタイムキャリブレーションの記録をクリア",
+      "description": "ランタイムキャリブレーションの記録をクリアします。複数のレイアウトオプションをサポートするキーボードでは、使用されているレイアウトも再検出されます。"
     },
     "bottom_calibration": {
-      "title": "Manually calibrate relative bottom-out value",
-      "description": "When a key is pressed forcefully, subsequent presses with normal force may behave abnormally. This issue becomes more apparent with very low settings. This step addresses it by recording relative values from presses with normal force.",
-      "save": "Save values for selected keys",
-      "clear": "Clear saved values for selected keys",
+      "title": "手動で相対的な底値をキャリブレーション",
+      "description": "キーを強く押した後、通常の力で押すと異常が発生することがあります。この問題はパラメータが非常に低い場合に顕著です。この手順では、通常の力で押したときの相対的な値を記録することで問題を解決します。",
+      "save": "選択したキーの値を保存",
+      "clear": "選択したキーの値をクリア",
       "steps": {
-        "title": "Please follow these steps:",
-        "step1": "Firmly press the switch into place, as it may have loosened during transport. To verify, check whether the bottom-out reading appears significantly high on the debug page. If this step is not ensured, various issues may occur.",
-        "step2": "If you have pressed the keys with excessive force, perform \"Clear values recorded by Runtime calibration\" to clear automatically recorded bottom values.",
-        "step3": "If the key already has a calibration value, clear it first.",
-        "step4": "Press the key you wish to calibrate with normal force (no need to select them first). Try to keep it vertically downward during the pressing process.",
-        "step5": "Select the keys and click save."
+        "title": "以下の手順に従ってください:",
+        "step1": "スイッチをしっかりと押し込んでください。輸送中にスイッチが緩んでいる可能性があります。デバッグページで底値が異常に高くないか確認してください。これができない場合、問題が発生する可能性があります。",
+        "step2": "キーを強く押したことがある場合は、「ランタイムキャリブレーションの記録をクリア」を実行し、自動記録された底値をクリアしてください。",
+        "step3": "キーにキャリブレーション値が既にある場合は、クリアしてください。",
+        "step4": "キャリブレーションしたいキーを通常の力で押してください（事前に選択する必要はありません）。押す際は垂直に押すようにしてください。",
+        "step5": "これらのキーを選択し、保存をクリックしてください。"
       },
-      "hint_change_switch_requires_redo": "Calibration values recorded previously will become invalid after changing the switch model. You need to redo this process.<br>Even with the same switch model, re-calibration is required to account for individual differences.",
-      "hint_no_keys_selected": "Please select the key you want to save the calibration value first.",
+      "hint_change_switch_requires_redo": "スイッチの型番を変更すると、以前のキャリブレーション値は無効になります。この手順を再度行う必要があります。<br>同じ型番のスイッチでも、個体差の影響を避けるために再度行う必要があります。",
+      "hint_no_keys_selected": "キャリブレーション結果を保存するキーを選択してください。",
       "dialog_failed": {
-        "title": "Key not pressed or switch improperly installed",
-        "description": "<b>Please make sure you have pressed the key with normal force. Do not attempt to save without pressing it at all.</b><p><small><b>If you have replaced the switch yourself, please ensure it is firmly installed</b>. Even slight looseness that is visually hard to detect can have a significant impact on keyboard performance. Transportation may also cause minor loosening of the switch.</small>"
+        "title": "キーが押されていないか、スイッチの取り付けに異常があります",
+        "description": "<b>通常の力でキーを押したことを確認してください。全く押さずに保存しないでください。</b><p><small><b>スイッチを交換した場合は、しっかりと取り付けられていることを確認してください</b>。視覚的にわからないほど緩んでいても、キーボードにとっては重大な問題です。輸送中にスイッチが緩むこともあります。</small>"
       }
     },
-    "hint_calibrating": "Calibrating…",
-    "hint_dont_touch_keys": "Please do not touch the keys."
+    "hint_calibrating": "キャリブレーション中…",
+    "hint_dont_touch_keys": "キーに触れないでください。"
   },
   "connect": {
     "button": {
-      "communicating": "Communicating with the device…",
-      "connect": "Connect to device",
-      "requesting": "Requesting connection to the device…"
+      "communicating": "デバイスと通信中…",
+      "connect": "デバイスに接続",
+      "requesting": "デバイスへの接続を要求中…"
     },
     "hint": {
-      "device_is_in_use": "The device is in use. Please check if you have connected the device on another web page or app.",
-      "no_device_selected": "No device selected.<br><br>For PomPomBoard and other devices with firmware version lower than 0.4.0, please use {{ legacy_site }}.",
-      "no_webhid_support": "Your browser does not support WebHID. Please use the latest version of Chrome or Edge browser.",
-      "legacy_site": "the old version of the website",
-      "firmware_outdated": "The firmware of the device is no longer supported. Please update the firmware to the latest version.",
-      "configurator_outdated": "This version of the configurator does not support the firmware of the device. Please update the configurator to the latest version.",
-      "device_in_recovery_mode": "Device is in recovery mode. If the last firmware upgrade was not completed, please re-plug the device and try upgrading the firmware again."
+      "device_is_in_use": "デバイスは使用中です。他のウェブページやアプリケーションでこのデバイスに接続していないか確認してください。",
+      "no_device_selected": "デバイスが選択されていません。<br><br>PomPomBoard およびファームウェアバージョンが 0.4.0 未満のデバイスは {{ legacy_site }} を使用してください。",
+      "no_webhid_support": "お使いのブラウザは WebHID をサポートしていません。最新バージョンの Chrome または Edge ブラウザを使用してください。",
+      "legacy_site": "旧バージョンのサイト",
+      "firmware_outdated": "デバイスはサポートされていない古いファームウェアバージョンを使用しています。最新バージョンにアップグレードしてください。",
+      "configurator_outdated": "現在のバージョンのコンフィギュレーターは、デバイスが実行しているファームウェアをサポートしていません。コンフィギュレーターを最新バージョンにアップグレードしてください。",
+      "device_in_recovery_mode": "デバイスはリカバリモードです。前回のファームウェアアップグレードが完了していない場合は、デバイスを再接続して再度アップグレードを行ってください。"
     }
   },
   "debug": {
-    "title": "Debug",
-    "hint_hurt_performance": "Staying on this tab will affect performance.",
+    "title": "デバッグ",
+    "hint_hurt_performance": "このタブを開いたままにするとパフォーマンスに影響します。",
     "re_initialize": {
-      "message": "Redo the steps that to be performed when powering on, including but not limited to calibration, check if switches are installed. For keyboards that support multiple layouts, which layout is installed will also be rechecked.",
-      "title": "Reinitialize",
-      "warning": "Do not touch the keys within a few seconds of starting re-initialization."
+      "message": "電源投入時に行われるステップ（キャリブレーション、スイッチの取り付け確認など）を再度実行します。複数のレイアウトをサポートするキーボードでは、どのレイアウトが使用されているかも再確認します。",
+      "title": "再初期化",
+      "warning": "再初期化を開始してから数秒間は、キーに触れないでください。"
     },
-    "start": "Start",
+    "start": "開始",
     "enable_log": {
-      "title": "Enable log",
-      "description": "Enable log output. This is useful for debugging. Check the log in Devices - Logs. This option is disabled by default and is not saved in the device."
+      "title": "ログを有効にする",
+      "description": "ログ出力を有効にします。デバッグに役立ちます。「デバイス」-「ログ」でログを確認できます。このオプションはデフォルトで無効であり、デバイスには保存されません。"
     },
     "reset": {
-      "title": "Reset",
-      "description": "Reset the configuration of the device to default. Please wait for about half a minute before unplugging the device to ensure the configuration is saved."
+      "title": "リセット",
+      "description": "デバイス設定をデフォルトにリセットします。設定が保存されるまで、切断前に約30秒待機してください。"
     },
     "test_matrix": {
-      "title": "Reports whether the key is pressed",
-      "description": "Allows the keyboard to report whether a key is considered to be pressed. Pressed keys are indicated by the visual above. This option is disabled by default and is not saved in the device."
+      "title": "キーが押されているかどうかを報告",
+      "description": "キーボードがキーが押されていると判断した場合に報告することを許可します。押されたキーは上部に視覚効果で表示されます。このオプションはデフォルトで無効であり、デバイスには保存されません。"
     },
     "reboot": {
-      "title": "Reboot to Recovery Mode",
-      "description": "Reboot the device into recovery mode. Normally, you don't need to use this. If triggered by mistake, simply reconnect the device to recover.",
-      "reboot_to_recovery": "Reboot to Recovery Mode",
-      "reboot_to_recovery_factory_version": "Reboot to Factory Recovery Mode"
+      "title": "リカバリモードで再起動",
+      "description": "デバイスをリカバリモードで再起動します。通常は使用する必要はありません。誤操作した場合は、デバイスを再接続すれば復旧します。",
+      "reboot_to_recovery": "リカバリモードで再起動",
+      "reboot_to_recovery_factory_version": "工場出荷バージョンのリカバリモードで再起動"
     }
   },
   "demo_mode": {
     "device": {
-      "dummy_75": "Example 75% keyboard"
+      "dummy_75": "デモ用 75% キーボード"
     },
-    "title": "Demo mode",
+    "title": "デモモード",
     "button": {
-      "title": "Try it out",
-      "summary": "Explore the device's features and capabilities through demo mode without purchasing the device. Start now!"
+      "title": "試してみる",
+      "summary": "デバイスを購入せずに、デモモードで機能と特徴を確認できます。今すぐ探索を始めましょう！"
     }
   },
   "device": {
-    "title": "Device",
+    "title": "デバイス",
     "information": {
-      "title": "Information",
-      "connection_speed": "Connection speed",
+      "title": "情報",
+      "connection_speed": "接続速度",
       "connection_speeds": {
-        "full_speed": "USB 2.0 Full Speed",
-        "high_speed": "USB 2.0 High Speed",
-        "low_speed": "USB 1.1 Low Speed"
+        "full_speed": "USB 2.0 フルスピード",
+        "high_speed": "USB 2.0 ハイスピード",
+        "low_speed": "USB 1.1 ロースピード"
       },
-      "developer": "Developer",
-      "device_name": "Device name",
-      "firmware_update_date": "Firmware release date",
-      "firmware_version": "Firmware version",
-      "serial_number": "Serial number",
-      "last_connected": "Last connected",
-      "hint_device_not_connected": "(Device not connected)",
-      "host_operation_system": "Host operation system (fetched by the device)",
+      "developer": "開発者",
+      "device_name": "デバイス名",
+      "firmware_update_date": "ファームウェアリリース日",
+      "firmware_version": "ファームウェアバージョン",
+      "serial_number": "シリアル番号",
+      "last_connected": "最終接続",
+      "hint_device_not_connected": "（デバイス未接続）",
+      "host_operation_system": "ホストOS（デバイスから取得）",
       "os": {
         "linux": "Linux",
         "macos": "macOS",
-        "unknown": "Unknown",
+        "unknown": "不明",
         "windows": "Windows"
       }
     },
     "log": {
-      "title": "Log"
+      "title": "ログ"
     }
   },
   "firmware": {
-    "firmware_upgrade": "Firmware upgrade",
-    "firmware_file": "Firmware file",
+    "firmware_upgrade": "ファームウェアアップグレード",
+    "firmware_file": "ファームウェアファイル",
     "hint": {
-      "not_a_valid_firmware": "This is not a valid firmware file.",
-      "read_file_error": "Failed to read the file.",
-      "mismatched_firmware": "The firmware file does not match the device.",
-      "upgrade_was_interrupted": "The upgrade process was interrupted. Please replug the device and try again.",
-      "firmware_interrupted": "The firmware upgrade was interrupted. Please replug the device and try again.",
-      "unknown_error": "Unknown error ({{code}}).",
-      "device_not_connected": "Device not connected or the device is already in recovery mode."
+      "not_a_valid_firmware": "有効なファームウェアファイルではありません。",
+      "read_file_error": "ファイルの読み取り中にエラーが発生しました。",
+      "mismatched_firmware": "ファームウェアファイルがデバイスと一致しません。",
+      "upgrade_was_interrupted": "デバイスの前回のファームウェアアップグレードが完了していません。デバイスを再接続して再度試してください。",
+      "firmware_interrupted": "アップグレードプロセスが予期せず中断されました。デバイスを再接続して再度試してください。",
+      "unknown_error": "不明なエラー {{ code }}。",
+      "device_not_connected": "デバイスが接続されていないか、デバイスがリカバリモードです。"
     },
-    "choose_firmware": "Choose firmware",
+    "choose_firmware": "ファームウェアを選択",
     "channel": {
-      "stable": "Stable",
-      "beta": "Beta",
-      "dev": "Dev",
-      "nightly": "Nightly",
-      "previous": "Previous stable version"
+      "stable": "安定版",
+      "beta": "ベータ",
+      "dev": "開発版",
+      "nightly": "ナイトリービルド",
+      "previous": "前の安定版"
     },
-    "dev_channel_warning": "The dev channel firmware contains the latest features, but has only been lightly tested. If you don't know how to handle issues, please do not use it.",
-    "nightly_channel_warning": "The nightly channel firmware contains the real latest changes, but only the developer tests it very roughly.",
-    "version": "Version",
-    "release_time": "Release date",
-    "build_time": "Build date",
-    "changelog": "Changelog",
-    "choose_a_local_file": "Choose a local file",
-    "verify_firmware": "Verify firmware",
-    "reboot_to_recovery": "Reboot the device to recovery mode",
-    "reboot_to_recovery_hint": "After restarting to recovery mode, the device will prompt the user that the device is in recovery mode by means of a indicator light.",
-    "connect_to_recovery_device": "Connect to device in recovery mode",
-    "connect_to_recovery_device_hint": "After clicking Connect, you need to select the device again and the writing process will begin. If you want to give up on upgrading, please DO NOT click Connect. The device will return to normal mode after replugging the device.",
-    "connect_to_recovery_device_hint_unable_to_find_device": "If the device cannot be found, make sure it is in recovery mode. For example, typing should not be possible. Also, using a low-quality USB cable may prevent the device from running at USB 2.0 High Speed and thus not be detected.",
-    "flash_firmware": "Flash firmware",
-    "flash_firmware_hint": "Please do not disconnect the device. If the device is disconnected during flashing, the device will stay in recovery mode and can be restored by re-upgrading the firmware.",
-    "finish": "Finish",
-    "firmware_upgrade_finished": "Update successes. The window will automatically close.",
-    "connect": "Connect",
-    "reboot_the_device": "Reboot the device",
-    "device_already_in_recovery": "The device is already in recovery mode",
-    "download_error": "Download failed",
-    "choose_device": "Choose device",
-    "choose_channel": "Choose channel",
+    "dev_channel_warning": "開発版チャンネルのファームウェアには最新の機能が含まれていますが、簡単なテストしか行われていません。問題に対処方法がわからない場合は使用しないでください。",
+    "nightly_channel_warning": "ナイトリービルドチャンネルには真に最新の変更が含まれていますが、開発者自身による大まかなテストしか行われていません。",
+    "version": "バージョン",
+    "release_time": "リリース時間",
+    "build_time": "ビルド時間",
+    "changelog": "変更履歴",
+    "choose_a_local_file": "ローカルファイルを選択",
+    "verify_firmware": "ファームウェアを検証",
+    "reboot_to_recovery": "デバイスをリカバリモードで再起動",
+    "reboot_to_recovery_hint": "リカバリモードに再起動すると、デバイスは常時点灯するインジケーターなどでユーザーにリカバリモードであることを通知します。",
+    "connect_to_recovery_device": "リカバリモードのデバイスに接続",
+    "connect_to_recovery_device_hint": "接続をクリックした後、再度デバイスを選択する必要があります。その後、書き込みプロセスが開始されます。アップグレードを中止する場合は、接続をクリックせず、デバイスを再接続すると通常モードに戻ります。",
+    "connect_to_recovery_device_hint_unable_to_find_device": "デバイスが見つからない場合は、デバイスがリカバリモードに入っていることを確認してください。例えば、この時点ではタイピングができないはずです。また、品質の低いUSBケーブルを使用すると、デバイスがUSB 2.0ハイスピードで動作できず、検出されない可能性があります。",
+    "flash_firmware": "ファームウェアを書き込む",
+    "flash_firmware_hint": "デバイスの接続を切らないでください。書き込み中に接続が切れた場合、デバイスはリカバリモードのままになります。再度ファームウェアアップグレードを行えば復旧します。",
+    "finish": "完了",
+    "firmware_upgrade_finished": "アップグレードが成功しました。ウィンドウは自動的に閉じます。",
+    "connect": "接続",
+    "reboot_the_device": "デバイスを再起動",
+    "device_already_in_recovery": "デバイスは既にリカバリモードです",
+    "download_error": "ダウンロードに失敗しました",
+    "choose_device": "デバイスを選択",
+    "choose_channel": "チャンネルを選択",
     "update_found": {
-      "title": "Update found for your device",
-      "description": "Your device is running firmware version {{currentVersion}}. The latest version is {{latestVersion}}.",
-      "ignore": "Ignore"
+      "title": "デバイスにファームウェア更新があります",
+      "description": "デバイスは現在 {{currentVersion}} を実行しています。最新バージョンは {{latestVersion}} です。",
+      "ignore": "無視"
     }
   },
   "keyboard": {
-    "title": "Keyboard",
+    "title": "キーボード",
     "keycount": {
-      "button": "Deselect All",
-      "selected_other": "{{count}} keys selected"
+      "button": "すべての選択を解除",
+      "selected_other": "{{count}} キーが選択されています"
     },
-    "layer": "Layer",
-    "global_config": "Global configuration",
-    "profile_config": "Profile configuration",
+    "layer": "レイヤー",
+    "global_config": "グローバル設定",
+    "profile_config": "プロファイル設定",
     "tab": {
-      "calibration": "Calibration",
-      "debug": "Debug",
-      "device": "Device",
-      "keymap": "Keymap",
-      "performance": "Performance",
-      "key-test": "Key Test",
-      "lighting": "Lighting",
-      "switches": "Switches",
-      "trigger_travel": "Trigger travel",
-      "rapid_trigger": "Rapid Trigger",
+      "calibration": "キャリブレーション",
+      "debug": "デバッグ",
+      "device": "デバイス",
+      "keymap": "キーマップ",
+      "performance": "パフォーマンス",
+      "key-test": "キーテスト",
+      "lighting": "照明",
+      "switches": "スイッチ",
+      "trigger_travel": "トリガーストローク",
+      "rapid_trigger": "ラピッドトリガー",
       "swift_flow": "Swift Flow",
-      "debounce": "Debounce"
+      "debounce": "デバウンス"
     }
   },
   "keymap": {
-    "type": "Type: {{type}}",
-    "remap_selected_keys": "Set to selected keys",
-    "config_advanced_key": "Config {{key}}",
-    "hint_no_keys_selected": "Please select the key you want to remap first.",
-    "hint_combo_is_empty": "Please choose at least one key or modifier for the combo.",
-    "hint_tap_hold_hold_is_empty": "Please set hold key.",
-    "hint_tap_hold_key_not_supported": "This setup requires a newer version of firmware.",
-    "hint_tap_hold_tap_is_not_valid": "Key for tap should be a normal key.",
-    "hint_tap_hold_key_is_same": "Tap and hold keys cannot be the same.",
-    "hint_click_to_edit_the_key": "Click to edit the key",
-    "hint_choose_a_key": "Choose a key",
-    "hint_chosen_key_is_not_supported": "This key is not supported.",
-    "key": "Key",
+    "type": "タイプ: {{type}}",
+    "remap_selected_keys": "選択したキーに設定",
+    "config_advanced_key": "{{key}}を設定",
+    "hint_no_keys_selected": "再マップしたいキーを選択してください。",
+    "hint_combo_is_empty": "コンボキーには少なくとも1つのキーまたは修飾キーを選択してください。",
+    "hint_tap_hold_hold_is_empty": "長押し時のキーを設定してください。",
+    "hint_tap_hold_key_not_supported": "この設定にはより新しいバージョンのファームウェアが必要です。",
+    "hint_tap_hold_tap_is_not_valid": "タップキーは通常のキーである必要があります。",
+    "hint_tap_hold_key_is_same": "タップとホールドのキーは同じにできません。",
+    "hint_click_to_edit_the_key": "クリックしてキーを編集",
+    "hint_choose_a_key": "キーを選択",
+    "hint_chosen_key_is_not_supported": "選択したキーはサポートされていません。",
+    "key": "キー",
     "combination": {
       "modifier": {
-        "all": "Modifiers",
-        "left": "Left Modifiers",
-        "right": "Right Modifiers"
+        "all": "修飾キー",
+        "left": "左修飾キー",
+        "right": "右修飾キー"
       },
-      "name": "Combo",
-      "summary": "Trigger the shortcut you want by a single tap",
-      "text": "A key combination is a combination of one or more modifier keys (e.g. Ctrl, Shift) and a regular key."
+      "name": "コンボキー",
+      "summary": "必要なショートカットを1キーでトリガー",
+      "text": "コンボキーは1つ以上の修飾キー（Ctrl、Shiftなど）と通常のキーの組み合わせです。"
     },
     "dynamic": {
-      "limit": "Cannot add more configs for this key",
-      "name": "Dynamic Key",
-      "placeholder": "Select a key from below to add to the config..."
+      "limit": "このキーにはこれ以上設定を追加できません",
+      "name": "ダイナミックトリガーキー",
+      "placeholder": "下からキーを選択して設定に追加…"
     },
     "normal": {
-      "name": "Normal",
-      "summary": "Just a normal key",
-      "text": "Select the key you want to remap and click on the key below.",
+      "name": "通常",
+      "summary": "普通のキー",
+      "text": "再マップしたいキーを選択し、下のキーをクリックしてください。",
       "types": {
-        "basic": "Basic",
-        "extension": "Extension",
-        "layer": "Layer",
-        "profile": "Profile",
-        "system": "System",
-        "advanced": "Advanced"
+        "basic": "基本",
+        "extension": "拡張",
+        "layer": "レイヤー",
+        "profile": "プロファイル",
+        "system": "システム",
+        "advanced": "詳細"
       }
     },
     "tap_hold": {
-      "hold": "Hold",
-      "name": "Tap Hold",
-      "tap": "Tap",
-      "summary": "Unlock the full potential",
-      "text": "Tap and long presses correspond to different keys.<p>The keys for long presses can also be switching layer, which greatly expands the possibilities of the keyboard.<p><b>It takes time to determine if it's a press, triggering the \"tap\" key will be slower than a normal key. Enabling Rapid Trigger for this key and lowering the reset distance will improve it, but it is still not as good as a normal key.</b>"
+      "hold": "長押し",
+      "name": "タップ/ホールド",
+      "tap": "タップ",
+      "summary": "無限の可能性を解き放つ",
+      "text": "タップと長押しで異なるキーを割り当てます。<p>長押しにはレイヤー切り替えも設定でき、キーボードの可能性を大幅に拡張します。<p><b>タップかどうかの判断に時間がかかるため、タップキーは通常のキーよりも遅くなります。このキーにラピッドトリガーを有効にし、リセット距離を短くすると改善されますが、通常のキーほど速くはなりません。</b>"
     },
     "toggle": {
-      "name": "Toggle Key"
+      "name": "トグルキー"
     },
     "intermittent": {
-      "name": "Intermittent",
-      "summary": "'ASASAS' rather than 'ASSSSSS'",
-      "text": "Simulate a long key press as intermittent key presses."
+      "name": "間欠",
+      "summary": "'ASASAS' ではなく 'ASSSSSS'",
+      "text": "長押しを間欠的なキー押下としてシミュレートします。"
     }
   },
   "performance": {
-    "hint_the_value_is_too_aggressive": "Since the switch and human hands cannot be absolutely stable, overly aggressive settings may result in abnormal key triggering. To pursue the limit, we recommend that you find an extreme but stable value that suits you by continuously increasing the value of the setting.",
-    "enable_rapid_trigger": "Enable Rapid Trigger",
+    "hint_the_value_is_too_aggressive": "スイッチと人手は絶対的に安定しないため、過度にアグレッシブな設定はキーの異常トリガーを引き起こす可能性があります。限界を追求する場合は、設定値を徐々に増やしながら、安定した適切な値を見つけることをお勧めします。",
+    "enable_rapid_trigger": "ラピッドトリガーを有効にする",
     "rapid_trigger": {
-      "title": "Rapid Trigger",
-      "description": "After enabling Rapid Trigger, the trigger and reset position are no longer fixed, but dynamically adjusted as you press. This allows you to trigger or reset keys more quickly, which can be helpful in certain types of games.",
-      "hint_only_works_after_trigger": "If the key has been fully released, it needs to be pressed again to the set Actuation distance to trigger.",
+      "title": "ラピッドトリガー",
+      "description": "ラピッドトリガーを有効にすると、キーのトリガーとリセットは固定距離ではなく、押下プロセス中に動的に調整されます。これにより、より速くキーをトリガーまたはリセットできます。特定のゲームで役立ちます。",
+      "hint_only_works_after_trigger": "キーが完全に離された場合、再度設定されたトリガーストロークまで押す必要があります。",
       "dynamic_reset_travel": {
-        "description": "If the key is triggered, reset as long as the specified distance is released.",
-        "title": "Reset travel"
+        "description": "キーがトリガーされた後、指定距離だけ離すとキーがリセットされます。",
+        "title": "リセットストローク"
       },
       "dynamic_trigger_travel": {
-        "description": "If the key is not triggered, trigger as long as the specified distance is pressed.",
-        "title": "Trigger travel"
+        "description": "キーがトリガーされていない場合、指定距離だけ押すとキーがトリガーされます。",
+        "title": "トリガーストローク"
       },
-      "hint_select_keys_first": "Please select the key you want to set the Rapid Trigger first."
+      "hint_select_keys_first": "ラピッドトリガーを変更したいキーを選択してください。"
     },
     "trigger_travel": {
-      "title": "Actuation distance",
-      "description": "How far a key needs to be pressed to trigger.",
-      "hint_select_keys_first": "Please select the key you want to set the actuation distance first.",
-      "hint_too_low_is_meaningless": "Lowering the actuation distance further is meaningless, as it only affects how far the key needs to be pressed after being fully released.",
-      "hint_too_low_is_unstable": "Under the current settings, releasing a key may cause it to trigger again.",
-      "hint_too_low_is_unstable_tooltip": "Vibrations in the switch or stabilizers are unavoidable when they hit the top.<br><br>Forcefully pressing and quickly releasing, or using keys with stabilizers (e.g., the spacebar), results in relatively larger vibrations.<br><br>If the vibration amplitude exceeds the actuation distance, it will cause the key to trigger again."
+      "title": "トリガーストローク",
+      "description": "キーがトリガーされるまでの押下距離。",
+      "hint_select_keys_first": "トリガーストロークを変更したいキーを選択してください。",
+      "hint_too_low_is_meaningless": "トリガーストロークを極端に低く設定することは意味がありません。完全にキーを離した後の次回押下時にのみ作用します。",
+      "hint_too_low_is_unstable": "現在の設定では、キーを離す際に再度トリガーされる可能性があります。",
+      "hint_too_low_is_unstable_tooltip": "スイッチやスタビライザーがトップに触れる際、避けられない振動が発生します。<br><br>強く押した後すぐに離す、またはスタビライザー付きのキー（スペースキーなど）では、振動がより大きくなります。<br><br>振動の振幅がトリガーストロークを超えると、再度トリガーされます。"
     },
     "rapid_trigger_in_full_travel": {
-      "title": "Effective only within Actuation distance",
-      "description": "When turned on, once the key is released beyond {{travel}}mm (the Actuation distance you set), it must be pressed again to {{travel}}mm to trigger again; when turned off, Rapid Trigger remains effective unless the key is fully released."
+      "title": "トリガーストローク内でのみ有効",
+      "description": "有効時、キーが {{travel}}mm（設定したトリガー距離）以上離されると、再度 {{travel}}mm まで押す必要があります。無効時、キーが完全に離されない限り、ラピッドトリガーは常に有効です。"
     },
     "always_trigger_when_bottoming": {
-      "title": "Always trigger when bottoming",
-      "description": "Shaking a finger when pressing all the way down may cause the detected distance on the keyboard to change. The amount of change varies depending on the switch model. When enabled, bottoming out will consistently be treated as triggered to prevent incorrect resets."
+      "title": "底付け時は常にトリガー",
+      "description": "最下部まで押した状態で指を動かすと、キーボードが検出する距離が変化します。スイッチの型番によって、この変化量は異なります。有効時、底付け時は常にトリガーとみなし、誤ったリセットを防ぎます。"
     },
-    "restore_to_use_global_settings": "Restore to \"Use global settings\"",
+    "restore_to_use_global_settings": "「グローバル設定を使用」に戻す",
     "overview": {
       "description": {
-        "global": "The displayed settings are the settings of all keys that are set to \"Use global settings\". If you want to modify certain keys individually, select them first.",
-        "individual": "The displayed settings are the settings of selected keys."
+        "global": "表示されている設定は、「グローバル設定を使用」しているすべてのキーの設定です。個別に変更したいキーがある場合は、まずそれらを選択してください。",
+        "individual": "表示されている設定は、選択したキーの設定です。"
       }
     },
-    "use_global_setting": "Use global settings",
-    "use_individual_setting": "Use individual settings"
+    "use_global_setting": "グローバル設定を使用",
+    "use_individual_setting": "個別設定を使用"
   },
   "key_switch": {
-    "title": "Switch"
+    "title": "スイッチ"
   },
   "key_test": {
-    "title": "Test the key code",
-    "description": "Tests the key code received by the operating system.",
+    "title": "キーテスト",
+    "description": "OSが受信したキー入力をテストします。",
     "type": {
-      "title": "Type",
-      "press": "Press",
-      "release": "Release"
+      "title": "タイプ",
+      "press": "押下",
+      "release": "解放"
     },
-    "time": "Time",
-    "key": "Key",
-    "delta": "Delta",
-    "hint": "This tool is intended for general-purpose key testing and can be used with any keyboard, but it is not suitable for specialized purposes such as latency testing.",
-    "hint_limited_by_browser": "Due to the limitations of the browser environment, some keys cannot be tested and the obtained time may not be accurate.",
-    "hint_troubleshooting": "If you want to investigate or report to the developer the issue of chattering or missed keystrokes, please \"{{ target }}\".",
-    "hint_unfocused": "The browser is not in focus and cannot get key events.",
-    "switch_to_investigating_mode": "Switch to investigating mode",
-    "clear": "Clear"
+    "time": "時間",
+    "key": "キー",
+    "delta": "時間差",
+    "hint": "このツールは一般的なキーテスト用です。任意のキーボードで使用できますが、レイテンシテストなどの特殊な用途には適していません。",
+    "hint_limited_by_browser": "ブラウザ環境の制限により、一部のキーはテストできず、取得される時間も正確でない場合があります。",
+    "hint_troubleshooting": "断続的な誤動作や誤トリガーを調査または開発者に報告したい場合は、「{{ target }}」をクリックしてください。",
+    "hint_unfocused": "ブラウザがフォーカスされていないため、キーイベントを取得できません。",
+    "switch_to_investigating_mode": "調査モードに切り替え",
+    "clear": "クリア"
   },
   "unsupported_browser": {
-    "continue_button": "I don't care, let me continue!",
-    "continue_description": "You can also choose to continue exploring RAKKA Keyboard Configurator in order to understand its features. However, you may encounter problems with pages not displaying properly, and you may not be able to connect a keyboard properly.",
-    "description": "RAKKA Keyboard Configurator is built using WebHID and some modern technologies, but unfortunately, the browser you are using does not support these technologies. Note that browsers such as FireFox, Safari, etc. are not supported as they do not support WebHID.",
-    "supported_browser": "Supported browsers:",
-    "title": "You are using an unsupported browser",
-    "other_possibly_supported_browser": "Other browsers based on Chromium {{ version }} ({{ date }}) (possibly supported)"
+    "continue_button": "気にせず続行！",
+    "continue_description": "RAKKA Keyboard Configurator の機能を確認するために探索を続けることもできますが、ページが正しく表示されない場合やキーボードに正常に接続できない場合があります。",
+    "description": "RAKKA Keyboard Configurator は WebHID やその他の現代技術を使用して構築されていますが、残念ながらお使いのブラウザはこれらの技術をサポートしていません。FireFox、Safari などのブラウザは WebHID をサポートしていないため、サポート対象外です。",
+    "supported_browser": "サポートされているブラウザ:",
+    "title": "サポートされていないブラウザを使用しています",
+    "other_possibly_supported_browser": "Chromium {{ version }}（{{ date }}）以降をベースに開発されたその他のブラウザ（サポートされている可能性あり）"
   },
   "contact": {
-    "title": "Contact us"
+    "title": "お問い合わせ"
   },
   "help": {
-    "title": "Help"
+    "title": "ヘルプ"
   },
   "switches": {
-    "series": "Series",
-    "hint_series": "This a series of switches, including multiple models.",
-    "button_set_selected_keys": "Set to selected keys",
-    "hint_bad_installation_causes_abnormal": "Improper installation may cause key input issues",
-    "hint_pins_are_thinker": "This switch has thicker pins, while the PCB is designed with smaller holes to accommodate more common switch types. Proper installation may require fully disassembling the keyboard; otherwise, incomplete insertion could lead to issues like chattering or disconnection. However, for prebuilt keyboards, this may void the warranty—please proceed at your own discretion.",
+    "series": "シリーズ",
+    "hint_series": "これは複数のモデルを含むシリーズのスイッチです。",
+    "button_set_selected_keys": "選択したキーに設定",
+    "hint_bad_installation_causes_abnormal": "取り付け不良はキーの異常動作を引き起こします",
+    "hint_pins_are_thinker": "このスイッチのピンは太く、PCBは一般的なスイッチに対応するため、対応する穴が小さいです。完全に取り付けるにはキーボードを完全に分解する必要がある場合があり、そうしないと不完全な挿入が発生し、連打や断続的な動作などの問題を引き起こす可能性があります。ただし、完成品キーボードの場合、これにより保証が失われる可能性があるため、自己責任で行ってください。",
     "metadata": {
-      "travel": "Total travel",
+      "travel": "総ストローク",
       "mm": "{{distance}}mm",
-      "initial_force": "Initial force",
-      "disclaimer": "Data comes from manufacturers’ public information",
-      "link": "Visit information webpage from the manufacturer"
+      "initial_force": "初期圧力",
+      "disclaimer": "データはメーカーの公開情報に基づきます。",
+      "link": "メーカーの情報ページにアクセス"
     },
     "legacy": {
-      "title": "(Legacy)",
-      "description": "Used by early firmware version, only retained so as not to disrupt users' existing habits."
+      "title": "（旧）",
+      "description": "旧バージョンのファームウェアで使用されていたもので、ユーザーの習慣を破壊しないためにのみ保持されています。"
     },
     "gateron_ks20": {
-      "title": "Magnetic White Switch",
+      "title": "磁気白軸",
       "title_short": "White",
-      "series_description": "Some other models of switches have the same parameters as it, including but not limited to Magnetic Orange Switch, and Wooting Lekker switches."
+      "series_description": "磁気オレンジ軸やWooting Lekker軸など、他のいくつかのモデルのスイッチも同じパラメータを持っています。"
     },
     "gateron_ks20u": {
-      "title": "Dual-Rail Magnetic Switch",
+      "title": "デュアルレール磁軸",
       "title_short": "Dual-Rail",
-      "series_description": "Some other models of switches have the same parameters as it, including but not limited to Dual-Rail Magnetic Orange Switch."
+      "series_description": "磁気オレンジ軸デュアルレールなど、他のいくつかのモデルのスイッチも同じパラメータを持っています。"
     },
     "gateron_ks20t": {
-      "title": "Magnetic Jade Switch",
+      "title": "磁気ジェード軸",
       "title_short": "Jade"
     },
     "gateron_ks20t_pro": {
-      "title": "Magnetic Jade Pro Switch",
+      "title": "磁気ジェード PRO",
       "title_short": "Jade Pro"
     },
     "gateron_ks20t_max": {
-      "title": "Magnetic Jade MAX Switch",
+      "title": "磁気ジェード MAX",
       "title_short": "Jade MAX"
     },
     "gateron_ks20t_gaming": {
-      "title": "Magnetic Jade Gaming Switch",
+      "title": "磁気ジェード Gaming",
       "title_short": "Jade Gaming"
     },
     "geon_raptor_he": {
@@ -574,35 +574,35 @@
       "title_short": "Raw HE"
     },
     "ttc_king": {
-      "title": "King Magnetic Switch",
+      "title": "万磁王軸",
       "title_short": "King"
     },
     "ttc_king_rgb": {
-      "title": "King Magnetic Switch RGB",
+      "title": "万磁王軸 RGB",
       "title_short": "King RGB"
     },
     "ttc_king_pom": {
-      "title": "King Magnetic Switch POM",
+      "title": "全POM万磁王軸",
       "title_short": "King POM"
     },
     "ttc_uranus": {
-      "title": "Uranus Magnetic Switch",
+      "title": "天王磁軸",
       "title_short": "Uranus"
     },
     "ttc_uranus_se": {
-      "title": "Uranus Magnetic Switch SE",
+      "title": "天王磁軸 SE",
       "title_short": "Uranus SE"
     },
     "ttc_uranus_gaming": {
-      "title": "Uranus Magnetic Switch GAMING",
+      "title": "天王磁軸電競版",
       "title_short": "Uranus GAMING"
     },
     "mount_tai_he": {
-      "title": "Mount Tai HE",
-      "title_short": "Mount Tai HE"
+      "title": "泰山磁軸",
+      "title_short": "泰山磁軸"
     },
     "mount_tai_he_gt": {
-      "title": "Mount Tai HE GT",
+      "title": "泰山磁軸 GT",
       "title_short": "Tai GT"
     }
   },
@@ -613,539 +613,539 @@
     "ug": "UGAMING"
   },
   "choose_switch": {
-    "title": "Choose switch",
-    "continue": "Continue",
+    "title": "スイッチを選択してください",
+    "continue": "続ける",
     "confirm_dialog": {
-      "title": "Change to {{switch_name}}?",
-      "content": "<p>The selected keys will be recalibrated according to {{switch_name}}. <b>Please do not touch the keys for a few seconds</b>.</p><p><b>If the switches triggers abnormally, please read the cautions on the left.</b></p>"
+      "title": "{{switch_name}}に変更しますか？",
+      "content": "<p>選択されたキーは{{switch_name}}に従って再調整されます。<b>数秒間キーに触れないでください</b>。</p><p><b>スイッチが異常に作動した場合は、左側の注意事項をお読みください。</b></p>"
     },
-    "hint_success": "Switch changed successfully.",
-    "hint_failed": "Failed to change switch.",
-    "hint_same_switch": "The switch is already {{switch_name}}.",
-    "current": "Current",
+    "hint_success": "スイッチの変更が成功しました。",
+    "hint_failed": "スイッチの変更に失敗しました。",
+    "hint_same_switch": "スイッチは既に{{switch_name}}です。",
+    "current": "現在の",
     "hint_choose_switch_for_key_requires_firmware_update": {
-      "title": "Changing the switch will affect all the keys",
-      "description": "Your firmware version is too low to support different switches for different keys. No matter which keys you choose, it will affect all the keys."
+      "title": "スイッチを変更すると、すべてのキーに影響が出ます。",
+      "description": "あなたのファームウェアのバージョンは低すぎて、異なるキーに対して異なるスイッチをサポートすることができません。どのキーを選んでも、それはすべてのキーに影響を及ぼします。"
     },
-    "hint_no_keys_selected": "Please choose the keys you want to change the switch first.",
-    "hint_all_keys_has_same_switch": "All the keys uses {{ switch }}.",
-    "hint_most_keys_switch": "Most of the keys uses {{ switch }}.",
-    "hint_other_keys_switch": "{{ keys }} uses {{ switch }}.",
+    "hint_no_keys_selected": "まず、スイッチを変更したいキーを選択してください。",
+    "hint_all_keys_has_same_switch": "すべてのキーは {{ switch }} を使用します。",
+    "hint_most_keys_switch": "ほとんどのキーは{{ switch }}を使用します。",
+    "hint_other_keys_switch": "{{ keys }}は{{ switch }}を使用します。",
     "changing_switch_on_soft_plate_warning": {
-      "title": "To replace the switch yourself…",
-      "description": "<p><b>Hall Effect keyboards require the switches to be securely fixed on the PCB</b>. Otherwise, it will lead to false triggers and resets.</p><p><b>Please ensure that the switches are firmly installed</b>, and if necessary, disassemble the internal components to press them tightly into place.</p><p><b>DO NOT use plates made of soft materials or those with slots</b>.</p><p>This is because newer switches usually have thinner pins, which will not fit securely into the holes on the PCB. With such plates, the switch will essentially be floating above the PCB, causing serious incorrect readings.</p>"
+      "title": "自分でスイッチを交換するには...",
+      "description": "<p><b>ホール効果キーボードでは、スイッチがPCBにしっかりと固定されていることが必要です</b>。そうでないと、誤ったトリガーやリセットが発生します。</p><p><b>スイッチがしっかりと取り付けられていることを確認してください</b>。必要であれば、内部の部品を分解して、それらをしっかりと押し込んで固定します。</p><p><b>柔らかい材料で作られたプレートやスロット付きのものは使用しないでください</b>。</p><p>これは、新しいスイッチは通常、ピンが細いため、PCBの穴にしっかりとはまらないからです。そのようなプレートでは、スイッチは基本的にPCBの上に浮いてしまい、重大な誤読が発生します。</p>"
     },
     "changing_switch_powered_on": {
-      "title": "Re-plugin the switch while powered on…",
-      "description": "Please ensure that the installation is secure and reset the runtime calibration data.",
-      "button": "Reset"
+      "title": "電源が入っている状態でスイッチを再度接続してください…",
+      "description": "インストールが安全であることを確認し、ランタイム校正データをリセットしてください。",
+      "button": "リセット"
     }
   },
   "ok": "OK",
-  "cancel": "Cancel",
-  "close": "Close",
-  "continue": "Continue",
+  "cancel": "キャンセル",
+  "close": "閉じる",
+  "continue": "続ける",
   "wizard": {
-    "title": "Allow the browser to connect the device",
-    "description": "Click on the button below and your browser will show a dialog below the address bar (as shown in the example). Click on the device name in the list to select the device and then click \"Connect\".",
+    "title": "ブラウザにデバイスへの接続を許可する",
+    "description": "以下のボタンをクリックすると、ブラウザはアドレスバーの下にダイアログを表示します（例に示されているように）。リスト内のデバイス名をクリックしてデバイスを選択し、その後「接続」をクリックしてください。",
     "example": {
-      "title": "Example",
+      "title": "例示",
       "dialog": {
-        "title": "{{hostname}} wants to connect to a HID device",
-        "connect": "Connect",
-        "cancel": "Cancel"
+        "title": "{{hostname}}はHIDデバイスに接続したいです",
+        "connect": "接続する",
+        "cancel": "キャンセル"
       },
-      "hint_1": "1. Click on the device name",
-      "hint_2": "2. Click \"Connect\""
+      "hint_1": "1. デバイス名をクリックしてください",
+      "hint_2": "2. \"接続\"をクリックしてください"
     },
-    "replug_hint": "If you cannot see your device or it keeps connecting, replug the device and try again.",
-    "cannot_connect_button": "I still cannot connect my device",
-    "cannot_connect_hint_firmware_update_failed": "If your device is accidentally disconnected or fails during the firmware upgrade process, it will stay in Recovery mode. Different devices will use different ways to indicate that they are in recovery mode, such as a solid indicator light. Don't panic, you can recover by updating the firmware again."
+    "replug_hint": "あなたのデバイスが見えない、または接続が続いている場合は、デバイスを再度接続し、再試行してください。",
+    "cannot_connect_button": "私はまだ私のデバイスを接続できません",
+    "cannot_connect_hint_firmware_update_failed": "あなたのデバイスが偶然切断されたり、ファームウェアのアップグレードプロセス中に失敗した場合、リカバリーモードに留まります。異なるデバイスは、固定のインジケーターライトなど、リカバリーモードにあることを示すために異なる方法を使用します。パニックにならないでください、再度ファームウェアを更新することで回復することができます。"
   },
   "profile": {
-    "title": "Profiles",
-    "current": "{{name}} (current)",
+    "title": "プロフィール",
+    "current": "{{name}} (現在)",
     "standalone_keymap": {
-      "title": "Standalone keymap",
-      "description": "When on, this profile has independent key mapping settings. When off, this profile uses the keymap settings of profile 1."
+      "title": "スタンドアロンキーマップ",
+      "description": "このプロファイルがオンのとき、独立したキーマップ設定があります。オフのとき、このプロファイルはプロファイル1のキーマップ設定を使用します。"
     },
     "builtin": {
-      "unnamed": "Profile {{index}}",
-      "typing_profile": "Typing profile",
-      "gaming_profile": "Gaming profile"
+      "unnamed": "プロフィール {{index}}",
+      "typing_profile": "タイピングプロファイル",
+      "gaming_profile": "ゲームプロフィール"
     },
     "rename": {
-      "title": "Rename",
-      "description": "Rename profile #{{index}}",
-      "hint_empty": "The profile name cannot be empty.",
-      "hint_too_long": "The profile name can be up to {{ length }} characters long."
+      "title": "名前を変更する",
+      "description": "プロフィール#{{index}}#の名前を変更する",
+      "hint_empty": "プロフィール名は空にできません。",
+      "hint_too_long": "プロフィール名は最大で{{ length }}文字まで可能です。"
     },
     "how_to_switch": {
-      "title": "How to switch profile",
-      "description": "<b>Switch the profile used by the keyboard</b>: In Keymap, bind keys in Profile category to the location you want, then press the key on the keyboard. On some keyboards, the default \"Layer 1\" + QWER is to switch profile 1234. <p><b>Edit Profile</b>: Click the profile you want to edit."
+      "title": "プロフィールの切り替え方",
+      "description": "<b>キーボードが使用するプロファイルを切り替える</b>：Keymapで、Profileカテゴリのキーを希望する位置にバインドし、キーボードのキーを押します。一部のキーボードでは、デフォルトの\"Layer 1\" + QWERは、プロファイル1234を切り替えるためのものです。<p><b>プロファイルを編集する</b>：編集したいプロファイルをクリックします。"
     },
-    "hint_keyboard_current_profile": "The keyboard is currently on this profile",
-    "hint_keyboard_switch_profile": "Under your remap settings, press {{ combination }} can switch to this profile",
-    "hint_profile_key_not_found": "The key to switch to this profile is not found, you can bind the profile key to the location you want",
-    "on_board_profiles": "On-board profiles",
-    "configure_profile": "Configure #{{ index }} {{ profile }}",
-    "hint_editing_profile_changes_for_keyboard_profile": "Due to a change in the configuration profile currently in use by the keyboard, the profile being edited has been switched.",
+    "hint_keyboard_current_profile": "キーボードは現在このプロファイルに設定されています",
+    "hint_keyboard_switch_profile": "あなたのリマップ設定の下で、{{ combination }}を押すとこのプロファイルに切り替えることができます。",
+    "hint_profile_key_not_found": "このプロファイルに切り替えるためのキーが見つかりません、プロファイルキーを希望の場所にバインドすることができます。",
+    "on_board_profiles": "オンボードプロファイル",
+    "configure_profile": "#{{ index }} {{ profile }}を設定する",
+    "hint_editing_profile_changes_for_keyboard_profile": "キーボードで現在使用中の設定プロファイルが変更されたため、編集中のプロファイルが切り替えられました。",
     "hint_editing_profile_is_not_current": {
-      "title": "You are editing a non-current profile",
-      "description": "<p>You won't be able to see or use the changes you've made until you switch to this profile.</p><p>The keyboard supports multiple profiles to accommodate different usage scenarios. For example, you can set different actuation distances and Rapid Trigger settings for typing and gaming, and use distinct lighting effects to differentiate them.</p><p>You can find the profile switch key by hovering your mouse over the profile name. This key is fully customizable.</p>"
+      "title": "あなたは現行のプロフィールではないものを編集しています",
+      "description": "<p>このプロファイルに切り替えるまで、あなたが行った変更を見ることも使用することもできません。</p><p>キーボードは、さまざまな使用シーンに対応するために複数のプロファイルをサポートしています。例えば、タイピングとゲーム用に異なる動作距離とRapid Trigger設定を設定し、それらを区別するために異なる照明効果を使用することができます。</p><p>プロファイル名の上にマウスを置くことでプロファイル切り替えキーを見つけることができます。このキーは完全にカスタマイズ可能です。</p>"
     }
   },
   "dark_mode": {
-    "dark_mode": "Dark mode",
-    "light_mode": "Light mode",
-    "follow_system": "Follow system"
+    "dark_mode": "ダークモード",
+    "light_mode": "ライトモード",
+    "follow_system": "システムに従う"
   },
   "color_theme": {
-    "title": "Theme",
-    "preset": "Preset",
-    "pick_a_color": "Pick a color"
+    "title": "テーマ",
+    "preset": "プリセット",
+    "pick_a_color": "色を選んでください"
   },
   "pwa": {
-    "app_ready_to_work_offline": "RAKKA Keyboard Configurator is ready to use offline",
-    "update_available": "RAKKA Keyboard Configurator has a new version available",
-    "reload": "Reload"
+    "app_ready_to_work_offline": "RAKKAキーボードコンフィギュレータはオフラインで使用する準備ができています",
+    "update_available": "RAKKAキーボードコンフィギュレーターに新しいバージョンが利用可能です",
+    "reload": "リロード"
   },
-  "enabled": "Enabled",
-  "disabled": "Disabled",
+  "enabled": "有効化されました",
+  "disabled": "無効化された",
   "lighting": {
-    "base_fx": "Base effect",
-    "color": "Color",
-    "settings": "Settings",
-    "choose_base_fx": "Choose base effect",
-    "overlay_fx": "Overlay effect",
-    "choose_overlay_fx": "Choose overlay effect",
-    "brightness": "Brightness",
-    "speed": "Speed",
-    "time": "Time",
-    "scale": "Scale",
-    "style": "Style",
-    "min_brightness": "Min brightness",
+    "base_fx": "ベース効果",
+    "color": "カラー",
+    "settings": "設定",
+    "choose_base_fx": "基本効果を選択してください",
+    "overlay_fx": "オーバーレイ効果",
+    "choose_overlay_fx": "オーバーレイエフェクトを選択してください",
+    "brightness": "明るさ",
+    "speed": "スピード",
+    "time": "時間",
+    "scale": "スケール",
+    "style": "スタイル",
+    "min_brightness": "最小の明るさ",
     "windows_dynamic_lighting": {
-      "title": "Windows Dynamic Lighting",
+      "title": "Windows ダイナミックライティング",
       "description": {
-        "title": "What is Windows Dynamic Lighting?",
-        "content": "Windows Dynamic Lighting allows you to control all supported keyboards, mice, and other peripherals in Windows settings or third-party control programs to achieve a unified lighting style. This feature is available on Windows 11 23H2 or later.",
-        "for_more_info": "For more information, please visit {{support_page}}.",
-        "open_windows_settings": "Open Dynamic Lighting page in Windows Settings",
-        "microsoft_support_page": "Microsoft support page",
-        "microsoft_support_page_link": "https://support.microsoft.com/en-us/windows/control-your-dynamic-lighting-devices-in-windows-8e8f22e3-e820-476c-8f9d-9ffc7b6ffcd2"
+        "title": "Windows Dynamic Lightingとは何ですか？",
+        "content": "Windows Dynamic Lightingは、Windowsの設定やサードパーティの制御プログラムで、すべての対応キーボード、マウス、その他の周辺機器を制御し、統一された照明スタイルを実現することができます。この機能はWindows 11 23H2以降で利用可能です。",
+        "for_more_info": "詳細については、{{support_page}}をご覧ください。",
+        "open_windows_settings": "Windows設定でOpen Dynamic Lightingページを開く",
+        "microsoft_support_page": "Microsoftサポートページ",
+        "microsoft_support_page_link": "https://support.microsoft.com/en-us/windows/control-your-dynamic-lighting-devices-in-windows-8e8f22e3-e820-476c-8f9d-9ffc7b6ffcd2\n\nを参照して、Windowsで動的照明デバイスを制御する方法を学びましょう。"
       },
       "supported_third_party_software": {
-        "title": "Third-party software that supports Dynamic Lighting",
-        "possible_others": "and possibly others",
+        "title": "ダイナミックライティングをサポートするサードパーティソフトウェア",
+        "possible_others": "おそらく他の人々も",
         "disclaimer": {
-          "title": "Disclaimer",
-          "content": "The above links point to third-party websites. We are not responsible for the content of these websites."
+          "title": "免責事項",
+          "content": "上記のリンクは第三者のウェブサイトを指しています。これらのウェブサイトの内容については、我々は責任を負いません。"
         }
       },
-      "hint_not_supported": "It seems that Windows Dynamic Lighting is not supported on your system.",
-      "hint_supported": "Windows Dynamic Lighting is supported on your system.",
-      "hint_disabled": "Windows Dynamic Lighting is disabled."
+      "hint_not_supported": "あなたのシステムでは、Windows Dynamic Lightingがサポートされていないようです。",
+      "hint_supported": "あなたのシステムでは、Windows Dynamic Lightingがサポートされています。",
+      "hint_disabled": "Windowsのダイナミックライティングは無効化されています。"
     },
-    "hint_static_is_override": "This effect has its own color which will override the color you set.",
-    "hint_left_click": "Left-click a key to set its color for the \"Static\" effect under \"Base effect\".",
-    "hint_middle_click": "Middle-click to sample its color to the color picker.",
-    "set_color_for_selected_keys": "Set color for selected keys",
-    "set_color_for_selected_keys_tooltip": "Color will take effect when \"Base effect\" is set to \"Static\".",
+    "hint_static_is_override": "この効果には独自の色があり、設定した色を上書きします。",
+    "hint_left_click": "\"Base effect\"の下の\"Static\"エフェクトの色を設定するために、キーを左クリックしてください。",
+    "hint_middle_click": "カラーピッカーにその色をサンプリングするために、ミドルクリックしてください。",
+    "set_color_for_selected_keys": "選択したキーの色を設定する",
+    "set_color_for_selected_keys_tooltip": "「ベースエフェクト」が「スタティック」に設定されているときに色が有効になります。",
     "fx": {
       "none": {
-        "title": "None"
+        "title": "对不起，您没有提供任何需要翻译的文本。"
       },
       "static": {
-        "title": "Static"
+        "title": "静的"
       },
       "wave": {
-        "title": "Wave"
+        "title": "ウェーブ"
       },
       "cycle": {
-        "title": "Cycle"
+        "title": "サイクル"
       },
       "windows_dynamic_lighting": {
-        "title": "Windows Dynamic Lighting"
+        "title": "Windows ダイナミックライティング"
       },
       "enforce_indicator_on_profile_change": {
-        "title": "Enforce indicators on profile change",
-        "description": "Forces indicators (such as the CapsLock indicator) to turn on within a few seconds after a profile change. By setting different indicator lights for different profiles, you can distinguish which profile is the current one."
+        "title": "プロフィール変更時にインジケータを強制する",
+        "description": "プロファイルが変更された数秒後に、強制的に指示灯（CapsLock指示灯など）を点灯させます。異なるプロファイルに対して異なる指示灯を設定することで、現在のプロファイルがどれであるかを区別することができます。"
       },
       "breath": {
-        "title": "Breath"
+        "title": "息"
       },
       "inherit": {
-        "title": "Follow primary scope",
-        "description": "Lighting will follow scope {{ scope }}."
+        "title": "プライマリスコープに従ってください",
+        "description": "照明は範囲{{ scope }}に従います。"
       }
     },
     "animation": {
-      "rainbow": "Rainbow",
-      "ocean": "Ocean",
-      "purple": "Purple!"
+      "rainbow": "虹",
+      "ocean": "オーシャン",
+      "purple": "紫色！"
     },
     "direction": {
-      "title": "Direction",
-      "forward": "Forward",
-      "backward": "Backward"
+      "title": "方向",
+      "forward": "フォワード",
+      "backward": "バックワード"
     },
     "indicator": {
       "caps_lock": {
-        "title": "Caps Lock indicator color"
+        "title": "Caps Lock指示器の色"
       },
       "scroll_lock": {
-        "title": "Scroll Lock indicator color"
+        "title": "スクロールロックインジケーターの色"
       },
       "num_lock": {
-        "title": "Num Lock indicator color"
+        "title": "Num Lockインジケーターの色"
       }
     },
     "sleep_mode": {
-      "title": "Sleep mode",
-      "description": "If no keys are pressed for a specified period of time, the lighting will dim or turn off. Note that if the computer enters sleep or shutdown mode, the lighting will turn off directly, regardless of the following settings.",
-      "dimming": "Dim after a specified time",
-      "off": "Turn off after a specified time",
+      "title": "スリープモード",
+      "description": "指定された時間キーが押されない場合、照明は暗くなるか、または消えます。コンピュータがスリープモードまたはシャットダウンモードに入ると、以下の設定に関係なく、照明は直接消えることに注意してください。",
+      "dimming": "指定時間後に暗くなる",
+      "off": "指定時間後に電源を切る",
       "format": {
-        "minute_other": "{{count}} minutes"
+        "minute_other": "{{count}} 分"
       },
-      "minutes": "minutes"
+      "minutes": "分"
     }
   },
   "swift_flow": {
     "title": "Swift Flow",
-    "description": "{{name}} provides additional mechanisms to determine whether a key is triggered. First, {{trigger_travel}} or {{rapid_trigger}} determines whether the key is pressed, and then {{name}} determines whether the key should be triggered. Note that if the key matches the reset condition of {{trigger_travel}} or {{rapid_trigger}}, the button will always be reset.",
-    "combination": "Combination {{index}}",
-    "combination_short": "Comb {{index}}",
-    "enable": "Enable this combination",
-    "set_as_selected": "Set as selected keys",
-    "hint_select_two_keys": "Please select two keys at the keyboard above.",
-    "hint_no_keys_selected": "This combination will not works since keys are not selected yet.",
-    "hint_last_input_banned": "\"{{priority}}\" has been banned by {{games}} because it is considered as automation. To avoid violations, please do not use it.",
+    "description": "{{name}}は、キーがトリガーされるかどうかを判断するための追加のメカニズムを提供します。まず、{{trigger_travel}}または{{rapid_trigger}}がキーが押されているかどうかを判断し、次に{{name}}がキーがトリガーされるべきかどうかを判断します。キーが{{trigger_travel}}または{{rapid_trigger}}のリセット条件と一致する場合、ボタンは常にリセットされることに注意してください。",
+    "combination": "組み合わせ {{index}}",
+    "combination_short": "コーム {{index}}",
+    "enable": "この組み合わせを有効にしてください",
+    "set_as_selected": "選択したキーとして設定",
+    "hint_select_two_keys": "上記のキーボードから2つのキーを選択してください。",
+    "hint_no_keys_selected": "この組み合わせは、キーがまだ選択されていないため、機能しません。",
+    "hint_last_input_banned": "\"{{priority}}\"は自動化と見なされるため、{{games}}によって禁止されました。違反を避けるために、それを使用しないでください。",
     "priority": {
-      "title": "Priority",
+      "title": "優先度",
       "depth": {
-        "title": "Depth priority",
-        "description": "If both keys are pressed, only trigger the key that pressed deeper."
+        "title": "深度優先",
+        "description": "両方のキーが押されている場合、より深く押されたキーのみをトリガーします。"
       },
       "last_input": {
-        "title": "Last input priority",
-        "description": "Only trigger the key that was pressed later."
+        "title": "最後の入力優先度",
+        "description": "後に押されたキーのみをトリガーしてください。"
       },
       "absolute": {
-        "title": "Absolute priority ({{key}})",
-        "description": "If {{keyA}} is pressed, {{keyB}} will never trigger no matter it is pressed or not."
+        "title": "絶対優先順位 ({{key}})",
+        "description": "もし{{keyA}}が押されたら、{{keyB}}は押されても押されなくても決してトリガーされません。"
       },
       "neutral": {
-        "title": "Neutral",
-        "description": "If both of the keys are pressed, trigger none of them."
+        "title": "ニュートラル",
+        "description": "両方のキーが押された場合、どちらもトリガーしない。"
       }
     },
     "depth_priority_sensitivity": {
-      "title": "Depth priority sensitivity",
-      "description": "The threshold for determining whether the pressing depth of one key exceeds that of another. This is to avoid the key being triggered repeatedly when the pressing depth is very close."
+      "title": "深度優先感度",
+      "description": "一つのキーの押下深度が他のキーを超えるかどうかを判断する閾値。これは、押下深度が非常に近い場合にキーが繰り返しトリガーされるのを避けるためです。"
     },
     "requires_full_cycle": {
-      "title": "Requires full cycle",
-      "description": "If a triggered key is reset by this function, the key must first be released to the point where it is no longer considered pressed before it can be triggered by pressing it again."
+      "title": "完全なサイクルが必要です",
+      "description": "この関数によってトリガーキーがリセットされる場合、そのキーは再度押すことでトリガーできるようになる前に、押されているとは考えられなくなるまでリリースされなければなりません。"
     }
   },
   "about": {
-    "title": "About",
-    "description": "RAKKA Keyboard Configurator is a web-based tool for configuring your RAKKA devices.",
-    "version": "Version {{version}}",
-    "date": "Build at {{date}}",
-    "all_rights_reserved": "All rights reserved."
+    "title": "約",
+    "description": "RAKKAキーボードコンフィギュレータは、RAKKAデバイスを設定するためのウェブベースのツールです。",
+    "version": "バージョン {{version}}",
+    "date": "{{date}}で建設する",
+    "all_rights_reserved": "全著作権所有。"
   },
-  "settings": "Settings",
-  "expand": "Expand",
-  "collapse": "Collapse",
+  "settings": "設定",
+  "expand": "展開する",
+  "collapse": "崩壊",
   "layer": {
-    "base": "Base layer",
-    "others": "Layer {{layer}}"
+    "base": "ベースレイヤー",
+    "others": "レイヤー {{layer}}"
   },
   "window_too_small": {
-    "title": "Oops, it’s too small!",
-    "description1": "Your browser window size is too small to display all content.",
-    "description2": "Please try adjusting the window size and zoom ratio.",
-    "button": "I don't care, you calculated it wrong!"
+    "title": "おっと、それは小さすぎますね！",
+    "description1": "あなたのブラウザウィンドウのサイズが小さすぎて、すべてのコンテンツを表示できません。",
+    "description2": "ウィンドウのサイズとズーム比を調整してみてください。",
+    "button": "気にしない、あなたはそれを間違って計算した！"
   },
-  "select_all": "Select all",
-  "discard_selection": "Discard selection",
-  "hint_firmware_version_too_low": "Your firmware version is too low to support this feature.",
+  "select_all": "すべてを選択してください",
+  "discard_selection": "選択を破棄",
+  "hint_firmware_version_too_low": "あなたのファームウェアのバージョンは、この機能をサポートするには低すぎます。",
   "devices": {
     "default": {
-      "name": "Default"
+      "name": "デフォルト"
     },
     "rakka_80_edge": {
       "lighting_scopes": {
-        "keys": "Keys",
-        "sidebar": "Sidebars",
-        "logo": "Logo",
-        "indicator": "Indicator"
+        "keys": "キー",
+        "sidebar": "サイドバー",
+        "logo": "ロゴ",
+        "indicator": "インジケーター"
       }
     },
     "cycle8_he": {
       "lighting_scopes": {
-        "light_bar": "Light bar"
+        "light_bar": "ライトバー"
       }
     },
     "rakka_60_altus": {
       "lighting_scopes": {
-        "underglow": "Underglow"
+        "underglow": "アンダーグロー"
       }
     }
   },
-  "something_went_wrong": "Something went wrong",
+  "something_went_wrong": "何かが間違ってしまった",
   "bug_report": {
-    "title": "Bug report"
+    "title": "バグ報告"
   },
   "rapid_trigger": {
-    "hint_dont_too_aggressive": "We do not recommend setting the options as low as possible.",
-    "hint_dont_too_aggressive_hint": "Due to unavoidable objective factors, overly low settings require stable operation, or abnormal key triggering may occur. We do not attempt to circumvent these objective factors because doing so would require significantly sacrificing response speed (latency).",
-    "hint_dont_too_aggressive_tooltip_1": "The keyboard estimates distance by detecting the strength of the magnetic field. It cannot detect other factors such as switch wobble or material vibrations.",
-    "hint_dont_too_aggressive_tooltip_2": "Human hands cannot move in a perfectly vertical and stable motion—slight wobbling may occur. Clearly, if parameters are set too low, even minor tilts can result in missed keypresses.",
-    "hint_dont_too_aggressive_tooltip_3": "Deformation and vibration inevitably occur when pressing the switch, PCB, plate, or stabilizers. When the parameters are set extremely low, these deformations and vibrations may be interpreted as key activations.",
-    "hint_dont_too_aggressive_tooltip_4": "We believe the most important feature of Hall Effect keyboards is the response speed (low latency)—the keyboard should react as quickly as possible to even the smallest changes. Sacrificing response time by multiples—dozens or even hundreds of times—just to maintain 'stability' under extremely low settings is counterproductive.",
-    "hint_key_tracker": "This tool allows you to monitor the press distance in real time, helping you understand the impact of objective factors and how minimal the distances are under extreme settings.",
-    "hint_too_aggressive": "Abnormal behavior may occur with the current settings. Please adjust according to your actual usage.",
-    "hint_extreme": "The current setting is extreme and requires exceptionally stable operation to function properly. You can imagine the key as a vertical needle—it must be pressed almost perfectly vertically to avoid abnormal behavior.",
-    "hint_large_keys": "This phenomenon becomes more noticeable when keys are hit hard, especially larger keys, as they are more affected by vibrations.",
-    "hint_find_most_suitable": "Finding the most suitable settings requires continuous experimentation.",
-    "hint_downgraded_since_lacks_bottom_calibration": "Due to the lack of manual bottom calibration, the effective setting is {{ mm }}.",
-    "hint_works_only_at_bottom": "Acts as {{ mm }} for non-bottoming area."
+    "hint_dont_too_aggressive": "我々は、オプションを可能な限り低く設定することをお勧めしません。",
+    "hint_dont_too_aggressive_hint": "避けられない客観的な要因により、過度に低い設定では安定した操作が必要であり、異常なキーのトリガリングが発生する可能性があります。これらの客観的な要因を回避しようとはしません。なぜなら、それを行うと応答速度（遅延）を大幅に犠牲にする必要があるからです。",
+    "hint_dont_too_aggressive_tooltip_1": "キーボードは、磁場の強度を検出することで距離を推定します。スイッチの揺れや材料の振動など他の要素は検出できません。",
+    "hint_dont_too_aggressive_tooltip_2": "人間の手は完全に垂直で安定した動きをすることはできません - わずかな揺れが発生するかもしれません。明らかに、パラメータが低すぎると、わずかな傾きでもキープレスが押し損ねる結果となります。",
+    "hint_dont_too_aggressive_tooltip_3": "スイッチ、PCB、プレート、またはスタビライザーを押すと、必ず変形や振動が発生します。パラメータが非常に低く設定されている場合、これらの変形や振動はキーの活性化と解釈される可能性があります。",
+    "hint_dont_too_aggressive_tooltip_4": "私たちは、ホール効果キーボードの最も重要な特徴は、応答速度（低遅延）であると考えています。キーボードは、最小の変化に対してもできるだけ迅速に反応するべきです。極端に低い設定下での「安定性」を維持するためだけに、応答時間を何倍にも、何十倍にも、あるいは何百倍にも犠牲にすることは逆効果です。",
+    "hint_key_tracker": "このツールは、プレス距離をリアルタイムで監視することができ、客観的な要因の影響と極端な設定下での距離がどれほど最小限であるかを理解するのに役立ちます。",
+    "hint_too_aggressive": "現在の設定では異常な動作が発生する可能性があります。実際の使用状況に応じて調整してください。",
+    "hint_extreme": "現在の設定は極端で、適切に機能するためには非常に安定した操作が必要です。鍵を垂直の針と想像してみてください。それはほぼ完全に垂直に押さなければならず、異常な動作を避けるためです。",
+    "hint_large_keys": "この現象は、特に大きなキーなど、振動の影響を受けやすいキーを強く打つときに、より顕著になります。",
+    "hint_find_most_suitable": "最適な設定を見つけるには、継続的な実験が必要です。",
+    "hint_downgraded_since_lacks_bottom_calibration": "マニュアルボトムキャリブレーションの不足により、有効な設定は{{ mm }}です。",
+    "hint_works_only_at_bottom": "ボトミングエリア以外の{{ mm }}として機能します。"
   },
   "config": {
-    "title": "Config"
+    "title": "設定"
   },
   "device_management": {
-    "device_info": "Device info",
-    "device_name": "Device name",
-    "my_devices": "My devices",
-    "firmware_update_date": "Firmware release date",
-    "firmware_version": "Firmware version",
-    "serial_number": "Serial number",
-    "last_connected": "Last connected",
+    "device_info": "デバイス情報",
+    "device_name": "デバイス名",
+    "my_devices": "私のデバイス",
+    "firmware_update_date": "ファームウェアのリリース日",
+    "firmware_version": "ファームウェアバージョン",
+    "serial_number": "シリアル番号",
+    "last_connected": "最後に接続された",
     "status": {
-      "title": "Status",
-      "current_device": "Current device",
-      "paired": "Paired",
-      "connected": "Connected",
-      "disconnected": "Disconnected",
-      "connecting": "Connecting"
+      "title": "ステータス",
+      "current_device": "現在のデバイス",
+      "paired": "ペアード",
+      "connected": "接続されています",
+      "disconnected": "切断されました",
+      "connecting": "接続中"
     },
-    "connect_to_new_device": "Connect to a new device",
-    "hint_connect_to_a_device_first": "Please connect to a device first",
+    "connect_to_new_device": "新しいデバイスに接続する",
+    "hint_connect_to_a_device_first": "まずデバイスに接続してください。",
     "new_firmware_available": {
-      "title": "New firmware available",
+      "title": "新しいファームウェアが利用可能です",
       "item": "{{ channel }}: {{ version }}"
     },
     "auto_connect": {
-      "title": "Auto connect",
-      "description": "Automatically connect to the last connected device when the page is loaded"
+      "title": "自動接続",
+      "description": "ページが読み込まれたときに、最後に接続されたデバイスに自動的に接続します"
     }
   },
-  "hint_this_option_is_global": "This option is global and does not vary from profile to profile.",
-  "hint_options_are_global": "These options are global and does not vary from profile to profile.",
-  "hint_options_are_individual": "These option are varies from profile to profile. For example, you can set different trigger travels for typing profile and gaming profile, and then distinguish them by setting different lighting.",
+  "hint_this_option_is_global": "このオプションはグローバルであり、プロファイルごとに変わることはありません。",
+  "hint_options_are_global": "これらのオプションはグローバルで、プロファイルごとには変わりません。",
+  "hint_options_are_individual": "これらのオプションはプロファイルによって異なります。例えば、タイピングプロファイルとゲームプロファイルに対して異なるトリガートラベルを設定し、それらを異なるライティング設定で区別することができます。",
   "regional_site": {
-    "hint_based_on_local_information": "The region is inferred locally based on your browser's language, time zone, and other information.",
-    "ignore": "Ignore",
+    "hint_based_on_local_information": "その地域は、あなたのブラウザの言語、タイムゾーン、およびその他の情報に基づいてローカルで推測されます。",
+    "ignore": "無視する",
     "visit_global_site_in_mainland_china": {
-      "title": "You Are Visiting the Global Site",
-      "summary": "If you are in Mainland China, please visit the site tailored for Mainland China users for better access speed.",
-      "button": "Visit the Mainland China Site"
+      "title": "あなたはグローバルサイトを訪れています",
+      "summary": "あなたが中国本土にいる場合は、より良いアクセス速度のために中国本土のユーザー向けにカスタマイズされたサイトをご覧ください。",
+      "button": "中国本土のサイトを訪れてください"
     },
     "visit_mainland_china_site_in_other_region": {
-      "title": "You May Not Be in Mainland China",
-      "summary": "If you are not in Mainland China, please visit the global site for better access speed.",
-      "button": "Visit the Global Site"
+      "title": "あなたは中国本土にいないかもしれません",
+      "summary": "あなたが中国本土にいない場合は、アクセス速度を向上させるためにグローバルサイトをご覧ください。",
+      "button": "グローバルサイトを訪問してください"
     }
   },
   "color_picker": {
-    "brighter": "Brighter",
-    "darker": "Darker"
+    "brighter": "もっと明るい",
+    "darker": "ダーカー"
   },
   "changelog": {
-    "title": "Changelog",
-    "firmware_changelog": "Firmware changelog",
-    "configurator_changelog": "Configurator changelog"
+    "title": "チェンジログ",
+    "firmware_changelog": "ファームウェアの変更履歴",
+    "configurator_changelog": "コンフィギュレーターの変更履歴"
   },
-  "hint_do_not_use_hub": "Using a USB Hub to connect devices may result in degraded performance or unstable connections.",
+  "hint_do_not_use_hub": "USBハブを使用してデバイスを接続すると、パフォーマンスが低下したり、接続が不安定になる可能性があります。",
   "layout_options": {
-    "title": "Layout options",
+    "title": "レイアウトオプション",
     "auto_choose": {
-      "title": "Auto choose",
-      "description": "Automatically select layout options based on your installed keys.<p>If you change the installed keys, you will need to Retry auto choose. <br>If the detection is incorrect, you may need to select manually."
+      "title": "自動選択",
+      "description": "あなたのインストールされたキーに基づいて自動的にレイアウトオプションを選択します。<p>インストールされたキーを変更した場合、自動選択を再試行する必要があります。<br>検出が間違っている場合、手動で選択する必要があるかもしれません。"
     },
     "manual_choose_will_disable_auto_choose": {
-      "title": "Manual choose will disable auto choose",
-      "description": "If you manually select layout options, the auto choose feature will be disabled. If you change the key of your installation in the future, you will need to manually select the layout options."
+      "title": "マニュアル選択は自動選択を無効にします",
+      "description": "手動でレイアウトオプションを選択すると、自動選択機能は無効になります。将来、インストールのキーを変更する場合は、レイアウトオプションを手動で選択する必要があります。"
     },
-    "retry_auto_choose": "Retry auto choose",
-    "manual_choose": "Manual choose",
+    "retry_auto_choose": "自動選択を再試行してください",
+    "manual_choose": "マニュアル選択",
     "options": {
       "backspace": {
-        "name": "Backspace",
-        "normal": "Normal Backspace",
-        "split": "Split Backspace"
+        "name": "バックスペース",
+        "normal": "ノーマルバックスペース",
+        "split": "スプリット バックスペース"
       },
       "capslock": {
         "name": "CapsLock",
-        "normal": "Normal CapsLock",
-        "stepped": "Stepped CapsLock"
+        "normal": "ノーマル CapsLock",
+        "stepped": "ステップドCapsLock"
       },
       "enter": {
-        "name": "Enter",
-        "normal": "Normal Enter",
-        "iso": "ISO Enter"
+        "name": "入力してください",
+        "normal": "ノーマルエンター",
+        "iso": "ISOエンター"
       },
       "left_shift": {
-        "name": "Left Shift",
-        "normal": "Normal Left Shift",
-        "split": "Split Left Shift"
+        "name": "左シフト",
+        "normal": "ノーマル左シフト",
+        "split": "スプリットレフトシフト"
       },
       "right_shift": {
-        "name": "Right Shift",
-        "normal": "Normal Right Shift",
-        "split": "Split Right Shift"
+        "name": "右シフト",
+        "normal": "ノーマル右シフト",
+        "split": "スプリット右シフト"
       },
       "space": {
-        "name": "Space",
-        "625u": "Standard 6.25U spacebar",
-        "split_225u_275u_125u": "Split spacebar 2.25U - 2.75U - 1.25U"
+        "name": "宇宙",
+        "625u": "標準6.25Uスペースバー",
+        "split_225u_275u_125u": "スプリットスペースバー 2.25U - 2.75U - 1.25U"
       },
       "bottom_row": {
-        "name": "Bottom row",
-        "625u": "6.25U spacebar",
-        "split_225u_125u_275u": "Split spacebar 2.25U - 1.25U - 2.75U",
-        "700u": "7U spacebar",
-        "split_300u_100u_300u": "Split spacebar 3U - 1U - 3U"
+        "name": "ボトム行",
+        "625u": "6.25U スペースバー",
+        "split_225u_125u_275u": "スプリットスペースバー 2.25U - 1.25U - 2.75U",
+        "700u": "7Uスペースバー",
+        "split_300u_100u_300u": "スプリットスペースバー 3U - 1U - 3U"
       }
     }
   },
-  "hint_this_option_requires_a_newer_version_of_the_firmware": "This option requires a newer version of the firmware.",
-  "hint_this_function_requires_a_newer_version_of_the_firmware": "This function requires a newer version of the firmware.",
+  "hint_this_option_requires_a_newer_version_of_the_firmware": "このオプションは、ファームウェアの新しいバージョンが必要です。",
+  "hint_this_function_requires_a_newer_version_of_the_firmware": "この関数は、ファームウェアの新しいバージョンが必要です。",
   "error": {
-    "timeout_when_communicating_with_the_device": "Timeout when communicating with the device",
-    "error_when_communicating_with_the_device": "Error when communicating with the device",
-    "bad_cable": "One possible reason could be the quality of the USB cable, which may cause an unstable connection or reduced connection speed (preventing the device from operating at USB 2.0 high speed).",
-    "contact_us": "Please retry with another USB cale. If the issue persists, please email us at {{ email }} for assistance."
+    "timeout_when_communicating_with_the_device": "デバイスとの通信時にタイムアウト",
+    "error_when_communicating_with_the_device": "デバイスとの通信中にエラーが発生しました",
+    "bad_cable": "一つの可能性としては、USBケーブルの品質が原因で、不安定な接続や接続速度の低下（デバイスがUSB 2.0の高速で動作するのを防ぐ）を引き起こすかもしれません。",
+    "contact_us": "別のUSBケーブルで再試行してください。問題が解決しない場合は、{{ email }}までメールでご連絡ください。"
   },
-  "dont_show_again": "Don't show again",
+  "dont_show_again": "再度表示しない",
   "shortcuts": {
     "key": {
-      "mouse_left": "Left Click",
-      "mouse_right": "Right Click",
-      "mouse_middle": "Middle Click",
-      "drag": "Drag",
-      "mouse_wheel": "Mouse Wheel"
+      "mouse_left": "左クリック",
+      "mouse_right": "右クリック",
+      "mouse_middle": "ミドルクリック",
+      "drag": "ドラッグ",
+      "mouse_wheel": "マウスホイール"
     },
     "action": {
-      "select": "Select",
-      "select_all": "Select all",
-      "deselect_all": "Deselect all",
-      "drag_select": "Drag select",
-      "pick_color": "Pick color",
+      "select": "選択してください",
+      "select_all": "すべてを選択してください",
+      "deselect_all": "すべての選択を解除",
+      "drag_select": "ドラッグで選択",
+      "pick_color": "色を選んでください",
       "zoom": "Zoom",
-      "pan": "Pan"
+      "pan": "パン"
     }
   },
-  "upgrade": "Upgrade",
+  "upgrade": "アップグレード",
   "troubleshooting": {
-    "title": "Troubleshooting",
-    "pressed_at": "Pressed at {{ time }}",
-    "released_at": "Released at {{ time }}",
-    "key": "Key",
-    "time": "Time",
-    "delta": "Delta",
-    "reason": "Reason",
-    "reason_format": "Reached {{ distance }}mm ({{ position }})",
-    "hint": "This tool is used for self-investigation or reporting chattering or missed keystrokes issues to the developer.",
-    "hint_stay_in_this_page_will_slow_down": "Note, staying on this page will slightly slows down response time.",
-    "switch_to_general_purpose_mode": "Switch to general-purpose mode",
-    "clear": "Clear"
+    "title": "トラブルシューティング",
+    "pressed_at": "{{ time }}で押された",
+    "released_at": "{{ time }}にリリースされました",
+    "key": "キー",
+    "time": "時間",
+    "delta": "デルタ",
+    "reason": "理由",
+    "reason_format": "{{ distance }}mmに到達（{{ position }}）",
+    "hint": "このツールは、自己調査や開発者へのチャタリングやキーストロークの欠落問題の報告に使用されます。",
+    "hint_stay_in_this_page_will_slow_down": "注意、このページに滞在すると、応答時間がわずかに遅くなります。",
+    "switch_to_general_purpose_mode": "汎用モードに切り替えてください",
+    "clear": "クリア"
   },
   "key_tracker": {
-    "title": "Key Tracking",
-    "choose_the_key_to_track": "Select the key to track",
-    "start": "Start",
-    "start_for_seconds": "Start for {{ seconds }} seconds",
-    "stop": "Stop",
-    "current_config": "Current configuration",
-    "hint_lag": "Due to the large amount of data and browser platform limitations, this tool may experience noticeable lag. It is recommended to stop tracking once you've observed the necessary data to minimize lag.",
+    "title": "キートラッキング",
+    "choose_the_key_to_track": "トラックするキーを選択してください",
+    "start": "以下のテキストを日本語に翻訳してください。ただし、 {...} や <...> などのプレースホルダーは翻訳しないでください：\n\nスタート",
+    "start_for_seconds": "{{ seconds }} 秒間スタート",
+    "stop": "ストップ",
+    "current_config": "現在の設定",
+    "hint_lag": "大量のデータとブラウザプラットフォームの制限により、このツールは顕著な遅延を経験する可能性があります。必要なデータを観察したら、遅延を最小限に抑えるために追跡を停止することをお勧めします。",
     "texts": {
-      "description": "This tool allows you to track the pressing distance of a key in real time and visualize it in a chart for observation and analysis.",
-      "limitation_intro": "Due to fundamental limitations, the keyboard itself cannot distinguish 'normal pressing' from the following objectively existing conditions (including but not limited to). When parameters are set extremely low (e.g., around 0.01mm or even lower), the impact of these conditions becomes very significant.",
+      "description": "このツールを使用すると、キーの押下距離をリアルタイムで追跡し、観察や分析のためにチャートで視覚化することができます。",
+      "limitation_intro": "基本的な制限により、キーボード自体は「通常の押下」を以下の客観的に存在する条件（ただし、これらに限定されない）と区別することはできません。パラメータが非常に低く設定されている場合（例えば、約0.01mmまたはそれ以下）、これらの条件の影響は非常に大きくなります。",
       "limitation": {
         "shaking": {
-          "text": "Hand movement during key press",
-          "tooltip": "Movement causes the magnet inside the switch to tilt, altering the detected magnetic force. The keyboard cannot tell whether this change is part of a 'normal press'."
+          "text": "キープレス中の手の動き",
+          "tooltip": "動きにより、スイッチ内の磁石が傾き、検出される磁力が変化します。キーボードは、この変化が「通常の押下」の一部かどうかを判断することができません。"
         },
         "press_force_change": {
-          "text": "Force changes after the key bottoms out",
-          "tooltip": "Materials such as the switch can experience slight deformation under pressure, causing minor shifts in the magnet’s position. The keyboard cannot tell whether this change is part of a 'normal press'."
+          "text": "キーが最下部に達した後の力の変化",
+          "tooltip": "スイッチのような素材は、圧力下でわずかな変形を経験し、磁石の位置が微妙に変わることがあります。キーボードは、この変化が「通常の押下」の一部であるかどうかを判断することはできません。"
         },
         "hard_hit": {
-          "text": "Pressing the key with greater force (compared to a 'normal press')",
-          "tooltip": "During pressing, especially with hard hits, components like the switch and keycap may deform or vibrate, causing the magnet inside the switch to move slightly. The keyboard cannot tell whether this change is part of a 'normal press'."
+          "text": "('通常の押下'に比べて) キーを強く押す",
+          "tooltip": "押下中、特に強い打撃で、スイッチやキーキャップのような部品が変形したり振動したりすることがあり、その結果、スイッチ内の磁石がわずかに動くことがあります。キーボードは、この変化が「通常の押下」の一部であるかどうかを判断することができません。"
         }
       },
-      "extreme_param_warning": "Since the above factors are unavoidable during manual operation, unintended key releases under extremely low settings are considered normal and do not indicate an issue with the keyboard itself.",
-      "reproduce_tips": "You can simulate in-game operations and compare them with more vertical and stable presses to better understand the differences between various pressing styles.",
-      "design_philosophy_intro": "We believe that the most important feature of Hall Effect keyboards is their response speed (low latency).",
-      "design_philosophy": "Our products (especially the RAKKA 80 Edge and later) are designed to faithfully and sensitively reflect user actions in real time, even when those actions are influenced by the objective factors mentioned above. <b>Trying to eliminate these factors by sacrificing latency—often by tens or even hundreds of times—ultimately slows down the keyboard’s response to normal operations, which completely defeats the purpose.</b>"
+      "extreme_param_warning": "上記の要素は手動操作中に避けられないため、非常に低い設定での意図しないキーの解放は正常と考えられ、キーボード自体の問題を示すものではありません。",
+      "reproduce_tips": "ゲーム内の操作をシミュレートし、より垂直で安定したプレスと比較することで、さまざまなプレススタイルの違いをより理解することができます。",
+      "design_philosophy_intro": "私たちは、ホール効果キーボードの最も重要な特徴は、その応答速度（低遅延）であると考えています。",
+      "design_philosophy": "私たちの製品（特にRAKKA 80 Edge以降）は、上記の客観的要素の影響を受けたユーザーの行動であっても、それらをリアルタイムで忠実かつ敏感に反映するように設計されています。<b>これらの要素を排除しようとすると、遅延を犠牲にしてしまうことが多く、それは数十倍、場合によっては数百倍にもなります。結果的に、キーボードの通常操作への反応が遅くなり、目的を完全に逆手に取ることになります。</b>"
     },
     "trigger_log": {
-      "trigger": "Trigger",
-      "reset": "Reset",
-      "no_items": "No trigger records",
-      "delta_tooltip": "The time difference between the last trigger/reset event and the current event. However, the time is acquired from the host, so it may not be accurate.",
-      "delta_too_small": "(time difference too small)",
-      "hint_scroll": "You can zoom in and out of the chart using the mouse scroll wheel to closely observe changes during triggers or resets. Unintended triggers and resets caused by the mentioned objective factors usually happen very quickly and subtly, requiring zooming in to be properly seen."
+      "trigger": "トリガー",
+      "reset": "リセット",
+      "no_items": "トリガーレコードがありません",
+      "delta_tooltip": "最後のトリガー/リセットイベントと現在のイベントとの時間差。ただし、時間はホストから取得されるため、正確でない場合があります。",
+      "delta_too_small": "(時間差があまりにも小さい)",
+      "hint_scroll": "マウスのスクロールホイールを使用してチャートを拡大縮小し、トリガーやリセット中の変化を詳細に観察することができます。上記の目的要素によって引き起こされる意図しないトリガーやリセットは通常、非常に素早く微妙に発生し、適切に見るためには拡大が必要です。"
     },
-    "reset_zoom": "Reset zoom",
-    "zoom_to_bottom": "Zoom to the bottom {{ distance }}mm"
+    "reset_zoom": "ズームをリセット",
+    "zoom_to_bottom": "下部までズーム {{ distance }}mm"
   },
   "debounce": {
-    "level": "Debounce level",
-    "enabled_features": "Enabled features",
+    "level": "デバウンスレベル",
+    "enabled_features": "有効化された機能",
     "levels": {
-      "off": "Off",
-      "0": "Level 0",
-      "1": "Level 1",
-      "2": "Level 2",
-      "3": "Level 3"
+      "off": "オフ",
+      "0": "レベル 0",
+      "1": "レベル1",
+      "2": "レベル2",
+      "3": "レベル3"
     },
-    "hint_not_affect_latency": "Does not affect latency.",
-    "hint_latency_increase_to_at_the_worst_scenario": "In the worst-case scenario, latency may increase by approximately {{ times }} times.",
-    "hint_worse_than_level0": "Using this level with extreme parameter settings may result in slower response (higher latency) than using Level 0 with more moderate parameters.",
-    "hint_about_latency_test": "Latency test methods that instantly change sensor output are inaccurate, as human fingers cannot move that quickly. Such methods will only produce results that are better—or even significantly better—than actual real-world performance.",
-    "hint_others_will_not_tell_you": "Others will not tell you…",
-    "hint_user_actions_are_inaccurate": "Stable behavior cannot be guaranteed under extremely low thresholds (e.g., 0.0xmm), as the switch may wobble during pressing, and the keyboard cannot distinguish between a normal finger lift and unintended wobble.",
-    "hint_dont_use_under_normal_conditions": "Don't use under normal conditions!",
+    "hint_not_affect_latency": "レイテンシに影響を与えません。",
+    "hint_latency_increase_to_at_the_worst_scenario": "最悪のシナリオでは、レイテンシーは約{{ times }}倍に増加する可能性があります。",
+    "hint_worse_than_level0": "このレベルを極端なパラメータ設定で使用すると、より穏健なパラメータで使用するレベル0よりも反応が遅く（レイテンシーが高く）なる可能性があります。",
+    "hint_about_latency_test": "人間の指がそのように速く動くことはできないため、センサー出力を即座に変更する遅延テスト方法は不正確です。そのような方法は、実際の現実世界のパフォーマンスよりも優れた、あるいは大幅に優れた結果しか生み出さないでしょう。",
+    "hint_others_will_not_tell_you": "他人はあなたには教えてくれません...",
+    "hint_user_actions_are_inaccurate": "非常に低い閾値（例えば、0.0xmm）では、スイッチが押下中に揺れる可能性があり、キーボードが通常の指の持ち上げと意図しない揺れを区別できないため、安定した動作は保証できません。",
+    "hint_dont_use_under_normal_conditions": "通常の状況下では使用しないでください！",
     "filter_strength": {
-      "title": "Filter strength",
-      "description": "Filtering algorithms can make key presses more 'stable', but the trade-off is a significant reduction in responsiveness, resulting in higher latency.",
+      "title": "フィルターの強度",
+      "description": "フィルタリングアルゴリズムはキー押下をより「安定」にすることができますが、その代償として応答性が大幅に低下し、結果として遅延が増大します。",
       "levels": {
-        "0": "Off",
-        "1": "Normal",
-        "2": "Strong",
-        "3": "Extreme"
+        "0": "オフ",
+        "1": "ノーマル",
+        "2": "強力な",
+        "3": "エクストリーム"
       }
     },
     "always_trigger_at_bottom": {
-      "title": "Always trigger at bottom",
-      "description": "Since wobble is inevitable during key presses and the keyboard cannot distinguish between a normal finger lift and signal fluctuations caused by wobble, a small region near the bottom is treated as always triggered to prevent unintended key release at extremely low thresholds. The size of this region varies depending on the switch structure.<br>Please note that enabling this feature sacrifices the keyboard's ability to detect subtle changes in pressing distance near the bottom."
+      "title": "常に底部でトリガーする",
+      "description": "キー押下時の揺れは避けられないものであり、キーボードは通常の指の持ち上げと揺れによる信号の変動を区別することができません。そのため、非常に低い閾値での意図しないキーのリリースを防ぐために、底部近くの小さな領域は常にトリガーされたとみなされます。この領域の大きさは、スイッチ構造によって異なります。<br>この機能を有効にすると、底部近くでの押下距離の微妙な変化をキーボードが検出する能力が犠牲になることに注意してください。"
     },
     "avoid_vibration": {
-      "title": "Avoid effects of vibration",
-      "description": "When a key is pressed or released, the switch, keycap, and other components naturally vibrate—especially under strong force. If the parameters are set low enough, these vibrations may be misinterpreted as key presses.<br>This feature aims to mitigate such effects without impacting latency."
+      "title": "振動の影響を避ける",
+      "description": "キーが押されたり離されたりすると、スイッチ、キーキャップ、その他の部品は自然に振動します - 特に強い力が加わった場合には。パラメータが十分に低く設定されている場合、これらの振動は誤ってキーの押下と解釈されることがあります。<br>この機能は、レイテンシーに影響を与えることなく、そのような効果を軽減することを目指しています。"
     },
     "avoid_overshoot": {
-      "title": "Avoid effects of bottom-out rebound",
-      "description": "When a key bottoms out, the inevitable deformation of components like the switch causes the detected pressing distance to briefly overshoot before stabilizing—this is known as 'rebound'. The effect is more pronounced with harder presses. If the parameters are set very low or the force is great, it may result in incorrect key release detection.<br>This feature aims to mitigate such effects without impacting latency.",
-      "hint_requires_bottom_calibration": "This feature can only works for keys that have done \"Manually calibrate relative bottom-out value\", since it requires a rough estimate of the bottom-out position."
+      "title": "ボトムアウトリバウンドの影響を避ける",
+      "description": "キーが底打ちすると、スイッチなどの部品の必然的な変形により、押下距離が一時的にオーバーシュートしてから安定する現象が生じます。これは「リバウンド」と呼ばれます。この効果は、強く押すほど顕著になります。パラメータが非常に低く設定されている場合や力が大きい場合、キーのリリース検出が誤って行われる可能性があります。<br>この機能は、レイテンシーに影響を与えることなく、そのような効果を軽減することを目指しています。",
+      "hint_requires_bottom_calibration": "この機能は、「手動で相対的なボトムアウト値を校正する」を行ったキーに対してのみ機能します。これは、ボトムアウト位置の大まかな推定が必要だからです。"
     }
   }
 }
