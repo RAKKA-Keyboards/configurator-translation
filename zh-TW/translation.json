@@ -1121,7 +1121,7 @@
       "3": "等級 3"
     },
     "hint_not_affect_latency": "不會影響延遲。",
-    "hint_latency_increase_to_at_the_worst_scenario": "鍵盤將響應無法及時響應按鍵的變化。在最壞的情況下，延遲增加 {{ times }} 倍。",
+    "hint_latency_increase_to_at_the_worst_scenario": "鍵盤將響應無法及時響應按鍵的變化。在最壞的情況下，延遲增加至 {{ times }} 倍。",
     "hint_worse_than_level0": "使用此等級並設置極端參數，最終的響應速度（延遲）很可能不如使用等級 0 並設定非極端參數。",
     "hint_about_latency_test": "瞬間改變傳感器輸出的延遲測試方法是不準確的，因為人手不可能這麼快。使用此類方法只會得到好於甚至遠好於真實情況的結果。",
     "hint_others_will_not_tell_you": "其他人不會告訴你的…",

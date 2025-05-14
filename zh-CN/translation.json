@@ -1121,7 +1121,7 @@
       "3": "等级 3"
     },
     "hint_not_affect_latency": "不会影响延迟。",
-    "hint_latency_increase_to_at_the_worst_scenario": "键盘将响应无法及时响应按键的变化。在最坏的情况下，延迟增加 {{ times }} 倍。",
+    "hint_latency_increase_to_at_the_worst_scenario": "键盘将响应无法及时响应按键的变化。在最坏的情况下，延迟增加至 {{ times }} 倍。",
     "hint_worse_than_level0": "使用此等级并设置极端参数，最终的响应速度（延迟）很可能不如使用等级 0 并设定非极端参数。",
     "hint_about_latency_test": "瞬间改变传感器输出的延迟测试方法是不准确的，因为人手不可能这么快。使用此类方法只会得到好于甚至远好于真实情况的结果。",
     "hint_others_will_not_tell_you": "其他人不会告诉你的…",
