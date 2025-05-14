@@ -228,7 +228,8 @@
       }
     },
     "hint_calibrating": "Calibrating…",
-    "hint_dont_touch_keys": "Please do not touch the keys."
+    "hint_dont_touch_keys": "Please do not touch the keys.",
+    "hint_keys_disabled": "The keyboard will now not output key values to the operating system."
   },
   "connect": {
     "button": {
