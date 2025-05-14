@@ -210,6 +210,8 @@
     "bottom_calibration": {
       "title": "Manually calibrate relative bottom-out value",
       "description": "When a key is pressed forcefully, subsequent presses with normal force may behave abnormally. This issue becomes more apparent with very low settings. This step addresses it by recording relative values from presses with normal force.",
+      "start": "Start",
+      "stop": "Stop",
       "save": "Save values for selected keys",
       "clear": "Clear saved values for selected keys",
       "steps": {
