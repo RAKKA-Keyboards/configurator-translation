@@ -912,7 +912,8 @@
     "hint_large_keys": "この現象は、特に大きなキーなど、振動の影響を受けやすいキーを強く打つときに、より顕著になります。",
     "hint_find_most_suitable": "最適な設定を見つけるには、継続的な実験が必要です。",
     "hint_downgraded_since_lacks_bottom_calibration": "マニュアルボトムキャリブレーションの不足により、有効な設定は{{ mm }}です。",
-    "hint_works_only_at_bottom": "ボトミングエリア以外の{{ mm }}として機能します。"
+    "hint_works_only_at_bottom": "ボトミングエリア以外の{{ mm }}として機能します。",
+    "hint_always_trigger_when_bottoming_is_on": "「底打ち時に常に反応」が有効になっています。キーが底部にある状態でわずかに指を持ち上げても、キーボードは反応しません。言い換えれば、底部ではより大きなリセット距離が設定されているのと同じ状態になります。"
   },
   "config": {
     "title": "設定"
