@@ -210,6 +210,8 @@
     "bottom_calibration": {
       "title": "手動で相対的な底値をキャリブレーション",
       "description": "キーを強く押した後、通常の力で押すと異常が発生することがあります。この問題はパラメータが非常に低い場合に顕著です。この手順では、通常の力で押したときの相対的な値を記録することで問題を解決します。",
+      "start": "開始",
+      "stop": "停止",
       "save": "選択したキーの値を保存",
       "clear": "選択したキーの値をクリア",
       "steps": {
@@ -228,7 +230,8 @@
       }
     },
     "hint_calibrating": "キャリブレーション中…",
-    "hint_dont_touch_keys": "キーに触れないでください。"
+    "hint_dont_touch_keys": "キーに触れないでください。",
+    "hint_keys_disabled": "The keyboard will now not output key values to the operating system."
   },
   "connect": {
     "button": {
@@ -472,10 +475,6 @@
     "rapid_trigger_in_full_travel": {
       "title": "トリガーストローク内でのみ有効",
       "description": "有効時、キーが {{travel}}mm（設定したトリガー距離）以上離されると、再度 {{travel}}mm まで押す必要があります。無効時、キーが完全に離されない限り、ラピッドトリガーは常に有効です。"
-    },
-    "always_trigger_when_bottoming": {
-      "title": "底付け時は常にトリガー",
-      "description": "最下部まで押した状態で指を動かすと、キーボードが検出する距離が変化します。スイッチの型番によって、この変化量は異なります。有効時、底付け時は常にトリガーとみなし、誤ったリセットを防ぎます。"
     },
     "restore_to_use_global_settings": "「グローバル設定を使用」に戻す",
     "overview": {

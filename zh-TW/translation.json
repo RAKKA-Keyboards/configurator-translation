@@ -476,10 +476,6 @@
       "title": "僅在觸發行程內生效",
       "description": "開啟時，一旦按鍵鬆開至 {{travel}}mm（您所設定的觸發距離）以上，則需要再次按壓至 {{travel}}mm 才能再次觸發；關閉時，除非完全鬆開按鍵，快速觸發始終生效。"
     },
-    "always_trigger_when_bottoming": {
-      "title": "觸底時始終觸發",
-      "description": "在按壓到最底部時搖晃手指會導致鍵盤檢測的距離發生變化。視軸體型號不同，這個變化量也不同。開啟時，觸底時將一律視為觸發，以避免錯誤的重置。"
-    },
     "restore_to_use_global_settings": "恢復至「使用全局設置」",
     "overview": {
       "description": {
@@ -1137,10 +1133,6 @@
         "3": "極端"
       }
     },
-    "always_trigger_at_bottom": {
-      "title": "底部始終觸發",
-      "description": "由於在按壓軸體時不可避免地會產生晃動，而鍵盤無法準確區分手指的正常抬起與晃動造成的信號波動，為避免在極低參數下因晃動導致意外斷觸，可將靠近底部的一小段區域設置為始終觸發。該區域的具體大小因軸體結構而異。<br>請注意，啟用此功能等同於放棄識別底部區域微小按壓距離變化的能力。"
-    },
     "avoid_vibration": {
       "title": "規避震動帶來的影響",
       "description": "在按鍵被按下和回彈時，軸體、鍵帽等材料都會產生震動，以較大力度按壓時更是這樣。如果參數設定得足夠低，則會被識別為按鍵觸發。<br>此功能在不影響延遲的前提下嘗試避免這個現象造成的影響。"
@@ -1150,5 +1142,24 @@
       "description": "在按鍵觸底時，由於軸體等材料不可避免地存在形變，會使鍵盤識別到的按壓距離有一個先大後小的過程，即「反彈」。此現象在大力按壓按鍵時更為明顯。如果參數設定得足夠低，或力度足夠大，則會導致錯誤的按鍵斷開。<br>此功能在不影響延遲的前提下嘗試避免這個現象造成的影響。",
       "hint_requires_bottom_calibration": "此功能只能作用於已經做過「人工校準相對觸底值」的按鍵上，因為需要它提供一個大致的觸底位置。"
     }
-  }
+  },
+  "always_trigger_when_bottoming": {
+    "title": "Always trigger when bottoming out",
+    "description": "When a key bottoms out, finger wobble or unconscious release of pressure can cause fluctuations in the detected pressing distance. If the parameter is set too low, such changes may be misinterpreted as a key release.",
+    "reason": "This issue cannot be avoided without compromise. The keyboard infers pressing distance solely from magnetic strength, so it cannot determine whether a change is caused by intentional finger movement or by wobble or release.",
+    "trade_off": "Enabling this feature will cause the keyboard to ignore small changes in pressing distance near the bottom. In other words, it acts as if a higher parameter value is set."
+  },
+  "parameters_are_too_low": {
+    "exceed_switch_limit": {
+      "title": "Unexpected key release may be normal",
+      "reason": "The configured value is lower than or close to the distance variation caused by wobble in the current switch ({{ switch_name }}).",
+      "unless": "Unless every keystroke is guaranteed to be stable and perfectly vertical, unexpected release is considered normal and not a keyboard defect."
+    },
+    "extreme": {
+      "title": "Current settings may cause unexpected key release",
+      "reason": "The current settings are extreme. Our keyboard responds faithfully and sensitively to data changes, rather than achieving so-called 'stability' by drastically sacrificing latency."
+    },
+    "button_why": "Why? Isn’t this something the keyboard should handle?"
+  },
+  "back": "後退"
 }

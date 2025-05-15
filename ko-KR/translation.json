@@ -210,6 +210,8 @@
     "bottom_calibration": {
       "title": "Manually calibrate relative bottom-out value",
       "description": "When a key is pressed forcefully, subsequent presses with normal force may behave abnormally. This issue becomes more apparent with very low settings. This step addresses it by recording relative values from presses with normal force.",
+      "start": "시작",
+      "stop": "Stop",
       "save": "Save values for selected keys",
       "clear": "Clear saved values for selected keys",
       "steps": {
@@ -228,7 +230,8 @@
       }
     },
     "hint_calibrating": "Calibrating…",
-    "hint_dont_touch_keys": "Please do not touch the keys."
+    "hint_dont_touch_keys": "Please do not touch the keys.",
+    "hint_keys_disabled": "The keyboard will now not output key values to the operating system."
   },
   "connect": {
     "button": {
@@ -472,10 +475,6 @@
     "rapid_trigger_in_full_travel": {
       "title": "Effective only within Actuation distance",
       "description": "When turned on, once the key is released beyond {{travel}}mm (the Actuation distance you set), it must be pressed again to {{travel}}mm to trigger again; when turned off, Rapid Trigger remains effective unless the key is fully released."
-    },
-    "always_trigger_when_bottoming": {
-      "title": "바닥을 칠 때 항상 입력 모드",
-      "description": "Shaking a finger when pressing all the way down may cause the detected distance on the keyboard to change. The amount of change varies depending on the switch model. When enabled, bottoming out will consistently be treated as triggered to prevent incorrect resets."
     },
     "restore_to_use_global_settings": "Restore to \"Use global settings\"",
     "overview": {
@@ -1134,10 +1133,6 @@
         "3": "Extreme"
       }
     },
-    "always_trigger_at_bottom": {
-      "title": "Always trigger at bottom",
-      "description": "Since wobble is inevitable during key presses and the keyboard cannot distinguish between a normal finger lift and signal fluctuations caused by wobble, a small region near the bottom is treated as always triggered to prevent unintended key release at extremely low thresholds. The size of this region varies depending on the switch structure.<br>Please note that enabling this feature sacrifices the keyboard's ability to detect subtle changes in pressing distance near the bottom."
-    },
     "avoid_vibration": {
       "title": "Avoid effects of vibration",
       "description": "When a key is pressed or released, the switch, keycap, and other components naturally vibrate—especially under strong force. If the parameters are set low enough, these vibrations may be misinterpreted as key presses.<br>This feature aims to mitigate such effects without impacting latency."
@@ -1147,5 +1142,24 @@
       "description": "When a key bottoms out, the inevitable deformation of components like the switch causes the detected pressing distance to briefly overshoot before stabilizing—this is known as 'rebound'. The effect is more pronounced with harder presses. If the parameters are set very low or the force is great, it may result in incorrect key release detection.<br>This feature aims to mitigate such effects without impacting latency.",
       "hint_requires_bottom_calibration": "This feature can only works for keys that have done \"Manually calibrate relative bottom-out value\", since it requires a rough estimate of the bottom-out position."
     }
-  }
+  },
+  "always_trigger_when_bottoming": {
+    "title": "Always trigger when bottoming out",
+    "description": "When a key bottoms out, finger wobble or unconscious release of pressure can cause fluctuations in the detected pressing distance. If the parameter is set too low, such changes may be misinterpreted as a key release.",
+    "reason": "This issue cannot be avoided without compromise. The keyboard infers pressing distance solely from magnetic strength, so it cannot determine whether a change is caused by intentional finger movement or by wobble or release.",
+    "trade_off": "Enabling this feature will cause the keyboard to ignore small changes in pressing distance near the bottom. In other words, it acts as if a higher parameter value is set."
+  },
+  "parameters_are_too_low": {
+    "exceed_switch_limit": {
+      "title": "Unexpected key release may be normal",
+      "reason": "The configured value is lower than or close to the distance variation caused by wobble in the current switch ({{ switch_name }}).",
+      "unless": "Unless every keystroke is guaranteed to be stable and perfectly vertical, unexpected release is considered normal and not a keyboard defect."
+    },
+    "extreme": {
+      "title": "Current settings may cause unexpected key release",
+      "reason": "The current settings are extreme. Our keyboard responds faithfully and sensitively to data changes, rather than achieving so-called 'stability' by drastically sacrificing latency."
+    },
+    "button_why": "Why? Isn’t this something the keyboard should handle?"
+  },
+  "back": "Back"
 }
