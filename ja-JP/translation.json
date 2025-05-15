@@ -1155,9 +1155,9 @@
       "reason": "現在の設定値は、使用中のスイッチ（{{ switch_name }}）の揺れによって生じる距離変化と同等か、それ以下になっています。",
       "unless": "すべてのキー操作が常に安定して真下に押される保証がない限り、リリースが発生するのは正常であり、キーボードの不具合ではありません。"
     },
-    "extreme": {
-      "title": "現在の設定ではキーリリースが発生する可能性があります",
-      "reason": "現在の設定は極端な値です。当社のキーボードは、遅延を犠牲にして“安定”を得るのではなく、データの変化に忠実かつ敏感に反応する設計となっています。"
+    "too_low": {
+      "title": "Current settings may cause unexpected key release",
+      "reason": "The current settings are too low. Our keyboard responds faithfully and sensitively to data changes, rather than achieving so-called 'stability' by drastically sacrificing latency."
     },
     "button_why": "なぜ？それはキーボードが解決すべきでは？"
   },

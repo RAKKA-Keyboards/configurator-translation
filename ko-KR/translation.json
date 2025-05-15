@@ -1155,9 +1155,9 @@
       "reason": "The configured value is lower than or close to the distance variation caused by wobble in the current switch ({{ switch_name }}).",
       "unless": "Unless every keystroke is guaranteed to be stable and perfectly vertical, unexpected release is considered normal and not a keyboard defect."
     },
-    "extreme": {
+    "too_low": {
       "title": "Current settings may cause unexpected key release",
-      "reason": "The current settings are extreme. Our keyboard responds faithfully and sensitively to data changes, rather than achieving so-called 'stability' by drastically sacrificing latency."
+      "reason": "The current settings are too low. Our keyboard responds faithfully and sensitively to data changes, rather than achieving so-called 'stability' by drastically sacrificing latency."
     },
     "button_why": "Why? Isn’t this something the keyboard should handle?"
   },
