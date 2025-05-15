@@ -453,14 +453,14 @@
     "rapid_trigger": {
       "title": "快速觸發",
       "description": "開啟快速觸發後，按鍵的觸發和重置不再是一個固定的距離，而是在您按壓的過程中動態調整。這可以讓您更快地觸發或重置按鍵。在特定類型的遊戲中很有幫助。",
-      "hint_only_works_after_trigger": "若按鍵已完全釋放，則需要再次按壓至設定的觸發行程才能觸發。",
+      "hint_only_works_after_trigger": "若按鍵已完全釋放，需要先按壓至您設定的觸發行程 {{ mm }}mm。",
       "dynamic_reset_travel": {
         "description": "如果按鍵已觸發，鬆開指定的距離按鍵就會釋放。",
-        "title": "重置行程"
+        "title": "動態重置行程"
       },
       "dynamic_trigger_travel": {
         "description": "如果按鍵未觸發，按下指定的距離按鍵就會觸發。",
-        "title": "觸發行程"
+        "title": "動態觸發行程"
       },
       "hint_select_keys_first": "請先選擇您想要修改快速觸發的按鍵。"
     },
@@ -1144,22 +1144,23 @@
     }
   },
   "always_trigger_when_bottoming": {
-    "title": "Always trigger when bottoming out",
-    "description": "When a key bottoms out, finger wobble or unconscious release of pressure can cause fluctuations in the detected pressing distance. If the parameter is set too low, such changes may be misinterpreted as a key release.",
-    "reason": "This issue cannot be avoided without compromise. The keyboard infers pressing distance solely from magnetic strength, so it cannot determine whether a change is caused by intentional finger movement or by wobble or release.",
-    "trade_off": "Enabling this feature will cause the keyboard to ignore small changes in pressing distance near the bottom. In other words, it acts as if a higher parameter value is set."
+    "title": "觸底時始終觸發",
+    "description": "按鍵觸底時手指的晃動、手指無意識的卸力等等會導致鍵盤識別的按壓距離發生變化。如果參數設置得過低，這個晃動會被識別為按鍵抬起，即斷觸。",
+    "reason": "這個現象不可能能被無損失地避免。因為，磁力大小是鍵盤推測按壓距離的唯一的信息來源，鍵盤不可能能夠了解磁力變化是由於正常的手指移動，還是晃動、卸力等因素引起。",
+    "trade_off": "啟用此功能會使鍵盤不再響應底部區域的微小按壓距離變化。換句話說，相當於設定了一個更高的參數。"
   },
   "parameters_are_too_low": {
     "exceed_switch_limit": {
-      "title": "Unexpected key release may be normal",
-      "reason": "The configured value is lower than or close to the distance variation caused by wobble in the current switch ({{ switch_name }}).",
-      "unless": "Unless every keystroke is guaranteed to be stable and perfectly vertical, unexpected release is considered normal and not a keyboard defect."
+      "title": "出現斷觸可能是正常的",
+      "reason": "設定值已低於或接近當前軸體（{{ switch_name }}）在晃動時會產生的距離變化。",
+      "unless": "除非能夠保證每次按鍵都是穩定且絕對直下，否則出現斷觸屬於正常現象，而非鍵盤有問題。"
     },
     "extreme": {
-      "title": "Current settings may cause unexpected key release",
-      "reason": "The current settings are extreme. Our keyboard responds faithfully and sensitively to data changes, rather than achieving so-called 'stability' by drastically sacrificing latency."
+      "title": "當前設置可能出現斷觸",
+      "reason": "當前設置屬於極端參數。我們的鍵盤會忠實且靈敏地對數據變化作出反應，而非通過成倍犧牲延遲來換取所謂的「穩定」。"
     },
-    "button_why": "Why? Isn’t this something the keyboard should handle?"
+    "button_why": "為什麼？這不是鍵盤應該解決的問題嗎？"
   },
-  "back": "後退"
+  "back": "返回",
+  "why": "為什麼？"
 }
