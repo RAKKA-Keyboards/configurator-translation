@@ -913,7 +913,14 @@
     "hint_find_most_suitable": "找到最適合自己的設置需要不斷嘗試。",
     "hint_downgraded_since_lacks_bottom_calibration": "由於沒有進行人工校準相對觸底值，實際生效的設置為 {{ mm }}。",
     "hint_works_only_at_bottom": "在非底部區域作用為 {{ mm }}。",
-    "hint_always_trigger_when_bottoming_is_on": "已啟用底部時始終觸發，在底部區域時輕微抬起按鍵鍵盤將不會作出響應。換句話說，按鍵在底部區域時，相對於設定了一個較大的重置行程。"
+    "hint_always_trigger_when_bottoming_is_on": "已啟用底部時始終觸發，在底部區域時輕微抬起按鍵鍵盤將不會作出響應。換句話說，按鍵在底部區域時，相對於設定了一個較大的重置行程。",
+    "reset_distance_less_or_close_to_trigger_distance": {
+      "title": "可能出現斷觸",
+      "reason": "當前設定的重置行程小於或僅略微大於觸發行程。考慮到軸體存在晃動的情況下，在重置後的再次觸發可能需要完全垂直地按壓才能再次觸發，這在實際使用中是困難的。",
+      "solution": "請將重置行程設定得更大一些。",
+      "button_auto_fix": "幫我修改",
+      "hint_changed": "已將重置行程根據觸發行程的設定自動修改為 {{ mm }}mm。"
+    }
   },
   "config": {
     "title": "配置"

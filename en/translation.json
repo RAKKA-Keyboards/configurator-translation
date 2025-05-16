@@ -915,7 +915,14 @@
     "hint_find_most_suitable": "Finding the most suitable settings requires continuous experimentation.",
     "hint_downgraded_since_lacks_bottom_calibration": "Due to the lack of Manually calibrate relative bottom-out value, the effective setting is {{ mm }}.",
     "hint_works_only_at_bottom": "Acts as {{ mm }} for non-bottoming area.",
-    "hint_always_trigger_when_bottoming_is_on": "‘Always trigger when bottoming out’ is enabled. When the key is in the bottom region, slight upward movement will not cause the keyboard to respond. In other words, it's equivalent to having a larger reset distance in that region."
+    "hint_always_trigger_when_bottoming_is_on": "‘Always trigger when bottoming out’ is enabled. When the key is in the bottom region, slight upward movement will not cause the keyboard to respond. In other words, it's equivalent to having a larger reset distance in that region.",
+    "reset_distance_less_or_close_to_trigger_distance": {
+      "title": "Unintended key release may occur",
+      "reason": "The currently set reset distance is less than or only slightly greater than the trigger distance. Considering possible switch wobble, re-triggering after reset may require a perfectly vertical press, which is difficult in practical use.",
+      "solution": "Please increase the reset distance.",
+      "button_auto_fix": "Fix it for me",
+      "hint_changed": "The reset distance has been automatically adjusted to {{ mm }}mm based on the trigger distance setting."
+    }
   },
   "config": {
     "title": "Config"
