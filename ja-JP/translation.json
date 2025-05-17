@@ -1120,7 +1120,8 @@
       "hint_scroll": "マウスのスクロールホイールを使用してチャートを拡大縮小し、トリガーやリセット中の変化を詳細に観察することができます。上記の目的要素によって引き起こされる意図しないトリガーやリセットは通常、非常に素早く微妙に発生し、適切に見るためには拡大が必要です。"
     },
     "reset_zoom": "ズームをリセット",
-    "zoom_to_bottom": "下部までズーム {{ distance }}mm"
+    "zoom_to_bottom": "下部までズーム {{ distance }}mm",
+    "hint_scan_rate": "This speed does not directly reflect scan rate (how many times the key is scanned per second), as for RAKKA 80 and later products, these data may already be preprocessed (from more raw data)."
   },
   "debounce": {
     "level": "デバウンスレベル",
