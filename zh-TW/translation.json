@@ -848,6 +848,11 @@
     "requires_full_cycle": {
       "title": "需要完整循環",
       "description": "如果一個已被觸發按鍵因為此功能變為重置，則該按鍵需首先抬起到不被認為是按下的，才能在之後通過再次按下而觸發。"
+    },
+    "both_when_bottoming": {
+      "title": "觸底時全部觸發",
+      "description": "如果兩個按鍵都被按下且觸底，則兩個按鍵都被強制觸發。",
+      "bottoming_threshold": "按壓距離在底部的 {{ mm }}mm 就算作是觸底。"
     }
   },
   "about": {

@@ -850,6 +850,11 @@
     "requires_full_cycle": {
       "title": "Requires full cycle",
       "description": "If a triggered key is reset by this function, the key must first be released to the point where it is no longer considered pressed before it can be triggered by pressing it again."
+    },
+    "both_when_bottoming": {
+      "title": "Trigger both when bottoming",
+      "description": "Force trigger both of the keys when all of them are pressed and the key is bottomed out.",
+      "bottoming_threshold": "Pressing distance at the bottom of {{ mm }}mm is considered as bottoming out."
     }
   },
   "about": {
