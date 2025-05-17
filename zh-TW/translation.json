@@ -853,7 +853,8 @@
       "title": "觸底時全部觸發",
       "description": "如果兩個按鍵都被按下且觸底，則兩個按鍵都被強制觸發。",
       "bottoming_threshold": "按壓距離在底部的 {{ mm }}mm 就算作是觸底。"
-    }
+    },
+    "hint_cautious": "請謹慎在競技環境下使用此功能，以免遭受處罰或封禁。"
   },
   "about": {
     "title": "關於",
