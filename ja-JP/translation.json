@@ -848,6 +848,11 @@
     "requires_full_cycle": {
       "title": "完全なサイクルが必要です",
       "description": "この関数によってトリガーキーがリセットされる場合、そのキーは再度押すことでトリガーできるようになる前に、押されているとは考えられなくなるまでリリースされなければなりません。"
+    },
+    "both_when_bottoming": {
+      "title": "Trigger both when bottoming",
+      "description": "Force trigger both of the keys when all of them are pressed and the key is bottomed out.",
+      "bottoming_threshold": "Pressing distance at the bottom of {{ mm }}mm is considered as bottoming out."
     }
   },
   "about": {
