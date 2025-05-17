@@ -230,6 +230,7 @@
       }
     },
     "hint_calibrating": "校準中…",
+    "hint_during_this_hint": "在看到此提示期間",
     "hint_dont_touch_keys": "請不要觸碰按鍵。",
     "hint_keys_disabled": "鍵盤現在將不會輸出鍵值給操作系統。"
   },
