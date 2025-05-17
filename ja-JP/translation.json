@@ -854,7 +854,8 @@
       "title": "Trigger both when bottoming",
       "description": "Force trigger both of the keys when all of them are pressed and the key is bottomed out.",
       "bottoming_threshold": "Pressing distance at the bottom of {{ mm }}mm is considered as bottoming out."
-    }
+    },
+    "hint_cautious": "Use this feature with caution in competitive environments to avoid penalties or bans."
   },
   "about": {
     "title": "約",
