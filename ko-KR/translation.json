@@ -919,7 +919,7 @@
     "hint_extreme": "The current setting is extreme and requires exceptionally stable operation to function properly. You can imagine the key as a vertical needle—it must be pressed almost perfectly vertically to avoid abnormal behavior.",
     "hint_large_keys": "This phenomenon becomes more noticeable when keys are hit hard, especially larger keys, as they are more affected by vibrations.",
     "hint_find_most_suitable": "Finding the most suitable settings requires continuous experimentation.",
-    "hint_downgraded_since_lacks_bottom_calibration": "Due to the lack of manual bottom calibration, the effective setting is {{ mm }}.",
+    "hint_downgraded_since_lacks_bottom_calibration": "Due to the lack of manual bottom calibration, the minimal value is {{ mm }}.",
     "hint_works_only_at_bottom": "Acts as {{ mm }} for non-bottoming area.",
     "hint_always_trigger_when_bottoming_is_on": "‘Always trigger when bottoming out’ is enabled. When the key is in the bottom region, slight upward movement will not cause the keyboard to respond. In other words, it's equivalent to having a larger reset distance in that region.",
     "reset_distance_less_or_close_to_trigger_distance": {

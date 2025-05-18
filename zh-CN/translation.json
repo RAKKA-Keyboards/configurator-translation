@@ -919,7 +919,7 @@
     "hint_extreme": "当前设定属于极端设定，需要极为稳定的操作才能正常使用。您可以将按键想象为一个垂直的针尖，必须近乎垂直地按压才能保证不出现异常。",
     "hint_large_keys": "这个现象在大力敲击按键，尤其是大键时更加明显，因为它们受震动影响更大。",
     "hint_find_most_suitable": "找到最适合自己的设置需要不断尝试。",
-    "hint_downgraded_since_lacks_bottom_calibration": "由于没有进行人工校准相对触底值，实际生效的设置为 {{ mm }}。",
+    "hint_downgraded_since_lacks_bottom_calibration": "由于没有进行人工校准相对触底值，最小值为 {{ mm }}。",
     "hint_works_only_at_bottom": "在非底部区域作用为 {{ mm }}。",
     "hint_always_trigger_when_bottoming_is_on": "已启用底部时始终触发，在底部区域时轻微抬起按键键盘将不会作出响应。换句话说，按键在底部区域时，相对于设定了一个较大的重置行程。",
     "reset_distance_less_or_close_to_trigger_distance": {
