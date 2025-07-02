@@ -1087,6 +1087,7 @@
     "start": "開始",
     "start_for_seconds": "開始 {{ seconds }} 秒",
     "stop": "停止",
+    "export": "導出",
     "current_config": "當前設置",
     "hint_lag": "由於數據量極大，受制於瀏覽器平臺，此工具會比較卡頓。建議觀察到需要的數據後及時停止，以減少卡頓。",
     "texts": {

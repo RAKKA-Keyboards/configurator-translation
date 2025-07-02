@@ -1087,6 +1087,7 @@
     "start": "开始",
     "start_for_seconds": "开始 {{ seconds }} 秒",
     "stop": "停止",
+    "export": "导出",
     "current_config": "当前设置",
     "hint_lag": "由于数据量极大，受制于浏览器平台，此工具会比较卡顿。建议观察到需要的数据后及时停止，以减少卡顿。",
     "texts": {
