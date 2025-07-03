@@ -228,7 +228,8 @@
       "dialog_failed": {
         "title": "未按壓按鍵或軸體安裝異常",
         "description": "<b>請確認已經使用正常力度按壓過按鍵，切勿完全不按壓就直接保存。</b><p><small><b>如果自行更換過軸體，請確認已裝緊</b>，即使是視覺上難以發現的鬆脫對於鍵盤來說也是十分巨大的。此外，運輸也可能使軸體輕微鬆脫。</small>"
-      }
+      },
+      "hint_unnecessary_keys_should_be_ignored": "未設置極低參數的按鍵無需進行此步驟。"
     },
     "hint_calibrating": "校準中…",
     "hint_during_this_hint": "在看到此提示期間",
@@ -388,7 +389,8 @@
       "trigger_travel": "觸發行程",
       "rapid_trigger": "快速觸發",
       "swift_flow": "Swift Flow",
-      "debounce": "去抖動"
+      "debounce": "去抖動",
+      "misc": "雜項"
     }
   },
   "keymap": {
