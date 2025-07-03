@@ -389,7 +389,8 @@
       "trigger_travel": "トリガーストローク",
       "rapid_trigger": "ラピッドトリガー",
       "swift_flow": "Swift Flow",
-      "debounce": "デバウンス"
+      "debounce": "デバウンス",
+      "misc": "Miscellaneous"
     }
   },
   "keymap": {
