@@ -1154,15 +1154,6 @@
         "2": "Strong",
         "3": "Extreme"
       }
-    },
-    "avoid_vibration": {
-      "title": "Avoid effects of vibration",
-      "description": "When a key is pressed or released, the switch, keycap, and other components naturally vibrate—especially under strong force. If the parameters are set low enough, these vibrations may be misinterpreted as key presses.<br>This feature aims to mitigate such effects without impacting latency."
-    },
-    "avoid_overshoot": {
-      "title": "Avoid effects of bottom-out rebound",
-      "description": "When a key bottoms out, the inevitable deformation of components like the switch causes the detected pressing distance to briefly overshoot before stabilizing—this is known as 'rebound'. The effect is more pronounced with harder presses. If the parameters are set very low or the force is great, it may result in incorrect key release detection.<br>This feature aims to mitigate such effects without impacting latency.",
-      "hint_requires_bottom_calibration": "This feature can only works for keys that have done \"Manually calibrate relative bottom-out value\", since it requires a rough estimate of the bottom-out position."
     }
   },
   "always_trigger_when_bottoming": {
@@ -1184,5 +1175,16 @@
     "button_why": "Why? Isn’t this something the keyboard should handle?"
   },
   "back": "Back",
-  "why": "Why?"
+  "why": "Why?",
+  "avoid_vibration": {
+    "title": "Mitigate the impact of vibration",
+    "description": "During key press and release, vibrations occur in the switch stem, keycap, and other components—especially when pressed with greater force. If parameters are set too low, these vibrations may be mistakenly detected as a keypress.<br>This feature attempts to mitigate such effects without impacting latency.",
+    "consequences_of_toggle_off": "Disabling this feature may result in multiple triggers from a single press. This is more likely to occur when parameters are set extremely low or when pressing with high force."
+  },
+  "avoid_overshoot": {
+    "title": "Mitigate the impact of bottom-out rebound",
+    "description": "When a key bottoms out, deformation in the switch and other materials may cause the detected press depth to briefly overshoot before settling—this is known as 'rebound.' The effect is more pronounced with heavy presses. If the parameter is set very low, this can lead to false key releases.<br>This feature attempts to prevent such issues without affecting latency.",
+    "hint_requires_bottom_calibration": "This feature only works on keys that have been manually calibrated for bottom-out position, as it relies on an approximate bottom-out reference.",
+    "consequences_of_toggle_off": "Disabling this feature may result in unintended key releases. This is more likely to occur with low parameter settings or strong key presses."
+  }
 }
