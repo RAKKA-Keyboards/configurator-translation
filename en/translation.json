@@ -1186,5 +1186,16 @@
     "description": "When a key bottoms out, deformation in the switch and other materials may cause the detected press depth to briefly overshoot before settling—this is known as 'rebound.' The effect is more pronounced with heavy presses. If the parameter is set very low, this can lead to false key releases.<br>This feature attempts to prevent such issues without affecting latency.",
     "hint_requires_bottom_calibration": "This feature only works on keys that have been manually calibrated for bottom-out position, as it relies on an approximate bottom-out reference.",
     "consequences_of_toggle_off": "Disabling this feature may result in unintended key releases. This is more likely to occur with low parameter settings or strong key presses."
+  },
+  "nkro": {
+    "title": "N-Key Rollover",
+    "description": "N-Key Rollover (NKRO) allows you to press more than 6 keys simultaneously.",
+    "description_auto_detect": "NKRO does not work properly on some BIOS or gaming consoles. We use a special method to detect whether the connected host supports NKRO. If it does, the keyboard will automatically enable NKRO. If it does not, the keyboard will automatically disable NKRO.",
+    "hint_toggle_by_binding_toggle_keys": "For special needs, you can toggle NKRO by binding the toggle keys in the Keymap section.",
+    "enabled": "Enabled",
+    "disabled": "Disabled",
+    "auto_detect": "Auto detect",
+    "user_override": "User override",
+    "current": "Current: {{ status }} ({{ mode }})"
   }
 }
