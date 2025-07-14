@@ -229,7 +229,7 @@
         "title": "Key not pressed or switch improperly installed",
         "description": "<b>Please make sure you have pressed the key with normal force. Do not attempt to save without pressing it at all.</b><p><small><b>If you have replaced the switch yourself, please ensure it is firmly installed</b>. Even slight looseness that is visually hard to detect can have a significant impact on keyboard performance. Transportation may also cause minor loosening of the switch.</small>"
       },
-      "hint_unnecessary_keys_should_be_ignored": "Keys that are not set to extremely low parameters do not need to perform this step."
+      "hint_unnecessary_keys_are_disabled": "Keys that do not require 'Manually calibrate relative bottom-out value' are disabled."
     },
     "hint_calibrating": "Calibrating…",
     "hint_during_this_hint": "While you are seeing this prompt",

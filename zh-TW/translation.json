@@ -229,7 +229,7 @@
         "title": "未按壓按鍵或軸體安裝異常",
         "description": "<b>請確認已經使用正常力度按壓過按鍵，切勿完全不按壓就直接保存。</b><p><small><b>如果自行更換過軸體，請確認已裝緊</b>，即使是視覺上難以發現的鬆脫對於鍵盤來說也是十分巨大的。此外，運輸也可能使軸體輕微鬆脫。</small>"
       },
-      "hint_unnecessary_keys_should_be_ignored": "未設置極低參數的按鍵無需進行此步驟。"
+      "hint_unnecessary_keys_are_disabled": "無法選擇的按鍵無需進行「人工校準相對觸底值」。"
     },
     "hint_calibrating": "校準中…",
     "hint_during_this_hint": "在看到此提示期間",
