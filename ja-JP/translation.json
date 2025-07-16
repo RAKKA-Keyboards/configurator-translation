@@ -229,7 +229,8 @@
         "title": "キーが押されていないか、スイッチの取り付けに異常があります",
         "description": "<b>通常の力でキーを押したことを確認してください。全く押さずに保存しないでください。</b><p><small><b>スイッチを交換した場合は、しっかりと取り付けられていることを確認してください</b>。視覚的にわからないほど緩んでいても、キーボードにとっては重大な問題です。輸送中にスイッチが緩むこともあります。</small>"
       },
-      "hint_unnecessary_keys_are_disabled": "キャリブレーションが不要なキーは無効化されています。"
+      "hint_unnecessary_keys_are_disabled": "キャリブレーションが不要なキーは無効化されています。",
+      "allow_temporarily": "一時的に許可する"
     },
     "hint_calibrating": "キャリブレーション中…",
     "hint_during_this_hint": "While you are seeing this prompt",

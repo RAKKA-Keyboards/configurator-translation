@@ -229,7 +229,8 @@
         "title": "未按压按键或轴体安装异常",
         "description": "<b>请确认已经使用正常力度按压过按键，切勿完全不按压就直接保存。</b><p><small><b>如果自行更换过轴体，请确认已装紧</b>，即使是视觉上难以发现的松脱对于键盘来说也是十分巨大的。此外，运输也可能使轴体轻微松脱。</small>"
       },
-      "hint_unnecessary_keys_are_disabled": "无法选择的按键无需进行“人工校准相对触底值”。"
+      "hint_unnecessary_keys_are_disabled": "无法选择的按键无需进行“人工校准相对触底值”。",
+      "allow_temporarily": "临时允许"
     },
     "hint_calibrating": "校准中…",
     "hint_during_this_hint": "在看到此提示期间",
