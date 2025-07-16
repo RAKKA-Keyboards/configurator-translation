@@ -1195,5 +1195,11 @@
     "auto_detect": "自動檢測",
     "user_override": "用戶覆蓋",
     "current": "當前：{{ status }}（{{ mode }}）"
+  },
+  "priority_keys": {
+    "title": "按鍵掃描優先級",
+    "description": "此功能允許您將指定的按鍵組合設定為更高優先級，以提高它們的響應速度。相應地，如果按鍵組合被設定為更高優先級，則屬於同一個區域的其他按鍵組合的響應速度會降低。",
+    "hint_unable_to_control_at_pre_key_level": "精確地控制每個按鍵的優先級是不可能的，因為按鍵屬於哪個組合及區域是由硬件設計決定的。",
+    "area": "區域 {{ index }}"
   }
 }

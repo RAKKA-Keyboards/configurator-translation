@@ -1195,5 +1195,11 @@
     "auto_detect": "自动检测",
     "user_override": "用户覆盖",
     "current": "当前：{{ status }}（{{ mode }}）"
+  },
+  "priority_keys": {
+    "title": "按键扫描优先级",
+    "description": "此功能允许您将指定的按键组合设定为更高优先级，以提高它们的响应速度。相应地，如果按键组合被设定为更高优先级，则属于同一个区域的其他按键组合的响应速度会降低。",
+    "hint_unable_to_control_at_pre_key_level": "精确地控制每个按键的优先级是不可能的，因为按键属于哪个组合及区域是由硬件设计决定的。",
+    "area": "区域 {{ index }}"
   }
 }
