@@ -1199,7 +1199,7 @@
   },
   "priority_keys": {
     "title": "Key scan priority",
-    "description": "This feature allows you to assign higher priority to specific key combinations to improve their response speed. Accordingly, if a key combination is set to higher priority, the response speed of other key combinations in the same area will be reduced.",
+    "description": "This feature allows you to assign higher priority to specific key combinations to improve their response speed. Accordingly, if a key combination is set to higher priority, the response speed of other key combinations in the same area will be reduced. Naturally, the more key combinations you select in the same area, the smaller the improvement in response speed.",
     "hint_unable_to_control_at_pre_key_level": "It is not possible to precisely control the priority of each individual key, as the key combinations and areas are determined by hardware design.",
     "area": "Area {{ index }}"
   }
