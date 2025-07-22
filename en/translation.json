@@ -609,13 +609,18 @@
     "mount_tai_he_gt": {
       "title": "Mount Tai HE GT",
       "title_short": "Tai GT"
+    },
+    "mobius": {
+      "title": "Möbius",
+      "title_short": "Möbius"
     }
   },
   "manufacturer": {
     "gateron": "GATERON",
     "ttc": "TTC",
     "geonworks": "GEONWORKS",
-    "ug": "UGAMING"
+    "ug": "UGAMING",
+    "wuque": "Wuque Studio"
   },
   "choose_switch": {
     "title": "Choose switch",

@@ -608,13 +608,18 @@
     "mount_tai_he_gt": {
       "title": "泰山磁轴 GT",
       "title_short": "泰山磁轴 GT"
+    },
+    "mobius": {
+      "title": "莫比乌斯轴",
+      "title_short": "莫比乌斯"
     }
   },
   "manufacturer": {
     "gateron": "佳达隆",
     "ttc": "TTC",
     "geonworks": "GEONWORKS",
-    "ug": "UGAMING游众"
+    "ug": "UGAMING游众",
+    "wuque": "Wuque无缺"
   },
   "choose_switch": {
     "title": "选择轴体",
