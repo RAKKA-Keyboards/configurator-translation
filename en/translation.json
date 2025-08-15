@@ -703,7 +703,16 @@
     "hint_editing_profile_is_not_current": {
       "title": "You are editing a non-current profile",
       "description": "<p>You won't be able to see or use the changes you've made until you switch to this profile.</p><p>The keyboard supports multiple profiles to accommodate different usage scenarios. For example, you can set different actuation distances and Rapid Trigger settings for typing and gaming, and use distinct lighting effects to differentiate them.</p><p>You can find the profile switch key by hovering your mouse over the profile name. This key is fully customizable.</p>"
-    }
+    },
+    "active": {
+      "name": "Active",
+      "hint": "The keyboard is currently using this profile."
+    },
+    "inactive": {
+      "name": "Inactive",
+      "hint": "The keyboard is not using this profile. You can switch to it by pressing the corresponding shortcut key combination."
+    },
+    "hint_no_shortcut_set": "No shortcut key set"
   },
   "dark_mode": {
     "dark_mode": "Dark mode",
