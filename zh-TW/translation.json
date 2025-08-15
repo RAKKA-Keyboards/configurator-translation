@@ -696,7 +696,6 @@
     "hint_keyboard_current_profile": "鍵盤現在正使用此設定檔",
     "hint_keyboard_switch_profile": "在您的按鍵映射設置下，按下 {{ combination }} 可以切換到此設定檔",
     "hint_profile_key_not_found": "未找到切換到此設定檔的按鍵，您可以將設定檔按鍵綁定到您想要的位置",
-    "on_board_profiles": "板載設定檔",
     "configure_profile": "修改 #{{ index }} {{ profile }}",
     "hint_editing_profile_changes_for_keyboard_profile": "由於更改了鍵盤正使用的設定檔，已切換當前編輯的設定檔。",
     "hint_editing_profile_is_not_current": {
@@ -704,14 +703,18 @@
       "description": "<p>在切換到該設定檔前，您是無法看到或用到您所作出的修改的。</p><p>鍵盤具有設定檔功能，用以應對在不同的使用場景間切換。例如，您可以針對打字及遊戲場景設定不同的觸發行程、快速觸發設置，再通過設定不同的燈光效果以區分它們。</p><p>切換設定檔的按鍵可以通過移動鼠標至設定檔的名稱上看到。此按鍵是可以任意自定義的。</p>"
     },
     "active": {
-      "name":"活躍",
+      "name": "活躍",
       "hint": "鍵盤正在使用此設定檔。"
     },
     "inactive": {
       "name": "非活躍",
       "hint": "鍵盤未使用此設定檔。您可以通過按下對應的組合鍵來切換到此設定檔。"
     },
-    "hint_no_shortcut_set": "未設置快捷鍵"
+    "hint_no_shortcut_set": "未設置快捷鍵",
+    "on_board_profiles": {
+      "title": "板載設定檔",
+      "description": "板載設定檔是存儲在鍵盤上的設定檔，不論將鍵盤連接到什麼裝置都可以隨時使用它們。"
+    }
   },
   "dark_mode": {
     "dark_mode": "暗色模式",

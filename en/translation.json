@@ -697,7 +697,6 @@
     "hint_keyboard_current_profile": "The keyboard is currently on this profile",
     "hint_keyboard_switch_profile": "Under your remap settings, press {{ combination }} can switch to this profile",
     "hint_profile_key_not_found": "The key to switch to this profile is not found, you can bind the profile key to the location you want",
-    "on_board_profiles": "On-board profiles",
     "configure_profile": "Configure #{{ index }} {{ profile }}",
     "hint_editing_profile_changes_for_keyboard_profile": "Due to a change in the configuration profile currently in use by the keyboard, the profile being edited has been switched.",
     "hint_editing_profile_is_not_current": {
@@ -712,7 +711,11 @@
       "name": "Inactive",
       "hint": "The keyboard is not using this profile. You can switch to it by pressing the corresponding shortcut key combination."
     },
-    "hint_no_shortcut_set": "No shortcut key set"
+    "hint_no_shortcut_set": "No shortcut key set",
+    "on_board_profiles": {
+      "title": "On-board profiles",
+      "description": "On-board profiles are stored on the keyboard and can be used at any time, regardless of which device the keyboard is connected to."
+    }
   },
   "dark_mode": {
     "dark_mode": "Dark mode",

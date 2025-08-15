@@ -696,7 +696,6 @@
     "hint_keyboard_current_profile": "キーボードは現在このプロファイルに設定されています",
     "hint_keyboard_switch_profile": "あなたのリマップ設定の下で、{{ combination }}を押すとこのプロファイルに切り替えることができます。",
     "hint_profile_key_not_found": "このプロファイルに切り替えるためのキーが見つかりません、プロファイルキーを希望の場所にバインドすることができます。",
-    "on_board_profiles": "オンボードプロファイル",
     "configure_profile": "#{{ index }} {{ profile }}を設定する",
     "hint_editing_profile_changes_for_keyboard_profile": "キーボードで現在使用中の設定プロファイルが変更されたため、編集中のプロファイルが切り替えられました。",
     "hint_editing_profile_is_not_current": {
@@ -711,8 +710,11 @@
       "name": "非アクティブ",
       "hint": "キーボードはこのプロファイルを使用していません。対応するショートカットキーを押すことで切り替えることができます。"
     },
-    "hint_no_shortcut_set": "ショートカットキーが設定されていません"
-
+    "hint_no_shortcut_set": "ショートカットキーが設定されていません",
+    "on_board_profiles": {
+      "title": "オンボードプロファイル",
+      "description": "オンボードプロファイルはキーボード本体に保存されているため、どのデバイスに接続してもいつでも使用できます。"
+    }
   },
   "dark_mode": {
     "dark_mode": "ダークモード",
