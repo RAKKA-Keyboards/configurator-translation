@@ -1223,6 +1223,12 @@
   "backup": {
     "export": "导出",
     "import": "导入",
-    "hint_not_a_valid_file": "不是一个有效的文件。"
+    "hint_not_a_valid_file": "不是一个有效的文件。",
+    "export_dialog": {
+      "title": "导出 #{{ index }} {{ profile }}"
+    },
+    "import_dialog": {
+      "title": "导入 #{{ index }} {{ profile }}"
+    }
   }
 }

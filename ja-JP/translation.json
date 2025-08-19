@@ -1223,6 +1223,12 @@
   "backup": {
     "export": "エクスポート",
     "import": "インポート",
-    "hint_not_a_valid_file": "有効なファイルではありません。"
+    "hint_not_a_valid_file": "有効なファイルではありません。",
+    "export_dialog": {
+      "title": "エクスポート #{{ index }} {{ profile }}"
+    },
+    "import_dialog": {
+      "title": "インポート #{{ index }} {{ profile }}"
+    }
   }
 }
