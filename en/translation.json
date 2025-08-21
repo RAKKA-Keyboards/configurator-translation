@@ -919,9 +919,9 @@
         "light_bar": "Light bar"
       }
     },
-    "rakka_60_altus": {
+    "rakka_60_atlas": {
       "lighting_scopes": {
-        "underglow": "Underglow"
+        "keys": "Keys"
       }
     }
   },
