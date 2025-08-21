@@ -1223,6 +1223,12 @@
   "backup": {
     "export": "Export",
     "import": "Import",
-    "hint_not_a_valid_file": "Not a valid file."
+    "hint_not_a_valid_file": "Not a valid file.",
+    "export_dialog": {
+      "title": "Export #{{ index }} {{ profile }}"
+    },
+    "import_dialog": {
+      "title": "Import #{{ index }} {{ profile }}"
+    }
   }
 }
