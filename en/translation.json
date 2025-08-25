@@ -682,7 +682,8 @@
     "builtin": {
       "unnamed": "Profile {{index}}",
       "typing_profile": "Typing profile",
-      "gaming_profile": "Gaming profile"
+      "gaming_profile": "Gaming profile",
+      "empty_profile": "(Empty profile)"
     },
     "rename": {
       "title": "Rename",

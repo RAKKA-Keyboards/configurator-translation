@@ -681,7 +681,8 @@
     "builtin": {
       "unnamed": "配置 {{index}}",
       "typing_profile": "打字配置",
-      "gaming_profile": "游戏配置"
+      "gaming_profile": "游戏配置",
+      "empty_profile": "（空配置）"
     },
     "rename": {
       "title": "重命名",
