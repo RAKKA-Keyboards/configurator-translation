@@ -682,7 +682,8 @@
       "unnamed": "プロフィール {{index}}",
       "typing_profile": "タイピングプロファイル",
       "gaming_profile": "ゲームプロフィール",
-      "empty_profile": "（空のプロファイル）"
+      "empty_profile": "空のプロファイル",
+      "default_profile": "デフォルトプロファイル"
     },
     "rename": {
       "title": "名前を変更する",

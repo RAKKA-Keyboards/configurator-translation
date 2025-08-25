@@ -682,7 +682,8 @@
       "unnamed": "Profile {{index}}",
       "typing_profile": "Typing profile",
       "gaming_profile": "Gaming profile",
-      "empty_profile": "(Empty profile)"
+      "empty_profile": "Empty profile",
+      "default_profile": "Default profile"
     },
     "rename": {
       "title": "Rename",
