@@ -842,9 +842,10 @@
     },
     "high_brightness_warning": {
       "title": "High brightness in use",
-      "description": "Increasing brightness further will significantly raise power consumption and heat generation, while the perceived brightness by the human eye will not increase significantly.",
-      "button_continue": "Continue anyway",
-      "button_give_up": "Cancel"
+      "description": "Further increasing the brightness will significantly raise power consumption and heat, but the perceived brightness by the human eye will not increase accordingly.",
+      "joke_warmer_note": "Your keyboard might turn into a hand warmer.",
+      "button_continue": "Continue with {{ brightness }}%",
+      "button_give_up": "Use {{ brightness }}%"
     }
   },
   "swift_flow": {

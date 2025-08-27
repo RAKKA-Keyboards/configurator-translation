@@ -840,9 +840,10 @@
     },
     "high_brightness_warning": {
       "title": "高輝度が使用中です",
-      "description": "これ以上輝度を上げると、消費電力と発熱が大幅に増加しますが、人間の目で感じる明るさはそれほど増加しません。",
-      "button_continue": "それでも続ける",
-      "button_give_up": "キャンセル"
+      "description": "さらに輝度を上げると、消費電力と発熱が大幅に増加しますが、人間の目に見える明るさはそれほど増加しません。",
+      "joke_warmer_note": "キーボードが手のひらウォーマーになるかもしれません。",
+      "button_continue": "{{ brightness }}% で続行",
+      "button_give_up": "{{ brightness }}% を使用"
     }
   },
   "swift_flow": {

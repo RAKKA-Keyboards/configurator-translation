@@ -841,8 +841,9 @@
     "high_brightness_warning": {
       "title": "正在使用高亮度",
       "description": "繼續提高亮度，功耗及發熱會顯著地增加，但人眼所感知的亮度並不會響應地顯著增加。",
-      "button_continue": "仍要繼續",
-      "button_give_up": "放棄"
+      "joke_warmer_note": "您的鍵盤可能會變為暖手寶。",
+      "button_continue": "使用繼續 {{ brightness }}%",
+      "button_give_up": "使用 {{ brightness }}%"
     }
   },
   "swift_flow": {
