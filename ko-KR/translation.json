@@ -833,6 +833,17 @@
         "minute_other": "{{count}} minutes"
       },
       "minutes": "minutes"
+    },
+    "estimated_power_consumption": {
+      "title": "Estimated power consumption and heat",
+      "description": "This value is an estimate. Actual power consumption may vary depending on lighting effects, colors, and other factors. For example, displaying white consumes the most power."
+    },
+    "high_brightness_warning": {
+      "title": "High brightness in use",
+      "description": "Further increasing the brightness will significantly raise power consumption and heat, but the perceived brightness by the human eye will not increase accordingly.",
+      "joke_warmer_note": "Your keyboard might turn into a hand warmer.",
+      "button_continue": "Continue with {{ brightness }}%",
+      "button_give_up": "Use {{ brightness }}%"
     }
   },
   "swift_flow": {
