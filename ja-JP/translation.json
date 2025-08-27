@@ -833,6 +833,16 @@
         "minute_other": "{{count}} 分"
       },
       "minutes": "分"
+    },
+    "estimated_power_consumption": {
+      "title": "推定消費電力と発熱",
+      "description": "この数値は推定値です。実際の消費電力は、ライティングエフェクトや色などの要因によって変化します。たとえば、白色を表示する場合が最も電力を消費します。"
+    },
+    "high_brightness_warning": {
+      "title": "高輝度が使用中です",
+      "description": "これ以上輝度を上げると、消費電力と発熱が大幅に増加しますが、人間の目で感じる明るさはそれほど増加しません。",
+      "button_continue": "それでも続ける",
+      "button_give_up": "キャンセル"
     }
   },
   "swift_flow": {
@@ -1222,7 +1232,8 @@
     "hint_unable_to_control_at_pre_key_level": "各キーの優先度を正確に制御することはできません。キーがどの組み合わせやエリアに属するかはハードウェア設計によって決まっています。",
     "area": "エリア {{ index }}"
   },
-  "backup": {
+  "profile_management": {
+    "title": "プロファイル管理",
     "export": "エクスポート",
     "import": "インポート",
     "hint_not_a_valid_file": "有効なファイルではありません。",

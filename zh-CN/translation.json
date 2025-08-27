@@ -833,6 +833,16 @@
         "minute_other": "{{count}} 分钟"
       },
       "minutes": "分钟"
+    },
+    "estimated_power_consumption": {
+      "title": "预估的功耗及发热",
+      "description": "此数值为预估值，实际功耗会因灯光效果、颜色等因素而变化。例如，显示白色时功耗最高。"
+    },
+    "high_brightness_warning": {
+      "title": "正在使用高亮度",
+      "description": "继续提高亮度，功耗及发热会显著地增加，但人眼所感知的亮度并不会响应地显著增加。",
+      "button_continue": "仍要继续",
+      "button_give_up": "放弃"
     }
   },
   "swift_flow": {
@@ -1222,7 +1232,8 @@
     "hint_unable_to_control_at_pre_key_level": "精确地控制每个按键的优先级是不可能的，因为按键属于哪个组合及区域是由硬件设计决定的。",
     "area": "区域 {{ index }}"
   },
-  "backup": {
+  "profile_management": {
+    "title": "配置文件管理",
     "export": "导出",
     "import": "导入",
     "hint_not_a_valid_file": "不是一个有效的文件。",

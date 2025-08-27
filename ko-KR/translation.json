@@ -1222,7 +1222,8 @@
     "hint_unable_to_control_at_pre_key_level": "It is not possible to precisely control the priority of each individual key, as the key combinations and areas are determined by hardware design.",
     "area": "Area {{ index }}"
   },
-  "backup": {
+  "profile_management": {
+    "title": "Profile management",
     "export": "Export",
     "import": "Import",
     "hint_not_a_valid_file": "Not a valid file.",
