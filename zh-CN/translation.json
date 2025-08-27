@@ -842,8 +842,8 @@
       "title": "正在使用高亮度",
       "description": "继续提高亮度，功耗及发热会显著地增加，但人眼所感知的亮度并不会响应地显著增加。",
       "joke_warmer_note": "您的键盘可能会变为暖手宝。",
-      "button_continue": "使用继续 {{ brightness }}%",
-      "button_give_up": "使用 {{ brightness }}%"
+      "button_continue": "继续使用 {{ brightness }}%",
+      "button_give_up": "保持 {{ brightness }}%"
     }
   },
   "swift_flow": {
