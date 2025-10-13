@@ -17,7 +17,7 @@
       "description": "永久開啟或關閉層 {{layer}}"
     },
     "bottom_layer": {
-      "description": "設置層 {{layer}} 為默認層（最底層）"
+      "description": "設定層 {{layer}} 為預設層（最底層）"
     },
     "layer_tap": {
       "description": "單擊時 {{key}}，長按時臨時開啟層 {{layer}}"
@@ -46,10 +46,10 @@
         "description": "停止"
       },
       "brightness_increment": {
-        "description": "提高屏幕亮度"
+        "description": "提高螢幕亮度"
       },
       "brightness_decrement": {
-        "description": "降低屏幕亮度"
+        "description": "降低螢幕亮度"
       },
       "volume_increment": {
         "description": "增加音量"
@@ -61,25 +61,25 @@
         "description": "靜音"
       },
       "text_editor": {
-        "description": "打開文本編輯器"
+        "description": "開啟文字編輯器"
       },
       "email_reader": {
-        "description": "打開郵件客戶端"
+        "description": "開啟郵件客戶端"
       },
       "calculator": {
-        "description": "打開計算器"
+        "description": "開啟計算器"
       },
       "local_browser": {
-        "description": "打開文件資源管理器"
+        "description": "開啟檔案資源管理器"
       },
       "consumer_control_configuration": {
-        "description": "打開媒體播放器"
+        "description": "開啟媒體播放器"
       },
       "control_panel": {
-        "description": "打開控制面板"
+        "description": "開啟控制面板"
       },
       "search": {
-        "description": "搜索"
+        "description": "搜尋"
       },
       "home": {
         "description": "主頁"
@@ -91,7 +91,7 @@
         "description": "前進"
       },
       "refresh": {
-        "description": "刷新"
+        "description": "重新整理"
       },
       "bookmarks": {
         "description": "書籤"
@@ -103,16 +103,16 @@
         "description": "複製"
       },
       "cut": {
-        "description": "剪切"
+        "description": "剪下"
       },
       "paste": {
-        "description": "粘貼"
+        "description": "貼上"
       },
       "select_all": {
         "description": "全選"
       },
       "desktop_show_all_windows": {
-        "description": "調度中心（macOS）"
+        "description": "排程中心（macOS）"
       },
       "desktop_show_all_applications": {
         "description": "啟動臺（macOS）"
@@ -152,12 +152,12 @@
         "description": "在當前設定檔和設定檔 1 之間切換"
       },
       "cycle_profile": {
-        "text": "循環設定檔",
-        "description": "循環切換設定檔"
+        "text": "迴圈設定檔",
+        "description": "迴圈切換設定檔"
       },
       "cycle_profile_back": {
-        "text": "循環設定檔",
-        "description": "循環切換設定檔（反向）"
+        "text": "迴圈設定檔",
+        "description": "迴圈切換設定檔（反向）"
       }
     },
     "hid": {
@@ -175,12 +175,12 @@
     "button": {
       "dark_mode": "暗色模式",
       "language": "語言",
-      "settings": "設置"
+      "settings": "設定"
     },
     "title": {
       "demo_mode_format": "演示模式",
-      "device_connected_format": "裝置已連接",
-      "device_not_connected": "裝置未連接"
+      "device_connected_format": "裝置已連線",
+      "device_not_connected": "裝置未連線"
     }
   },
   "calibration": {
@@ -195,39 +195,39 @@
     },
     "hint_no_keys_selected": "請先選擇您想要校準的按鍵。",
     "how_to_calibrate": {
-      "message": "選擇您需要校準的按鍵，點擊開始按鈕。\n按下按鍵到底，然後再鬆開。\n點擊完成按鈕（開始校準後顯示）即可保存校準結果。",
+      "message": "選擇您需要校準的按鍵，點選開始按鈕。\n按下按鍵到底，然後再鬆開。\n點選完成按鈕（開始校準後顯示）即可儲存校準結果。",
       "title": "如何進行校準？"
     },
     "tooltip": "初始：{{top}}\n觸底：{{bottom}}",
     "auto_calibration": {
-      "title": "運行時校準",
-      "description": "通過在運行過程中不斷進行自我校準以確保穩定性和準確性。此功能不可以關閉。"
+      "title": "執行時校準",
+      "description": "透過在執行過程中不斷進行自我校準以確保穩定性和準確性。此功能不可以關閉。"
     },
     "full_calibration": {
-      "title": "清除運行時校準記錄的數值",
-      "description": "清除運行時校準記錄的數值。對於支持多個配列選項的鍵盤，還會重新檢測使用了何種配列。"
+      "title": "清除執行時校準記錄的數值",
+      "description": "清除執行時校準記錄的數值。對於支援多個配列選項的鍵盤，還會重新檢測使用了何種配列。"
     },
     "bottom_calibration": {
       "title": "人工校準相對觸底值",
-      "description": "在按鍵被大力按壓後，後續再使用正常力量按壓時就會出現異常。此問題在參數設定得極低時會非常明顯。此步驟通過記錄以正常力度按壓時的相對的數值以解決此問題。",
+      "description": "在按鍵被大力按壓後，後續再使用正常力量按壓時就會出現異常。此問題在引數設定得極低時會非常明顯。此步驟透過記錄以正常力度按壓時的相對的數值以解決此問題。",
       "start": "開始",
       "stop": "停止",
-      "save": "保存選定按鍵的數值",
+      "save": "儲存選定按鍵的數值",
       "clear": "清除選定按鍵的數值",
       "steps": {
         "title": "請按以下步驟進行：",
         "step1": "將軸體用力壓緊。這是因為運輸可能使軸體鬆脫。如果這一步無法保證，則出現任何問題都是可能的。",
-        "step2": "若您已經大力按壓過按鍵，先進行「清除運行時校準記錄的數值」，以清除自動記錄的觸底值。",
+        "step2": "若您已經大力按壓過按鍵，先進行「清除執行時校準記錄的數值」，以清除自動記錄的觸底值。",
         "step3": "若按鍵已有校準值，先清除。",
-        "step4": "點擊「開始」。",
+        "step4": "點選「開始」。",
         "step5": "無需選中按鍵，以正常力度按壓您想要校準的按鍵。按壓過程請儘量保證垂直向下。切忌以大力按壓。",
-        "step6": "選擇這些按鍵，點擊保存。"
+        "step6": "選擇這些按鍵，點選儲存。"
       },
       "hint_change_switch_requires_redo": "更換軸體型號後，先前記錄的校準值會失效，您需要重新進行這個步驟。<br>即使是同型號的軸體，也需要重新進行，以避免個體差異帶來的影響。",
-      "hint_no_keys_selected": "請先選擇您想要保存校準結果的按鍵。",
+      "hint_no_keys_selected": "請先選擇您想要儲存校準結果的按鍵。",
       "dialog_failed": {
         "title": "未按壓按鍵或軸體安裝異常",
-        "description": "<b>請確認已經使用正常力度按壓過按鍵，切勿完全不按壓就直接保存。</b><p><small><b>如果自行更換過軸體，請確認已裝緊</b>，即使是視覺上難以發現的鬆脫對於鍵盤來說也是十分巨大的。此外，運輸也可能使軸體輕微鬆脫。</small>"
+        "description": "<b>請確認已經使用正常力度按壓過按鍵，切勿完全不按壓就直接儲存。</b><p><small><b>如果自行更換過軸體，請確認已裝緊</b>，即使是視覺上難以發現的鬆脫對於鍵盤來說也是十分巨大的。此外，運輸也可能使軸體輕微鬆脫。</small>"
       },
       "hint_unnecessary_keys_are_disabled": "無法選擇的按鍵無需進行「人工校準相對觸底值」。",
       "allow_temporarily": "臨時允許"
@@ -235,44 +235,44 @@
     "hint_calibrating": "校準中…",
     "hint_during_this_hint": "在看到此提示期間",
     "hint_dont_touch_keys": "請不要觸碰按鍵。",
-    "hint_keys_disabled": "鍵盤現在將不會輸出鍵值給操作系統。"
+    "hint_keys_disabled": "鍵盤現在將不會輸出鍵值給作業系統。"
   },
   "connect": {
     "button": {
-      "communicating": "正在與裝置通信…",
-      "connect": "連接到裝置",
-      "requesting": "正在請求連接到裝置…"
+      "communicating": "正在與裝置通訊…",
+      "connect": "連線到裝置",
+      "requesting": "正在請求連線到裝置…"
     },
     "hint": {
-      "device_is_in_use": "裝置正被使用。請檢查您是是否已在其他網頁或應用程序中連接該裝置。",
-      "no_device_selected": "未選擇裝置。<br><br>對於 PomPomBoard 及其他固件版本小於 0.4.0 版本的裝置請使用 {{ legacy_site }}。",
-      "no_webhid_support": "您的瀏覽器不支持 WebHID。請使用最新版本的 Chrome 或 Edge 瀏覽器。",
+      "device_is_in_use": "裝置正被使用。請檢查您是是否已在其他網頁或應用程式中連線該裝置。",
+      "no_device_selected": "未選擇裝置。<br><br>對於 PomPomBoard 及其他韌體版本小於 0.4.0 版本的裝置請使用 {{ legacy_site }}。",
+      "no_webhid_support": "您的瀏覽器不支援 WebHID。請使用最新版本的 Chrome 或 Edge 瀏覽器。",
       "legacy_site": "舊版本網站",
-      "firmware_outdated": "裝置正在使用不再支持的固件版本。請升級固件到最新版本。",
-      "configurator_outdated": "當前版本的配置器不支持裝置運行的固件。請升級配置器到最新版本。",
-      "device_in_recovery_mode": "裝置正處於恢復模式。如果上次固件升級未完成，請重新插拔裝置後再次進行升級。"
+      "firmware_outdated": "裝置正在使用不再支援的韌體版本。請升級韌體到最新版本。",
+      "configurator_outdated": "當前版本的配置器不支援裝置執行的韌體。請升級配置器到最新版本。",
+      "device_in_recovery_mode": "裝置正處於恢復模式。如果上次韌體升級未完成，請重新插拔裝置後再次進行升級。"
     }
   },
   "debug": {
-    "title": "調試",
-    "hint_hurt_performance": "停留在此選項卡會影響性能。",
+    "title": "除錯",
+    "hint_hurt_performance": "停留在此選項卡會影響效能。",
     "re_initialize": {
-      "message": "重新進行通電時進行的步驟，包括但不限於校準、檢測軸體是否安裝。對於支持多配列的鍵盤，還會重新檢查安裝了何種配列。",
+      "message": "重新進行通電時進行的步驟，包括但不限於校準、檢測軸體是否安裝。對於支援多配列的鍵盤，還會重新檢查安裝了何種配列。",
       "title": "重新初始化",
       "warning": "在開始重新初始化的數秒內，請不要觸碰按鍵。"
     },
     "start": "開始",
     "enable_log": {
       "title": "啟用日誌",
-      "description": "啟用日誌輸出。這對調試很有用。在「裝置」-「日誌」中查看日誌。該選項默認關閉，且不會保存到裝置中。"
+      "description": "啟用日誌輸出。這對除錯很有用。在「裝置」-「日誌」中檢視日誌。該選項預設關閉，且不會儲存到裝置中。"
     },
     "reset": {
       "title": "重置",
-      "description": "將裝置配置重置為默認配置。在斷開連接前請等待約半分鐘以確保配置被保存。"
+      "description": "將裝置配置重置為預設配置。在斷開連線前請等待約半分鐘以確保配置被儲存。"
     },
     "test_matrix": {
       "title": "回報按鍵是否被按下",
-      "description": "允許鍵盤迴報按鍵是否被認為是按下的。被按下的按鍵會在上方以視覺效果顯示。該選項默認關閉，且不會保存到裝置中。"
+      "description": "允許鍵盤迴報按鍵是否被認為是按下的。被按下的按鍵會在上方以視覺效果顯示。該選項預設關閉，且不會儲存到裝置中。"
     },
     "reboot": {
       "title": "重啟至恢復模式",
@@ -288,14 +288,14 @@
     "title": "演示模式",
     "button": {
       "title": "試試看",
-      "summary": "無需購買裝置，直接通過演示模式瞭解裝置的功能與特點。立即開始探索吧！"
+      "summary": "無需購買裝置，直接透過演示模式瞭解裝置的功能與特點。立即開始探索吧！"
     }
   },
   "device": {
     "title": "裝置",
     "information": {
-      "title": "信息",
-      "connection_speed": "連接速度",
+      "title": "資訊",
+      "connection_speed": "連線速度",
       "connection_speeds": {
         "full_speed": "USB 2.0 全速",
         "high_speed": "USB 2.0 高速",
@@ -303,12 +303,12 @@
       },
       "developer": "開發者",
       "device_name": "裝置名稱",
-      "firmware_update_date": "固件發佈日期",
-      "firmware_version": "固件版本",
+      "firmware_update_date": "韌體釋出日期",
+      "firmware_version": "韌體版本",
       "serial_number": "序列號",
-      "last_connected": "上次連接",
-      "hint_device_not_connected": "（裝置未連接）",
-      "host_operation_system": "主機操作系統（由裝置獲取）",
+      "last_connected": "上次連線",
+      "hint_device_not_connected": "（裝置未連線）",
+      "host_operation_system": "主機作業系統（由裝置獲取）",
       "os": {
         "linux": "Linux",
         "macos": "macOS",
@@ -321,18 +321,18 @@
     }
   },
   "firmware": {
-    "firmware_upgrade": "固件升級",
-    "firmware_file": "固件文件",
+    "firmware_upgrade": "韌體升級",
+    "firmware_file": "韌體檔案",
     "hint": {
-      "not_a_valid_firmware": "不是有效的固件文件。",
-      "read_file_error": "讀取文件時發生錯誤。",
-      "mismatched_firmware": "固件文件與裝置不匹配。",
-      "upgrade_was_interrupted": "裝置上次固件升級未完成。請重新插拔後再試。",
+      "not_a_valid_firmware": "不是有效的韌體檔案。",
+      "read_file_error": "讀取檔案時發生錯誤。",
+      "mismatched_firmware": "韌體檔案與裝置不匹配。",
+      "upgrade_was_interrupted": "裝置上次韌體升級未完成。請重新插拔後再試。",
       "firmware_interrupted": "升級過程意外中斷。請重新插拔後再試。",
       "unknown_error": "未知錯誤 {{ code }}。",
-      "device_not_connected": "裝置未連接或裝置已處於恢復模式。"
+      "device_not_connected": "裝置未連線或裝置已處於恢復模式。"
     },
-    "choose_firmware": "選擇固件",
+    "choose_firmware": "選擇韌體",
     "channel": {
       "stable": "穩定版",
       "beta": "Beta",
@@ -340,32 +340,32 @@
       "nightly": "Nightly",
       "previous": "前一個穩定版"
     },
-    "dev_channel_warning": "Dev 通道的固件包含了最新的功能，但只經過了簡單測試。如果您不知道如何處理問題，請不要使用。",
+    "dev_channel_warning": "Dev 通道的韌體包含了最新的功能，但只經過了簡單測試。如果您不知道如何處理問題，請不要使用。",
     "nightly_channel_warning": "Nightly 通道包含了真正最新的改變，但是僅有開發者自己粗略地測試了它。",
     "version": "版本",
-    "release_time": "發佈時間",
+    "release_time": "釋出時間",
     "build_time": "構建時間",
     "changelog": "更新日誌",
-    "choose_a_local_file": "選擇一個本地文件",
-    "verify_firmware": "驗證固件",
+    "choose_a_local_file": "選擇一個本地檔案",
+    "verify_firmware": "驗證韌體",
     "reboot_to_recovery": "重啟裝置至恢復模式",
-    "reboot_to_recovery_hint": "重啟到恢復模式後，裝置會以常亮的指示燈等形式提示用戶裝置處於恢復模式。",
-    "connect_to_recovery_device": "連接到處於恢復模式的裝置",
-    "connect_to_recovery_device_hint": "點擊連接後，您需要再次選擇裝置，隨即寫入過程就會開始。若放棄升級，請不要點擊連接，重新插拔裝置後裝置會回到正常模式。",
-    "connect_to_recovery_device_hint_unable_to_find_device": "如果無法找到裝置，請確認裝置已經進入恢復模式。例如，此時應不能打字。另外，使用低質量的 USB 線纜可能會導致裝置無法運行在 USB 2.0 高速，從而無法被檢測到。",
-    "flash_firmware": "寫入固件",
-    "flash_firmware_hint": "請不要斷開裝置連接。若在寫入期間斷開裝置，裝置將停留在恢復模式，重新進行固件升級即可恢復。",
+    "reboot_to_recovery_hint": "重啟到恢復模式後，裝置會以常亮的指示燈等形式提示使用者裝置處於恢復模式。",
+    "connect_to_recovery_device": "連線到處於恢復模式的裝置",
+    "connect_to_recovery_device_hint": "點選連線後，您需要再次選擇裝置，隨即寫入過程就會開始。若放棄升級，請不要點選連線，重新插拔裝置後裝置會回到正常模式。",
+    "connect_to_recovery_device_hint_unable_to_find_device": "如果無法找到裝置，請確認裝置已經進入恢復模式。例如，此時應不能打字。另外，使用低質量的 USB 線纜可能會導致裝置無法執行在 USB 2.0 高速，從而無法被檢測到。",
+    "flash_firmware": "寫入韌體",
+    "flash_firmware_hint": "請不要斷開裝置連線。若在寫入期間斷開裝置，裝置將停留在恢復模式，重新進行韌體升級即可恢復。",
     "finish": "完成",
-    "firmware_upgrade_finished": "升級成功。窗口將會自動關閉。",
-    "connect": "連接",
+    "firmware_upgrade_finished": "升級成功。視窗將會自動關閉。",
+    "connect": "連線",
     "reboot_the_device": "重啟裝置",
     "device_already_in_recovery": "裝置已處於恢復模式",
     "download_error": "下載失敗",
     "choose_device": "選擇裝置",
     "choose_channel": "選擇通道",
     "update_found": {
-      "title": "您的裝置有固件更新",
-      "description": "您的裝置正運行 {{currentVersion}}。最新版本是 {{latestVersion}}。",
+      "title": "您的裝置有韌體更新",
+      "description": "您的裝置正執行 {{currentVersion}}。最新版本是 {{latestVersion}}。",
       "ignore": "忽略"
     }
   },
@@ -376,14 +376,14 @@
       "selected_other": "已選擇 {{count}} 個鍵位"
     },
     "layer": "層",
-    "global_config": "全局配置",
+    "global_config": "全域性配置",
     "profile_config": "設定檔配置",
     "tab": {
       "calibration": "校準",
-      "debug": "調試",
+      "debug": "除錯",
       "device": "裝置",
-      "keymap": "按鍵映射",
-      "performance": "性能",
+      "keymap": "按鍵對映",
+      "performance": "效能",
       "key-test": "按鍵測試",
       "lighting": "燈光",
       "switches": "軸體",
@@ -395,18 +395,18 @@
     }
   },
   "keymap": {
-    "type": "類型：{{type}}",
-    "remap_selected_keys": "設置到已選擇的按鍵",
+    "type": "型別：{{type}}",
+    "remap_selected_keys": "設定到已選擇的按鍵",
     "config_advanced_key": "配置{{key}}",
-    "hint_no_keys_selected": "請先選擇您想要重新映射的按鍵。",
+    "hint_no_keys_selected": "請先選擇您想要重新對映的按鍵。",
     "hint_combo_is_empty": "請至少為組合鍵選擇一個按鍵或修飾鍵。",
-    "hint_tap_hold_hold_is_empty": "請設置長按時的按鍵。",
-    "hint_tap_hold_key_not_supported": "此種設置要求一個更新版本的固件。",
+    "hint_tap_hold_hold_is_empty": "請設定長按時的按鍵。",
+    "hint_tap_hold_key_not_supported": "此種設定要求一個更新版本的韌體。",
     "hint_tap_hold_tap_is_not_valid": "單擊按鍵需要是普通按鍵。",
     "hint_tap_hold_key_is_same": "單擊和長按的按鍵不能相同。",
-    "hint_click_to_edit_the_key": "點擊以編輯按鍵",
+    "hint_click_to_edit_the_key": "點選以編輯按鍵",
     "hint_choose_a_key": "選擇一個按鍵",
-    "hint_chosen_key_is_not_supported": "不支持選擇的按鍵。",
+    "hint_chosen_key_is_not_supported": "不支援選擇的按鍵。",
     "key": "按鍵",
     "combination": {
       "modifier": {
@@ -419,21 +419,21 @@
       "text": "組合鍵是一個或多個修飾鍵（例如 Ctrl、Shift）和一個普通按鍵的組合。"
     },
     "dynamic": {
-      "limit": "此按鍵無法再添加更多配置",
+      "limit": "此按鍵無法再新增更多配置",
       "name": "動態觸發鍵",
       "placeholder": "從下面選擇一個鍵加入配置…"
     },
     "normal": {
       "name": "普通",
       "summary": "平平無奇的普通按鍵",
-      "text": "選擇您想要重新映射的鍵位後在下方點擊按鍵即可。",
+      "text": "選擇您想要重新對映的鍵位後在下方點選按鍵即可。",
       "types": {
         "basic": "基本",
-        "extension": "擴展",
+        "extension": "擴充套件",
         "layer": "層",
         "profile": "設定檔",
         "system": "系統",
-        "advanced": "高級"
+        "advanced": "高階"
       }
     },
     "tap_hold": {
@@ -441,7 +441,7 @@
       "name": "單擊/長按",
       "tap": "單擊",
       "summary": "解鎖無限可能",
-      "text": "單擊和長按分別對應不同的按鍵。<p>長按所對應的按鍵也可以是切層，這可以極大地擴展鍵盤的可能性。<p><b>由於判斷是否為單擊需要時間，觸發單擊按鍵會比正常按鍵慢。給此按鍵開啟快速觸發，並降低重置距離會改善，但是仍不如正常按鍵。</b>"
+      "text": "單擊和長按分別對應不同的按鍵。<p>長按所對應的按鍵也可以是切層，這可以極大地擴充套件鍵盤的可能性。<p><b>由於判斷是否為單擊需要時間，觸發單擊按鍵會比正常按鍵慢。給此按鍵開啟快速觸發，並降低重置距離會改善，但是仍不如正常按鍵。</b>"
     },
     "toggle": {
       "name": "切換鍵"
@@ -453,11 +453,11 @@
     }
   },
   "performance": {
-    "hint_the_value_is_too_aggressive": "由於軸體和人手不可能絕對穩定，過於激進的設置可能會導致按鍵觸發異常。若要追求極限，我們建議您通過不斷增加設定的數值來找到一個合適自己的極限但穩定的數值。",
+    "hint_the_value_is_too_aggressive": "由於軸體和人手不可能絕對穩定，過於激進的設定可能會導致按鍵觸發異常。若要追求極限，我們建議您透過不斷增加設定的數值來找到一個合適自己的極限但穩定的數值。",
     "enable_rapid_trigger": "啟用快速觸發",
     "rapid_trigger": {
       "title": "快速觸發",
-      "description": "開啟快速觸發後，按鍵的觸發和重置不再是一個固定的距離，而是在您按壓的過程中動態調整。這可以讓您更快地觸發或重置按鍵。在特定類型的遊戲中很有幫助。",
+      "description": "開啟快速觸發後，按鍵的觸發和重置不再是一個固定的距離，而是在您按壓的過程中動態調整。這可以讓您更快地觸發或重置按鍵。在特定型別的遊戲中很有幫助。",
       "hint_only_works_after_trigger": "若按鍵已完全釋放，需要先按壓至您設定的觸發行程 {{ mm }}mm。",
       "dynamic_reset_travel": {
         "description": "如果按鍵已觸發，鬆開指定的距離按鍵就會釋放。",
@@ -481,24 +481,24 @@
       "title": "僅在觸發行程內生效",
       "description": "開啟時，一旦按鍵鬆開至 {{travel}}mm（您所設定的觸發距離）以上，則需要再次按壓至 {{travel}}mm 才能再次觸發；關閉時，除非完全鬆開按鍵，快速觸發始終生效。"
     },
-    "restore_to_use_global_settings": "恢復至「使用全局設置」",
+    "restore_to_use_global_settings": "恢復至「使用全域性設定」",
     "overview": {
       "description": {
-        "global": "顯示的設置是所有「使用全局設置」的按鍵的設置。若要單獨修改某些按鍵，請先選定它們。",
-        "individual": "顯示的設置是已選擇的按鍵的設置。"
+        "global": "顯示的設定是所有「使用全域性設定」的按鍵的設定。若要單獨修改某些按鍵，請先選定它們。",
+        "individual": "顯示的設定是已選擇的按鍵的設定。"
       }
     },
-    "use_global_setting": "使用全局設置",
-    "use_individual_setting": "使用獨立設置"
+    "use_global_setting": "使用全域性設定",
+    "use_individual_setting": "使用獨立設定"
   },
   "key_switch": {
     "title": "軸體"
   },
   "key_test": {
     "title": "按鍵測試",
-    "description": "測試操作系統收到的鍵值。",
+    "description": "測試作業系統收到的鍵值。",
     "type": {
-      "title": "類型",
+      "title": "型別",
       "press": "按下",
       "release": "釋放"
     },
@@ -514,14 +514,14 @@
   },
   "unsupported_browser": {
     "continue_button": "我不管，我就要繼續！",
-    "continue_description": "您也可以選擇繼續探索 RAKKA Keyboard Configurator，以便了解其功能。但您可能會遇到頁面不能正常顯示的問題，並且您也可能不能正常地連接鍵盤。",
-    "description": "RAKKA Keyboard Configurator 使用 WebHID 和一些現代的技術構建，但很不幸，您正使用的瀏覽器不支持這些技術。注意，FireFox、Safari 等瀏覽器不受支持，因為它們不支持 WebHID。",
-    "supported_browser": "支持的瀏覽器：",
-    "title": "您正在使用不支持的瀏覽器",
-    "other_possibly_supported_browser": "其他基於 Chromium {{ version }}（{{ date }}）及以上版本開發的瀏覽器（可能支持）"
+    "continue_description": "您也可以選擇繼續探索 RAKKA Keyboard Configurator，以便了解其功能。但您可能會遇到頁面不能正常顯示的問題，並且您也可能不能正常地連線鍵盤。",
+    "description": "RAKKA Keyboard Configurator 使用 WebHID 和一些現代的技術構建，但很不幸，您正使用的瀏覽器不支援這些技術。注意，FireFox、Safari 等瀏覽器不受支援，因為它們不支援 WebHID。",
+    "supported_browser": "支援的瀏覽器：",
+    "title": "您正在使用不支援的瀏覽器",
+    "other_possibly_supported_browser": "其他基於 Chromium {{ version }}（{{ date }}）及以上版本開發的瀏覽器（可能支援）"
   },
   "contact": {
-    "title": "聯繫我們"
+    "title": "聯絡我們"
   },
   "help": {
     "title": "幫助"
@@ -529,29 +529,29 @@
   "switches": {
     "series": "系列",
     "hint_series": "這是一個系列的軸體，包含多個型號。",
-    "button_set_selected_keys": "設置到已選擇的按鍵",
+    "button_set_selected_keys": "設定到已選擇的按鍵",
     "hint_bad_installation_causes_abnormal": "安裝不良會導致按鍵異常",
     "hint_pins_are_thinker": "此款軸體的小腳較粗，而 PCB 為了適應常見的軸體，其對應的開孔較小。若要安裝到位可能需要完全拆開鍵盤，否則容易出現未完全插入的情況，進而引發連擊或斷觸等問題。但是，對於成品鍵盤產品，這可能導致失去保修，請自行取捨。",
     "metadata": {
       "travel": "總行程",
       "mm": "{{distance}}mm",
       "initial_force": "初始壓力",
-      "disclaimer": "數據來自廠商公開信息。",
-      "link": "訪問來自廠商的信息頁面"
+      "disclaimer": "資料來自廠商公開資訊。",
+      "link": "訪問來自廠商的資訊頁面"
     },
     "legacy": {
       "title": "（舊）",
-      "description": "被早期版本固件所使用，僅為了不破壞用戶習慣而保留。"
+      "description": "被早期版本韌體所使用，僅為了不破壞使用者習慣而保留。"
     },
     "gateron_ks20": {
       "title": "磁白軸",
       "title_short": "White",
-      "series_description": "其他一些型號的軸體與它參數相同，包括但不限於磁橙軸、Wooting Lekker 軸。"
+      "series_description": "其他一些型號的軸體與它引數相同，包括但不限於磁橙軸、Wooting Lekker 軸。"
     },
     "gateron_ks20u": {
       "title": "雙軌磁軸",
       "title_short": "Dual-Rail",
-      "series_description": "其他一些型號的軸體與它參數相同，包括但不限於雙軌磁橙軸。"
+      "series_description": "其他一些型號的軸體與它引數相同，包括但不限於雙軌磁橙軸。"
     },
     "gateron_ks20t": {
       "title": "磁玉軸",
@@ -634,7 +634,7 @@
     "current": "當前",
     "hint_choose_switch_for_key_requires_firmware_update": {
       "title": "修改會作用到所有按鍵",
-      "description": "您的固件版本過低，不支持為不同按鍵選擇不同的軸體。不論您選擇了哪些按鍵，都會作用到全部按鍵。"
+      "description": "您的韌體版本過低，不支援為不同按鍵選擇不同的軸體。不論您選擇了哪些按鍵，都會作用到全部按鍵。"
     },
     "hint_no_keys_selected": "請先選擇您想要更換軸體的按鍵。",
     "hint_all_keys_has_same_switch": "所有按鍵都使用 {{ switch }}。",
@@ -646,7 +646,7 @@
     },
     "changing_switch_powered_on": {
       "title": "在通電時插拔軸體…",
-      "description": "請保證安裝的穩固，並重置運行時校準數據。",
+      "description": "請保證安裝的穩固，並重置執行時校準資料。",
       "button": "重置"
     }
   },
@@ -655,54 +655,54 @@
   "close": "關閉",
   "continue": "繼續",
   "wizard": {
-    "title": "允許瀏覽器連接到裝置",
-    "description": "您的瀏覽器應該會在地址欄下方彈出一個對話框（如操作示例中所示）。在列表中點擊裝置名稱以選擇裝置，然後點擊「連接」。",
+    "title": "允許瀏覽器連線到裝置",
+    "description": "您的瀏覽器應該會在位址列下方彈出一個對話方塊（如操作示例中所示）。在列表中點選裝置名稱以選擇裝置，然後點選「連線」。",
     "example": {
       "title": "操作示例",
       "dialog": {
-        "title": "{{hostname}} 想連接到 HID 裝置",
-        "connect": "連接",
+        "title": "{{hostname}} 想連線到 HID 裝置",
+        "connect": "連線",
         "cancel": "取消"
       },
-      "hint_1": "1. 點擊裝置名稱",
-      "hint_2": "2. 點擊「連接」"
+      "hint_1": "1. 點選裝置名稱",
+      "hint_2": "2. 點選「連線」"
     },
-    "replug_hint": "如果您無法看到您的裝置或裝置一直處於連接狀態，請重新插拔裝置後再試。",
-    "cannot_connect_button": "我仍然無法連接我的裝置",
-    "cannot_connect_hint_firmware_update_failed": "如果您的裝置在升級固件的過程中意外斷開或失敗，它會停留在恢復模式。不同裝置會使用不同的方式提示其處於恢復模式，例如常亮的指示燈。不要驚慌，再次進行固件升級可以恢復。"
+    "replug_hint": "如果您無法看到您的裝置或裝置一直處於連線狀態，請重新插拔裝置後再試。",
+    "cannot_connect_button": "我仍然無法連線我的裝置",
+    "cannot_connect_hint_firmware_update_failed": "如果您的裝置在升級韌體的過程中意外斷開或失敗，它會停留在恢復模式。不同裝置會使用不同的方式提示其處於恢復模式，例如常亮的指示燈。不要驚慌，再次進行韌體升級可以恢復。"
   },
   "profile": {
     "title": "設定檔",
     "current": "{{name}}（當前）",
     "standalone_keymap": {
-      "title": "獨立的按鍵映射",
-      "description": "開啟時，該設定檔享有獨立的按鍵映射設置。關閉時，該設定檔使用設定檔 1 的按鍵映射設置。"
+      "title": "獨立的按鍵對映",
+      "description": "開啟時，該設定檔享有獨立的按鍵對映設定。關閉時，該設定檔使用設定檔 1 的按鍵對映設定。"
     },
     "builtin": {
       "unnamed": "配置 {{index}}",
       "typing_profile": "打字配置",
       "gaming_profile": "遊戲配置",
       "empty_profile": "空配置",
-      "default_profile": "默認配置"
+      "default_profile": "預設配置"
     },
     "rename": {
-      "title": "重命名",
-      "description": "重命名設定檔 #{{index}}",
+      "title": "重新命名",
+      "description": "重新命名設定檔 #{{index}}",
       "hint_empty": "設定檔名稱不可為空。",
       "hint_too_long": "設定檔名稱長度最多隻能是 {{ length }}。"
     },
     "how_to_switch": {
       "title": "如何切換設定檔",
-      "description": "<b>切換鍵盤使用的設定檔</b>：在按鍵映射中，將設定檔類別的按鍵綁定到您想要的位置上，然後在鍵盤上按下這個按鍵。在部分鍵盤上，默認「層 1」+QWER 是切換設定檔 1234。<p><b>編輯設定檔</b>：點擊您想要編輯的設定檔。"
+      "description": "<b>切換鍵盤使用的設定檔</b>：在按鍵對映中，將設定檔類別的按鍵繫結到您想要的位置上，然後在鍵盤上按下這個按鍵。在部分鍵盤上，預設「層 1」+QWER 是切換設定檔 1234。<p><b>編輯設定檔</b>：點選您想要編輯的設定檔。"
     },
     "hint_keyboard_current_profile": "鍵盤現在正使用此設定檔",
-    "hint_keyboard_switch_profile": "在您的按鍵映射設置下，按下 {{ combination }} 可以切換到此設定檔",
-    "hint_profile_key_not_found": "未找到切換到此設定檔的按鍵，您可以將設定檔按鍵綁定到您想要的位置",
+    "hint_keyboard_switch_profile": "在您的按鍵對映設定下，按下 {{ combination }} 可以切換到此設定檔",
+    "hint_profile_key_not_found": "未找到切換到此設定檔的按鍵，您可以將設定檔按鍵繫結到您想要的位置",
     "configure_profile": "修改 #{{ index }} {{ profile }}",
     "hint_editing_profile_changes_for_keyboard_profile": "由於更改了鍵盤正使用的設定檔，已切換當前編輯的設定檔。",
     "hint_editing_profile_is_not_current": {
       "title": "您正在編輯非當前設定檔",
-      "description": "<p>在切換到該設定檔前，您是無法看到或用到您所作出的修改的。</p><p>鍵盤具有設定檔功能，用以應對在不同的使用場景間切換。例如，您可以針對打字及遊戲場景設定不同的觸發行程、快速觸發設置，再通過設定不同的燈光效果以區分它們。</p><p>切換設定檔的按鍵可以通過移動鼠標至設定檔的名稱上看到。此按鍵是可以任意自定義的。</p>"
+      "description": "<p>在切換到該設定檔前，您是無法看到或用到您所作出的修改的。</p><p>鍵盤具有設定檔功能，用以應對在不同的使用場景間切換。例如，您可以針對打字及遊戲場景設定不同的觸發行程、快速觸發設定，再透過設定不同的燈光效果以區分它們。</p><p>切換設定檔的按鍵可以透過移動滑鼠至設定檔的名稱上看到。此按鍵是可以任意自定義的。</p>"
     },
     "active": {
       "name": "活躍",
@@ -710,12 +710,12 @@
     },
     "inactive": {
       "name": "非活躍",
-      "hint": "鍵盤未使用此設定檔。您可以通過按下對應的組合鍵來切換到此設定檔。"
+      "hint": "鍵盤未使用此設定檔。您可以透過按下對應的組合鍵來切換到此設定檔。"
     },
-    "hint_no_shortcut_set": "未設置快捷鍵",
+    "hint_no_shortcut_set": "未設定快捷鍵",
     "on_board_profiles": {
       "title": "板載設定檔",
-      "description": "板載設定檔是存儲在鍵盤上的設定檔，不論將鍵盤連接到什麼裝置都可以隨時使用它們。"
+      "description": "板載設定檔是儲存在鍵盤上的設定檔，不論將鍵盤連線到什麼裝置都可以隨時使用它們。"
     }
   },
   "dark_mode": {
@@ -731,14 +731,14 @@
   "pwa": {
     "app_ready_to_work_offline": "RAKKA Keyboard Configurator 已準備好離線使用。",
     "update_available": "RAKKA Keyboard Configurator 有新版本可用",
-    "reload": "重新加載"
+    "reload": "重新載入"
   },
   "enabled": "啟用",
   "disabled": "禁用",
   "lighting": {
     "base_fx": "基礎燈效",
     "color": "顏色",
-    "settings": "設置",
+    "settings": "設定",
     "choose_base_fx": "選擇基礎燈效",
     "overlay_fx": "燈效疊加層",
     "choose_overlay_fx": "選擇燈效疊加層",
@@ -752,29 +752,29 @@
       "title": "動態光源",
       "description": {
         "title": "什麼是動態光源？",
-        "content": "動態光源允許您在 Windows 設置或第三方控制程序中統一控制所有支持的鍵盤、鼠標等外設，以達到統一的燈效風格。此功能適用於 Windows 11 23H2 或更高版本。",
-        "for_more_info": "如需瞭解更多信息，請訪問 {{support_page}}。",
-        "open_windows_settings": "在 Windows 設置中打開動態光源頁面",
-        "microsoft_support_page": "Microsoft 支持頁面",
+        "content": "動態光源允許您在 Windows 設定或第三方控制程式中統一控制所有支援的鍵盤、滑鼠等外設，以達到統一的燈效風格。此功能適用於 Windows 11 23H2 或更高版本。",
+        "for_more_info": "如需瞭解更多資訊，請訪問 {{support_page}}。",
+        "open_windows_settings": "在 Windows 設定中開啟動態光源頁面",
+        "microsoft_support_page": "Microsoft 支援頁面",
         "microsoft_support_page_link": "https://support.microsoft.com/zh-cn/windows/%E5%9C%A8-windows-%E4%B8%AD%E6%8E%A7%E5%88%B6%E5%8A%A8%E6%80%81%E7%85%A7%E6%98%8E%E8%AE%BE%E5%A4%87-8e8f22e3-e820-476c-8f9d-9ffc7b6ffcd2"
       },
       "supported_third_party_software": {
-        "title": "支持動態光源的第三方軟件",
+        "title": "支援動態光源的第三方軟體",
         "possible_others": "可能還有其他的",
         "disclaimer": {
-          "title": "免責聲明",
+          "title": "免責宣告",
           "content": "以上鍊接指向第三方網站。我們不對這些網站的內容負責。"
         }
       },
-      "hint_not_supported": "您的系統似乎不支持動態光源。",
-      "hint_supported": "您的系統支持動態光源。",
+      "hint_not_supported": "您的系統似乎不支援動態光源。",
+      "hint_supported": "您的系統支援動態光源。",
       "hint_disabled": "動態光源已禁用。"
     },
-    "hint_static_is_override": "此效果有自己的顏色，將覆蓋您設置的顏色。",
-    "hint_left_click": "左鍵點擊按鍵以設置其在「基礎燈效」中的「靜態」效果下的顏色。",
-    "hint_middle_click": "中鍵點擊以吸取其顏色到顏色選擇器。",
-    "set_color_for_selected_keys": "為選中的按鍵設置顏色",
-    "set_color_for_selected_keys_tooltip": "顏色在「基礎燈效」被設置為「靜態」時生效。",
+    "hint_static_is_override": "此效果有自己的顏色，將覆蓋您設定的顏色。",
+    "hint_left_click": "左鍵點選按鍵以設定其在「基礎燈效」中的「靜態」效果下的顏色。",
+    "hint_middle_click": "中鍵點選以吸取其顏色到顏色選擇器。",
+    "set_color_for_selected_keys": "為選中的按鍵設定顏色",
+    "set_color_for_selected_keys_tooltip": "顏色在「基礎燈效」被設定為「靜態」時生效。",
     "fx": {
       "none": {
         "title": "無"
@@ -786,14 +786,14 @@
         "title": "波浪"
       },
       "cycle": {
-        "title": "循環"
+        "title": "迴圈"
       },
       "windows_dynamic_lighting": {
         "title": "動態光源"
       },
       "enforce_indicator_on_profile_change": {
-        "title": "設定檔變化時強制打開指示燈",
-        "description": "設定檔改變後，在數秒內強制打開指示燈（例如 CapsLock 指示燈）。通過給不同的設定檔設置不同的指示燈顏色，可以區分哪個設定檔是當前的。"
+        "title": "設定檔變化時強制開啟指示燈",
+        "description": "設定檔改變後，在數秒內強制開啟指示燈（例如 CapsLock 指示燈）。透過給不同的設定檔設定不同的指示燈顏色，可以區分哪個設定檔是當前的。"
       },
       "breath": {
         "title": "呼吸"
@@ -826,7 +826,7 @@
     },
     "sleep_mode": {
       "title": "休眠模式",
-      "description": "在指定的時間內沒有任何按鍵被按下，燈光變暗或熄滅。注意，如果電腦進入睡眠或關機狀態，燈光將直接熄滅，不受以下設置影響。",
+      "description": "在指定的時間內沒有任何按鍵被按下，燈光變暗或熄滅。注意，如果電腦進入睡眠或關機狀態，燈光將直接熄滅，不受以下設定影響。",
       "dimming": "指定時間後變暗",
       "off": "指定時間後熄滅",
       "format": {
@@ -852,12 +852,12 @@
     "combination": "組合 {{index}}",
     "combination_short": "組合 {{index}}",
     "enable": "啟用這個組合",
-    "set_as_selected": "設置為選中的按鍵",
+    "set_as_selected": "設定為選中的按鍵",
     "hint_select_two_keys": "請在上方的鍵盤選擇兩個按鍵。",
     "hint_no_keys_selected": "因為尚未選擇按鍵，此組合不會生效。",
     "hint_last_input_banned": "「{{priority}}」已被 {{games}} 禁止，因為其被認為是自動化操作。為避免違規，請不要使用它。",
     "priority": {
-      "title": "優先級",
+      "title": "優先順序",
       "depth": {
         "title": "深度優先",
         "description": "如果兩個按鍵都被按下，只觸發按壓深度更深的按鍵。"
@@ -880,8 +880,8 @@
       "description": "判斷一個鍵的按壓深度是否超過另一個時的閾值。這是為了避免按壓深度非常接近時按鍵被重複觸發。"
     },
     "requires_full_cycle": {
-      "title": "需要完整循環",
-      "description": "如果一個已被觸發按鍵因為此功能變為重置，則該按鍵需首先抬起到不被認為是按下的，才能在之後通過再次按下而觸發。"
+      "title": "需要完整迴圈",
+      "description": "如果一個已被觸發按鍵因為此功能變為重置，則該按鍵需首先抬起到不被認為是按下的，才能在之後透過再次按下而觸發。"
     },
     "both_when_bottoming": {
       "title": "觸底時全部觸發",
@@ -897,7 +897,7 @@
     "date": "構建於 {{date}}",
     "all_rights_reserved": "保留所有權利。"
   },
-  "settings": "設置",
+  "settings": "設定",
   "expand": "展開",
   "collapse": "摺疊",
   "layer": {
@@ -906,16 +906,16 @@
   },
   "window_too_small": {
     "title": "哎呀，太小了！",
-    "description1": "您的瀏覽器窗口尺寸過小，無法顯示所有內容。",
-    "description2": "請嘗試調整窗口大小及縮放比例。",
+    "description1": "您的瀏覽器視窗尺寸過小，無法顯示所有內容。",
+    "description2": "請嘗試調整視窗大小及縮放比例。",
     "button": "我不管，是你算錯了！"
   },
   "select_all": "全選",
   "discard_selection": "取消選擇",
-  "hint_firmware_version_too_low": "您的固件版本過低，不支持此功能。",
+  "hint_firmware_version_too_low": "您的韌體版本過低，不支援此功能。",
   "devices": {
     "default": {
-      "name": "默認"
+      "name": "預設"
     },
     "rakka_80_edge": {
       "lighting_scopes": {
@@ -943,15 +943,15 @@
   "rapid_trigger": {
     "hint_dont_too_aggressive": "我們不建議您追求將選項儘可能地設定得低。",
     "hint_dont_too_aggressive_hint": "由於不可避免的客觀原因，過低的設定需要穩定的操作，否則可能會導致按鍵觸發異常。我們不嘗試規避那些客觀因素是因為需要極大地犧牲響應速度（延遲）。",
-    "hint_dont_too_aggressive_tooltip_1": "鍵盤是通過檢測磁力的大小來推測出距離。其他情況，諸如軸體的晃動、材料的震動等是不可能能夠檢測的。",
-    "hint_dont_too_aggressive_tooltip_2": "人手不可能絕對穩定地直上直下，可能會出現晃動。顯然，如果參數設置得極低，即使是輕微的傾斜（晃動）也會帶來斷觸。",
-    "hint_dont_too_aggressive_tooltip_3": "軸體、PCB、定位板、衛星軸等在按壓時不可避免地存在形變及震動。當設定的參數極低時，形變及震動就會被識別為按鍵觸發。",
-    "hint_dont_too_aggressive_tooltip_4": "我們認為，磁軸鍵盤最重要是響應速度（低延遲），即鍵盤應該儘可能快地響應一個儘可能小的變化。通過各種方法以成倍甚至十數上百倍地犧牲響應時間為代價，達到在極低的參數下也「很穩定」是本末倒置的。",
-    "hint_key_tracker": "按鍵追蹤工具可實時查看按鍵按壓的距離。您可以藉助此工具瞭解按鍵異常的原因。在回報問題或申請售後時，它可以起到決定性作用。",
+    "hint_dont_too_aggressive_tooltip_1": "鍵盤是透過檢測磁力的大小來推測出距離。其他情況，諸如軸體的晃動、材料的震動等是不可能能夠檢測的。",
+    "hint_dont_too_aggressive_tooltip_2": "人手不可能絕對穩定地直上直下，可能會出現晃動。顯然，如果引數設定得極低，即使是輕微的傾斜（晃動）也會帶來斷觸。",
+    "hint_dont_too_aggressive_tooltip_3": "軸體、PCB、定位板、衛星軸等在按壓時不可避免地存在形變及震動。當設定的引數極低時，形變及震動就會被識別為按鍵觸發。",
+    "hint_dont_too_aggressive_tooltip_4": "我們認為，磁軸鍵盤最重要是響應速度（低延遲），即鍵盤應該儘可能快地響應一個儘可能小的變化。透過各種方法以成倍甚至十數上百倍地犧牲響應時間為代價，達到在極低的引數下也「很穩定」是本末倒置的。",
+    "hint_key_tracker": "按鍵追蹤工具可實時檢視按鍵按壓的距離。您可以藉助此工具瞭解按鍵異常的原因。在回報問題或申請售後時，它可以起到決定性作用。",
     "hint_too_aggressive": "當前設定已逐漸開始受到不可避免的客觀因素影響，需要較為穩定的操作才能正常使用。請根據自己的實際情況找到適合自己的設定。",
     "hint_extreme": "當前設定屬於極端設定，需要極為穩定的操作才能正常使用。您可以將按鍵想象為一個垂直的針尖，必須近乎垂直地按壓才能保證不出現異常。",
     "hint_large_keys": "這個現象在大力敲擊按鍵，尤其是大鍵時更加明顯，因為它們受震動影響更大。",
-    "hint_find_most_suitable": "找到最適合自己的設置需要不斷嘗試。",
+    "hint_find_most_suitable": "找到最適合自己的設定需要不斷嘗試。",
     "hint_downgraded_since_lacks_bottom_calibration": "由於沒有進行人工校準相對觸底值，最小值為 {{ mm }}。",
     "hint_works_only_at_bottom": "在非底部區域作用為 {{ mm }}。",
     "hint_always_trigger_when_bottoming_is_on": "已啟用底部時始終觸發，在底部區域時輕微抬起按鍵鍵盤將不會作出響應。換句話說，按鍵在底部區域時，相對於設定了一個較大的重置行程。",
@@ -967,46 +967,46 @@
     "title": "配置"
   },
   "device_management": {
-    "device_info": "裝置信息",
+    "device_info": "裝置資訊",
     "device_name": "裝置名稱",
     "my_devices": "我的裝置",
-    "firmware_update_date": "固件發佈日期",
-    "firmware_version": "固件版本",
+    "firmware_update_date": "韌體釋出日期",
+    "firmware_version": "韌體版本",
     "serial_number": "序列號",
-    "last_connected": "上次連接",
+    "last_connected": "上次連線",
     "status": {
       "title": "狀態",
       "current_device": "當前裝置",
       "paired": "已配對",
-      "connected": "已連接",
-      "disconnected": "未連接",
-      "connecting": "連接中"
+      "connected": "已連線",
+      "disconnected": "未連線",
+      "connecting": "連線中"
     },
-    "connect_to_new_device": "連接到新裝置",
-    "hint_connect_to_a_device_first": "請先連接到一個裝置",
+    "connect_to_new_device": "連線到新裝置",
+    "hint_connect_to_a_device_first": "請先連線到一個裝置",
     "new_firmware_available": {
-      "title": "有新固件可用",
+      "title": "有新韌體可用",
       "item": "{{ channel }}：{{ version }}"
     },
     "auto_connect": {
-      "title": "自動連接",
-      "description": "當頁面加載時自動連接到上次連接的裝置"
+      "title": "自動連線",
+      "description": "當頁面載入時自動連線到上次連線的裝置"
     }
   },
-  "hint_this_option_is_global": "此選項是全局的，不會因為設定檔的不同而不同。",
-  "hint_options_are_global": "這些選項是全局的，不會因為設定檔的不同而不同。",
-  "hint_options_are_individual": "這些選項會因為設定檔的不同而不同。例如，您可以為打字配置和遊戲配置設置不同的觸發行程，再通過設定不同的燈光來區分它們。",
+  "hint_this_option_is_global": "此選項是全域性的，不會因為設定檔的不同而不同。",
+  "hint_options_are_global": "這些選項是全域性的，不會因為設定檔的不同而不同。",
+  "hint_options_are_individual": "這些選項會因為設定檔的不同而不同。例如，您可以為打字配置和遊戲配置設定不同的觸發行程，再透過設定不同的燈光來區分它們。",
   "regional_site": {
-    "hint_based_on_local_information": "地區由您瀏覽器的語言、時區等信息在本地推測。",
+    "hint_based_on_local_information": "地區由您瀏覽器的語言、時區等資訊在本地推測。",
     "ignore": "忽略",
     "visit_global_site_in_mainland_china": {
-      "title": "您正在訪問面向全球用戶的站點",
-      "summary": "如果您身處中國大陸，請訪問面向中國大陸用戶的站點以獲得更好的訪問速度。",
-      "button": "訪問面向中國大陸用戶的站點"
+      "title": "您正在訪問面向全球使用者的站點",
+      "summary": "如果您身處中國大陸，請訪問面向中國大陸使用者的站點以獲得更好的訪問速度。",
+      "button": "訪問面向中國大陸使用者的站點"
     },
     "visit_mainland_china_site_in_other_region": {
       "title": "您可能不位於中國大陸",
-      "summary": "如果您不在中國大陸，請訪問面向全球用戶的站點以獲得更好的訪問速度。",
+      "summary": "如果您不在中國大陸，請訪問面向全球使用者的站點以獲得更好的訪問速度。",
       "button": "訪問全球站點"
     }
   },
@@ -1016,10 +1016,10 @@
   },
   "changelog": {
     "title": "更新內容",
-    "firmware_changelog": "固件更新日誌",
+    "firmware_changelog": "韌體更新日誌",
     "configurator_changelog": "配置器更新日誌"
   },
-  "hint_do_not_use_hub": "使用 USB Hub 連接裝置可能會導致性能下降或連接不穩定。",
+  "hint_do_not_use_hub": "使用 USB Hub 連線裝置可能會導致效能下降或連線不穩定。",
   "layout_options": {
     "title": "佈局選項",
     "auto_choose": {
@@ -1072,22 +1072,22 @@
       }
     }
   },
-  "hint_this_option_requires_a_newer_version_of_the_firmware": "此選項要求一個更新版本的固件。",
-  "hint_this_function_requires_a_newer_version_of_the_firmware": "此功能要求一個更新版本的固件。",
+  "hint_this_option_requires_a_newer_version_of_the_firmware": "此選項要求一個更新版本的韌體。",
+  "hint_this_function_requires_a_newer_version_of_the_firmware": "此功能要求一個更新版本的韌體。",
   "error": {
-    "timeout_when_communicating_with_the_device": "與裝置通信時超時",
-    "error_when_communicating_with_the_device": "與裝置通信時出錯",
-    "bad_cable": "一個可能的原因是 USB 線纜的質量問題，使得連接不穩定或是連接速率降低（裝置無法運行在 USB 2.0 高速）。",
-    "contact_us": "請使用另外的 USB 線纜再試。如果仍有問題，請發送郵件至 {{ email }} 以聯繫我們取得幫助。"
+    "timeout_when_communicating_with_the_device": "與裝置通訊時超時",
+    "error_when_communicating_with_the_device": "與裝置通訊時出錯",
+    "bad_cable": "一個可能的原因是 USB 線纜的質量問題，使得連線不穩定或是連線速率降低（裝置無法執行在 USB 2.0 高速）。",
+    "contact_us": "請使用另外的 USB 線纜再試。如果仍有問題，請傳送郵件至 {{ email }} 以聯絡我們取得幫助。"
   },
   "dont_show_again": "不再顯示",
   "shortcuts": {
     "key": {
-      "mouse_left": "鼠標左鍵",
-      "mouse_right": "鼠標右鍵",
-      "mouse_middle": "鼠標中鍵",
+      "mouse_left": "滑鼠左鍵",
+      "mouse_right": "滑鼠右鍵",
+      "mouse_middle": "滑鼠中鍵",
       "drag": "拖動",
-      "mouse_wheel": "鼠標滾輪"
+      "mouse_wheel": "滑鼠滾輪"
     },
     "action": {
       "select": "選擇",
@@ -1120,12 +1120,12 @@
     "start": "開始",
     "start_for_seconds": "開始 {{ seconds }} 秒",
     "stop": "停止",
-    "export": "導出",
-    "current_config": "當前設置",
-    "hint_lag": "由於數據量極大，受制於瀏覽器平臺，此工具會比較卡頓。建議觀察到需要的數據後及時停止，以減少卡頓。",
+    "export": "匯出",
+    "current_config": "當前設定",
+    "hint_lag": "由於資料量極大，受制於瀏覽器平臺，此工具會比較卡頓。建議觀察到需要的資料後及時停止，以減少卡頓。",
     "texts": {
       "description": "此工具可以實時追蹤一個按鍵的按壓距離，並繪製成圖表供使用者觀察檢測。",
-      "limitation_intro": "受原理所限，鍵盤本身無法區分「正常按壓」與下述在使用中客觀存在的情況（包括但不限於）。在參數設置得極低時（例如 0.01mm 左右甚至更低），這些情況的影響是非常大的。",
+      "limitation_intro": "受原理所限，鍵盤本身無法區分「正常按壓」與下述在使用中客觀存在的情況（包括但不限於）。在引數設定得極低時（例如 0.01mm 左右甚至更低），這些情況的影響是非常大的。",
       "limitation": {
         "shaking": {
           "text": "人手在按壓按鍵時出現晃動",
@@ -1143,7 +1143,7 @@
       "extreme_param_warning": "顯然人手操作時無法避免上述客觀因素，因此，當設定極低出現「斷觸」屬於正常現象，並不能說明鍵盤自身存在問題。",
       "reproduce_tips": "您可以模擬遊戲時的操作，對比儘量垂直且穩定的操作，瞭解不同操作方式的區別。",
       "design_philosophy_intro": "我們認為，磁軸鍵盤最重要的就是其響應速度（低延遲）。",
-      "design_philosophy": "我們的產品（尤其是 RAKKA 80 Edge 及後續產品）會忠實且靈敏地及時反饋用戶的操作，即使這個操作是由上述客觀因素引起的。<b>為了避免這些因素，達到所謂的「穩定」，而成倍地乃至幾十上百倍地犧牲延遲，致使響應正常操作時也大幅變慢，是本末倒置的。</b>"
+      "design_philosophy": "我們的產品（尤其是 RAKKA 80 Edge 及後續產品）會忠實且靈敏地及時反饋使用者的操作，即使這個操作是由上述客觀因素引起的。<b>為了避免這些因素，達到所謂的「穩定」，而成倍地乃至幾十上百倍地犧牲延遲，致使響應正常操作時也大幅變慢，是本末倒置的。</b>"
     },
     "trigger_log": {
       "trigger": "觸發",
@@ -1151,11 +1151,11 @@
       "no_items": "沒有觸發記錄",
       "delta_tooltip": "上次觸發或重置距離本次的時間差。但是，因為時間由主機獲取，可能會不精準。",
       "delta_too_small": "（時間差過小）",
-      "hint_scroll": "您可以通過鼠標滾輪縮放圖表，以便仔細觀察觸發或重置時的變化。由所述客觀情況造成的非預期的觸發及重置通常發生得非常快和細微，需要放大才能觀察到。"
+      "hint_scroll": "您可以透過滑鼠滾輪縮放圖表，以便仔細觀察觸發或重置時的變化。由所述客觀情況造成的非預期的觸發及重置通常發生得非常快和細微，需要放大才能觀察到。"
     },
     "reset_zoom": "重置縮放",
     "zoom_to_bottom": "縮放至底部 {{ distance }}mm",
-    "hint_scan_rate": "此速度並不直接反映掃描率（每秒掃描按鍵的次數），因為對於 RAKKA 80 及以後的產品，這些數據可能已經過預處理（來自更多原始數據）。"
+    "hint_scan_rate": "此速度並不直接反映掃描率（每秒掃描按鍵的次數），因為對於 RAKKA 80 及以後的產品，這些資料可能已經過預處理（來自更多原始資料）。"
   },
   "debounce": {
     "level": "去抖動等級",
@@ -1169,14 +1169,14 @@
     },
     "hint_not_affect_latency": "不會影響延遲。",
     "hint_latency_increase_to_at_the_worst_scenario": "鍵盤將響應無法及時響應按鍵的變化。在最壞的情況下，延遲增加至 {{ times }} 倍。",
-    "hint_worse_than_level0": "使用此等級並設置極端參數，最終的響應速度（延遲）很可能不如使用等級 0 並設定非極端參數。",
-    "hint_about_latency_test": "瞬間改變傳感器輸出的延遲測試方法是不準確的，因為人手不可能這麼快。使用此類方法只會得到好於甚至遠好於真實情況的結果。",
+    "hint_worse_than_level0": "使用此等級並設定極端引數，最終的響應速度（延遲）很可能不如使用等級 0 並設定非極端引數。",
+    "hint_about_latency_test": "瞬間改變感測器輸出的延遲測試方法是不準確的，因為人手不可能這麼快。使用此類方法只會得到好於甚至遠好於真實情況的結果。",
     "hint_others_will_not_tell_you": "其他人不會告訴你的…",
-    "hint_user_actions_are_inaccurate": "不能保證在極低參數（例如 0.0xmm）下始終正常。因為軸體在被按壓時會出現晃動，而鍵盤不可能能夠區分正常地手指抬起與出現了晃動。",
+    "hint_user_actions_are_inaccurate": "不能保證在極低引數（例如 0.0xmm）下始終正常。因為軸體在被按壓時會出現晃動，而鍵盤不可能能夠區分正常地手指抬起與出現了晃動。",
     "hint_dont_use_under_normal_conditions": "在正常情況下不要使用！",
     "filter_strength": {
       "title": "濾波強度",
-      "description": "濾波算法可以使按鍵變得「穩定」，但是代價則是成倍地降低按鍵的響應速度，即延遲會更高。",
+      "description": "濾波演算法可以使按鍵變得「穩定」，但是代價則是成倍地降低按鍵的響應速度，即延遲會更高。",
       "levels": {
         "0": "關閉",
         "1": "輕度",
@@ -1187,9 +1187,9 @@
   },
   "always_trigger_when_bottoming": {
     "title": "觸底時始終觸發",
-    "description": "按鍵觸底時手指的晃動、手指無意識的卸力等等會導致鍵盤識別的按壓距離發生變化。如果參數設置得過低，這個晃動會被識別為按鍵抬起，即斷觸。",
-    "reason": "這個現象不可能能被無損失地避免。因為，磁力大小是鍵盤推測按壓距離的唯一的信息來源，鍵盤不可能能夠了解磁力變化是由於正常的手指移動，還是晃動、卸力等因素引起。",
-    "trade_off": "啟用此功能會使鍵盤不再響應底部區域的微小按壓距離變化。換句話說，相當於設定了一個更高的參數。"
+    "description": "按鍵觸底時手指的晃動、手指無意識的卸力等等會導致鍵盤識別的按壓距離發生變化。如果引數設定得過低，這個晃動會被識別為按鍵抬起，即斷觸。",
+    "reason": "這個現象不可能能被無損失地避免。因為，磁力大小是鍵盤推測按壓距離的唯一的資訊來源，鍵盤不可能能夠了解磁力變化是由於正常的手指移動，還是晃動、卸力等因素引起。",
+    "trade_off": "啟用此功能會使鍵盤不再響應底部區域的微小按壓距離變化。換句話說，相當於設定了一個更高的引數。"
   },
   "parameters_are_too_low": {
     "exceed_switch_limit": {
@@ -1198,8 +1198,8 @@
       "unless": "除非能夠保證每次按鍵都是穩定且絕對直下，否則出現斷觸屬於正常現象，而非鍵盤有問題。"
     },
     "too_low": {
-      "title": "當前設置可能出現斷觸",
-      "reason": "當前設置參數較低。我們的鍵盤會忠實且靈敏地對數據變化作出反應，而非通過成倍犧牲延遲來換取所謂的「穩定」。"
+      "title": "當前設定可能出現斷觸",
+      "reason": "當前設定引數較低。我們的鍵盤會忠實且靈敏地對資料變化作出反應，而非透過成倍犧牲延遲來換取所謂的「穩定」。"
     },
     "button_why": "為什麼？這不是鍵盤應該解決的問題嗎？"
   },
@@ -1207,42 +1207,42 @@
   "why": "為什麼？",
   "avoid_vibration": {
     "title": "規避震動帶來的影響",
-    "description": "在按鍵被按下和回彈時，軸體、鍵帽等材料都會產生震動，以較大力度按壓時更是這樣。如果參數設定得足夠低，則會被識別為按鍵觸發。<br>此功能嘗試在不影響延遲的前提下避免這個現象造成的影響。",
-    "consequences_of_toggle_off": "關閉此功能可能會導致一次按壓多次觸發。參數設置得極低，或按壓力度大時，更容易出現。"
+    "description": "在按鍵被按下和回彈時，軸體、鍵帽等材料都會產生震動，以較大力度按壓時更是這樣。如果引數設定得足夠低，則會被識別為按鍵觸發。<br>此功能嘗試在不影響延遲的前提下避免這個現象造成的影響。",
+    "consequences_of_toggle_off": "關閉此功能可能會導致一次按壓多次觸發。引數設定得極低，或按壓力度大時，更容易出現。"
   },
   "avoid_overshoot": {
     "title": "規避觸底時的反彈帶來的影響",
-    "description": "在按鍵觸底時，由於軸體等材料不可避免地存在形變，會使鍵盤識別到的按壓距離有一個先大後小的過程，即「反彈」。此現象在大力按壓按鍵時更為明顯。如果參數設定得足夠低，或力度足夠大，則會導致錯誤的按鍵斷開。<br>此功能嘗試在不影響延遲的前提下避免這個現象造成的影響。",
+    "description": "在按鍵觸底時，由於軸體等材料不可避免地存在形變，會使鍵盤識別到的按壓距離有一個先大後小的過程，即「反彈」。此現象在大力按壓按鍵時更為明顯。如果引數設定得足夠低，或力度足夠大，則會導致錯誤的按鍵斷開。<br>此功能嘗試在不影響延遲的前提下避免這個現象造成的影響。",
     "hint_requires_bottom_calibration": "此功能只能作用於已經做過「人工校準相對觸底值」的按鍵上，因為需要它提供一個大致的觸底位置。",
-    "consequences_of_toggle_off": "關閉此功能可能會導致斷觸。參數設置得極低，或按壓力度大時，更容易出現。"
+    "consequences_of_toggle_off": "關閉此功能可能會導致斷觸。引數設定得極低，或按壓力度大時，更容易出現。"
   },
   "nkro": {
     "title": "全鍵無衝",
     "description": "全鍵無衝（N-Key Rollover，NKRO）允許您同時按下超過 6 個按鍵。",
-    "description_auto_detect": "全鍵無衝無法在部分 BIOS 和遊戲主機上工作。我們使用一種特殊的方法來檢測連接的主機是否支持全鍵無衝。如果支持，鍵盤將自動啟用全鍵無衝。如果不支持，鍵盤將自動禁用全鍵無衝。",
-    "hint_toggle_by_binding_toggle_keys": "對於特殊需求，您可以通過在按鍵映射中綁定切換按鍵來啟用或禁用全鍵無衝。",
+    "description_auto_detect": "全鍵無衝無法在部分 BIOS 和遊戲主機上工作。我們使用一種特殊的方法來檢測連線的主機是否支援全鍵無衝。如果支援，鍵盤將自動啟用全鍵無衝。如果不支援，鍵盤將自動禁用全鍵無衝。",
+    "hint_toggle_by_binding_toggle_keys": "對於特殊需求，您可以透過在按鍵對映中繫結切換按鍵來啟用或禁用全鍵無衝。",
     "enabled": "啟用",
     "disabled": "禁用",
     "auto_detect": "自動檢測",
-    "user_override": "用戶覆蓋",
+    "user_override": "使用者覆蓋",
     "current": "當前：{{ status }}（{{ mode }}）"
   },
   "priority_keys": {
-    "title": "按鍵掃描優先級",
-    "description": "此功能允許您將指定的按鍵組合設定為更高優先級，以提高它們的響應速度。相應地，如果按鍵組合被設定為更高優先級，則屬於同一個區域的其他按鍵組合的響應速度會降低。顯然，在同一區域中選擇越多的按鍵組合，帶來的響應速度提升就越小。",
-    "hint_unable_to_control_at_pre_key_level": "精確地控制每個按鍵的優先級是不可能的，因為按鍵屬於哪個組合及區域是由硬件設計決定的。",
+    "title": "按鍵掃描優先順序",
+    "description": "此功能允許您將指定的按鍵組合設定為更高優先順序，以提高它們的響應速度。相應地，如果按鍵組合被設定為更高優先順序，則屬於同一個區域的其他按鍵組合的響應速度會降低。顯然，在同一區域中選擇越多的按鍵組合，帶來的響應速度提升就越小。",
+    "hint_unable_to_control_at_pre_key_level": "精確地控制每個按鍵的優先順序是不可能的，因為按鍵屬於哪個組合及區域是由硬體設計決定的。",
     "area": "區域 {{ index }}"
   },
   "profile_management": {
     "title": "設定檔管理",
-    "export": "導出",
-    "import": "導入",
-    "hint_not_a_valid_file": "不是一個有效的文件。",
+    "export": "匯出",
+    "import": "匯入",
+    "hint_not_a_valid_file": "不是一個有效的檔案。",
     "export_dialog": {
-      "title": "導出 #{{ index }} {{ profile }}"
+      "title": "匯出 #{{ index }} {{ profile }}"
     },
     "import_dialog": {
-      "title": "導入 #{{ index }} {{ profile }}"
+      "title": "匯入 #{{ index }} {{ profile }}"
     }
   }
 }
