@@ -17,7 +17,7 @@
       "description": "永久開啟或關閉層 {{layer}}"
     },
     "bottom_layer": {
-      "description": "設定層 {{layer}} 為預設層（最底層）"
+      "description": "設置層 {{layer}} 為默認層（最底層）"
     },
     "layer_tap": {
       "description": "單擊時 {{key}}，長按時臨時開啟層 {{layer}}"
@@ -112,7 +112,7 @@
         "description": "全選"
       },
       "desktop_show_all_windows": {
-        "description": "排程中心（macOS）"
+        "description": "調度中心（macOS）"
       },
       "desktop_show_all_applications": {
         "description": "啟動臺（macOS）"
@@ -195,7 +195,7 @@
     },
     "hint_no_keys_selected": "請先選擇您想要校準的按鍵。",
     "how_to_calibrate": {
-      "message": "選擇您需要校準的按鍵，點選開始按鈕。\n按下按鍵到底，然後再鬆開。\n點選完成按鈕（開始校準後顯示）即可儲存校準結果。",
+      "message": "選擇您需要校準的按鍵，點擊開始按鈕。\n按下按鍵到底，然後再鬆開。\n點擊完成按鈕（開始校準後顯示）即可保存校準結果。",
       "title": "如何進行校準？"
     },
     "tooltip": "初始：{{top}}\n觸底：{{bottom}}",
@@ -518,7 +518,7 @@
     "description": "RAKKA Keyboard Configurator 使用 WebHID 和一些現代的技術構建，但很不幸，您正使用的瀏覽器不支援這些技術。注意，FireFox、Safari 等瀏覽器不受支援，因為它們不支援 WebHID。",
     "supported_browser": "支援的瀏覽器：",
     "title": "您正在使用不支援的瀏覽器",
-    "other_possibly_supported_browser": "其他基於 Chromium {{ version }}（{{ date }}）及以上版本開發的瀏覽器（可能支援）"
+    "other_possibly_supported_browser": "其他基於 Chromium {{ version }}（{{ date }}）及以上版本開發的瀏覽器（可能支持）"
   },
   "contact": {
     "title": "聯絡我們"
