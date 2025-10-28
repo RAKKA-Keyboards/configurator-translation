@@ -569,6 +569,10 @@
       "title": "磁玉 Gaming",
       "title_short": "Jade Gaming"
     },
+    "gateron_spark": {
+      "title": "花火軸",
+      "title_short": "Spark"
+    },
     "geon_raptor_he": {
       "title": "Raptor HE Gaming Switch",
       "title_short": "Raptor HE"
@@ -612,6 +616,58 @@
     "mobius": {
       "title": "莫比烏斯軸",
       "title_short": "莫比烏斯"
+    },
+    "jerrzi_ruyi": {
+      "title": "如意磁軸",
+      "title_short": "如意"
+    },
+    "huano_omega": {
+      "title": "歐米伽磁軸",
+      "title_short": "歐米伽"
+    },
+    "unionwell_polar": {
+      "title": "極磁軸",
+      "title_short": "極磁"
+    },
+    "unionwell_polar_pro": {
+      "title": "極磁軸 PRO",
+      "title_short": "極磁 PRO"
+    },
+    "unionwell_polar_pro_plus": {
+      "title": "極磁軸 PRO+",
+      "title_short": "極磁 PRO+"
+    },
+    "unionwell_polar_peach": {
+      "title": "蜜桃軸",
+      "title_short": "蜜桃"
+    },
+    "unionwell_polar_ink_jade": {
+      "title": "墨玉軸",
+      "title_short": "墨玉"
+    },
+    "unionwell_polar_sakura_clarity": {
+      "title": "櫻澈軸",
+      "title_short": "櫻澈"
+    },
+    "unionwell_polar_blazing_bloom": {
+      "title": "灼華軸",
+      "title_short": "灼華"
+    },
+    "phylina_lighting": {
+      "title": "閃雷軸",
+      "title_short": "閃雷"
+    },
+    "phylina_lighting_white": {
+      "title": "閃雷白軸",
+      "title_short": "閃雷白"
+    },
+    "phylina_lighting_pink": {
+      "title": "閃雷粉軸",
+      "title_short": "閃雷粉"
+    },
+    "drunkdeer_qian": {
+      "title": "乾軸",
+      "title_short": "乾軸"
     }
   },
   "manufacturer": {
@@ -619,7 +675,12 @@
     "ttc": "TTC",
     "geonworks": "GEONWORKS",
     "ug": "UGAMING遊眾",
-    "wuque": "Wuque無缺"
+    "wuque": "Wuque無缺",
+    "jerrzi": "九紫",
+    "huano": "環諾",
+    "unionwell": "冠泰",
+    "phylina": "PHYLINA",
+    "drunkdeer": "醉鹿"
   },
   "choose_switch": {
     "title": "選擇軸體",

@@ -613,6 +613,58 @@
     "mobius": {
       "title": "Möbius",
       "title_short": "Möbius"
+    },
+    "jerrzi_ruyi": {
+      "title": "Ruyi Switch",
+      "title_short": "Ruyi"
+    },
+    "huano_omega": {
+      "title": "Omega Switch",
+      "title_short": "Omega"
+    },
+    "unionwell_polar": {
+      "title": "Polar",
+      "title_short": "Polar"
+    },
+    "unionwell_polar_pro": {
+      "title": "Polar PRO",
+      "title_short": "Polar PRO"
+    },
+    "unionwell_polar_pro_plus": {
+      "title": "Polar PRO+",
+      "title_short": "Polar PRO+"
+    },
+    "unionwell_polar_peach": {
+      "title": "Polar・Peach",
+      "title_short": "Peach"
+    },
+    "unionwell_polar_ink_jade": {
+      "title": "Polar・Ink Jade",
+      "title_short": "Ink Jade"
+    },
+    "unionwell_polar_sakura_clarity": {
+      "title": "Polar・Sakura Clarity",
+      "title_short": "Sakura Clarity"
+    },
+    "unionwell_polar_blazing_bloom": {
+      "title": "Polar・Blazing Bloom",
+      "title_short": "Blazing Bloom"
+    },
+    "phylina_lighting": {
+      "title": "Lighting Switch",
+      "title_short": "Lighting"
+    },
+    "phylina_lighting_white": {
+      "title": "Lighting White Switch",
+      "title_short": "Lighting White"
+    },
+    "phylina_lighting_pink": {
+      "title": "Lighting Pink Switch",
+      "title_short": "Lighting Pink Switch"
+    },
+    "drunkdeer_qian": {
+      "title": "Qian Switch",
+      "title_short": "Qian"
     }
   },
   "manufacturer": {
@@ -620,7 +672,8 @@
     "ttc": "TTC",
     "geonworks": "GEONWORKS",
     "ug": "UGAMING",
-    "wuque": "Wuque Studio"
+    "wuque": "Wuque Studio",
+    "jerrzi": "JERRZI"
   },
   "choose_switch": {
     "title": "Choose switch",
