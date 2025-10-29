@@ -566,6 +566,10 @@
       "title": "Magnetic Jade MAX Switch",
       "title_short": "Jade MAX"
     },
+    "gateron_spark": {
+      "title": "Magnetic Spark Switch",
+      "title_short": "Spark"
+    },
     "gateron_ks20t_gaming": {
       "title": "Magnetic Jade Gaming Switch",
       "title_short": "Jade Gaming"
@@ -673,7 +677,11 @@
     "geonworks": "GEONWORKS",
     "ug": "UGAMING",
     "wuque": "Wuque Studio",
-    "jerrzi": "JERRZI"
+    "jerrzi": "JERRZI",
+    "huano": "Huano",
+    "unionwell": "Unionwell",
+    "phylina": "PHYLINA",
+    "drunkdeer": "Drunkdeer"
   },
   "choose_switch": {
     "title": "Choose switch",
