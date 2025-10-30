@@ -669,6 +669,10 @@
     "drunkdeer_qian": {
       "title": "Qian Switch",
       "title_short": "Qian"
+    },
+    "wuque_flux_small": {
+      "title": "Flux Switch (small magnetic force ver)",
+      "title_short": "Flux (small)"
     }
   },
   "manufacturer": {
