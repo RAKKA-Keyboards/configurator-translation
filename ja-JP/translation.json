@@ -565,6 +565,10 @@
       "title": "磁気ジェード MAX",
       "title_short": "Jade MAX"
     },
+    "gateron_spark": {
+      "title": "Magnetic Spark Switch",
+      "title_short": "Spark"
+    },
     "gateron_ks20t_gaming": {
       "title": "磁気ジェード Gaming",
       "title_short": "Jade Gaming"
@@ -612,6 +616,62 @@
     "mobius": {
       "title": "Möbius",
       "title_short": "Möbius"
+    },
+    "jerrzi_ruyi": {
+      "title": "Ruyi Switch",
+      "title_short": "Ruyi"
+    },
+    "huano_omega": {
+      "title": "Omega Switch",
+      "title_short": "Omega"
+    },
+    "unionwell_polar": {
+      "title": "Polar",
+      "title_short": "Polar"
+    },
+    "unionwell_polar_pro": {
+      "title": "Polar PRO",
+      "title_short": "Polar PRO"
+    },
+    "unionwell_polar_pro_plus": {
+      "title": "Polar PRO+",
+      "title_short": "Polar PRO+"
+    },
+    "unionwell_polar_peach": {
+      "title": "Polar・Peach",
+      "title_short": "Peach"
+    },
+    "unionwell_polar_ink_jade": {
+      "title": "Polar・Ink Jade",
+      "title_short": "Ink Jade"
+    },
+    "unionwell_polar_sakura_clarity": {
+      "title": "Polar・Sakura Clarity",
+      "title_short": "Sakura Clarity"
+    },
+    "unionwell_polar_blazing_bloom": {
+      "title": "Polar・Blazing Bloom",
+      "title_short": "Blazing Bloom"
+    },
+    "phylina_lighting": {
+      "title": "Lighting Switch",
+      "title_short": "照明"
+    },
+    "phylina_lighting_white": {
+      "title": "Lighting White Switch",
+      "title_short": "Lighting White"
+    },
+    "phylina_lighting_pink": {
+      "title": "Lighting Pink Switch",
+      "title_short": "Lighting Pink Switch"
+    },
+    "drunkdeer_qian": {
+      "title": "Qian Switch",
+      "title_short": "Qian"
+    },
+    "wuque_flux_small": {
+      "title": "Flux Switch (small magnetic force ver)",
+      "title_short": "Flux (small)"
     }
   },
   "manufacturer": {
@@ -619,7 +679,12 @@
     "ttc": "TTC",
     "geonworks": "GEONWORKS",
     "ug": "UGAMING",
-    "wuque": "Wuque Studio"
+    "wuque": "Wuque Studio",
+    "jerrzi": "JERRZI",
+    "huano": "Huano",
+    "unionwell": "Unionwell",
+    "phylina": "PHYLINA",
+    "drunkdeer": "Drunkdeer"
   },
   "choose_switch": {
     "title": "スイッチを選択してください",
