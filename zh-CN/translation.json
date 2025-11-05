@@ -1309,5 +1309,18 @@
     "import_dialog": {
       "title": "导入 #{{ index }} {{ profile }}"
     }
+  },
+  "strict_power_limit": {
+    "title": "严格电流限制模式",
+    "description": "在把灯光亮度设置得较高时，少部分主板、笔记本以及 USB Hub 可能无法为键盘提供足够的电流，导致灯光异常或设备断开连接。启用此模式后，键盘将严格限制最大功耗在 USB 2.0 的规范要求内，以避免这些问题。",
+    "description2": "你知道，既要灯亮，又要省电，是不太现实的（",
+    "hint": {
+      "description": "最大亮度已被限制为 {{ brightness }}%，因为严格电流限制模式已开启。",
+      "learn_more": "了解更多"
+    },
+    "hint_exceeded": {
+      "description": "实际生效的亮度为 {{ brightness }}%，因为严格电流限制模式已开启。",
+      "learn_more": "了解更多"
+    }
   }
 }

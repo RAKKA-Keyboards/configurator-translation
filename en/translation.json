@@ -1311,5 +1311,18 @@
     "import_dialog": {
       "title": "Import #{{ index }} {{ profile }}"
     }
+  },
+  "strict_power_limit": {
+    "title": "Strict current limit mode",
+    "description": "When the lighting brightness is set high, some motherboards, laptops, and USB hubs may fail to provide enough current for the keyboard, causing lighting abnormalities or device disconnection. Enabling this mode strictly limits the maximum power consumption within the USB 2.0 specification to prevent these issues.",
+    "description2": "You know, wanting both bright lights and low power consumption isn’t very realistic (",
+    "hint": {
+      "description": "Maximum brightness has been limited to {{ brightness }}% because strict current limit mode is enabled.",
+      "learn_more": "Learn more"
+    },
+    "hint_exceeded": {
+      "description": "The effective brightness is {{ brightness }}% because strict current limit mode is enabled.",
+      "learn_more": "Learn more"
+    }
   }
 }

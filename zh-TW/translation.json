@@ -1309,5 +1309,18 @@
     "import_dialog": {
       "title": "匯入 #{{ index }} {{ profile }}"
     }
+  },
+  "strict_power_limit": {
+    "title": "嚴格電流限制模式",
+    "description": "在把燈光亮度設定得較高時，少部分主機板、筆記本以及 USB Hub 可能無法為鍵盤提供足夠的電流，導致燈光異常或裝置斷開連線。啟用此模式後，鍵盤將嚴格限制最大功耗在 USB 2.0 的規範要求內，以避免這些問題。",
+    "description2": "你知道，既要燈亮，又要省電，是不太現實的（",
+    "hint": {
+      "description": "最大亮度已被限制為 {{ brightness }}%，因為嚴格電流限制模式已開啟。",
+      "learn_more": "瞭解更多"
+    },
+    "hint_exceeded": {
+      "description": "實際生效的亮度為 {{ brightness }}%，因為嚴格電流限制模式已開啟。",
+      "learn_more": "瞭解更多"
+    }
   }
 }
