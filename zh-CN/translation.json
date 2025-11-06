@@ -781,6 +781,11 @@
     "on_board_profiles": {
       "title": "板载配置文件",
       "description": "板载配置文件是存储在键盘上的配置文件，不论将键盘连接到什么设备都可以随时使用它们。"
+    },
+    "switch_device_profile_as_well": {
+      "title": "一并切换设备使用的配置文件",
+      "description": "开启时，在此处切换配置文件，也会一并切换设备使用的配置文件。关闭时，仅切换正在编辑的配置文件。",
+      "hint_switch_until_all_keys_are_released": "如果有按键被按下，则配置文件的切换会被延后至所有按键都被释放为止。"
     }
   },
   "dark_mode": {

@@ -782,6 +782,11 @@
     "on_board_profiles": {
       "title": "On-board profiles",
       "description": "On-board profiles are stored on the keyboard and can be used at any time, regardless of which device the keyboard is connected to."
+    },
+    "switch_device_profile_as_well": {
+      "title": "Also switch the device’s active profile",
+      "description": "When enabled, switching profiles here will also switch the profile currently used by the device. When disabled, only the profile being edited will be changed.",
+      "hint_switch_until_all_keys_are_released": "If any key is being pressed, the profile switch will be delayed until all keys are released."
     }
   },
   "dark_mode": {

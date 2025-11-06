@@ -781,6 +781,11 @@
     "on_board_profiles": {
       "title": "板載設定檔",
       "description": "板載設定檔是儲存在鍵盤上的設定檔，不論將鍵盤連線到什麼裝置都可以隨時使用它們。"
+    },
+    "switch_device_profile_as_well": {
+      "title": "一併切換裝置使用的設定檔",
+      "description": "開啟時，在此處切換設定檔，也會一併切換裝置使用的設定檔。關閉時，僅切換正在編輯的設定檔。",
+      "hint_switch_until_all_keys_are_released": "如果有按鍵被按下，則設定檔的切換會被延後至所有按鍵都被釋放為止。"
     }
   },
   "dark_mode": {
