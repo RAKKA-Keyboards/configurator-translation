@@ -1321,6 +1321,7 @@
     "hint_exceeded": {
       "description": "實際生效的亮度為 {{ brightness }}%，因為嚴格電流限制模式已開啟。",
       "learn_more": "瞭解更多"
-    }
+    },
+    "hint_press_key_on_boot_to_force_enable": "在鍵盤啟動時按住 {{ key }} 鍵以強制啟用嚴格電流限制模式。如有需要，亮度設定也會相應降低。"
   }
 }

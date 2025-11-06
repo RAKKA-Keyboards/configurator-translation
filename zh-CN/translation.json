@@ -1321,6 +1321,7 @@
     "hint_exceeded": {
       "description": "实际生效的亮度为 {{ brightness }}%，因为严格电流限制模式已开启。",
       "learn_more": "了解更多"
-    }
+    },
+    "hint_press_key_on_boot_to_force_enable": "在键盘启动时按住 {{ key }} 键以强制启用严格电流限制模式。如有必要，亮度设置也会相应降低。"
   }
 }

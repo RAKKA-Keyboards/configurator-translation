@@ -1256,6 +1256,7 @@
     "hint_exceeded": {
       "description": "厳格な電流制限モードが有効なため、実際に適用される明るさは {{ brightness }}% です。",
       "learn_more": "詳しく見る"
-    }
+    },
+    "hint_press_key_on_boot_to_force_enable": "キーボードの起動時に {{ key }} キーを押し続けると、厳格な電流制限モードを強制的に有効化できます。必要に応じて、明るさ設定も自動的に下げられます。"
   }
 }

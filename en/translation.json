@@ -1323,6 +1323,7 @@
     "hint_exceeded": {
       "description": "The effective brightness is {{ brightness }}% because strict current limit mode is enabled.",
       "learn_more": "Learn more"
-    }
+    },
+    "hint_press_key_on_boot_to_force_enable": "Hold the {{ key }} key while the keyboard is starting up to force-enable strict current limit mode. The brightness setting will also be reduced if necessary."
   }
 }
