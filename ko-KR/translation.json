@@ -565,6 +565,10 @@
       "title": "Magnetic Jade MAX Switch",
       "title_short": "Jade MAX"
     },
+    "gateron_spark": {
+      "title": "Magnetic Spark Switch",
+      "title_short": "Spark"
+    },
     "gateron_ks20t_gaming": {
       "title": "Magnetic Jade Gaming Switch",
       "title_short": "Jade Gaming"
@@ -612,6 +616,62 @@
     "mobius": {
       "title": "Möbius",
       "title_short": "Möbius"
+    },
+    "jerrzi_ruyi": {
+      "title": "Ruyi Switch",
+      "title_short": "Ruyi"
+    },
+    "huano_omega": {
+      "title": "Omega Switch",
+      "title_short": "Omega"
+    },
+    "unionwell_polar": {
+      "title": "Polar",
+      "title_short": "Polar"
+    },
+    "unionwell_polar_pro": {
+      "title": "Polar PRO",
+      "title_short": "Polar PRO"
+    },
+    "unionwell_polar_pro_plus": {
+      "title": "Polar PRO+",
+      "title_short": "Polar PRO+"
+    },
+    "unionwell_polar_peach": {
+      "title": "Polar・Peach",
+      "title_short": "Peach"
+    },
+    "unionwell_polar_ink_jade": {
+      "title": "Polar・Ink Jade",
+      "title_short": "Ink Jade"
+    },
+    "unionwell_polar_sakura_clarity": {
+      "title": "Polar・Sakura Clarity",
+      "title_short": "Sakura Clarity"
+    },
+    "unionwell_polar_blazing_bloom": {
+      "title": "Polar・Blazing Bloom",
+      "title_short": "Blazing Bloom"
+    },
+    "phylina_lighting": {
+      "title": "Lighting Switch",
+      "title_short": "Lighting"
+    },
+    "phylina_lighting_white": {
+      "title": "Lighting White Switch",
+      "title_short": "Lighting White"
+    },
+    "phylina_lighting_pink": {
+      "title": "Lighting Pink Switch",
+      "title_short": "Lighting Pink Switch"
+    },
+    "drunkdeer_qian": {
+      "title": "Qian Switch",
+      "title_short": "Qian"
+    },
+    "wuque_flux_small": {
+      "title": "Flux Switch (small magnetic force ver)",
+      "title_short": "Flux (small)"
     }
   },
   "manufacturer": {
@@ -619,7 +679,12 @@
     "ttc": "TTC",
     "geonworks": "GEONWORKS",
     "ug": "UGAMING",
-    "wuque": "Wuque Studio"
+    "wuque": "Wuque Studio",
+    "jerrzi": "JERRZI",
+    "huano": "Huano",
+    "unionwell": "Unionwell",
+    "phylina": "PHYLINA",
+    "drunkdeer": "Drunkdeer"
   },
   "choose_switch": {
     "title": "스위치를 고르세요.",
@@ -716,6 +781,11 @@
     "on_board_profiles": {
       "title": "On-board profiles",
       "description": "On-board profiles are stored on the keyboard and can be used at any time, regardless of which device the keyboard is connected to."
+    },
+    "switch_device_profile_as_well": {
+      "title": "Also switch the device’s active profile",
+      "description": "When enabled, switching profiles here will also switch the profile currently used by the device. When disabled, only the profile being edited will be changed.",
+      "hint_switch_until_all_keys_are_released": "If any key is being pressed, the profile switch will be delayed until all keys are released."
     }
   },
   "dark_mode": {
@@ -1244,5 +1314,19 @@
     "import_dialog": {
       "title": "Import #{{ index }} {{ profile }}"
     }
+  },
+  "strict_power_limit": {
+    "title": "Strict current limit mode",
+    "description": "When the lighting brightness is set high, some motherboards, laptops, and USB hubs may fail to provide enough current for the keyboard, causing lighting abnormalities or device disconnection. Enabling this mode strictly limits the maximum power consumption within the USB 2.0 specification to prevent these issues.",
+    "description2": "You know, wanting both bright lights and low power consumption isn’t very realistic (",
+    "hint": {
+      "description": "Maximum brightness has been limited to {{ brightness }}% because strict current limit mode is enabled.",
+      "learn_more": "Learn more"
+    },
+    "hint_exceeded": {
+      "description": "The effective brightness is {{ brightness }}% because strict current limit mode is enabled.",
+      "learn_more": "Learn more"
+    },
+    "hint_press_key_on_boot_to_force_enable": "Hold the {{ key }} key while the keyboard is starting up to force-enable strict current limit mode. The brightness setting will also be reduced if necessary."
   }
 }

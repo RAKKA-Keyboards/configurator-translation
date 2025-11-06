@@ -565,13 +565,13 @@
       "title": "磁玉 MAX",
       "title_short": "Jade MAX"
     },
-    "gateron_ks20t_gaming": {
-      "title": "磁玉 Gaming",
-      "title_short": "Jade Gaming"
-    },
     "gateron_spark": {
       "title": "花火轴",
       "title_short": "Spark"
+    },
+    "gateron_ks20t_gaming": {
+      "title": "磁玉 Gaming",
+      "title_short": "Jade Gaming"
     },
     "geon_raptor_he": {
       "title": "Raptor HE Gaming Switch",
