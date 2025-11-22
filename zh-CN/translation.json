@@ -353,6 +353,7 @@
     "connect_to_recovery_device": "连接到处于恢复模式的设备",
     "connect_to_recovery_device_hint": "点击连接后，您需要再次选择设备，随即写入过程就会开始。若放弃升级，请不要点击连接，重新插拔设备后设备会回到正常模式。",
     "connect_to_recovery_device_hint_unable_to_find_device": "如果无法找到设备，请确认设备已经进入恢复模式。例如，此时应不能打字。另外，使用低质量的 USB 线缆可能会导致设备无法运行在 USB 2.0 高速，从而无法被检测到。",
+    "update_recovery_mode_program": "将恢复模式程序升级到最新版本",
     "flash_firmware": "写入固件",
     "flash_firmware_hint": "请不要断开设备连接。若在写入期间断开设备，设备将停留在恢复模式，重新进行固件升级即可恢复。",
     "finish": "完成",

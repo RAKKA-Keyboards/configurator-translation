@@ -353,6 +353,7 @@
     "connect_to_recovery_device": "連線到處於恢復模式的裝置",
     "connect_to_recovery_device_hint": "點選連線後，您需要再次選擇裝置，隨即寫入過程就會開始。若放棄升級，請不要點選連線，重新插拔裝置後裝置會回到正常模式。",
     "connect_to_recovery_device_hint_unable_to_find_device": "如果無法找到裝置，請確認裝置已經進入恢復模式。例如，此時應不能打字。另外，使用低質量的 USB 線纜可能會導致裝置無法執行在 USB 2.0 高速，從而無法被檢測到。",
+    "update_recovery_mode_program": "將恢復模式程式升級到最新版本",
     "flash_firmware": "寫入韌體",
     "flash_firmware_hint": "請不要斷開裝置連線。若在寫入期間斷開裝置，裝置將停留在恢復模式，重新進行韌體升級即可恢復。",
     "finish": "完成",

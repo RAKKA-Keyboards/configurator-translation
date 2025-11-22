@@ -353,6 +353,7 @@
     "connect_to_recovery_device": "Connect to device in recovery mode",
     "connect_to_recovery_device_hint": "After clicking Connect, you need to select the device again and the writing process will begin. If you want to give up on upgrading, please DO NOT click Connect. The device will return to normal mode after replugging the device.",
     "connect_to_recovery_device_hint_unable_to_find_device": "If the device cannot be found, make sure it is in recovery mode. For example, typing should not be possible. Also, using a low-quality USB cable may prevent the device from running at USB 2.0 High Speed and thus not be detected.",
+    "update_recovery_mode_program": "Update recovery mode program to the latest version",
     "flash_firmware": "Flash firmware",
     "flash_firmware_hint": "Please do not disconnect the device. If the device is disconnected during flashing, the device will stay in recovery mode and can be restored by re-upgrading the firmware.",
     "finish": "Finish",
