@@ -391,7 +391,6 @@
       "trigger_travel": "觸發行程",
       "rapid_trigger": "快速觸發",
       "swift_flow": "Swift Flow",
-      "debounce": "去抖動",
       "misc": "雜項"
     }
   },
@@ -1227,34 +1226,6 @@
     "reset_zoom": "重置縮放",
     "zoom_to_bottom": "縮放至底部 {{ distance }}mm",
     "hint_scan_rate": "此速度並不直接反映掃描率（每秒掃描按鍵的次數），因為對於 RAKKA 80 及以後的產品，這些資料可能已經過預處理（來自更多原始資料）。"
-  },
-  "debounce": {
-    "level": "去抖動等級",
-    "enabled_features": "開啟的功能",
-    "levels": {
-      "off": "關閉",
-      "0": "等級 0",
-      "1": "等級 1",
-      "2": "等級 2",
-      "3": "等級 3"
-    },
-    "hint_not_affect_latency": "不會影響延遲。",
-    "hint_latency_increase_to_at_the_worst_scenario": "鍵盤將響應無法及時響應按鍵的變化。在最壞的情況下，延遲增加至 {{ times }} 倍。",
-    "hint_worse_than_level0": "使用此等級並設定極端引數，最終的響應速度（延遲）很可能不如使用等級 0 並設定非極端引數。",
-    "hint_about_latency_test": "瞬間改變感測器輸出的延遲測試方法是不準確的，因為人手不可能這麼快。使用此類方法只會得到好於甚至遠好於真實情況的結果。",
-    "hint_others_will_not_tell_you": "其他人不會告訴你的…",
-    "hint_user_actions_are_inaccurate": "不能保證在極低引數（例如 0.0xmm）下始終正常。因為軸體在被按壓時會出現晃動，而鍵盤不可能能夠區分正常地手指抬起與出現了晃動。",
-    "hint_dont_use_under_normal_conditions": "在正常情況下不要使用！",
-    "filter_strength": {
-      "title": "濾波強度",
-      "description": "濾波演算法可以使按鍵變得「穩定」，但是代價則是成倍地降低按鍵的響應速度，即延遲會更高。",
-      "levels": {
-        "0": "關閉",
-        "1": "輕度",
-        "2": "強力",
-        "3": "極端"
-      }
-    }
   },
   "always_trigger_when_bottoming": {
     "title": "觸底時始終觸發",

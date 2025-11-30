@@ -392,7 +392,6 @@
       "trigger_travel": "Trigger travel",
       "rapid_trigger": "Rapid Trigger",
       "swift_flow": "Swift Flow",
-      "debounce": "Debounce",
       "misc": "Miscellaneous"
     }
   },
@@ -1229,34 +1228,6 @@
     "reset_zoom": "Reset zoom",
     "zoom_to_bottom": "Zoom to the bottom {{ distance }}mm",
     "hint_scan_rate": "This speed does not directly reflect scan rate (how many times the key is scanned per second), as for RAKKA 80 and later products, these data may already be preprocessed (from more raw data)."
-  },
-  "debounce": {
-    "level": "Debounce level",
-    "enabled_features": "Enabled features",
-    "levels": {
-      "off": "Off",
-      "0": "Level 0",
-      "1": "Level 1",
-      "2": "Level 2",
-      "3": "Level 3"
-    },
-    "hint_not_affect_latency": "Does not affect latency.",
-    "hint_latency_increase_to_at_the_worst_scenario": "The keyboard may fail to respond promptly to key changes. In the worst-case scenario, latency may increase by up to {{ times }} times.",
-    "hint_worse_than_level0": "Using this level with extreme parameter settings may result in slower response (higher latency) than using Level 0 with more moderate parameters.",
-    "hint_about_latency_test": "Latency test methods that instantly change sensor output are inaccurate, as human fingers cannot move that quickly. Such methods will only produce results that are better—or even significantly better—than actual real-world performance.",
-    "hint_others_will_not_tell_you": "Others will not tell you…",
-    "hint_user_actions_are_inaccurate": "Stable behavior cannot be guaranteed under extremely low thresholds (e.g., 0.0xmm), as the switch may wobble during pressing, and the keyboard cannot distinguish between a normal finger lift and unintended wobble.",
-    "hint_dont_use_under_normal_conditions": "Don't use under normal conditions!",
-    "filter_strength": {
-      "title": "Filter strength",
-      "description": "Filtering algorithms can make key presses more 'stable', but the trade-off is a significant reduction in responsiveness, resulting in higher latency.",
-      "levels": {
-        "0": "Off",
-        "1": "Normal",
-        "2": "Strong",
-        "3": "Extreme"
-      }
-    }
   },
   "always_trigger_when_bottoming": {
     "title": "Always trigger when bottoming out",

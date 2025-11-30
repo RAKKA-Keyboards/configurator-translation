@@ -391,8 +391,7 @@
       "trigger_travel": "トリガーストローク",
       "rapid_trigger": "ラピッドトリガー",
       "swift_flow": "Swift Flow",
-      "debounce": "デバウンス",
-      "misc": "Miscellaneous"
+      "misc": "その他"
     }
   },
   "keymap": {
@@ -1226,35 +1225,7 @@
     },
     "reset_zoom": "ズームをリセット",
     "zoom_to_bottom": "下部までズーム {{ distance }}mm",
-    "hint_scan_rate": "This speed does not directly reflect scan rate (how many times the key is scanned per second), as for RAKKA 80 and later products, these data may already be preprocessed (from more raw data)."
-  },
-  "debounce": {
-    "level": "デバウンスレベル",
-    "enabled_features": "有効化された機能",
-    "levels": {
-      "off": "オフ",
-      "0": "レベル 0",
-      "1": "レベル1",
-      "2": "レベル2",
-      "3": "レベル3"
-    },
-    "hint_not_affect_latency": "レイテンシに影響を与えません。",
-    "hint_latency_increase_to_at_the_worst_scenario": "最悪の場合、キーボードがキーの変化に即座に反応できず、遅延が最大で {{ times }} 倍に増加する可能性があります。",
-    "hint_worse_than_level0": "このレベルを極端なパラメータ設定で使用すると、より穏健なパラメータで使用するレベル0よりも反応が遅く（レイテンシーが高く）なる可能性があります。",
-    "hint_about_latency_test": "人間の指がそのように速く動くことはできないため、センサー出力を即座に変更する遅延テスト方法は不正確です。そのような方法は、実際の現実世界のパフォーマンスよりも優れた、あるいは大幅に優れた結果しか生み出さないでしょう。",
-    "hint_others_will_not_tell_you": "他人はあなたには教えてくれません...",
-    "hint_user_actions_are_inaccurate": "非常に低い閾値（例えば、0.0xmm）では、スイッチが押下中に揺れる可能性があり、キーボードが通常の指の持ち上げと意図しない揺れを区別できないため、安定した動作は保証できません。",
-    "hint_dont_use_under_normal_conditions": "通常の状況下では使用しないでください！",
-    "filter_strength": {
-      "title": "フィルターの強度",
-      "description": "フィルタリングアルゴリズムはキー押下をより「安定」にすることができますが、その代償として応答性が大幅に低下し、結果として遅延が増大します。",
-      "levels": {
-        "0": "オフ",
-        "1": "ノーマル",
-        "2": "強力な",
-        "3": "エクストリーム"
-      }
-    }
+    "hint_scan_rate": "この速度はスキャンレート（キーが1秒間にスキャンされる回数）を直接反映するものではありません。RAKKA 80以降の製品では、これらのデータはすでに前処理されている可能性があります（より生のデータから）。"
   },
   "always_trigger_when_bottoming": {
     "title": "底打ち時に常に反応する",
@@ -1269,8 +1240,8 @@
       "unless": "すべてのキー操作が常に安定して真下に押される保証がない限り、リリースが発生するのは正常であり、キーボードの不具合ではありません。"
     },
     "too_low": {
-      "title": "Current settings may cause unexpected key release",
-      "reason": "The current settings are too low. Our keyboard responds faithfully and sensitively to data changes, rather than achieving so-called 'stability' by drastically sacrificing latency."
+      "title": "現在の設定は、予期しないキーリリースを引き起こす可能性があります",
+      "reason": "現在の設定は低すぎます。私たちのキーボードは、遅延を大幅に犠牲にしていわゆる「安定性」を達成するのではなく、データの変化に忠実かつ敏感に反応します。"
     },
     "button_why": "なぜ？それはキーボードが解決すべきでは？"
   },

@@ -391,7 +391,6 @@
       "trigger_travel": "触发行程",
       "rapid_trigger": "快速触发",
       "swift_flow": "Swift Flow",
-      "debounce": "去抖动",
       "misc": "杂项"
     }
   },
@@ -1227,34 +1226,6 @@
     "reset_zoom": "重置缩放",
     "zoom_to_bottom": "缩放至底部 {{ distance }}mm",
     "hint_scan_rate": "此速度并不直接反映扫描率（每秒扫描按键的次数），因为对于 RAKKA 80 及以后的产品，这些数据可能已经过预处理（来自更多原始数据）。"
-  },
-  "debounce": {
-    "level": "去抖动等级",
-    "enabled_features": "开启的功能",
-    "levels": {
-      "off": "关闭",
-      "0": "等级 0",
-      "1": "等级 1",
-      "2": "等级 2",
-      "3": "等级 3"
-    },
-    "hint_not_affect_latency": "不会影响延迟。",
-    "hint_latency_increase_to_at_the_worst_scenario": "键盘将响应无法及时响应按键的变化。在最坏的情况下，延迟增加至 {{ times }} 倍。",
-    "hint_worse_than_level0": "使用此等级并设置极端参数，最终的响应速度（延迟）很可能不如使用等级 0 并设定非极端参数。",
-    "hint_about_latency_test": "瞬间改变传感器输出的延迟测试方法是不准确的，因为人手不可能这么快。使用此类方法只会得到好于甚至远好于真实情况的结果。",
-    "hint_others_will_not_tell_you": "其他人不会告诉你的…",
-    "hint_user_actions_are_inaccurate": "不能保证在极低参数（例如 0.0xmm）下始终正常。因为轴体在被按压时会出现晃动，而键盘不可能能够区分正常地手指抬起与出现了晃动。",
-    "hint_dont_use_under_normal_conditions": "在正常情况下不要使用！",
-    "filter_strength": {
-      "title": "滤波强度",
-      "description": "滤波算法可以使按键变得“稳定”，但是代价则是成倍地降低按键的响应速度，即延迟会更高。",
-      "levels": {
-        "0": "关闭",
-        "1": "轻度",
-        "2": "强力",
-        "3": "极端"
-      }
-    }
   },
   "always_trigger_when_bottoming": {
     "title": "触底时始终触发",
