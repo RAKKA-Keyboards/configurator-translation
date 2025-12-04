@@ -226,8 +226,7 @@
       "hint_change_switch_requires_redo": "更换轴体型号后，先前记录的校准值会失效，您需要重新进行这个步骤。<br>即使是同型号的轴体，也需要重新进行，以避免个体差异带来的影响。",
       "hint_no_keys_selected": "请先选择您想要保存校准结果的按键。",
       "dialog_failed": {
-        "title": "未按压按键或轴体安装异常",
-        "description": "<b>请确认已经使用正常力度按压过按键，切勿完全不按压就直接保存。</b><p><small><b>如果自行更换过轴体，请确认已装紧</b>，即使是视觉上难以发现的松脱对于键盘来说也是十分巨大的。此外，运输也可能使轴体轻微松脱。</small>"
+        "description": "请确认已经使用正常力度按压过按键。<br><br>如果自行更换过轴体，请确认已装紧。另外，运输也可能使轴体轻微松脱。"
       },
       "hint_unnecessary_keys_are_disabled": "无法选择的按键无需进行“人工校准相对触底值”。",
       "allow_temporarily": "临时允许"
@@ -1300,5 +1299,9 @@
       "learn_more": "了解更多"
     },
     "hint_press_key_on_boot_to_force_enable": "在键盘启动时按住 {{ key }} 键以强制启用严格电流限制模式。如有必要，亮度设置也会相应降低。"
+  },
+  "do_not_add_switch_foam": {
+    "title": "安装轴下垫会导致异常",
+    "description": "出现无法校准，参数设定稍低时按键异常触发等，都是正常的。请自行取舍。"
   }
 }
