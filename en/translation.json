@@ -1302,5 +1302,9 @@
       "learn_more": "Learn more"
     },
     "hint_press_key_on_boot_to_force_enable": "Hold the {{ key }} key while the keyboard is starting up to force-enable strict current limit mode. The brightness setting will also be reduced if necessary."
+  },
+  "do_not_add_switch_foam": {
+    "title": "Installing switch foam may cause abnormalities",
+    "description": "Issues such as inability to calibrate and abnormal key triggering at slightly low parameter settings are normal. Please make your own choice."
   }
 }

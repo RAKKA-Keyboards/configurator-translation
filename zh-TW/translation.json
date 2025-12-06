@@ -226,8 +226,7 @@
       "hint_change_switch_requires_redo": "更換軸體型號後，先前記錄的校準值會失效，您需要重新進行這個步驟。<br>即使是同型號的軸體，也需要重新進行，以避免個體差異帶來的影響。",
       "hint_no_keys_selected": "請先選擇您想要儲存校準結果的按鍵。",
       "dialog_failed": {
-        "title": "未按壓按鍵或軸體安裝異常",
-        "description": "<b>請確認已經使用正常力度按壓過按鍵，切勿完全不按壓就直接儲存。</b><p><small><b>如果自行更換過軸體，請確認已裝緊</b>，即使是視覺上難以發現的鬆脫對於鍵盤來說也是十分巨大的。此外，運輸也可能使軸體輕微鬆脫。</small>"
+        "description": "請確認已經使用正常力度按壓過按鍵。<br><br>如果自行更換過軸體，請確認已裝緊。另外，運輸也可能使軸體輕微鬆脫。"
       },
       "hint_unnecessary_keys_are_disabled": "無法選擇的按鍵無需進行「人工校準相對觸底值」。",
       "allow_temporarily": "臨時允許"
@@ -1300,5 +1299,9 @@
       "learn_more": "瞭解更多"
     },
     "hint_press_key_on_boot_to_force_enable": "在鍵盤啟動時按住 {{ key }} 鍵以強制啟用嚴格電流限制模式。如有必要，亮度設定也會相應降低。"
+  },
+  "do_not_add_switch_foam": {
+    "title": "安裝軸下墊會導致異常",
+    "description": "出現無法校準，引數設定稍低時按鍵異常觸發等，都是正常的。請自行取捨。"
   }
 }
