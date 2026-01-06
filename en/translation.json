@@ -1306,5 +1306,26 @@
   "do_not_add_switch_foam": {
     "title": "Installing switch foam may cause abnormalities",
     "description": "Issues such as inability to calibrate and abnormal key triggering at slightly low parameter settings are normal. Please make your own choice."
+  },
+  "operation_mode": {
+    "choose_title": "Choose an operation mode",
+    "modes": {
+      "basic": {
+        "title": "Basic mode",
+        "description1": "Suitable for beginners and users who do not need advanced features.",
+        "description2": "In this mode, the keyboard operates with stability as the top priority.",
+        "description3": "Some options will be hidden, and the minimum and maximum values of configurable parameters will be restricted.",
+        "hint": "If this is your first time using a Hall Effect keyboard, or you prefer minimal setup, this mode is recommended for a better experience."
+      },
+      "expert": {
+        "title": "Expert mode",
+        "description1": "Suitable for experienced users who want to fully unlock the keyboard's hardware performance.",
+        "description2": "In this mode, all options are available for fine-tuning.",
+        "description3": "With correct settings, the keyboard can respond to your actions as fast as possible. However, this requires a solid understanding of how the keyboard works and the ability to debug and optimize the settings on your own.",
+        "hint1": "For advanced users only!",
+        "hint2": "With incorrect settings—such as blindly pushing every parameter to the extreme—issues like missed inputs and accidental inputs are completely normal."
+      }
+    },
+    "hint_you_can_change_it_anytime": "You can switch operation modes at any time."
   }
 }
