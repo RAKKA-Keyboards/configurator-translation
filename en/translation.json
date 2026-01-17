@@ -392,7 +392,8 @@
       "trigger_travel": "Trigger travel",
       "rapid_trigger": "Rapid Trigger",
       "swift_flow": "Swift Flow",
-      "misc": "Miscellaneous"
+      "misc": "Miscellaneous",
+      "trigger": "Trigger"
     }
   },
   "keymap": {
@@ -456,6 +457,7 @@
   "performance": {
     "hint_the_value_is_too_aggressive": "Since the switch and human hands cannot be absolutely stable, overly aggressive settings may result in abnormal key triggering. To pursue the limit, we recommend that you find an extreme but stable value that suits you by continuously increasing the value of the setting.",
     "enable_rapid_trigger": "Enable Rapid Trigger",
+    "hint_select_keys_first": "Please select the key you want to configure first.",
     "rapid_trigger": {
       "title": "Rapid Trigger",
       "description": "After enabling Rapid Trigger, the trigger and reset position are no longer fixed, but dynamically adjusted as you press. This allows you to trigger or reset keys more quickly, which can be helpful in certain types of games.",
