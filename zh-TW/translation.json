@@ -456,6 +456,8 @@
     "hint_the_value_is_too_aggressive": "由於軸體和人手不可能絕對穩定，過於激進的設定可能會導致按鍵觸發異常。若要追求極限，我們建議您透過不斷增加設定的數值來找到一個合適自己的極限但穩定的數值。",
     "enable_rapid_trigger": "啟用快速觸發",
     "hint_select_keys_first": "請先選擇您想要配置的按鍵。",
+    "adjust_together": "一起調整",
+    "adjust_separately": "分別調整",
     "rapid_trigger": {
       "title": "快速觸發",
       "description": "開啟快速觸發後，按鍵的觸發和重置不再是一個固定的距離，而是在您按壓的過程中動態調整。這可以讓您更快地觸發或重置按鍵。在特定型別的遊戲中很有幫助。",

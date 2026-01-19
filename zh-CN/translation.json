@@ -456,6 +456,8 @@
     "hint_the_value_is_too_aggressive": "由于轴体和人手不可能绝对稳定，过于激进的设置可能会导致按键触发异常。若要追求极限，我们建议您通过不断增加设定的数值来找到一个合适自己的极限但稳定的数值。",
     "enable_rapid_trigger": "启用快速触发",
     "hint_select_keys_first": "请先选择您想要配置的按键。",
+    "adjust_together": "一起调整",
+    "adjust_separately": "分别调整",
     "rapid_trigger": {
       "title": "快速触发",
       "description": "开启快速触发后，按键的触发和重置不再是一个固定的距离，而是在您按压的过程中动态调整。这可以让您更快地触发或重置按键。在特定类型的游戏中很有帮助。",
