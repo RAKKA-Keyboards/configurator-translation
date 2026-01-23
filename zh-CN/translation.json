@@ -1007,6 +1007,11 @@
       "lighting_scopes": {
         "keys": "按键"
       }
+    },
+    "rakka_64_atlas": {
+      "lighting_scopes": {
+        "keys": "按键"
+      }
     }
   },
   "something_went_wrong": "出错了",

@@ -1005,6 +1005,11 @@
       "lighting_scopes": {
         "keys": "Keys"
       }
+    },
+    "rakka_64_atlas": {
+      "lighting_scopes": {
+        "keys": "Keys"
+      }
     }
   },
   "something_went_wrong": "Something went wrong",
