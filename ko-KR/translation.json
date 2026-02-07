@@ -391,8 +391,8 @@
       "trigger_travel": "입력지점",
       "rapid_trigger": "래피드 트리거",
       "swift_flow": "Swift Flow",
-      "debounce": "Debounce",
-      "misc": "Miscellaneous"
+      "misc": "Miscellaneous",
+      "trigger": "Trigger"
     }
   },
   "keymap": {
@@ -458,6 +458,9 @@
   "performance": {
     "hint_the_value_is_too_aggressive": "스위치와 사람의 손은 절대적으로 안정적일 수 없으므로 지나치게 민감하게 설정하면 비정상적인 키 입력이 발생할 수 있습니다. 가장 빠른 입력지점을 추구하려면 설정 값을 계속 조절해가면서 자신에게 맞는 빠르고 안정적인 입력지점을 찾는 것이 좋습니다.",
     "enable_rapid_trigger": "Enable Rapid Trigger",
+    "hint_select_keys_first": "Please select the key you want to configure first.",
+    "adjust_together": "Adjust together",
+    "adjust_separately": "Adjust separately",
     "rapid_trigger": {
       "title": "래피드 트리거",
       "description": "After enabling Rapid Trigger, the trigger and reset position are no longer fixed, but dynamically adjusted as you press. This allows you to trigger or reset keys more quickly, which can be helpful in certain types of games.",
@@ -1235,34 +1238,6 @@
     "zoom_to_bottom": "Zoom to the bottom {{ distance }}mm",
     "hint_scan_rate": "This speed does not directly reflect scan rate (how many times the key is scanned per second), as for RAKKA 80 and later products, these data may already be preprocessed (from more raw data)."
   },
-  "debounce": {
-    "level": "Debounce level",
-    "enabled_features": "Enabled features",
-    "levels": {
-      "off": "Off",
-      "0": "Level 0",
-      "1": "Level 1",
-      "2": "Level 2",
-      "3": "Level 3"
-    },
-    "hint_not_affect_latency": "Does not affect latency.",
-    "hint_latency_increase_to_at_the_worst_scenario": "The keyboard may fail to respond promptly to key changes. In the worst-case scenario, latency may increase by up to {{ times }} times.",
-    "hint_worse_than_level0": "Using this level with extreme parameter settings may result in slower response (higher latency) than using Level 0 with more moderate parameters.",
-    "hint_about_latency_test": "Latency test methods that instantly change sensor output are inaccurate, as human fingers cannot move that quickly. Such methods will only produce results that are better—or even significantly better—than actual real-world performance.",
-    "hint_others_will_not_tell_you": "Others will not tell you…",
-    "hint_user_actions_are_inaccurate": "Stable behavior cannot be guaranteed under extremely low thresholds (e.g., 0.0xmm), as the switch may wobble during pressing, and the keyboard cannot distinguish between a normal finger lift and unintended wobble.",
-    "hint_dont_use_under_normal_conditions": "Don't use under normal conditions!",
-    "filter_strength": {
-      "title": "Filter strength",
-      "description": "Filtering algorithms can make key presses more 'stable', but the trade-off is a significant reduction in responsiveness, resulting in higher latency.",
-      "levels": {
-        "0": "Off",
-        "1": "일반",
-        "2": "Strong",
-        "3": "Extreme"
-      }
-    }
-  },
   "always_trigger_when_bottoming": {
     "title": "Always trigger when bottoming out",
     "description": "When a key bottoms out, finger wobble or unconscious release of pressure can cause fluctuations in the detected pressing distance. If the parameter is set too low, such changes may be misinterpreted as a key release.",
@@ -1336,5 +1311,30 @@
       "learn_more": "Learn more"
     },
     "hint_press_key_on_boot_to_force_enable": "Hold the {{ key }} key while the keyboard is starting up to force-enable strict current limit mode. The brightness setting will also be reduced if necessary."
+  },
+  "do_not_add_switch_foam": {
+    "title": "Installing switch foam may cause abnormalities",
+    "description": "Issues such as inability to calibrate and abnormal key triggering at slightly low parameter settings are normal. Please make your own choice."
+  },
+  "operation_mode": {
+    "choose_title": "Choose an operation mode",
+    "modes": {
+      "basic": {
+        "title": "Basic mode",
+        "description1": "Suitable for beginners and users who do not need advanced features.",
+        "description2": "In this mode, the keyboard operates with stability as the top priority.",
+        "description3": "Some options will be hidden, and the minimum and maximum values of configurable parameters will be restricted.",
+        "hint": "If this is your first time using a Hall Effect keyboard, or you prefer minimal setup, this mode is recommended for a better experience."
+      },
+      "expert": {
+        "title": "Expert mode",
+        "description1": "Suitable for experienced users who want to fully unlock the keyboard's hardware performance.",
+        "description2": "In this mode, all options are available for fine-tuning.",
+        "description3": "With correct settings, the keyboard can respond to your actions as fast as possible. However, this requires a solid understanding of how the keyboard works and the ability to debug and optimize the settings on your own.",
+        "hint1": "For advanced users only!",
+        "hint2": "With incorrect settings—such as blindly pushing every parameter to the extreme—issues like missed inputs and accidental inputs are completely normal."
+      }
+    },
+    "hint_you_can_change_it_anytime": "You can switch operation modes at any time."
   }
 }
