@@ -443,7 +443,9 @@
       "name": "Tap Hold",
       "tap": "Tap",
       "summary": "Unlock the full potential",
-      "text": "Tap and long presses correspond to different keys.<p>The keys for long presses can also be switching layer, which greatly expands the possibilities of the keyboard.<p><b>It takes time to determine if it's a press, triggering the \"tap\" key will be slower than a normal key. Enabling Rapid Trigger for this key and lowering the reset distance will improve it, but it is still not as good as a normal key.</b>"
+      "text": "Tap and long presses correspond to different keys.",
+      "text2": "The keys for long presses can also be switching layer, which greatly expands the possibilities of the keyboard.",
+      "text3": "It takes time to determine if it's a press, triggering the \"tap\" key will be slower than a normal key. Enabling Rapid Trigger for this key and lowering the reset distance will improve it, but it is still not as good as a normal key.</b>"
     },
     "toggle": {
       "name": "Toggle Key"
