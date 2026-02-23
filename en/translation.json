@@ -1161,7 +1161,7 @@
     "timeout_when_communicating_with_the_device": "Timeout when communicating with the device",
     "error_when_communicating_with_the_device": "Error when communicating with the device",
     "bad_cable": "One possible reason could be the quality of the USB cable, which may cause an unstable connection or reduced connection speed (preventing the device from operating at USB 2.0 high speed).",
-    "contact_us": "Please retry with another USB cale. If the issue persists, please email us at {{ email }} for assistance."
+    "contact_us": "Please retry with another USB cable. If the issue persists, please email us at {{ email }} for assistance."
   },
   "dont_show_again": "Don't show again",
   "shortcuts": {
@@ -1179,7 +1179,8 @@
       "drag_select": "Drag select",
       "pick_color": "Pick color",
       "zoom": "Zoom",
-      "pan": "Pan"
+      "pan": "Pan",
+      "delete": "Delete"
     }
   },
   "upgrade": "Upgrade",
@@ -1338,5 +1339,18 @@
       }
     },
     "hint_you_can_change_it_anytime": "You can switch operation modes at any time."
+  },
+  "dks": {
+    "title": "Dynamic keystroke (DKS)",
+    "summary": "Trigger multiple keystrokes during a single press",
+    "text": "Dynamic Keystroke (DKS) allows a single physical key to trigger multiple different keystrokes during a single press-release cycle, based on certain rules.",
+    "trigger": "Trigger",
+    "bottoming": "Bottoming",
+    "released_after_bottoming": "Released after bottoming",
+    "release": "Release",
+    "range": {
+      "format": "Trigger when pressed to “{{ start }}”, release when raised to “{{ end }}”.",
+      "format_single": "Momentarily trigger when pressed to “{{ start }}”."
+    }
   }
 }

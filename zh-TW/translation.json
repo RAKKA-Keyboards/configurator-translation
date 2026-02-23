@@ -1176,7 +1176,8 @@
       "drag_select": "拖動選擇",
       "pick_color": "取色",
       "zoom": "縮放",
-      "pan": "平移"
+      "pan": "平移",
+      "delete": "刪除"
     }
   },
   "upgrade": "升級",
@@ -1335,5 +1336,18 @@
       }
     },
     "hint_you_can_change_it_anytime": "您可以隨時切換操作模式。"
+  },
+  "dks": {
+    "title": "動態鍵程（DKS）",
+    "summary": "在按壓過程中觸發多個按鍵",
+    "text": "動態鍵程（Dynamic Keystroke，DKS）可以讓一個物理按鍵在一個按壓-釋放迴圈中，根據一定的規則觸發多種不同的按鍵。",
+    "trigger": "觸發",
+    "bottoming": "觸底",
+    "released_after_bottoming": "觸底後釋放",
+    "release": "釋放",
+    "range": {
+      "format": "按壓至「{{ start }}」位置時觸發，抬起至「{{ end }}」位置時釋放",
+      "format_single": "按壓至「{{ start }}」位置時短暫觸發"
+    }
   }
 }
