@@ -1347,7 +1347,9 @@
     "release": "释放",
     "range": {
       "format": "按压至“{{ start }}”位置时触发，抬起至“{{ end }}”位置时释放",
-      "format_single": "按压至“{{ start }}”位置时短暂触发"
+      "format_single": "按压至“{{ start }}”位置时短暂触发",
+      "button_add": "添加触发范围",
+      "button_confirm": "确认添加触发范围"
     }
   }
 }

@@ -1350,7 +1350,9 @@
     "release": "Release",
     "range": {
       "format": "Trigger when pressed to “{{ start }}”, release when raised to “{{ end }}”.",
-      "format_single": "Momentarily trigger when pressed to “{{ start }}”."
+      "format_single": "Momentarily trigger when pressed to “{{ start }}”.",
+      "button_add": "Add a trigger range",
+      "button_confirm": "Confirm add trigger range"
     }
   }
 }

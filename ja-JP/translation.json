@@ -1348,7 +1348,9 @@
     "release": "リリース",
     "range": {
       "format": "「{{ start }}」まで押し込むとトリガーし、「{{ end }}」まで戻すとリリースします",
-      "format_single": "「{{ start }}」まで押し込むと一瞬トリガーします"
+      "format_single": "「{{ start }}」まで押し込むと一瞬トリガーします",
+      "button_add": "トリガー範囲を追加",
+      "button_confirm": "トリガー範囲の追加を確認"
     }
   }
 }
