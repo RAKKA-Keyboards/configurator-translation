@@ -1178,7 +1178,8 @@
       "pick_color": "色を選んでください",
       "zoom": "Zoom",
       "pan": "パン",
-      "delete": "削除"
+      "delete": "削除",
+      "edit": "編集"
     }
   },
   "upgrade": "アップグレード",

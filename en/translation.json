@@ -1180,7 +1180,8 @@
       "pick_color": "Pick color",
       "zoom": "Zoom",
       "pan": "Pan",
-      "delete": "Delete"
+      "delete": "Delete",
+      "edit": "Edit"
     }
   },
   "upgrade": "Upgrade",

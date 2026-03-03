@@ -1177,7 +1177,8 @@
       "pick_color": "取色",
       "zoom": "缩放",
       "pan": "平移",
-      "delete": "删除"
+      "delete": "删除",
+      "edit": "编辑"
     }
   },
   "upgrade": "升级",
