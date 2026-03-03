@@ -226,6 +226,7 @@
       "hint_change_switch_requires_redo": "更换轴体型号后，先前记录的校准值会失效，您需要重新进行这个步骤。<br>即使是同型号的轴体，也需要重新进行，以避免个体差异带来的影响。",
       "hint_no_keys_selected": "请先选择您想要保存校准结果的按键。",
       "dialog_failed": {
+        "title": "未按压按键或轴体安装异常",
         "description": "请确认已经使用正常力度按压过按键。<br><br>如果自行更换过轴体，请确认已装紧。另外，运输也可能使轴体轻微松脱。"
       },
       "hint_unnecessary_keys_are_disabled": "无法选择的按键无需进行“人工校准相对触底值”。",
