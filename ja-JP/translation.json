@@ -392,7 +392,8 @@
       "rapid_trigger": "ラピッドトリガー",
       "swift_flow": "Swift Flow",
       "misc": "その他",
-      "trigger": "トリガー"
+      "trigger": "トリガー",
+      "advanced_keys": "高度なキー"
     }
   },
   "keymap": {
@@ -434,7 +435,7 @@
         "layer": "レイヤー",
         "profile": "プロファイル",
         "system": "システム",
-        "advanced": "詳細"
+        "advanced": "高度"
       }
     },
     "tap_hold": {

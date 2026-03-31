@@ -393,7 +393,8 @@
       "rapid_trigger": "Rapid Trigger",
       "swift_flow": "Swift Flow",
       "misc": "Miscellaneous",
-      "trigger": "Trigger"
+      "trigger": "Trigger",
+      "advanced_keys": "Advanced keys"
     }
   },
   "keymap": {

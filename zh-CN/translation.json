@@ -391,7 +391,8 @@
       "rapid_trigger": "快速触发",
       "swift_flow": "Swift Flow",
       "misc": "杂项",
-      "trigger": "触发"
+      "trigger": "触发",
+      "advanced_keys": "高级按键"
     }
   },
   "keymap": {
