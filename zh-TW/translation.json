@@ -1353,5 +1353,9 @@
       "button_add": "新增觸發範圍",
       "button_confirm": "確認新增觸發範圍"
     }
+  },
+  "distance_resolution": {
+    "set_larger_values": "設定更大的值",
+    "set_smaller_values": "設定更小的值"
   }
 }

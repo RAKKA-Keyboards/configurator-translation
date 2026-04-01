@@ -1356,5 +1356,9 @@
       "button_add": "Add a trigger range",
       "button_confirm": "Confirm add trigger range"
     }
+  },
+  "distance_resolution": {
+    "set_larger_values": "Set larger values",
+    "set_smaller_values": "Set smaller values"
   }
 }

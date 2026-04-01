@@ -1353,5 +1353,9 @@
       "button_add": "添加触发范围",
       "button_confirm": "确认添加触发范围"
     }
+  },
+  "distance_resolution": {
+    "set_larger_values": "设置更大的值",
+    "set_smaller_values": "设置更小的值"
   }
 }

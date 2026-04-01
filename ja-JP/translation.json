@@ -1354,5 +1354,9 @@
       "button_add": "トリガー範囲を追加",
       "button_confirm": "トリガー範囲の追加を確認"
     }
+  },
+  "distance_resolution": {
+    "set_larger_values": "より大きい値に設定",
+    "set_smaller_values": "より小さい値に設定"
   }
 }
