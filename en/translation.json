@@ -1206,7 +1206,9 @@
     "start": "Start",
     "start_for_seconds": "Start for {{ seconds }} seconds",
     "stop": "Stop",
+    "import": "Import",
     "export": "Export",
+    "hint_not_a_valid_file": "Not a valid CSV file.",
     "current_config": "Current configuration",
     "hint_lag": "Due to the large amount of data and browser platform limitations, this tool may experience noticeable lag. It is recommended to stop tracking once you've observed the necessary data to minimize lag.",
     "texts": {

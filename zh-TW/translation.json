@@ -1203,7 +1203,9 @@
     "start": "開始",
     "start_for_seconds": "開始 {{ seconds }} 秒",
     "stop": "停止",
+    "import": "匯入",
     "export": "匯出",
+    "hint_not_a_valid_file": "不是一個有效的 CSV 檔案。",
     "current_config": "當前設定",
     "hint_lag": "由於資料量極大，受制於瀏覽器平臺，此工具會比較卡頓。建議觀察到需要的資料後及時停止，以減少卡頓。",
     "texts": {
